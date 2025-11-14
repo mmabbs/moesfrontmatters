@@ -15,7 +15,7 @@ draft:
 
  A selection of work I’ve produced. In addition to other roles across the development/production value chain, I've worked as a consultant for production companies, grants bodies, financiers and equity investors in Canada, US, and the Arabian Gulf. 
 
-> [!story] Check out[[Film & TV Script Samples]]for scenes from features and TV pilots.
+> [!story] Check out[[Film & TV Script Samples|film and tv script samples]]for scenes from features and TV pilots.
 
 For coverage samples (that I wrote), reach out at <span class="email-link">moe[at]moesfrontmatters.com</span>
 
