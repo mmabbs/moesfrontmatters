@@ -4,7 +4,7 @@ aliases:
 permalink: /games
 description:
 tags: game-writing
-modified-date: Friday, November 14th 2025, 4:37:54 am
+modified-date: Sunday, January 4th 2026, 7:42:39 pm
 created-date: Sunday, November 9th 2025, 2:53:35 am
 draft: 
 ---
@@ -22,7 +22,8 @@ See[[Games#^1a1e26|Projects in Active Development]]for my work at start-up studi
 
 ---
 
-## Artifacts
+## Artifacts  
+
 ### **Cinematics & Cutscenes**
 
 ##### [[ollie_oxenfree_cinematic_old_dog_new_tricks.pdf|“New Dog, Old Tricks”]] (Cinematic, 3 pages)
@@ -32,6 +33,7 @@ See[[Games#^1a1e26|Projects in Active Development]]for my work at start-up studi
 A young technician and her robotic dog chase a lead on her missing brother, uncovering something far stranger in an old woman’s house. A cinematic quest moment that blends dark humor, visual spectacle, and a major turning around Ollie and her missing brother. 
 
 > [!accolade] Placed Runner-Up (top 10 out of 50) in ELVTR’s Game Writing Competition. 
+
 
 ##### **[[samsaras_edge_cinematic_a_visit_to_the_magistrate.pdf|“A Visit to the Magistrate”]]**(Cinematic, 3.5 pages)
 
@@ -44,6 +46,8 @@ A trial scene where a dysfunctional couple attempt to emotionally manipulate a s
 > From[[SamSara's Edge]]| Sci-Fi, Dark Comedy
 
 {Description TBC} %%
+
+---
 
 ### **Character Work**
 
@@ -58,6 +62,8 @@ Comprehensive character bio covering psychology, voice systems, relationship dyn
 > Standalone piece | Action-Adventure two-hander with Spider-Ham
 
 Howard the Duck barksheet for spec Insomniac game, with partner dynamics, escalation patterns, meta-commentary, and conditional firing logic across combat, stealth, exploration, puzzles, traversal, and AFK moments. 
+
+---
 
 ### **Lore & Worldbuilding**  
 
@@ -87,9 +93,3 @@ A post-game collectible in which Joseph McCarthy, a CIA Director in alt 60s Amer
 
 A cozy endless runner where every rescue helps rebuild a community destroyed by a natural disaster.
 
-### [[Shadowloom|Shadowloom]]
-> **Roles**: Level Designer | Astral Door Gaming
-
-A 2D Metroidvania where you play as a shadow in an otherworldly realm where you must battle hostile creatures and deadly light hazards in order to reunite with your lost body.
-
----
