@@ -1,10 +1,10 @@
 ---
 title: Moe's Frontmatters
 aliases:
-permalink: /
+permalink: 
 description: Portfolio and digital garden showcasing game design, narrative design, screenwriting, marketing and content strategy work, featuring case studies from a writer-producer working across games, film, and digital marketing.
 tags: 
-modified-date: Friday, November 14th 2025, 4:09:36 am
+modified-date: Sunday, January 4th 2026, 11:46:27 pm
 created-date: Monday, December 9th 2024, 8:06:02 pm
 draft: 
 ---
