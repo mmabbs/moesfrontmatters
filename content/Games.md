@@ -1,7 +1,7 @@
 ---
 title: Games
 aliases: 
-permalink: /games
+permalink:
 description:
 tags: game-writing
 modified-date: Sunday, January 4th 2026, 7:42:39 pm

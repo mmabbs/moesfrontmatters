@@ -1,10 +1,10 @@
 ---
 title: Marketing
 aliases: 
-permalink: /marketing
+permalink: 
 description: 
 tags: []
-modified-date: Friday, November 14th 2025, 12:42:00 am
+modified-date: Sunday, January 4th 2026, 11:48:39 pm
 created-date: Thursday, November 6th 2025, 10:19:01 pm
 draft:
 publish: true

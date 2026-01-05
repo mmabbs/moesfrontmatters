@@ -1,7 +1,7 @@
 ---
 title: Film & TV
 aliases: 
-permalink: /film-and-tv
+permalink: 
 description: Screenwriting portfolio featuring feature screenplays, television pilots, and produced short films, including creative inspiration analysis and production process documentation for each project.
 tags: 
 modified-date: Sunday, January 4th 2026, 7:34:36 pm
