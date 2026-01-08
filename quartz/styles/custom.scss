@@ -61,7 +61,7 @@ $radius-md: 8px;
   --light: #0a0908;
   --lightgray: #0f0e0c;
   --gray: #1e1b18;
-  --darkgray: #9c9891;
+  --darkgray: #c5c2ba;
   --dark: #faf8f5;
 
   // Extended palette
@@ -71,8 +71,8 @@ $radius-md: 8px;
   --bg-elevated: #1e1b18;
   --bg-hover: #2d2a28;
   --text-primary: #faf8f5;
-  --text-secondary: #9c9891;
-  --text-tertiary: #5c5955;
+  --text-secondary: #c5c2ba;
+  --text-tertiary: #8a8780;
 
   // Ember accent system (hot)
   --accent: #ff6b35;
@@ -252,7 +252,7 @@ $radius-md: 8px;
   --light: #fefcf8;
   --lightgray: #f5f2ea;
   --gray: #e8e4d9;
-  --darkgray: #5c5955;
+  --darkgray: #3d3b38;
   --dark: #1a1918;
 
   // Extended palette
@@ -262,8 +262,8 @@ $radius-md: 8px;
   --bg-elevated: #ebe8de;
   --bg-hover: #e8e4d9;
   --text-primary: #1a1918;
-  --text-secondary: #5c5955;
-  --text-tertiary: #9c9891;
+  --text-secondary: #3d3b38;
+  --text-tertiary: #6b6965;
 
   // Ember accent (darker for light mode accessibility)
   --accent: #d4530a;
@@ -795,10 +795,15 @@ a.tag-link {
 
 .nav-card-desc {
   font-size: 0.9375rem;
+  font-weight: 500;
   color: var(--darkgray);
   margin: 0;
   line-height: 1.5;
   transition: color 0.3s ease;
+
+  a {
+    font-weight: 500;
+  }
 }
 
 // ===================

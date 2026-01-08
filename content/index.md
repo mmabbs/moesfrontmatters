@@ -4,7 +4,7 @@ aliases:
 permalink: 
 description: Portfolio and digital garden showcasing game design, narrative design, screenwriting, marketing and content strategy work, featuring case studies from a writer-producer working across games, film, and digital marketing.
 tags: 
-modified-date: Thursday, January 8th 2026, 2:19:03 pm
+modified-date: Thursday, January 8th 2026, 2:51:39 pm
 created-date: Monday, January 5th 2026, 10:11:45 pm
 draft: 
 cssclasses: no-title
@@ -264,8 +264,8 @@ A selection of work I've produced. In addition to other roles across the develop
 
 <div class="film-grid">
 
-<a href="/projects/prom-night" button class="film-card">
-  <img src="./site-assets/promnight_poster.webp" alt="Prom Night poster" width="400" height="600" loading="lazy">
+<a href="/projects/prom-night" class="film-card">
+  <img src="/site-assets/promnight_poster.webp" alt="Prom Night poster" width="400" height="600" loading="lazy">
   <div class="film-overlay">
     <h3>Prom Night (2017)</h3>
     <p><strong>Role:</strong> Producer, Production Manager</p>
@@ -300,8 +300,8 @@ A selection of work I've produced. In addition to other roles across the develop
   </div>
 </a>
 
-<a href="/projects/bark" button class="film-card">
-  <img src="./site-assets/bark-poster.webp" alt="Bark poster" width="400" height="600" loading="lazy">
+<a href="/projects/bark" class="film-card">
+  <img src="/site-assets/bark-poster.webp" alt="Bark poster" width="400" height="600" loading="lazy">
   <div class="film-overlay">
 <h3>Bark (2023)</h3>
     <p><strong>Role:</strong> Producer, Production Manager</p>
@@ -312,8 +312,8 @@ A selection of work I've produced. In addition to other roles across the develop
   </div>
 </a>
 
-<a href="/projects/harriet" button class="film-card">
-  <img src="./site-assets/harriet-poster.webp" alt="Harriet poster" width="400" height="600" loading="lazy">
+<a href="/projects/harriet" class="film-card">
+  <img src="/site-assets/harriet-poster.webp" alt="Harriet poster" width="400" height="600" loading="lazy">
   <div class="film-overlay">
     <h3>Harriet Jones (2023)</h3>
     <p><strong>Role:</strong> Producer, PM</p>
