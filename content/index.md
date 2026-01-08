@@ -31,25 +31,25 @@ Game writer, designer, and marketer working at the intersection of storytelling 
 
 <div class="nav-grid">
 
-<a href="#games" class="nav-card">
+<a href="#games" class="nav-card" data-no-popover="true">
   <span class="nav-card-number">01</span>
   <h2 class="nav-card-title">Games</h2>
   <p class="nav-card-desc">Cinematics, character work, lore, and worldbuilding artifacts.</p>
 </a>
 
-<a href="#film-tv" class="nav-card">
+<a href="#film-tv" class="nav-card" data-no-popover="true">
   <span class="nav-card-number">02</span>
   <h2 class="nav-card-title">Film & TV</h2>
   <p class="nav-card-desc">Produced shorts, screenwriting samples, and credits.</p>
 </a>
 
-<a href="#marketing" class="nav-card">
+<a href="#marketing" class="nav-card" data-no-popover="true">
   <span class="nav-card-number">03</span>
   <h2 class="nav-card-title">Marketing</h2>
   <p class="nav-card-desc">Content strategy frameworks and UX case studies.</p>
 </a>
 
-<a href="/Digital-Garden/" class="nav-card">
+<a href="/Digital-Garden/" class="nav-card" data-no-popover="true">
   <span class="nav-card-number">04</span>
   <h2 class="nav-card-title">Digital Garden</h2>
   <p class="nav-card-desc">Notes, reflections, and works-in-progress.</p>
