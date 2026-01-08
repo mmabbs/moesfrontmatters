@@ -265,20 +265,20 @@ $radius-md: 8px;
   --text-secondary: #3d3b38;
   --text-tertiary: #6b6965;
 
-  // Ember accent (darker for light mode accessibility)
-  --accent: #d4530a;
-  --accent-hover: #e56315;
-  --accent-dim: #b84508;
-  --accent-glow: rgba(212, 83, 10, 0.1);
+  // Ember accent (darkened for WCAG AA compliance)
+  --accent: #a33d00;
+  --accent-hover: #c44a00;
+  --accent-dim: #8a3400;
+  --accent-glow: rgba(163, 61, 0, 0.12);
 
   // Frost accent
-  --frost: #0b8299;
-  --frost-dim: #086b7d;
+  --frost: #086b7d;
+  --frost-dim: #065a6a;
 
-  // Links (using darker frost for accessibility)
-  --link: #0b8299;
-  --link-hover: #0a7289;
-  --link-bg: rgba(11, 130, 153, 0.08);
+  // Links (darkened for WCAG AA compliance)
+  --link: #086b7d;
+  --link-hover: #065a6a;
+  --link-bg: rgba(8, 107, 125, 0.1);
 
   // Card hover text
   --card-hover-text: #fefcf8;
