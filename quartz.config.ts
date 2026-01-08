@@ -25,36 +25,39 @@ const config: QuartzConfig = {
       cdnCaching: true,
       typography: {
         header: {
-          name: "Urbanist",
+          name: "Playfair Display",
+          weights: [400, 900],
         },
         body: {
-          name: "Spectral"
+          name: "Bricolage Grotesque",
+          weights: [200, 400, 800],
         },
         code: {
-          name: "Courier Prime",
+          name: "JetBrains Mono",
+          weights: [400, 500],
         },
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          light: "#FEFCF8",
+          lightgray: "#F5F2EA",
+          gray: "#E8E4D9",
+          darkgray: "#5C5955",
+          dark: "#1A1918",
+          secondary: "#0B8299",  // frost (link)
+          tertiary: "#D4530A",   // ember (accent)
+          highlight: "#EBE8DE",
+          textHighlight: "#fff2a8",
         },
         darkMode: {
-          light: "#1C1B1A",
-          lightgray: "#282726",
-          gray: "#575653",
-          darkgray: "#CECDC3",
-          dark: "#FFFCF0",
-          secondary: "#79B3C3",
-          tertiary: "#E07A5F",
-          highlight: "#403E3C",
+          light: "#0A0908",
+          lightgray: "#0F0E0C",
+          gray: "#1E1B18",
+          darkgray: "#9C9891",
+          dark: "#FAF8F5",
+          secondary: "#7DD3E8",   // frost (link)
+          tertiary: "#FF6B35",    // ember (accent)
+          highlight: "#1E1B18",
           textHighlight: "#b3aa0288",
         },
       },

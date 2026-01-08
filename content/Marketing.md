@@ -1,38 +1,48 @@
 ---
 title: Marketing
-aliases: 
+aliases:
 permalink: 
-description: 
-tags: []
-modified-date: Sunday, January 4th 2026, 11:48:39 pm
-created-date: Thursday, November 6th 2025, 10:19:01 pm
-draft:
-publish: true
+description: Content strategy frameworks, campaign planning, and UX case studies from marketing and design work.
+tags: 
+modified-date: 
+created-date: 
+draft: 
 ---
 
-## Frontmatters
+<div class="callout-prominent">
+  <p>
+    <strong>My current game marketing projects are in active development.</strong> Because of this, detailed deliverables like content strategy plans, voice guides, and campaign roadmaps are available <a href="mailto:moe@moesfrontmatters.com">by request</a>. The showcases below focus on methodology and strategic approach.
+  </p>
+</div>
 
-#content-strategy #marketing #mobile-game #game-marketing #conversion-copywriting #ux-design
+<div class="artifacts-grid">
 
-Here you'll find game marketing showcases, plus one wellness/SaaS project. Both demonstrate how I approach marketing when the stakes extend beyond conversion metric, whether that's <span class="prose-link">[[moes-frontmatters/exclude-from-publish/marcomms-entries/FitIn.io|helping lower-income people stay fit during a pandemic]]</span> or[[The Otter Side|rebuilding communities after environmental disaster]]
+<a href="#" class="artifact-card">
+  <div class="artifact-meta">
+    <span class="artifact-type">Content Strategy</span>
+    <span class="artifact-project">
+      <span class="project-link">The Otter Side</span>
+      · Mobile · Cozy Endless Runner
+    </span>
+  </div>
+  <h3 class="artifact-title">Marketing Lead @ Seaside Studio</h3>
+  <p class="artifact-description">
+    Comprehensive content strategy framework including thematic positioning, messaging architecture, voice systems, and multi-platform campaign roadmaps for indie studio's debut mobile title.
+  </p>
+</a>
 
-**My current game marketing projects are in active development**. As a result, project pages focus on methodology deep-dives that cover my process of research and analysis of market positioning, target persona insights, competitive analysis, etc.
+<a href="#" class="artifact-card">
+  <div class="artifact-meta">
+    <span class="artifact-type">UX Design</span>
+    <span class="artifact-project">
+      <span class="project-link">FitIn.io</span>
+      · Social Enterprise · Wellness SaaS
+    </span>
+  </div>
+  <h3 class="artifact-title">UX Designer</h3>
+  <p class="artifact-description">
+    Ethical marketplace connecting fitness seekers with inclusive classes and trainers. Delivered wireframes, prototypes, and user research that attracted investor interest during pre-launch.
+  </p>
+</a>
 
-> [!info] [Reach out](mailto:moe@moesfrontmatters.com) if you want access and a detailed walkthrough of case studies featuring content strategy plans, voice and tone guides, campaign planning, etc.
-
-
-## Featured Projects
-
-### [[The Otter Side|The Otter Side]]
-
-A Cozy Endless Runner where you play an otter who must rescue villagers to help rebuild their home after a severe storm.
-
-***Game Marketing Lead*** | Developing comprehensive content strategy framework including thematic positioning, messaging architecture, voice systems, and multi-platform campaign roadmaps for indie studio's debut mobile title.
-
-### [[FitIn.io|FitIn.io]]
-
-Ethical social enterprise marketplace connecting fitness seekers with inclusive classes and personal trainers across Canada, targeting underserved fitness communities.  
-
-***UX Designer*** | Delivered comprehensive user experience including wireframes, prototypes, UI elements, and a user research study with usability testing that attracted investor interest and affiliate network growth during pre-launch phase.
-
----
+</div>

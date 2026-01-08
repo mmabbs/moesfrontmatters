@@ -1,0 +1,641 @@
+@use "sass:map";
+
+@use "./base.scss";
+@use "./variables.scss" as *;
+@use "./syntax.scss";
+@use "./callouts.scss";
+
+/*
+  Design Principles Skill Revision
+  
+  Direction: Warmth & Approachability
+  Foundation: Warm (Flexoki-inspired)
+  Primary Accent: Copper (#E07A5F dark / #BC5215 light)
+  Link Color: Steel Blue (semantic use only, not decorative accent)
+  Depth Strategy: Borders-only (with subtle layered shadows for elevated cards)
+  Border Radius: Soft system (8px, 12px)
+  Spacing: 4px grid (4, 8, 12, 16, 24, 32)
+  Typography: 12, 13, 14, 16, 18, 24, 32px
+*/
+
+// ===================
+// DESIGN TOKENS
+// ===================
+
+$radius-sm: 8px;
+$radius-md: 12px;
+
+// Layered shadow (for cards only)
+$shadow-card: 
+  0 0 0 0.5px rgba(0, 0, 0, 0.05),
+  0 1px 2px rgba(0, 0, 0, 0.04),
+  0 2px 4px rgba(0, 0, 0, 0.03),
+  0 4px 8px rgba(0, 0, 0, 0.02);
+
+$shadow-card-hover:
+  0 0 0 0.5px rgba(0, 0, 0, 0.06),
+  0 2px 4px rgba(0, 0, 0, 0.05),
+  0 4px 8px rgba(0, 0, 0, 0.04),
+  0 8px 16px rgba(0, 0, 0, 0.03);
+
+// ===================
+// DARK MODE
+// ===================
+
+:root[saved-theme="dark"] {
+  // Base Colors (Flexoki Dark)
+  --light: #1C1B1A;
+  --lightgray: #282726;
+  --darkestgray: #343331;
+  --gray: #575653;
+  --darkergray: #878580;
+  --darkgray: #CECDC3;
+  --dark: #FFFCF0;
+  
+  // Single accent color system
+  --accent: #E07A5F;
+  --accent-hover: #e8927a;
+  
+  // Links (semantic, not decorative)
+  --link: #79B3C3;
+  --link-hover: #E07A5F;
+  
+  // Legacy variable mapping
+  --secondary: var(--link);
+  --tertiary: var(--accent);
+  
+  --highlight: #403E3C;
+  --textHighlight: #b3aa0288;
+
+  // Code
+  --code-background: #1C1B1A;
+  --code-comment: #575653;
+  --code-function: #DA702C;
+  --code-keyword: #879A39;
+  --code-operator: #878580;
+  --code-property: #4385BE;
+  --code-punctuation: #878580;
+  --code-string: #3AA99F;
+  --code-tag: #878580;
+
+  // Headings - hierarchy through weight/size only
+  h1, h2, h3, h4, h5, h6 { color: var(--dark); }
+  h5, h6 { color: var(--darkgray); }
+
+  strong { color: var(--darkgray); }
+  em { color: #B7B5AC; }
+
+  blockquote {
+    color: var(--darkgray);
+    border-color: var(--accent);
+    background-color: var(--lightgray);
+  }
+
+  a.tag-link {
+    color: var(--darkergray);
+    background: var(--darkestgray);
+    &:hover {
+      color: var(--light);
+      background: var(--accent);
+    }
+  }
+
+  input[type="checkbox"] {
+    &:checked {
+      border-color: var(--accent);
+      background-color: var(--accent);
+    }
+  }
+
+  .callout-title > .callout-title-inner > p {
+    color: var(--darkgray);
+  }
+
+  // Cards in dark mode
+  .grid-card {
+    background-color: var(--lightgray);
+    border-color: var(--gray);
+    box-shadow: none;
+
+    &:hover {
+      background-color: var(--accent);
+      border-color: var(--accent);
+
+      h3, p {
+        color: var(--light);
+      }
+    }
+  }
+}
+
+// ===================
+// LIGHT MODE
+// ===================
+
+:root[saved-theme="light"] {
+  // Base Colors (Flexoki Light)
+  --light: #FFFCF0;
+  --lightgray: #F2F0E5;
+  --gray: #B7B5AC;
+  --darkergray: #878580;
+  --darkestgray: #6F6E69;
+  --darkgray: #343331;
+  --dark: #100F0F;
+  
+  // Single accent color system
+  --accent: #BC5215;
+  --accent-hover: #d4631f;
+  
+  // Links (semantic, not decorative)
+  --link: #205EA6;
+  --link-hover: #BC5215;
+  
+  // Legacy variable mapping
+  --secondary: var(--link);
+  --tertiary: var(--accent);
+  
+  --highlight: #E6E4D9;
+  --textHighlight: #fff2a8;
+
+  // Code
+  --code-tag: #6F6E69;
+
+  // Headings - hierarchy through weight/size only
+  h1, h2, h3, h4, h5, h6 { color: var(--dark); }
+  h5, h6 { color: var(--darkgray); }
+
+  strong { color: var(--dark); }
+  em { color: #1C1B1A; }
+
+  blockquote {
+    color: var(--darkgray);
+    border-color: var(--accent);
+    background-color: var(--lightgray);
+  }
+
+  a.tag-link {
+    color: var(--darkestgray);
+    background: var(--highlight);
+    &:hover {
+      color: var(--light);
+      background: var(--accent);
+    }
+  }
+
+  input[type="checkbox"] {
+    &:checked {
+      border-color: var(--accent);
+      background-color: var(--accent);
+    }
+  }
+
+  .callout-title > .callout-title-inner > p {
+    color: var(--darkgray);
+  }
+
+  // Cards in light mode
+  .grid-card {
+    background-color: var(--lightgray);
+    border-color: var(--gray);
+    box-shadow: $shadow-card;
+
+    &:hover {
+      background-color: var(--accent);
+      border-color: var(--accent);
+      box-shadow: $shadow-card-hover;
+
+      h3, p {
+        color: var(--light);
+      }
+    }
+  }
+}
+
+// ===================
+// TYPOGRAPHY
+// ===================
+// Scale: 12, 13, 14 (base), 16, 18, 24, 32px
+
+h1 {
+  font-size: 2rem;      // 32px
+  font-weight: 700;
+  margin-top: 2rem;
+  margin-bottom: 0.5em;
+  letter-spacing: -0.02em;
+}
+
+h2 {
+  font-size: 1.5rem;    // 24px
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5em;
+  letter-spacing: -0.02em;
+}
+
+h3 {
+  font-size: 1.125rem;  // 18px
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5em;
+}
+
+h4 {
+  font-size: 1rem;      // 16px
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 0.5em;
+}
+
+h5, h6 {
+  font-size: 0.875rem;  // 14px
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 0.5em;
+}
+
+p {
+  margin-bottom: 1rem;
+  font-size: 1rem;      // 16px base
+}
+
+// ===================
+// BLOCKQUOTES
+// ===================
+
+blockquote {
+  font-style: italic;
+  border-left-width: 3px;
+  border-radius: 0 $radius-sm $radius-sm 0;
+  padding: 12px 16px;
+  margin: 16px 0;
+}
+
+// ===================
+// CALLOUTS
+// ===================
+
+.callout {
+  color: var(--darkgray);
+  border-radius: $radius-sm;
+}
+
+.callout-title {
+  padding: 12px 0;
+}
+
+// ===================
+// LISTS
+// ===================
+
+ul, ol {
+  padding-left: 24px;
+}
+
+li {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+// ===================
+// TAGS
+// ===================
+
+a.tag-link {
+  font-size: 0.8125rem; // 13px
+  padding: 4px 8px;
+  border-radius: $radius-sm;
+}
+
+// ===================
+// LINKS
+// ===================
+
+a.external {
+  font-weight: normal;
+}
+
+a.internal {
+  background-color: transparent;
+  padding: 0 4px;
+  font-weight: normal;
+}
+
+a.internal.broken {
+  color: var(--link);
+  opacity: 0.5;
+  transition: opacity 0.2s ease;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.prose-link > a.internal {
+  background-color: transparent;
+  color: inherit;
+  text-decoration: underline;
+  padding: 0;
+  line-height: inherit;
+}
+
+.prose-link > a.internal.broken {
+  background-color: transparent;
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  opacity: 0.7;
+}
+
+// ===================
+// TABLES
+// ===================
+
+.table-container {
+  th, td {
+    font-size: 1rem;
+    text-align: center;
+    font-feature-settings: "tnum" 1;
+  }
+
+  tr {
+    border-bottom: 1px solid var(--lightgray);
+  }
+
+  th, td {
+    border-right: 1px solid var(--lightgray);
+    &:last-child {
+      border-right: none;
+    }
+  }
+}
+
+// ===================
+// IMAGES
+// ===================
+
+img {
+  max-width: 350px;
+  max-height: 800px;
+  border-radius: $radius-sm;
+}
+
+// ===================
+// DIVIDERS
+// ===================
+
+hr {
+  background-color: var(--highlight);
+}
+
+// ===================
+// SIDEBAR (EXPLORER & TOC)
+// ===================
+
+.explorer {
+  .fold {
+    transition: transform 0.15s ease;
+  }
+}
+
+.folder-icon {
+  width: 0.6rem;
+  height: 0.6rem;
+}
+
+#explorer > button.folder-title#explorer-title {
+  display: none;
+}
+
+#explorer > ul#explorer-ul {
+  border-left: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.folder-container .folder-title {
+  font-weight: normal;
+}
+
+.folder-container .folder-icon {
+  &[data-folderpath="Games"] {
+    display: none;
+  }
+}
+
+.explorer-content ul li > a {
+  font-weight: normal;
+  font-size: 0.875rem;  // 14px
+  &:hover {
+    color: var(--accent);
+  }
+  &[data-for="Film--and--TV"],
+  &[data-for="Marketing"],
+  &[data-for="Games"] {
+    font-size: 1rem;    // 16px
+    margin-left: 16px;
+  }
+}
+
+// Table of Contents
+
+button.toc-header h3 {
+  font-size: 0.875rem;  // 14px
+}
+
+.toc ul li > a {
+  font-weight: normal;
+  font-size: 0.875rem;  // 14px
+
+  &:hover {
+    color: var(--accent);
+  }
+}
+
+// ===================
+// SPECIAL TEXT STYLES
+// ===================
+
+.game-status {
+  font-size: 1rem;
+  color: var(--accent);
+}
+
+.accent {
+  color: var(--accent);
+}
+
+.bold-keyword {
+  color: var(--dark);
+}
+
+// ===================
+// FOLDER PAGE TAGS
+// ===================
+
+.folder-page .tags {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 8px;
+
+  li a.tag {
+    display: block;
+    background-color: var(--gray);
+    color: var(--dark);
+    padding: 4px 12px;
+    border-radius: $radius-sm;
+    text-decoration: none;
+    font-size: 0.875rem;  // 14px
+
+    &:hover {
+      background-color: var(--accent);
+      color: var(--light);
+    }
+  }
+
+  li {
+    margin: 0;
+  }
+}
+
+// Index tags spacing
+
+.section > .tags {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 8px;
+}
+
+ul.tags li {
+  white-space: nowrap;
+  display: inline-block;
+  width: fit-content;
+  max-width: none;
+  flex-shrink: 0;
+}
+
+// ===================
+// HOMEPAGE GRID
+// ===================
+
+.homepage-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.grid-card {
+  display: block;
+  padding: 16px;
+  text-align: center;
+  border-radius: $radius-sm;
+  border: 1px solid var(--gray);
+  text-decoration: none;
+  transition: all 0.2s ease;
+
+  h3 {
+    margin: 0 0 8px 0;
+    color: var(--dark);
+  }
+
+  p {
+    margin: 0;
+    color: var(--darkgray);
+    font-size: 0.875rem;  // 14px
+  }
+
+  &:hover {
+    transform: translateY(-2px);
+
+    h3, p {
+      color: var(--light);
+    }
+  }
+}
+
+// ===================
+// FILM GRID
+// ===================
+
+.film-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.film-card {
+  position: relative;
+  display: block;
+  aspect-ratio: 2 / 3;
+  overflow: hidden;
+  border-radius: $radius-md;
+  text-decoration: none;
+  box-shadow: $shadow-card;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: $shadow-card-hover;
+
+    .film-overlay {
+      opacity: 1;
+    }
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    max-width: none;
+    max-height: none;
+    border-radius: 0;
+    margin: 0;
+  }
+}
+
+.film-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(28, 27, 26, 0.95) 0%,
+    rgba(28, 27, 26, 0.85) 60%,
+    rgba(28, 27, 26, 0.7) 100%
+  );
+  opacity: 0;
+  transition: opacity 0.25s ease;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  overflow-y: auto;
+
+  h3 {
+    color: var(--accent);
+    font-size: 1.125rem;  // 18px
+    margin: 0 0 12px 0;
+    line-height: 1.2;
+  }
+
+  p {
+    color: #CECDC3;
+    font-size: 0.8125rem; // 13px
+    margin: 0 0 4px 0;
+    line-height: 1.4;
+
+    strong {
+      color: #79B3C3;
+    }
+  }
+
+  .film-synopsis {
+    margin-top: 8px;
+    font-size: 0.75rem;   // 12px
+    color: #878580;
+    line-height: 1.5;
+  }
+}

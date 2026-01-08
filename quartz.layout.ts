@@ -67,29 +67,29 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ContentMeta(),
   ],
   left: [
-    Component.PageTitle(),
+    // Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
     Component.Flex({
       components: [
-        {
-          Component: Component.Search(),
-          grow: true,
-        },
+        // {
+        //   Component: Component.Search(),
+        //   grow: true,
+        // },
         { Component: Component.Darkmode() },
-        { Component: Component.ReaderMode() },
+        // { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer({
-      folderClickBehavior: "link",   // ⟵ stays on page; no redirect
-      folderDefaultState: "collapsed",
-      useSavedState: true,
-      sortFn: customExplorerSort,
-      mapFn: (node: MyFileNode) => {
- if (node.isFolder && node.displayName === "Digital Garden") {
-    }
-    return node;
-  },
-    }),
+//     Component.Explorer({
+//       folderClickBehavior: "link",   // ⟵ stays on page; no redirect
+//       folderDefaultState: "collapsed",
+//       useSavedState: true,
+//       sortFn: customExplorerSort,
+//       mapFn: (node: MyFileNode) => {
+//  if (node.isFolder && node.displayName === "Digital Garden") {
+//     }
+//     return node;
+//   },
+//     }),
   ],
   right: [
     Component.DesktopOnly(Component.TableOfContents()),

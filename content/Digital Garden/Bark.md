@@ -1,12 +1,23 @@
 ---
 title:
 aliases: 
-permalink:
+permalink: projects/bark
 description:
-tags: producer
-modified-date: Friday, November 14th 2025, 3:44:50 am
+tags: [producer, film-tv]
+modified-date: Tuesday, January 6th 2026, 2:58:04 pm
 created-date: Friday, November 14th 2025, 12:21:38 am
 draft: 
 ---
+
+## Frontmatters
+
+
+---
+
+
+
+## Project Notes
+
+
 
 Coming soon!
