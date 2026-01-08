@@ -4,7 +4,7 @@ aliases:
 permalink: 
 description: Portfolio and digital garden showcasing game design, narrative design, screenwriting, marketing and content strategy work, featuring case studies from a writer-producer working across games, film, and digital marketing.
 tags: 
-modified-date: Thursday, January 8th 2026, 2:51:39 pm
+modified-date: Thursday, January 8th 2026, 3:47:20 pm
 created-date: Monday, January 5th 2026, 10:11:45 pm
 draft: 
 cssclasses: no-title
@@ -69,12 +69,12 @@ Game writer, designer, and marketer working at the intersection of storytelling 
 <div class="artifacts-grid">
 <div class="artifact-card">
   <div class="artifact-meta">
-    <a href="#" button class="artifact-title-link">
+    <a href="#" class="artifact-title-link">
       <span class="artifact-type">Artifact <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5">
             <path d="M6 2v7M3 6l3 3 3-3M2 10h8"/>
           </svg></span>
     </a>
-    <a href="/projects/ollie-oxenfree" button class="artifact-title-link">
+    <a href="/projects/ollie-oxenfree" class="artifact-title-link">
       <span class="project-link">Ollie Oxenfree <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9L9 3M9 3H5M9 3v4"/></svg></span>
     </a>
     <span class="artifact-info"><span class="format">Cinematic</span> | Fantasy, Action-Adventure, RPG | 3 pages</span>
@@ -90,12 +90,12 @@ Game writer, designer, and marketer working at the intersection of storytelling 
 
 <div class="artifact-card">
   <div class="artifact-meta">
-    <a href="#" button class="artifact-title-link">
+    <a href="#" class="artifact-title-link">
       <span class="artifact-type">Artifact <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5">
             <path d="M6 2v7M3 6l3 3 3-3M2 10h8"/>
           </svg></span>
     </a>
-    <a href="/projects/samsaras-edge" button class="artifact-title-link">
+    <a href="/projects/samsaras-edge" class="artifact-title-link">
       <span class="project-link">SamSara's Edge <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9L9 3M9 3H5M9 3v4"/></svg></span>
     </a>
     <span class="artifact-info"><span class="format">Cinematic</span> · Sci-Fi, Dark Comedy, Action-Adventure · 3 pages</span>
@@ -117,12 +117,12 @@ Game writer, designer, and marketer working at the intersection of storytelling 
 
 <div class="artifact-card">
   <div class="artifact-meta">
-    <a href="#" button class="artifact-title-link">
+    <a href="#" class="artifact-title-link">
       <span class="artifact-type">Artifact <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5">
             <path d="M6 2v7M3 6l3 3 3-3M2 10h8"/>
           </svg></span>
     </a>
-    <a href="/projects/ollie-oxenfree" button class="artifact-title-link">
+    <a href="/projects/ollie-oxenfree" class="artifact-title-link">
       <span class="project-link">Ollie Oxenfree <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9L9 3M9 3H5M9 3v4"/></svg></span>
     </a>
     <span class="artifact-info"><span class="format">Barksheet</span> · Sci-Fi, Fantasy · 1 spreadsheet</span>
@@ -135,12 +135,12 @@ Game writer, designer, and marketer working at the intersection of storytelling 
 
 <div class="artifact-card">
   <div class="artifact-meta">
-    <a href="#" button class="artifact-title-link">
+    <a href="#" class="artifact-title-link">
       <span class="artifact-type">Artifact <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5">
             <path d="M6 2v7M3 6l3 3 3-3M2 10h8"/>
           </svg></span>
     </a>
-    <a href="/projects/ollie-oxenfree" button class="artifact-title-link">
+    <a href="/projects/ollie-oxenfree" class="artifact-title-link">
       <span class="project-link">Ollie Oxenfree <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9L9 3M9 3H5M9 3v4"/></svg></span>
     </a>
     <span class="artifact-info"><span class="format">Biography</span> · Sci-Fi, Fantasy · 1 spreadsheet</span>
@@ -153,7 +153,7 @@ Game writer, designer, and marketer working at the intersection of storytelling 
 
 <div class="artifact-card">
   <div class="artifact-meta">
-    <a href="#" button class="artifact-title-link">
+    <a href="#" class="artifact-title-link">
       <span class="artifact-type">Artifact <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5">
             <path d="M6 2v7M3 6l3 3 3-3M2 10h8"/>
           </svg></span>
@@ -179,12 +179,12 @@ Game writer, designer, and marketer working at the intersection of storytelling 
 
 <div class="artifact-card">
   <div class="artifact-meta">
-    <a href="#" button class="artifact-title-link">
+    <a href="#" class="artifact-title-link">
       <span class="artifact-type">Artifact <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5">
             <path d="M6 2v7M3 6l3 3 3-3M2 10h8"/>
           </svg></span>
     </a>
-    <a href="/projects/grim-rock" button class="artifact-title-link">
+    <a href="/projects/grim-rock" class="artifact-title-link">
       <span class="project-link">Grim Rock <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9L9 3M9 3H5M9 3v4"/></svg></span>
     </a>
     <span class="artifact-info"><span class="format">Bestiary</span> · Dark Fantasy, Action-Adventure, RPG  · 1 page</span>
@@ -197,12 +197,12 @@ Game writer, designer, and marketer working at the intersection of storytelling 
 
 <div class="artifact-card">
   <div class="artifact-meta">
-    <a href="#" button class="artifact-title-link">
+    <a href="#" class="artifact-title-link">
       <span class="artifact-type">Artifact <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5">
             <path d="M6 2v7M3 6l3 3 3-3M2 10h8"/>
           </svg></span>
     </a>
-    <a href="/projects/grim-rock" button class="artifact-title-link">
+    <a href="/projects/grim-rock" class="artifact-title-link">
       <span class="project-link">Grim Rock <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9L9 3M9 3H5M9 3v4"/></svg></span>
     </a>
     <span class="artifact-info"><span class="format">Collectible</span> · Dark Fantasy, Action-Adventure, RPG · 1 page</span>
@@ -228,7 +228,7 @@ Game writer, designer, and marketer working at the intersection of storytelling 
 
 <div class="artifact-card">
   <div class="artifact-meta">
-    <a href="/digital-garden/the-otter-side" button class="artifact-title-link">
+    <a href="/digital-garden/the-otter-side" class="artifact-title-link">
       <span class="project-link">The Otter Side <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9L9 3M9 3H5M9 3v4"/></svg></span>
     </a>
     <span class="artifact-info"><span class="format">Content Strategy & Marketing </span> · Mobile Game · Cozy Runner </span>
@@ -241,7 +241,7 @@ Game writer, designer, and marketer working at the intersection of storytelling 
 
 <div class="artifact-card">
   <div class="artifact-meta">
-    <a href="/projects/fitin" button class="artifact-title-link">
+    <a href="/projects/fitin" class="artifact-title-link">
       <span class="project-link">FitIn.io <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9L9 3M9 3H5M9 3v4"/></svg></span>
     </a>
     <span class="artifact-info"><span class="format">UX Design & Strategy</span> · Social Enterprise · Wellness SaaS</span>
@@ -268,34 +268,34 @@ A selection of work I've produced. In addition to other roles across the develop
   <img src="/site-assets/promnight_poster.webp" alt="Prom Night poster" width="400" height="600" loading="lazy">
   <div class="film-overlay">
     <h3>Prom Night (2017)</h3>
-    <p><strong>Role:</strong> Producer, Production Manager</p>
-    <p><strong>Genre:</strong> Comedy · 13m 28s</p>
-    <p><strong>Dir:</strong> Sam MacAdam</p>
-    <p><strong>Cast:</strong> Gerry Dee, Trevor Tordjman, Carol Huska</p>
+    <p><span class="meta-label">Role:</span> Producer, Production Manager</p>
+    <p><span class="meta-label">Genre:</span> Comedy · 13m 28s</p>
+    <p><span class="meta-label">Dir:</span> Sam MacAdam</p>
+    <p><span class="meta-label">Cast:</span> Gerry Dee, Trevor Tordjman, Carol Huska</p>
     <p class="film-synopsis">Three overprotective fathers find a positive pregnancy test and go on a mission to find out before the end of prom night which one of their teens is pregnant.</p>
   </div>
 </a>
 
-<a href="https://vimeo.com/1058828508" button class="film-card">
-  <img src="./site-assets/gourmade-poster.webp" alt="Gourmade poster" width="400" height="600" loading="lazy">
+<a href="https://vimeo.com/1058828508" class="film-card">
+  <img src="/site-assets/gourmade-poster.webp" alt="Gourmade poster" width="400" height="600" loading="lazy">
   <div class="film-overlay">
     <h3>Gourmade (2024)</h3>
-    <p><strong>Role:</strong> Co-Producer</p>
-    <p><strong>Genre:</strong> Mock Commercial, Comedy · 2m 45s</p>
-    <p><strong>Dir:</strong> Sam MacAdam</p>
-    <p><strong>Cast:</strong> Paloma Nuñez, Emma Hunter</p>
+    <p><span class="meta-label">Role:</span> Co-Producer</p>
+    <p><span class="meta-label">Genre:</span> Commercial, Comedy · 2m 45s</p>
+    <p><span class="meta-label">Dir:</span> Sam MacAdam</p>
+    <p><span class="meta-label">Cast:</span> Paloma Nuñez, Emma Hunter</p>
     <p class="film-synopsis">A late-night emotional eater find out that delicious meals aren't the only things this  revolutionary smart oven called 'Gourmade' is dishing out.</p>
   </div>
 </a>
 
-<a href="https://www.youtube.com/watch?v=6ZXmlmHNco0" button class="film-card">
-  <img src="./site-assets/desire-poster.webp" alt="Desire poster" width="400" height="600" loading="lazy">
+<a href="https://www.youtube.com/watch?v=6ZXmlmHNco0" class="film-card">
+  <img src="/site-assets/desire-poster.webp" alt="Desire poster" width="400" height="600" loading="lazy">
   <div class="film-overlay">
     <h3>Desire (2014)</h3>
-    <p><strong>Role:</strong> Executive Producer</p>
-    <p><strong>Genre:</strong> Drama · 13m 52s</p>
-      <p><strong>Dir:</strong> Hala Matar</p>
-    <p><strong>Cast:</strong> Johnny Knoxville, Sophie Kennedy Clarke, Matthew Gray Gubler, Lydia Hearst</p>
+    <p><span class="meta-label">Role:</span> Executive Producer</p>
+    <p><span class="meta-label">Genre:</span> Drama · 13m 52s</p>
+    <p><span class="meta-label">Dir:</span> Hala Matar</p>
+    <p><span class="meta-label">Cast:</span> Johnny Knoxville, Sophie Kennedy Clarke, Matthew Gray Gubler, Lydia Hearst</p>
     <p class="film-synopsis">A silver screen actress drifts in and out of her character as she longs for the love of her co-star.</p>
   </div>
 </a>
@@ -303,11 +303,11 @@ A selection of work I've produced. In addition to other roles across the develop
 <a href="/projects/bark" class="film-card">
   <img src="/site-assets/bark-poster.webp" alt="Bark poster" width="400" height="600" loading="lazy">
   <div class="film-overlay">
-<h3>Bark (2023)</h3>
-    <p><strong>Role:</strong> Producer, Production Manager</p>
-    <p><strong>Genre:</strong> Drama  ·  13m 8s</p>
-    <p><strong>Dir:</strong> Ganesh Thava</p>
-    <p><strong>Cast:</strong> Aranan Sathian, Ganesh Thava</p>
+    <h3>Bark (2023)</h3>
+    <p><span class="meta-label">Role:</span> Producer, Production Manager</p>
+    <p><span class="meta-label">Genre:</span> Drama · 13m 8s</p>
+    <p><span class="meta-label">Dir:</span> Ganesh Thava</p>
+    <p><span class="meta-label">Cast:</span> Aranan Sathian, Ganesh Thava</p>
     <p class="film-synopsis">A queer South Asian boy on the verge of self-discovery wages a silent battle against the rigid expectations imposed upon him.</p>
   </div>
 </a>
@@ -316,10 +316,10 @@ A selection of work I've produced. In addition to other roles across the develop
   <img src="/site-assets/harriet-poster.webp" alt="Harriet poster" width="400" height="600" loading="lazy">
   <div class="film-overlay">
     <h3>Harriet Jones (2023)</h3>
-    <p><strong>Role:</strong> Producer, PM</p>
-    <p><strong>Genre:</strong> Horror · 7m 7s</p>
-    <p><strong>Dir:</strong> Sam MacAdam</p>
-    <p><strong>Cast:</strong> Jessica Salgueiro, Jordan Clark</p>
+    <p><span class="meta-label">Role:</span> Producer, PM</p>
+    <p><span class="meta-label">Genre:</span> Horror · 7m 7s</p>
+    <p><span class="meta-label">Dir:</span> Sam MacAdam</p>
+    <p><span class="meta-label">Cast:</span> Jessica Salgueiro, Jordan Clark</p>
     <p class="film-synopsis">An innocent game of Marco Polo between two cousins takes a sinister turn when one is killed. Decades later, Harriet, the sole survivor, is driven mad with guilt, plagued by waking nightmares — or is it her cousin back for one more game?</p>
   </div>
 </a>

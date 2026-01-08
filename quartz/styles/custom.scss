@@ -61,7 +61,7 @@ $radius-md: 8px;
   --light: #0a0908;
   --lightgray: #0f0e0c;
   --gray: #1e1b18;
-  --darkgray: #c5c2ba;
+  --darkgray: #9c9891;
   --dark: #faf8f5;
 
   // Extended palette
@@ -71,8 +71,8 @@ $radius-md: 8px;
   --bg-elevated: #1e1b18;
   --bg-hover: #2d2a28;
   --text-primary: #faf8f5;
-  --text-secondary: #c5c2ba;
-  --text-tertiary: #8a8780;
+  --text-secondary: #9c9891;
+  --text-tertiary: #5c5955;
 
   // Ember accent system (hot)
   --accent: #ff6b35;
@@ -91,6 +91,10 @@ $radius-md: 8px;
 
   // Card hover text
   --card-hover-text: #131211;
+
+  // Overlay text (for dark overlays that don't change with theme)
+  --overlay-text: #faf8f5;
+  --overlay-text-secondary: #b8b4a8;
 
   // Legacy mapping
   --secondary: var(--link);
@@ -252,7 +256,7 @@ $radius-md: 8px;
   --light: #fefcf8;
   --lightgray: #f5f2ea;
   --gray: #e8e4d9;
-  --darkgray: #3d3b38;
+  --darkgray: #5c5955;
   --dark: #1a1918;
 
   // Extended palette
@@ -262,26 +266,30 @@ $radius-md: 8px;
   --bg-elevated: #ebe8de;
   --bg-hover: #e8e4d9;
   --text-primary: #1a1918;
-  --text-secondary: #3d3b38;
-  --text-tertiary: #6b6965;
+  --text-secondary: #5c5955;
+  --text-tertiary: #9c9891;
 
-  // Ember accent (darkened for WCAG AA compliance)
-  --accent: #a33d00;
-  --accent-hover: #c44a00;
-  --accent-dim: #8a3400;
-  --accent-glow: rgba(163, 61, 0, 0.12);
+  // Ember accent (darker for light mode accessibility)
+  --accent: #d4530a;
+  --accent-hover: #e56315;
+  --accent-dim: #b84508;
+  --accent-glow: rgba(212, 83, 10, 0.1);
 
   // Frost accent
-  --frost: #086b7d;
-  --frost-dim: #065a6a;
+  --frost: #0b8299;
+  --frost-dim: #086b7d;
 
-  // Links (darkened for WCAG AA compliance)
-  --link: #086b7d;
-  --link-hover: #065a6a;
-  --link-bg: rgba(8, 107, 125, 0.1);
+  // Links (using darker frost for accessibility)
+  --link: #0b8299;
+  --link-hover: #0a7289;
+  --link-bg: rgba(11, 130, 153, 0.08);
 
-  // Card hover text
-  --card-hover-text: #fefcf8;
+  // Card hover text (same as --light in light mode)
+  --card-hover-text: var(--light);
+
+  // Overlay text (for dark overlays that don't change with theme)
+  --overlay-text: #faf8f5;
+  --overlay-text-secondary: #b8b4a8;
 
   // Legacy mapping
   --secondary: var(--link);
@@ -310,7 +318,7 @@ $radius-md: 8px;
     color: var(--dark);
   }
   em {
-    color: #343331;
+    color: var(--dark);
   }
 
   // Blockquotes
@@ -381,12 +389,6 @@ $radius-md: 8px;
     }
   }
 
-  //     a.internal {
-  //   background-color: transparent;
-  //   padding: 0.1rem;
-  //   font-weight: 500;
-  // }
-
   // Film cards
   .film-card {
     box-shadow:
@@ -398,6 +400,11 @@ $radius-md: 8px;
         0 12px 32px rgba(0, 0, 0, 0.15),
         0 0 0 1px rgba(188, 82, 21, 0.2);
     }
+  }
+
+  // Override global h3 color for dark overlay
+  .film-overlay h3 {
+    color: var(--overlay-text);
   }
 
   // Callout prominent
@@ -584,13 +591,6 @@ p {
   margin-top: var(--space-64);
   padding: var(--space-16) 0;
 }
-
-// .hero-tags {
-//   display: flex;
-//   flex-wrap: wrap;
-//   gap: 8px; // --space-sm
-//   margin-top: 48px; // --space-xl
-// }
 
 // ===================
 // TYPE SCALE (Power of 2 aligned)
@@ -795,15 +795,10 @@ a.tag-link {
 
 .nav-card-desc {
   font-size: 0.9375rem;
-  font-weight: 500;
   color: var(--darkgray);
   margin: 0;
   line-height: 1.5;
   transition: color 0.3s ease;
-
-  a {
-    font-weight: 500;
-  }
 }
 
 // ===================
@@ -973,6 +968,7 @@ a.tag-link {
   overflow: hidden;
   border-radius: $radius-md;
   text-decoration: none;
+  font-weight: normal;
   transition:
     transform 0.3s ease,
     box-shadow 0.3s ease;
@@ -1028,29 +1024,24 @@ a.tag-link {
 
   h3 {
     font-family: $font-editorial;
-    color: #e07a5f;
+    color: var(--overlay-text);
     font-size: 1rem;
     margin: 0 0 0.5rem 0;
     line-height: 1.2;
   }
 
   p {
-    color: #b8b4a8;
+    color: var(--overlay-text-secondary);
     font-size: 0.8125rem;
     margin: 0 0 4px 0;
     line-height: 1.5;
     max-width: none;
-
-    strong {
-      color: #79b3c3;
-      font-weight: 500;
-    }
   }
 
   .film-synopsis {
     margin-top: 0.5rem;
     font-size: 0.75rem;
-    color: #7a7770;
+    color: var(--overlay-text);
     line-height: 1.5;
   }
 }
@@ -1124,12 +1115,6 @@ a {
 a.external {
   font-weight: 500;
 }
-
-// a.internal {
-//   background-color: transparent;
-//   // padding: 1rem;
-//   font-weight: 500;
-// }
 
 a.internal.broken {
   color: var(--link);
@@ -1207,10 +1192,6 @@ hr {
   width: 0.6rem;
   height: 0.6rem;
 }
-
-// .trophy {
-//   margin-top: 10px;
-// }
 
 #explorer > button.folder-title#explorer-title {
   display: none;
@@ -1471,7 +1452,7 @@ button.toc-header h3 {
   font-size: 0.6875rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: var(--text-tertiary);
+  color: var(--accent);
 }
 
 .meta-value {
@@ -1489,15 +1470,11 @@ button.toc-header h3 {
 
 .genre-tag {
   font-family: $font-mono;
-  font-size: 0.6875rem;
-  letter-spacing: 0.05em;
-  padding: 4px 10px;
-  color: var(--link);
-
-  font-family: $font-mono;
-  font-size: 0.75rem; // 12px - power of 2 scale
+  font-size: 0.75rem;
   font-weight: 400;
   text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 4px 10px;
   background: transparent;
   border: 1px solid var(--text-tertiary);
   border-radius: 2px;
