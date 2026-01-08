@@ -4,7 +4,7 @@ aliases:
 permalink: /projects/the-otter-side
 description:
 tags:
-modified-date: Tuesday, January 6th 2026, 3:08:46 pm
+modified-date: Thursday, January 8th 2026, 2:14:41 pm
 created-date: Friday, September 19th 2025, 6:07:13 am
 draft:
 publish: true
@@ -91,5 +91,5 @@ The content strategy framework is complete. Current focus is pre-launch website 
 > [!tip] Want to see the full frameworks?
 > This project is in active development, so detailed deliverables aren't publicly available yet. If you're interested in discussing the strategic approach or seeing specific artifacts, I'd be happy to walk through them directly.
 > 
-> **Get in touch:** [your preferred contact method]
+> <em>Get in touch:</em> [your preferred contact method]
 

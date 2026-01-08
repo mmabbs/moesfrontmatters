@@ -4,7 +4,7 @@ aliases:
 permalink: /projects/ollie-oxenfree
 description:
 tags:
-modified-date: Thursday, January 8th 2026, 11:51:57 am
+modified-date: Thursday, January 8th 2026, 2:13:51 pm
 created-date: Friday, September 19th 2025, 5:46:45 am
 draft:
 publish: true
@@ -36,7 +36,7 @@ publish: true
 
 <div class="project-logline">
   <p class="logline-text">
-    Siblings Ollie and Finn set out to solve the mystery of how their kind – "Inklings", or "people of the ink" from the storybook dimension — switched places with half of the world's children.
+    Siblings Ollie and Finn set out to solve the mystery of how their fellow "Inklings" – "people of the ink" from the storybook dimension — switched places with half of the world's children.
   </p>
 </div>
 
