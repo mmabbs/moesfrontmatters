@@ -236,7 +236,7 @@ $radius-md: 8px;
       linear-gradient(
         to bottom,
         rgba(10, 9, 8, 0.8) 0%,
-        transparent 0%,
+        transparent 5%,
         transparent 75%,
         rgba(10, 9, 8, 0.8) 100%
       );
@@ -420,8 +420,8 @@ $radius-md: 8px;
       linear-gradient(
         to bottom,
         rgba(254, 252, 248, 0.8) 0%,
-        transparent 15%,
-        transparent 85%,
+        transparent 0%,
+        transparent 75%,
         rgba(254, 252, 248, 0.8) 100%
       );
   }
@@ -526,7 +526,7 @@ p {
 .hero-eyebrow {
   font-family: $font-mono;
   font-size: 0.75rem;
-  font-weight: 500;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.2em;
   color: var(--accent);
@@ -765,7 +765,7 @@ a.tag-link {
 .nav-card-number {
   font-family: $font-mono;
   font-size: 0.75rem;
-  font-weight: 500;
+  font-weight: 600;
   color: var(--accent);
   display: block;
   margin-bottom: var(--space-16);
