@@ -4,7 +4,7 @@ aliases:
 permalink: 
 description: Portfolio and digital garden showcasing game design, narrative design, screenwriting, marketing and content strategy work, featuring case studies from a writer-producer working across games, film, and digital marketing.
 tags: 
-modified-date: Thursday, January 8th 2026, 3:47:20 pm
+modified-date: Tuesday, February 10th 2026, 1:48:05 pm
 created-date: Monday, January 5th 2026, 10:11:45 pm
 draft: 
 cssclasses: no-title
@@ -69,7 +69,7 @@ Game writer, designer, and marketer working at the intersection of storytelling 
 <div class="artifacts-grid">
 <div class="artifact-card">
   <div class="artifact-meta">
-    <a href="#" class="artifact-title-link">
+    <a href="ollie-scene.pdf" class="artifact-title-link">
       <span class="artifact-type">Artifact <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5">
             <path d="M6 2v7M3 6l3 3 3-3M2 10h8"/>
           </svg></span>
@@ -179,7 +179,7 @@ Game writer, designer, and marketer working at the intersection of storytelling 
 
 <div class="artifact-card">
   <div class="artifact-meta">
-    <a href="#" class="artifact-title-link">
+    <a href="gr-bestiary-monopetrid.pdf" class="artifact-title-link">
       <span class="artifact-type">Artifact <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5">
             <path d="M6 2v7M3 6l3 3 3-3M2 10h8"/>
           </svg></span>
@@ -189,7 +189,7 @@ Game writer, designer, and marketer working at the intersection of storytelling 
     </a>
     <span class="artifact-info"><span class="format">Bestiary</span> · Dark Fantasy, Action-Adventure, RPG  · 1 page</span>
   </div>
-  <h3 class="artifact-title">Gremlin</h3>
+  <h3 class="artifact-title">Motopetrids</h3>
   <p class="artifact-description">
     The scourge of WWII British pilots reimagined as a "Class B" biological parasite in a 60s FBI profile. An environmental hazard with high-risk-high-reward social mechanics.
   </p>
@@ -197,7 +197,7 @@ Game writer, designer, and marketer working at the intersection of storytelling 
 
 <div class="artifact-card">
   <div class="artifact-meta">
-    <a href="#" class="artifact-title-link">
+    <a href="gr-mccarthy-letter.pdf" class="artifact-title-link">
       <span class="artifact-type">Artifact <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5">
             <path d="M6 2v7M3 6l3 3 3-3M2 10h8"/>
           </svg></span>
@@ -205,9 +205,9 @@ Game writer, designer, and marketer working at the intersection of storytelling 
     <a href="/projects/grim-rock" class="artifact-title-link">
       <span class="project-link">Grim Rock <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9L9 3M9 3H5M9 3v4"/></svg></span>
     </a>
-    <span class="artifact-info"><span class="format">Collectible</span> · Dark Fantasy, Action-Adventure, RPG · 1 page</span>
+    <span class="artifact-info"><span class="format">Flavor Text</span> · Dark Fantasy, Action-Adventure, RPG · 1 page</span>
   </div>
-  <h3 class="artifact-title">Joseph McCarthy's Letter</h3>
+  <h3 class="artifact-title">Joseph McCarthy's Letter to Madam President-Elect</h3>
   <p class="artifact-description">
     Post-game collectible in which alt-60s CIA Director Joseph McCarthy criticizes a video game proposal and recommends a very McCarthyist course of action.
   </p>
@@ -220,7 +220,7 @@ Game writer, designer, and marketer working at the intersection of storytelling 
 
 <div class="callout-prominent">
   <p>
-    Due to confidentiality agreements, case studies below emphasize methodology and strategic approach rather than final deliverables.
+    Due to NDAs, case studies emphasize methodology and strategic approach rather than final deliverables.
   </p>
 </div>
 
@@ -256,6 +256,28 @@ Game writer, designer, and marketer working at the intersection of storytelling 
 
 <div class="section-divider" id="film-tv">
   <span class="label">Film & TV</span>
+</div>
+
+<p> A selection of scenes from feature screenplays and pilots</p>
+
+<div class="artifacts-grid">
+<div class="artifact-card">
+  <div class="artifact-meta">
+    <a href="gr-scene.pdf" class="artifact-title-link">
+      <span class="artifact-type">Artifact <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M6 2v7M3 6l3 3 3-3M2 10h8"/>
+          </svg></span>
+    </a>
+    <a href="/projects/ollie-oxenfree" class="artifact-title-link">
+      <span class="project-link">Grim Rock <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9L9 3M9 3H5M9 3v4"/></svg></span>
+    </a>
+    <span class="artifact-info"><span class="format">Scene</span> | Fantasy, Action-Adventure, Historical Revisionism | 3 pages</span>
+  </div>
+  <h3 class="artifact-title">"The Draw"</h3>
+  <p class="artifact-description">
+    The morning after she discovers his secret lab, a nurse sits across from her surrogate father to draw his blood, a key ingredient in the sand wafers he uses to cure children's nightmares. But this routine procedure becomes a quiet interrogation about loyalty, change and the cost of careless words. 
+  </p>
+
 </div>
 
 <p>
