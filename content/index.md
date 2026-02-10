@@ -4,7 +4,7 @@ aliases:
 permalink: 
 description: Portfolio and digital garden showcasing game design, narrative design, screenwriting, marketing and content strategy work, featuring case studies from a writer-producer working across games, film, and digital marketing.
 tags: 
-modified-date: Tuesday, February 10th 2026, 1:48:05 pm
+modified-date: Tuesday, February 10th 2026, 6:25:12 pm
 created-date: Monday, January 5th 2026, 10:11:45 pm
 draft: 
 cssclasses: no-title
@@ -117,7 +117,7 @@ Game writer, designer, and marketer working at the intersection of storytelling 
 
 <div class="artifact-card">
   <div class="artifact-meta">
-    <a href="#" class="artifact-title-link">
+    <a href="ollie-barksheet.pdf" class="artifact-title-link">
       <span class="artifact-type">Artifact <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5">
             <path d="M6 2v7M3 6l3 3 3-3M2 10h8"/>
           </svg></span>
