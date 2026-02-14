@@ -17,7 +17,7 @@ cssclasses: no-title
   <span class="accent">Frontmatters</span>
 </h1>
 
-<p class="hero-intro">
+<p class="hero-intro"> 
 Game writer, designer, and marketer working at the intersection of storytelling and interactive media. Ten years spanning film & TV production, marketing, and UX design—now building narrative systems for games.
 </p>
 
@@ -135,7 +135,7 @@ Game writer, designer, and marketer working at the intersection of storytelling 
 
 <div class="artifact-card">
   <div class="artifact-meta">
-    <a href="#" class="artifact-title-link">
+    <a href="ollie-bio.pdf" class="artifact-title-link">
       <span class="artifact-type">Artifact <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5">
             <path d="M6 2v7M3 6l3 3 3-3M2 10h8"/>
           </svg></span>
