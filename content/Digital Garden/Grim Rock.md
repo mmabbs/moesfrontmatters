@@ -3,7 +3,7 @@ title: Grim Rock
 aliases: 
 description:
 tags: [writing, video-games, film-tv]
-modified-date: Sunday, March 8th 2026, 11:42:26 pm
+modified-date: Sunday, March 8th 2026, 11:53:42 pm
 created-date: Friday, September 19th 2025, 5:46:53 am
 draft:
 ---
@@ -42,14 +42,6 @@ draft:
   <div class="related-card-content">
     <h3 class="related-card-title">Ollie Oxenfree</h3>
     <span class="related-card-meta">Game Writing · Sci-Fi Fantasy</span>
-  </div>
-</a>
-
-<a href="/Digital-Garden/Grim-Rock" class="related-card">
-  <div class="related-card-icon">G</div>
-  <div class="related-card-content">
-    <h3 class="related-card-title">Grim Rock</h3>
-    <span class="related-card-meta">Worldbuilding · Dark Fantasy</span>
   </div>
 </a>
 
