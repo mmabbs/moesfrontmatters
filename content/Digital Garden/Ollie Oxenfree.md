@@ -98,7 +98,7 @@ Comprehensive character bio covering psychology, voice systems, relationship dyn
 
 <div class="related-grid">
 
-<a href="/projects/ollie-oxenfree" class="related-card">
+<a href="/Digital-Garden/Ollie-Oxenfree" class="related-card">
   <div class="related-card-icon">O</div>
   <div class="related-card-content">
     <h3 class="related-card-title">Ollie Oxenfree</h3>
@@ -106,7 +106,7 @@ Comprehensive character bio covering psychology, voice systems, relationship dyn
   </div>
 </a>
 
-<a href="/projects/grim-rock" class="related-card">
+<a href="/Digital-Garden/Grim-Rock" class="related-card">
   <div class="related-card-icon">G</div>
   <div class="related-card-content">
     <h3 class="related-card-title">Grim Rock</h3>
@@ -114,7 +114,7 @@ Comprehensive character bio covering psychology, voice systems, relationship dyn
   </div>
 </a>
 
-<a href="/projects/the-otter-side" class="related-card">
+<a href="/Digital-Garden/The-Otter-Side" class="related-card">
   <div class="related-card-icon">T</div>
   <div class="related-card-content">
     <h3 class="related-card-title">The Otter Side</h3>
