@@ -1,7 +1,6 @@
 ---
 title: Marketing
 aliases:
-permalink: /marketing
 description: Content strategy frameworks, campaign planning, and UX case studies from marketing and design work.
 tags: 
 modified-date: Sunday, March 8th 2026, 10:36:51 pm

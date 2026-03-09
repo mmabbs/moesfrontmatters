@@ -1,36 +1,33 @@
 ---
-title: Grim Rock
-aliases: Grim Rock
-description: Spec writing for a dark fantasy RPG and film. 1969, WWII drags on against Nazi werewolves, and a nurse flees the Sandman's 'cures'
-tags: [writing, game-writing, film-tv, video-games]
-modified-date: Monday, March 9th 2026, 2:17:04 am
-created-date: Friday, September 19th 2025, 5:46:53 am
+title: Howard the Duck and Spider-Ham
+aliases:
+description: Spec barksheet for a Howard the Duck × Spider-Ham Insomniac game crossover. Partner dynamics, escalation patterns, and fourth-wall breaks.
+tags: [writing, game-writing, video-games]
+modified-date: Monday, March 9th 2026, 1:22:18 am
+created-date: Monday, March 9th 2026, 12:09:59 am
 draft:
-permalink: /digital-garden/grim-rock
 ---
 
 <span class="status-badge">Spec Only</span>
 
-<div class="artifacts-grid">
 <div class="artifact-card">
   <div class="artifact-meta">
-    <a href="gr-scene.pdf" class="artifact-title-link">
+    <a href="howard-barksheet.pdf" class="artifact-title-link">
       <span class="artifact-type">Artifact <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5">
             <path d="M6 2v7M3 6l3 3 3-3M2 10h8"/>
           </svg></span>
     </a>
-    <a href="/digital-garden/grim-rock" class="artifact-title-link">
-      <span class="project-link">Grim Rock <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9L9 3M9 3H5M9 3v4"/></svg></span>
-    </a>
-    <span class="artifact-info"><span class="format">Scene</span> | Fantasy, Action-Adventure, Historical Revisionism | 3 pages</span>
+    <span class="artifact-info">
+    <span class="artifact-info"><span class="format">Barksheet</span> · Action-Adventure · 1 spreadsheet</span>
   </div>
-  <h3 class="artifact-title">"The Draw"</h3>
+  <h3 class="artifact-title">Howard the Duck</h3>
   <p class="artifact-description">
-    The morning after she discovers his secret lab, a nurse sits across from her surrogate father to draw his blood, a key ingredient in the sand wafers he uses to cure children's nightmares. But this routine procedure becomes a quiet interrogation about loyalty, change and the cost of careless words. 
+    Barks with partner dynamics, escalation patterns, meta-commentary, and conditional firing logic in combat, stealth, exploration, and traversal.
   </p>
 </div>
 
 ---
+
 
 ## See also...
 
@@ -49,6 +46,14 @@ permalink: /digital-garden/grim-rock
   <div class="related-card-content">
     <h3 class="related-card-title">SamSara's Edge</h3>
     <span class="related-card-meta">Game Writing · Sci-Fi Fantasy</span>
+  </div>
+</a>
+
+<a href="/digital-garden/grim-rock" class="related-card">
+  <div class="related-card-icon">G</div>
+  <div class="related-card-content">
+    <h3 class="related-card-title">Grim Rock</h3>
+    <span class="related-card-meta">Worldbuilding · Dark Fantasy</span>
   </div>
 </a>
 

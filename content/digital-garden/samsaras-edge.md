@@ -6,7 +6,6 @@ tags: [writing, game-writing, video-games]
 modified-date: Monday, March 9th 2026, 1:22:50 am
 created-date: Friday, September 19th 2025, 5:46:58 am
 draft:
-permalink: /digital-garden/samsaras-edge
 ---
 
 %% <div class="project-hero-banner">
