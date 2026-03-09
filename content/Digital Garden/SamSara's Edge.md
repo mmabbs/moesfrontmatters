@@ -2,11 +2,8 @@
 title: SamSara's Edge
 aliases:
 description: A roguelite deckbuilder about relationship repair set in an AI-governed city.
-tags:
-  - game-writing
-  - narrative-design
-  - deckbuilder
-modified-date: Sunday, March 8th 2026, 11:43:46 pm
+tags: [writing, game-writing, video-games]
+modified-date: Monday, March 9th 2026, 12:07:54 am
 created-date: Friday, September 19th 2025, 5:46:58 am
 draft:
 permalink: /digital-garden/samsaras-edge

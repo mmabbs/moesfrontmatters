@@ -2,8 +2,8 @@
 title: The Otter Side
 aliases: 
 description:
-tags:
-modified-date: Sunday, March 8th 2026, 11:41:01 pm
+tags: [marketing, content-strategy, video-games, mobile-games]
+modified-date: Monday, March 9th 2026, 12:07:47 am
 created-date: Friday, September 19th 2025, 6:07:13 am
 draft:
 ---
