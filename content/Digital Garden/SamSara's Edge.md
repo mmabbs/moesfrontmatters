@@ -1,9 +1,9 @@
 ---
 title: SamSara's Edge
 aliases:
-description: A roguelite deckbuilder about relationship repair set in an AI-governed city.
+description: Spec game writing for a roguelite deckbuilder where a couple must clear dungeons made of their relationship baggage to save their marriage.
 tags: [writing, game-writing, video-games]
-modified-date: Monday, March 9th 2026, 12:07:54 am
+modified-date: Monday, March 9th 2026, 1:22:50 am
 created-date: Friday, September 19th 2025, 5:46:58 am
 draft:
 permalink: /digital-garden/samsaras-edge

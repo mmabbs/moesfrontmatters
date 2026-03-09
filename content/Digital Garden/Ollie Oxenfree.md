@@ -1,9 +1,9 @@
 ---
 title: Ollie Oxenfree
 aliases: 
-description:
+description: Spec game writing for a sci-fi fantasy action-RPG about siblings solving a dimensional mystery. Runner-up, ELVTR Game Writing Competition.
 tags: [writing, game-writing, video-games]
-modified-date: Monday, March 9th 2026, 12:16:48 am
+modified-date: Monday, March 9th 2026, 1:21:57 am
 created-date: Friday, September 19th 2025, 5:46:45 am
 draft:
 ---

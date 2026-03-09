@@ -1,9 +1,9 @@
 ---
 title: Howard the Duck and Spider-Ham
 aliases:
-description:
+description: Spec barksheet for a Howard the Duck × Spider-Ham Insomniac game crossover. Partner dynamics, escalation patterns, and fourth-wall breaks.
 tags: [writing, game-writing, video-games]
-modified-date: Monday, March 9th 2026, 12:51:12 am
+modified-date: Monday, March 9th 2026, 1:22:18 am
 created-date: Monday, March 9th 2026, 12:09:59 am
 draft:
 ---
