@@ -1,9 +1,9 @@
 ---
-title: Howard the Duck
+title: Howard the Duck and Spider-Ham
 aliases:
 description:
 tags: [writing, game-writing, video-games]
-modified-date: Monday, March 9th 2026, 12:11:52 am
+modified-date: Monday, March 9th 2026, 12:51:12 am
 created-date: Monday, March 9th 2026, 12:09:59 am
 draft:
 ---
@@ -18,7 +18,6 @@ draft:
           </svg></span>
     </a>
     <span class="artifact-info">
-    <span class="solo">Howard the Duck x Spider-Ham</span> </span>
     <span class="artifact-info"><span class="format">Barksheet</span> · Action-Adventure · 1 spreadsheet</span>
   </div>
   <h3 class="artifact-title">Howard the Duck</h3>

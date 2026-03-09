@@ -1,12 +1,12 @@
 ---
 title: Moe's Frontmatters
 aliases:
-permalink: 
 description: Portfolio and digital garden showcasing game design, narrative design, screenwriting, marketing and content strategy work, featuring case studies from a writer-producer working across games, film, and digital marketing.
 tags: 
-modified-date: Sunday, March 8th 2026, 11:34:36 pm
+modified-date: Monday, March 9th 2026, 12:52:35 am
 created-date: Monday, January 5th 2026, 10:11:45 pm
 draft: 
+permalink: 
 cssclasses: no-title
 ---
 
@@ -158,8 +158,10 @@ Game writer, designer, and marketer working at the intersection of storytelling 
             <path d="M6 2v7M3 6l3 3 3-3M2 10h8"/>
           </svg></span>
     </a>
+    <a href="/digital-garden/howard-the-duck-and-spider-ham" class="artifact-title-link">
+      <span class="project-link">Howard the Duck & Spider-Ham <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9L9 3M9 3H5M9 3v4"/></svg></span>
+    </a>
     <span class="artifact-info">
-    <span class="solo">Howard the Duck x Spider-Ham</span> </span>
     <span class="artifact-info"><span class="format">Barksheet</span> · Action-Adventure · 1 spreadsheet</span>
   </div>
   <h3 class="artifact-title">Howard the Duck</h3>
