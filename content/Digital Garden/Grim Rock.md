@@ -1,11 +1,12 @@
 ---
 title: Grim Rock
-aliases: 
+aliases: Grim Rock
 description: Spec writing for a dark fantasy RPG and film. 1969, WWII drags on against Nazi werewolves, and a nurse flees the Sandman's 'cures'
 tags: [writing, game-writing, film-tv, video-games]
-modified-date: Monday, March 9th 2026, 1:21:29 am
+modified-date: Monday, March 9th 2026, 2:17:04 am
 created-date: Friday, September 19th 2025, 5:46:53 am
 draft:
+permalink: /digital-garden/grim-rock
 ---
 
 <span class="status-badge">Spec Only</span>
