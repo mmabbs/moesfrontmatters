@@ -5,16 +5,16 @@ import type { Options } from "./quartz/components/Explorer"
 // ---------- Custom Explorer Sort (self-contained; no external closures) ----------
 
 interface MyFileNode {
-  isFolder: boolean;
-  children: MyFileNode[];
+  isFolder: boolean
+  children: MyFileNode[]
   data: {
-    slug: string;
-    title: string;
-    tags: string[];
-    links: string[];
-    content: string;
-  } | null;
-  displayName: string;
+    slug: string
+    title: string
+    tags: string[]
+    links: string[]
+    content: string
+  } | null
+  displayName: string
   // add any other props you use
 }
 
@@ -23,13 +23,13 @@ const customExplorerSort: Options["sortFn"] = (a, b) => {
   const preferred = ["games", "marketing", "film & tv", "case studies", "digital garden"]
   const priority = new Map(preferred.map((n, i) => [n, i]))
 
-   const aName = a.displayName.toLowerCase()
+  const aName = a.displayName.toLowerCase()
   const bName = b.displayName.toLowerCase()
 
   // keep folders before files (docs default)
   if (a.isFolder !== b.isFolder) return b.isFolder ? -1 : 1
 
-   // NEW: preferred order among specific files (Games, Marketing, Film & TV)
+  // NEW: preferred order among specific files (Games, Marketing, Film & TV)
   if (!a.isFolder && !b.isFolder) {
     const ap = priority.get(aName) ?? Infinity
     const bp = priority.get(bName) ?? Infinity
@@ -51,7 +51,7 @@ export const sharedPageComponents: SharedLayout = {
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/inquisitivebadger/",
-      "LinkedIn": "{LINKEDIN}",
+      LinkedIn: "https://www.linkedin.com/in/moe-m-abbas/",
     },
   }),
 }
@@ -79,17 +79,17 @@ export const defaultContentPageLayout: PageLayout = {
         // { Component: Component.ReaderMode() },
       ],
     }),
-//     Component.Explorer({
-//       folderClickBehavior: "link",   // ⟵ stays on page; no redirect
-//       folderDefaultState: "collapsed",
-//       useSavedState: true,
-//       sortFn: customExplorerSort,
-//       mapFn: (node: MyFileNode) => {
-//  if (node.isFolder && node.displayName === "Digital Garden") {
-//     }
-//     return node;
-//   },
-//     }),
+    //     Component.Explorer({
+    //       folderClickBehavior: "link",   // ⟵ stays on page; no redirect
+    //       folderDefaultState: "collapsed",
+    //       useSavedState: true,
+    //       sortFn: customExplorerSort,
+    //       mapFn: (node: MyFileNode) => {
+    //  if (node.isFolder && node.displayName === "Digital Garden") {
+    //     }
+    //     return node;
+    //   },
+    //     }),
   ],
   right: [
     Component.DesktopOnly(Component.TableOfContents()),
