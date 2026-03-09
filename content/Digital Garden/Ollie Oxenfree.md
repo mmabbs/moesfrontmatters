@@ -1,10 +1,10 @@
 ---
 title: Ollie Oxenfree
 aliases: 
-permalink: /projects/ollie-oxenfree
+permalink:
 description:
 tags:
-modified-date: Thursday, January 8th 2026, 2:13:51 pm
+modified-date: Sunday, March 8th 2026, 10:54:23 pm
 created-date: Friday, September 19th 2025, 5:46:45 am
 draft:
 publish: true

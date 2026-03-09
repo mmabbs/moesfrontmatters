@@ -1,7 +1,7 @@
 ---
 title: SamSara's Edge
 aliases: 
-permalink: projects/samsaras-edge
+permalink:
 description: A roguelite deckbuilder about relationship repair set in an AI-governed city.
 tags:
   - game-writing

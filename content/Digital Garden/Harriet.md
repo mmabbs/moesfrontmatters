@@ -1,7 +1,7 @@
 ---
 title:
 aliases: 
-permalink: /projects/harriet
+permalink:
 description:
 tags: 
 modified-date: Tuesday, January 6th 2026, 2:55:46 pm

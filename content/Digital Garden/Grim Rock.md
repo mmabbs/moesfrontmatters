@@ -1,7 +1,7 @@
 ---
 title: Grim Rock
 aliases: 
-permalink: /projects/grim-rock
+permalink:
 description:
 tags: [writing, video-games, film-tv]
 modified-date: Wednesday, January 7th 2026, 2:24:23 am

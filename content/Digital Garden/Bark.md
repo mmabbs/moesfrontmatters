@@ -1,7 +1,7 @@
 ---
 title:
 aliases: 
-permalink: projects/bark
+permalink:
 description:
 tags: [producer, film-tv]
 modified-date: Tuesday, January 6th 2026, 2:58:04 pm

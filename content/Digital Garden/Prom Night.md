@@ -1,10 +1,10 @@
 ---
 title:
 aliases: 
-permalink: /projects/prom-night
+permalink:
 description:
 tags: [film-tv, producer]
-modified-date: Tuesday, January 6th 2026, 2:55:55 pm
+modified-date: Sunday, March 8th 2026, 11:01:56 pm
 created-date: Friday, November 14th 2025, 12:21:32 am
 draft: 
 ---
