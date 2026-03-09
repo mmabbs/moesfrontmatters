@@ -18,7 +18,7 @@ draft:
             <path d="M6 2v7M3 6l3 3 3-3M2 10h8"/>
           </svg></span>
     </a>
-    <a href="/Digital-Garden/grim-rock" class="artifact-title-link">
+    <a href="/digital-garden/grim-rock" class="artifact-title-link">
       <span class="project-link">Grim Rock <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9L9 3M9 3H5M9 3v4"/></svg></span>
     </a>
     <span class="artifact-info"><span class="format">Scene</span> | Fantasy, Action-Adventure, Historical Revisionism | 3 pages</span>
@@ -35,7 +35,7 @@ draft:
 
 <div class="related-grid">
 
-<a href="/Digital-Garden/Ollie-Oxenfree" class="related-card">
+<a href="/digital-garden/ollie-oxenfree" class="related-card">
   <div class="related-card-icon">O</div>
   <div class="related-card-content">
     <h3 class="related-card-title">Ollie Oxenfree</h3>
@@ -43,7 +43,7 @@ draft:
   </div>
 </a>
 
-<a href="/Digital-Garden/samsaras-edge" class="related-card">
+<a href="/digital-garden/samsaras-edge" class="related-card">
   <div class="related-card-icon">S</div>
   <div class="related-card-content">
     <h3 class="related-card-title">SamSara's Edge</h3>
@@ -51,7 +51,7 @@ draft:
   </div>
 </a>
 
-<a href="/Digital-Garden/The-Otter-Side" class="related-card">
+<a href="/digital-garden/the-otter-side" class="related-card">
   <div class="related-card-icon">T</div>
   <div class="related-card-content">
     <h3 class="related-card-title">The Otter Side</h3>
