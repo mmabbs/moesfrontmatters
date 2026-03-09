@@ -4,7 +4,7 @@ aliases:
 permalink: 
 description: Portfolio and digital garden showcasing game design, narrative design, screenwriting, marketing and content strategy work, featuring case studies from a writer-producer working across games, film, and digital marketing.
 tags: 
-modified-date: Wednesday, February 11th 2026, 1:21:55 pm
+modified-date: Sunday, March 8th 2026, 11:34:36 pm
 created-date: Monday, January 5th 2026, 10:11:45 pm
 draft: 
 cssclasses: no-title
@@ -74,7 +74,7 @@ Game writer, designer, and marketer working at the intersection of storytelling 
             <path d="M6 2v7M3 6l3 3 3-3M2 10h8"/>
           </svg></span>
     </a>
-    <a href="/projects/ollie-oxenfree" class="artifact-title-link">
+    <a href="/Digital-Garden/ollie-oxenfree" class="artifact-title-link">
       <span class="project-link">Ollie Oxenfree <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9L9 3M9 3H5M9 3v4"/></svg></span>
     </a>
     <span class="artifact-info"><span class="format">Cinematic</span> | Fantasy, Action-Adventure, RPG | 3 pages</span>
@@ -95,7 +95,7 @@ Game writer, designer, and marketer working at the intersection of storytelling 
             <path d="M6 2v7M3 6l3 3 3-3M2 10h8"/>
           </svg></span>
     </a>
-    <a href="/projects/samsaras-edge" class="artifact-title-link">
+    <a href="/Digital-Garden/samsaras-edge" class="artifact-title-link">
       <span class="project-link">SamSara's Edge <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9L9 3M9 3H5M9 3v4"/></svg></span>
     </a>
     <span class="artifact-info"><span class="format">Cinematic</span> · Sci-Fi, Dark Comedy, Action-Adventure · 3 pages</span>
@@ -122,7 +122,7 @@ Game writer, designer, and marketer working at the intersection of storytelling 
             <path d="M6 2v7M3 6l3 3 3-3M2 10h8"/>
           </svg></span>
     </a>
-    <a href="/projects/ollie-oxenfree" class="artifact-title-link">
+    <a href="/Digital-Garden/ollie-oxenfree" class="artifact-title-link">
       <span class="project-link">Ollie Oxenfree <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9L9 3M9 3H5M9 3v4"/></svg></span>
     </a>
     <span class="artifact-info"><span class="format">Barksheet</span> · Sci-Fi, Fantasy · 1 spreadsheet</span>
@@ -140,7 +140,7 @@ Game writer, designer, and marketer working at the intersection of storytelling 
             <path d="M6 2v7M3 6l3 3 3-3M2 10h8"/>
           </svg></span>
     </a>
-    <a href="/projects/ollie-oxenfree" class="artifact-title-link">
+    <a href="/Digital-Garden/ollie-oxenfree" class="artifact-title-link">
       <span class="project-link">Ollie Oxenfree <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9L9 3M9 3H5M9 3v4"/></svg></span>
     </a>
     <span class="artifact-info"><span class="format">Biography</span> · Sci-Fi, Fantasy · 1 spreadsheet</span>
@@ -184,7 +184,7 @@ Game writer, designer, and marketer working at the intersection of storytelling 
             <path d="M6 2v7M3 6l3 3 3-3M2 10h8"/>
           </svg></span>
     </a>
-    <a href="/projects/grim-rock" class="artifact-title-link">
+    <a href="/Digital-Garden/grim-rock" class="artifact-title-link">
       <span class="project-link">Grim Rock <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9L9 3M9 3H5M9 3v4"/></svg></span>
     </a>
     <span class="artifact-info"><span class="format">Bestiary</span> · Dark Fantasy, Action-Adventure, RPG  · 1 page</span>
@@ -202,7 +202,7 @@ Game writer, designer, and marketer working at the intersection of storytelling 
             <path d="M6 2v7M3 6l3 3 3-3M2 10h8"/>
           </svg></span>
     </a>
-    <a href="/projects/grim-rock" class="artifact-title-link">
+    <a href="/Digital-Garden/grim-rock" class="artifact-title-link">
       <span class="project-link">Grim Rock <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9L9 3M9 3H5M9 3v4"/></svg></span>
     </a>
     <span class="artifact-info"><span class="format">Flavor Text</span> · Dark Fantasy, Action-Adventure, RPG · 1 page</span>
@@ -228,7 +228,7 @@ Game writer, designer, and marketer working at the intersection of storytelling 
 
 <div class="artifact-card">
   <div class="artifact-meta">
-    <a href="/digital-garden/the-otter-side" class="artifact-title-link">
+    <a href="/Digital-Garden/the-otter-side" class="artifact-title-link">
       <span class="project-link">The Otter Side <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9L9 3M9 3H5M9 3v4"/></svg></span>
     </a>
     <span class="artifact-info"><span class="format">Content Strategy & Marketing </span> · Mobile Game · Cozy Runner </span>
@@ -241,7 +241,7 @@ Game writer, designer, and marketer working at the intersection of storytelling 
 
 <div class="artifact-card">
   <div class="artifact-meta">
-    <a href="/projects/fitin" class="artifact-title-link">
+    <a href="/Digital-Garden/fitin" class="artifact-title-link">
       <span class="project-link">FitIn.io <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9L9 3M9 3H5M9 3v4"/></svg></span>
     </a>
     <span class="artifact-info"><span class="format">UX Design & Strategy</span> · Social Enterprise · Wellness SaaS</span>
@@ -268,7 +268,7 @@ Game writer, designer, and marketer working at the intersection of storytelling 
             <path d="M6 2v7M3 6l3 3 3-3M2 10h8"/>
           </svg></span>
     </a>
-    <a href="/projects/ollie-oxenfree" class="artifact-title-link">
+    <a href="/Digital-Garden/grim-rock" class="artifact-title-link">
       <span class="project-link">Grim Rock <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9L9 3M9 3H5M9 3v4"/></svg></span>
     </a>
     <span class="artifact-info"><span class="format">Scene</span> | Fantasy, Action-Adventure, Historical Revisionism | 3 pages</span>
@@ -286,7 +286,7 @@ A selection of work I've produced. In addition to other roles across the develop
 
 <div class="film-grid">
 
-<a href="/projects/prom-night" class="film-card">
+<a href="/Digital-Garden/prom-night" class="film-card">
   <img src="/site-assets/promnight_poster.webp" alt="Prom Night poster" width="400" height="600" loading="lazy">
   <div class="film-overlay">
     <h3>Prom Night (2017)</h3>
@@ -322,7 +322,7 @@ A selection of work I've produced. In addition to other roles across the develop
   </div>
 </a>
 
-<a href="/projects/bark" class="film-card">
+<a href="/Digital-Garden/bark" class="film-card">
   <img src="/site-assets/bark-poster.webp" alt="Bark poster" width="400" height="600" loading="lazy">
   <div class="film-overlay">
     <h3>Bark (2023)</h3>
@@ -334,7 +334,7 @@ A selection of work I've produced. In addition to other roles across the develop
   </div>
 </a>
 
-<a href="/projects/harriet" class="film-card">
+<a href="/Digital-Garden/harriet" class="film-card">
   <img src="/site-assets/harriet-poster.webp" alt="Harriet poster" width="400" height="600" loading="lazy">
   <div class="film-overlay">
     <h3>Harriet Jones (2023)</h3>

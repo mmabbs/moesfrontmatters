@@ -1,13 +1,11 @@
 ---
 title: Ollie Oxenfree
 aliases: 
-permalink:
 description:
 tags:
-modified-date: Sunday, March 8th 2026, 10:54:23 pm
+modified-date: Sunday, March 8th 2026, 11:42:10 pm
 created-date: Friday, September 19th 2025, 5:46:45 am
 draft:
-publish: true
 ---
 
 <span class="status-badge">Spec Only</span>

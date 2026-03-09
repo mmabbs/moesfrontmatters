@@ -4,8 +4,8 @@ aliases:
 permalink: /games
 description: Game writing portfolio featuring cinematics, character work, lore, and worldbuilding artifacts from original projects.
 tags: 
-modified-date: 
-created-date: 
+modified-date: Sunday, March 8th 2026, 11:24:04 pm
+created-date: Monday, January 5th 2026, 10:01:29 pm
 draft: 
 ---
 

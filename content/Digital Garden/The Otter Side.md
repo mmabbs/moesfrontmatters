@@ -1,13 +1,11 @@
 ---
 title: The Otter Side
 aliases: 
-permalink:
 description:
 tags:
-modified-date: Thursday, January 8th 2026, 2:14:41 pm
+modified-date: Sunday, March 8th 2026, 11:41:01 pm
 created-date: Friday, September 19th 2025, 6:07:13 am
 draft:
-publish: true
 ---
 
 

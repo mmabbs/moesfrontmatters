@@ -1,7 +1,6 @@
 ---
 title:
 aliases: 
-permalink:
 description:
 tags: [film-tv, producer]
 modified-date: Sunday, March 8th 2026, 11:01:56 pm

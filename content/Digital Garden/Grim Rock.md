@@ -1,90 +1,34 @@
 ---
 title: Grim Rock
 aliases: 
-permalink:
 description:
 tags: [writing, video-games, film-tv]
-modified-date: Wednesday, January 7th 2026, 2:24:23 am
+modified-date: Sunday, March 8th 2026, 11:42:26 pm
 created-date: Friday, September 19th 2025, 5:46:53 am
 draft:
 ---
 
 <span class="status-badge">Spec Only</span>
 
-<div class="project-meta-strip">
-  <div class="meta-item">
-
+<div class="artifacts-grid">
+<div class="artifact-card">
+  <div class="artifact-meta">
+    <a href="gr-scene.pdf" class="artifact-title-link">
+      <span class="artifact-type">Artifact <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M6 2v7M3 6l3 3 3-3M2 10h8"/>
+          </svg></span>
+    </a>
+    <a href="/Digital-Garden/grim-rock" class="artifact-title-link">
+      <span class="project-link">Grim Rock <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9L9 3M9 3H5M9 3v4"/></svg></span>
+    </a>
+    <span class="artifact-info"><span class="format">Scene</span> | Fantasy, Action-Adventure, Historical Revisionism | 3 pages</span>
   </div>
-  <div class="meta-item">
-    <span class="meta-label">Platform</span>
-    <span class="meta-value">Film, PC/Console</span>
-  </div>
-  <div class="meta-item">
-    <span class="meta-label">Genre</span>
-    <div class="genre-tags">
-      <span class="genre-tag">Dark Fantasy</span>
-      <span class="genre-tag">Action-Adventure</span>
-    <span class="genre-tag"> RPG</span>
-    </div>
-  </div>
-    <div class="meta-item">
-    <span class="meta-label">Comparables</span>
-    <span class="meta-value"><em>???</em></span>
-  </div>
-</div>
-
-<div class="project-logline">
-  <p class="logline-text">
-In 1969, as WWII drags on against Nazi werewolves, a guilt-ridden nurse and a rebellious werewolf girl flee the Sandman’s lycanthropy ‘cures’ in search of an anti-war commune — if they don’t kill each other first.
+  <h3 class="artifact-title">"The Draw"</h3>
+  <p class="artifact-description">
+    The morning after she discovers his secret lab, a nurse sits across from her surrogate father to draw his blood, a key ingredient in the sand wafers he uses to cure children's nightmares. But this routine procedure becomes a quiet interrogation about loyalty, change and the cost of careless words. 
   </p>
 </div>
 
-
-## Writing Samples
----
-
-  <div class="artifact-meta">
-    <a href="#" class="artifact-title-link">
-      <span class="artifact-type">Artifact <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5">
-            <path d="M6 2v7M3 6l3 3 3-3M2 10h8"/>
-          </svg></span>
-    </a>
-    <span class="artifact-info"><span class="format">Cinematic</span> · 3 pages</span>
-  </div>
-  
-### "New Dog, Old Tricks"
-
-A trial scene where a dysfunctional couple attempts to emotionally manipulate a sensitive, anthophile AI judge into choosing their partner as the first to enter the dungeon. Features branching dialogue trees and relationship stat impacts.
-
----
-
-  <div class="artifact-meta">
-    <a href="#" class="artifact-title-link">
-      <span class="artifact-type">Artifact <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5">
-            <path d="M6 2v7M3 6l3 3 3-3M2 10h8"/>
-          </svg></span>
-    </a>
-    <span class="artifact-info"><span class="format">Bark Sheet</span> · 1 spreadsheet</span>
-  </div>
-  
-### "Ollie Liviere" (barks)
-
-A trial scene where a dysfunctional couple attempts to emotionally manipulate a sensitive, anthophile AI judge into choosing their partner as the first to enter the dungeon. Features branching dialogue trees and relationship stat impacts.
-
----
-
-  <div class="artifact-meta">
-    <a href="#" class="artifact-title-link">
-      <span class="artifact-type">Artifact <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5">
-            <path d="M6 2v7M3 6l3 3 3-3M2 10h8"/>
-          </svg></span>
-    </a>
-    <span class="artifact-info"><span class="format">Biography</span> · 1 page</span>
-  </div>
-  
-### "Ollie Liviere" (bio)
-
-A trial scene where a dysfunctional couple attempts to emotionally manipulate a sensitive, anthophile AI judge into choosing their partner as the first to enter the dungeon. Features branching dialogue trees and relationship stat impacts.
 
 ---
 
