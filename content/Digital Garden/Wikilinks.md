@@ -1,10 +1,10 @@
 ---
 title:
 aliases:
-description:
+description: Internal navigation page demonstrating wikilink connections across the garden.
 tags:
   - wikilinks
-modified-date: Sunday, March 8th 2026, 11:42:38 pm
+modified-date: Monday, March 9th 2026, 1:33:58 am
 created-date: Tuesday, September 9th 2025, 7:44:53 pm
 draft: true
 ---
