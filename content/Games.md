@@ -1,7 +1,7 @@
 ---
 title: Games
 aliases:
-permalink: 
+permalink: /games
 description: Game writing portfolio featuring cinematics, character work, lore, and worldbuilding artifacts from original projects.
 tags: 
 modified-date: 
