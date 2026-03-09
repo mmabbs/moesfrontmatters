@@ -30,6 +30,8 @@ jobs:
         run: npx quartz build
       - name: Add .nojekyll file
         run: touch public/.nojekyll
+      - name: Add CNAME file
+        run: echo "moesfrontmatters.com" > public/CNAME
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:
