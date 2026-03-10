@@ -60,8 +60,8 @@ $radius-md: 8px;
   --text-5xl: 4rem; // 64px
 
   // Transitions
-  --transition-fast: var(--transition-fast);
-  --transition-normal: var(--transition-normal);
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.3s ease;
 }
 
 // ===================
@@ -321,24 +321,6 @@ input[type="checkbox"]:checked {
 
 .callout-title > .callout-title-inner > p {
   color: var(--darkgray);
-}
-
-// Nav cards
-.nav-card {
-  background-color: var(--bg-surface);
-  border: 1px solid var(--bg-hover);
-  padding: 1rem;
-
-  &:hover {
-    background-color: var(--accent);
-    border-color: var(--accent);
-    box-shadow: 0 8px 24px var(--accent-shadow);
-
-    .nav-card-title,
-    .nav-card-desc {
-      color: var(--card-hover-text);
-    }
-  }
 }
 
 // Artifact accolade
@@ -636,12 +618,15 @@ a.tag-link {
   }
 }
 
-.nav-card {
+// Override Quartz's a.internal styles for nav cards
+// Specificity (0,4,1) beats :root[saved-theme] a.internal (0,3,1)
+:root[saved-theme] a.internal.nav-card {
   position: relative;
   display: block;
-  padding: var(--space-32);
-  background: var(--bg-surface);
-  border: 1px solid transparent;
+  padding: var(--space-16);
+  background-color: var(--bg-surface);
+  border: 1px solid var(--bg-hover);
+  border-radius: $radius-md;
   text-decoration: none;
   transition: all 1s cubic-bezier(0.16, 1, 0.3, 1);
   overflow: hidden;
@@ -825,6 +810,22 @@ a.tag-link {
   font-size: var(--text-sm);
   border-radius: 0 $radius-sm $radius-sm 0;
 }
+
+// ===================
+// BREADCRUMBS
+// ===================
+
+// .breadcrumb-element a {
+//   font-weight: 500;
+// }
+
+// ===================
+// BACKLINKS
+// ===================
+
+// ul#list-1.overflow li a {
+//   font-weight: 500;
+// }
 
 // ===================
 // CALLOUT PROMINENT
