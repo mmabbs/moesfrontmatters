@@ -3,7 +3,7 @@ title: Moe's Frontmatters
 aliases:
 description: Portfolio and digital garden showcasing game design, narrative design, screenwriting, marketing and content strategy work, featuring case studies from a writer-producer working across games, film, and digital marketing.
 tags: 
-modified-date: Saturday, March 14th 2026, 12:52:25 pm
+modified-date: Saturday, March 14th 2026, 6:57:41 pm
 created-date: Monday, January 5th 2026, 10:11:45 pm
 draft: 
 permalink: 
@@ -18,21 +18,19 @@ cssclasses: no-title
 </h1>
 <p class="hero-roles">Creative Producer & Writer</p>
 
-<p class="hero-intro"> 
-
 
 I write, I produce, I market — and what makes that work is treating them as one conversation, not three. The question is always the same: what makes something good, what makes it shippable, and what makes it land?
 
 I've written narrative, dialogue, and world documentation for games, produced films, and built strategy for indie games and early-stage startups — content, product, and go-to-market. I also spent over a decade evaluating projects for a film fund, reading scripts, scrutinizing budgets, and assessing market viability. I'm built for teams that need someone who gets the whole picture.
 
-</p>
-
+[Learn more about me](about-me)
+    
 <div class="hero-tags">
-  <a href="/tags/writing" class="tag">Writing</a>
-  <a href="/tags/producing" class="tag">Producing</a>
-  <a href="/tags/marketing" class="tag">Marketing</a>
-  <a href="/tags/video-games" class="tag">Video Games</a>
-  <a href="/tags/film-tv" class="tag">Film & TV</a>
+  <a href="/tags/writing" class="tag">#writing</a>
+  <a href="/tags/producing" class="tag">#producing</a>
+  <a href="/tags/marketing" class="tag">#marketing</a>
+  <a href="/tags/video-games" class="tag">#video-games</a>
+  <a href="/tags/film-tv" class="tag">#film-and-tv</a>
 </div>
 
 <div class="nav-grid">

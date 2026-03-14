@@ -462,6 +462,7 @@ p {
   text-transform: uppercase;
   letter-spacing: 0.2em;
   color: var(--accent);
+  margin-bottom: var(--space-64);
 }
 
 // Legacy support
@@ -544,12 +545,12 @@ a.tag.internal {
   font-family: $font-mono;
   font-size: var(--text-xs);
   font-weight: 400;
-  text-transform: uppercase;
+  // text-transform: uppercase;
   letter-spacing: 0.1em;
   padding: var(--space-8) var(--space-16);
   background: transparent;
-  border: 1px solid var(--darkgray);
-  border-radius: 2px;
+  border: 1px solid var(--gray);
+  border-radius: 20px;
   color: var(--darkgray);
   text-decoration: none;
   line-height: 1;
