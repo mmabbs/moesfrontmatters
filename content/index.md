@@ -3,13 +3,13 @@ title: Moe's Frontmatters
 aliases:
 description: Portfolio and digital garden showcasing game design, narrative design, screenwriting, marketing and content strategy work, featuring case studies from a writer-producer working across games, film, and digital marketing.
 tags: 
-modified-date: Saturday, March 14th 2026, 7:34:10 am
+modified-date: Saturday, March 14th 2026, 12:52:25 pm
 created-date: Monday, January 5th 2026, 10:11:45 pm
 draft: 
 permalink: 
 cssclasses: no-title
 ---
-
+	
 <p class="hero-eyebrow">Portfolio & Digital Garden</p>
 
 <h1 class="hero-title">
