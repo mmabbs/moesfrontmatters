@@ -455,16 +455,6 @@ p {
   margin-bottom: var(--space-64);
 }
 
-.hero-roles {
-  font-family: $font-mono;
-  font-size: var(--text-xs);
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.2em;
-  color: var(--accent);
-  margin-bottom: var(--space-64);
-}
-
 // Legacy support
 // Dramatic hero title - much larger scale
 .hero-title {
@@ -486,13 +476,14 @@ p {
   }
 }
 
-.hero-intro {
-  font-size: var(--text-lg);
-  font-weight: 200;
-  color: var(--darkgray);
-  max-width: 55ch;
+.hero-roles {
+  font-family: $font-mono;
+  font-size: var(--text-xs);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: var(--accent);
   margin-bottom: var(--space-64);
-  line-height: 1.7;
 }
 
 .hero-tags {
