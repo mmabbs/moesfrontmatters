@@ -1,7 +1,6 @@
 ---
 title: Moe's Frontmatters
-aliases:
-description: Portfolio and digital garden showcasing game design, narrative design, screenwriting, marketing and content strategy work, featuring case studies from a writer-producer working across games, film, and digital marketing.
+description: Game writer, film producer, content strategist and marketer. Narrative design, screenwriting, and marketing case studies across games and film.
 tags: 
 modified-date: Saturday, March 14th 2026, 7:06:07 pm
 created-date: Monday, January 5th 2026, 10:11:45 pm
@@ -17,7 +16,7 @@ cssclasses: no-title
   <span class="accent">Frontmatters</span>
 </h1>
 
-<p class="hero-roles">Creative Producer & Writer</p>
+<p class="hero-intro">Creative Producer & Writer</p>
 
 I write, I produce, I market — and what makes that work is treating them as one conversation, not three. The question is always the same: what makes something good, what makes it shippable, and what makes it land?
 

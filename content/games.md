@@ -1,7 +1,6 @@
 ---
 title: Games
-aliases:
-description: Game writing portfolio featuring cinematics, character work, lore, and worldbuilding artifacts from original projects.
+description: Game writing and narrative design portfolio. Cinematics, bark sheets, character bios, and worldbuilding for sci-fi and fantasy action-adventure games.
 tags: 
 modified-date: Sunday, March 8th 2026, 11:24:04 pm
 created-date: Monday, January 5th 2026, 10:01:29 pm

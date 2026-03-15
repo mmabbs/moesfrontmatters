@@ -1,6 +1,6 @@
 ---
 title: About Me
-description: Creative producer, screenwriter, game writer, and content strategist/marketer based in Toronto. Writing, producing, and marketing across games, film & TV, and interactive media
+description: Game writer, film producer, content strategist and marketer. Narrative design, screenwriting, and marketing case studies across games, film and SaaS.
 tags: 
 modified-date: Saturday, March 14th 2026, 6:20:43 pm
 created-date: Saturday, March 14th 2026, 6:11:02 pm

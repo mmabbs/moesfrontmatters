@@ -1,7 +1,6 @@
 ---
 title: Film & TV
-aliases:
-description: Produced shorts, screenwriting samples, and production credits from film and television work.
+description: Film producer and screenwriter portfolio. Short film credits, screenwriting samples, and production notes across comedy, drama, and horror.
 tags: 
 modified-date: Tuesday, January 6th 2026, 10:19:25 am
 created-date: Monday, January 5th 2026, 10:01:55 pm

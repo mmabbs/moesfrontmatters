@@ -1,9 +1,8 @@
 ---
 title: Marketing
-aliases:
-description: Content strategy frameworks, campaign planning, and UX case studies from marketing and design work.
+description: Content strategist and marketer portfolio. Campaign planning, brand voice, and UX case studies for indie games, startups, and interactive media.
 tags: 
-modified-date: Sunday, March 8th 2026, 10:36:51 pm
+modified-date: Sunday, March 15th 2026, 3:33:15 pm
 created-date: Monday, January 5th 2026, 10:01:41 pm
 draft: 
 ---

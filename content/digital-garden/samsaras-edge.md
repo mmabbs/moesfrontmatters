@@ -1,9 +1,8 @@
 ---
 title: SamSara's Edge
-aliases:
 description: Spec game writing for a roguelite deckbuilder where a couple must clear dungeons made of their relationship baggage to save their marriage.
 tags: [writing, game-writing, video-games]
-modified-date: Monday, March 9th 2026, 1:22:50 am
+modified-date: Sunday, March 15th 2026, 3:32:08 pm
 created-date: Friday, September 19th 2025, 5:46:58 am
 draft:
 ---

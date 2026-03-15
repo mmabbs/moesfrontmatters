@@ -2,7 +2,7 @@
 title: Ollie Oxenfree
 description: Spec game writing for a sci-fi fantasy action-RPG about siblings solving a dimensional mystery. Runner-up, ELVTR Game Writing Competition.
 tags: [writing, game-writing, video-games]
-modified-date: Monday, March 9th 2026, 6:21:50 pm
+modified-date: Saturday, March 14th 2026, 7:20:27 pm
 created-date: Friday, September 19th 2025, 5:46:45 am
 draft:
 ---
@@ -20,9 +20,10 @@ draft:
   <div class="meta-item">
     <span class="meta-label">Genre</span>
     <div class="genre-tags">
-      <span class="genre-tag">sci-fi fantasy</span>
-      <span class="genre-tag">action-adventure</span>
-    <span class="genre-tag"> rpg</span>
+      <span class="genre-tag">#sci-fi</span> 
+      <span class="genre-tag">#fantasy</span>
+      <span class="genre-tag">#action-adventure</span>
+    <span class="genre-tag">#rpg</span>
     </div>
   </div>
     <div class="meta-item">

@@ -1,9 +1,8 @@
 ---
 title: FitIn
-aliases: FitIn
 description:
 tags: [marketing, content-strategy]
-modified-date: Monday, March 9th 2026, 2:16:50 am
+modified-date: Sunday, March 15th 2026, 3:32:29 pm
 created-date: Tuesday, September 23rd 2025, 6:13:52 pm
 draft: true
 ---
