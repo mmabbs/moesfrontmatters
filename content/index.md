@@ -2,7 +2,7 @@
 title: Moe's Frontmatters
 description: Game writer, film producer, content strategist and marketer. Narrative design, screenwriting, and marketing case studies across games and film.
 tags: 
-modified-date: Saturday, March 14th 2026, 7:06:07 pm
+modified-date: Sunday, March 15th 2026, 4:53:57 pm
 created-date: Monday, January 5th 2026, 10:11:45 pm
 draft: 
 permalink: 
@@ -22,7 +22,10 @@ I write, I produce, I market — and what makes that work is treating them as on
 
 I've written narrative, dialogue, and world documentation for games, produced films, and built strategy for indie games and early-stage startups — content, product, and go-to-market. I also spent over a decade evaluating projects for a film fund, reading scripts, scrutinizing budgets, and assessing market viability. I'm built for teams that need someone who gets the whole picture.
 
-[Learn more about me](about-me)
+[Learn more about me](about-me). 
+
+You can reach me at <span class="contact">moe[at]moesfrontmatters.com</span>
+
     
 <div class="hero-tags">
   <a href="/tags/writing" class="tag">#writing</a>
@@ -52,7 +55,7 @@ I've written narrative, dialogue, and world documentation for games, produced fi
   <p class="nav-card-desc">Content strategy frameworks and UX case studies.</p>
 </a>
 
-<a href="/digital-garden/" class="nav-card" data-no-popover="true">
+<a href="/projects/" class="nav-card" data-no-popover="true">
   <span class="nav-card-number">04</span>
   <h2 class="nav-card-title">Digital Garden</h2>
   <p class="nav-card-desc">Notes, reflections, and works-in-progress.</p>
@@ -77,7 +80,7 @@ I've written narrative, dialogue, and world documentation for games, produced fi
             <path d="M6 2v7M3 6l3 3 3-3M2 10h8"/>
           </svg></span>
     </a>
-    <a href="/digital-garden/ollie-oxenfree" class="artifact-title-link">
+    <a href="/projects/ollie-oxenfree" class="artifact-title-link">
       <span class="project-link">Ollie Oxenfree <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9L9 3M9 3H5M9 3v4"/></svg></span>
     </a>
     <span class="artifact-info"><span class="format">Cinematic</span> | Fantasy, Action-Adventure, RPG | 3 pages</span>
@@ -98,7 +101,7 @@ I've written narrative, dialogue, and world documentation for games, produced fi
             <path d="M6 2v7M3 6l3 3 3-3M2 10h8"/>
           </svg></span>
     </a>
-    <a href="/digital-garden/samsaras-edge" class="artifact-title-link">
+    <a href="/projects/samsaras-edge" class="artifact-title-link">
       <span class="project-link">SamSara's Edge <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9L9 3M9 3H5M9 3v4"/></svg></span>
     </a>
     <span class="artifact-info"><span class="format">Cinematic</span> · Sci-Fi, Dark Comedy, Action-Adventure · 3 pages</span>
@@ -125,7 +128,7 @@ I've written narrative, dialogue, and world documentation for games, produced fi
             <path d="M6 2v7M3 6l3 3 3-3M2 10h8"/>
           </svg></span>
     </a>
-    <a href="/digital-garden/ollie-oxenfree" class="artifact-title-link">
+    <a href="/projects/ollie-oxenfree" class="artifact-title-link">
       <span class="project-link">Ollie Oxenfree <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9L9 3M9 3H5M9 3v4"/></svg></span>
     </a>
     <span class="artifact-info"><span class="format">Barksheet</span> · Sci-Fi, Fantasy · 1 spreadsheet</span>
@@ -143,7 +146,7 @@ I've written narrative, dialogue, and world documentation for games, produced fi
             <path d="M6 2v7M3 6l3 3 3-3M2 10h8"/>
           </svg></span>
     </a>
-    <a href="/digital-garden/ollie-oxenfree" class="artifact-title-link">
+    <a href="/projects/ollie-oxenfree" class="artifact-title-link">
       <span class="project-link">Ollie Oxenfree <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9L9 3M9 3H5M9 3v4"/></svg></span>
     </a>
     <span class="artifact-info"><span class="format">Biography</span> · Sci-Fi, Fantasy · 1 spreadsheet</span>
@@ -161,7 +164,7 @@ I've written narrative, dialogue, and world documentation for games, produced fi
             <path d="M6 2v7M3 6l3 3 3-3M2 10h8"/>
           </svg></span>
     </a>
-    <a href="/digital-garden/howard-the-duck-and-spider-ham" class="artifact-title-link">
+    <a href="/projects/howard-the-duck-and-spider-ham" class="artifact-title-link">
       <span class="project-link">Howard the Duck & Spider-Ham <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9L9 3M9 3H5M9 3v4"/></svg></span>
     </a>
     <span class="artifact-info">
@@ -189,7 +192,7 @@ I've written narrative, dialogue, and world documentation for games, produced fi
             <path d="M6 2v7M3 6l3 3 3-3M2 10h8"/>
           </svg></span>
     </a>
-    <a href="/digital-garden/grim-rock" class="artifact-title-link">
+    <a href="/projects/grim-rock" class="artifact-title-link">
       <span class="project-link">Grim Rock <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9L9 3M9 3H5M9 3v4"/></svg></span>
     </a>
     <span class="artifact-info"><span class="format">Bestiary</span> · Dark Fantasy, Action-Adventure, RPG  · 1 page</span>
@@ -207,7 +210,7 @@ I've written narrative, dialogue, and world documentation for games, produced fi
             <path d="M6 2v7M3 6l3 3 3-3M2 10h8"/>
           </svg></span>
     </a>
-    <a href="/digital-garden/grim-rock" class="artifact-title-link">
+    <a href="/projects/grim-rock" class="artifact-title-link">
       <span class="project-link">Grim Rock <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9L9 3M9 3H5M9 3v4"/></svg></span>
     </a>
     <span class="artifact-info"><span class="format">Flavor Text</span> · Dark Fantasy, Action-Adventure, RPG · 1 page</span>
@@ -225,7 +228,7 @@ I've written narrative, dialogue, and world documentation for games, produced fi
 
 <div class="callout-prominent">
   <p>
-    Due to NDAs, case studies emphasize methodology and strategic approach rather than final deliverables.
+    Due to NDAs, case studies emphasize methodology and strategic approach rather than final deliverables. For other queries, 
   </p>
 </div>
 
@@ -233,7 +236,7 @@ I've written narrative, dialogue, and world documentation for games, produced fi
 
 <div class="artifact-card">
   <div class="artifact-meta">
-    <a href="/digital-garden/the-otter-side" class="artifact-title-link">
+    <a href="/projects/the-otter-side" class="artifact-title-link">
       <span class="project-link">The Otter Side <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9L9 3M9 3H5M9 3v4"/></svg></span>
     </a>
     <span class="artifact-info"><span class="format">Content Strategy & Marketing </span> · Mobile Game · Cozy Runner </span>
@@ -246,7 +249,7 @@ I've written narrative, dialogue, and world documentation for games, produced fi
 
 <div class="artifact-card">
   <div class="artifact-meta">
-    <a href="/digital-garden/fitin" class="artifact-title-link">
+    <a href="/projects/fitin" class="artifact-title-link">
       <span class="project-link">FitIn.io <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9L9 3M9 3H5M9 3v4"/></svg></span>
     </a>
     <span class="artifact-info"><span class="format">UX Design & Strategy</span> · Social Enterprise · Wellness SaaS</span>
@@ -273,7 +276,7 @@ I've written narrative, dialogue, and world documentation for games, produced fi
             <path d="M6 2v7M3 6l3 3 3-3M2 10h8"/>
           </svg></span>
     </a>
-    <a href="/digital-garden/grim-rock" class="artifact-title-link">
+    <a href="/projects/grim-rock" class="artifact-title-link">
       <span class="project-link">Grim Rock <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9L9 3M9 3H5M9 3v4"/></svg></span>
     </a>
     <span class="artifact-info"><span class="format">Scene</span> | Fantasy, Action-Adventure, Historical Revisionism | 3 pages</span>
@@ -291,7 +294,7 @@ A selection of work I've produced. In addition to other roles across the develop
 
 <div class="film-grid">
 
-<a href="/digital-garden/prom-night" class="film-card">
+<a href="/projects/prom-night" class="film-card">
   <img src="/site-assets/promnight_poster.webp" alt="Prom Night poster" width="400" height="600" loading="lazy">
   <div class="film-overlay">
     <h3>Prom Night (2017)</h3>
@@ -327,7 +330,7 @@ A selection of work I've produced. In addition to other roles across the develop
   </div>
 </a>
 
-<a href="/digital-garden/bark" class="film-card">
+<a href="/projects/bark" class="film-card">
   <img src="/site-assets/bark-poster.webp" alt="Bark poster" width="400" height="600" loading="lazy">
   <div class="film-overlay">
     <h3>Bark (2023)</h3>
@@ -339,7 +342,7 @@ A selection of work I've produced. In addition to other roles across the develop
   </div>
 </a>
 
-<a href="/digital-garden/harriet" class="film-card">
+<a href="/projects/harriet" class="film-card">
   <img src="/site-assets/harriet-poster.webp" alt="Harriet poster" width="400" height="600" loading="lazy">
   <div class="film-overlay">
     <h3>Harriet Jones (2023)</h3>

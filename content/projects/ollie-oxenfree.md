@@ -2,10 +2,11 @@
 title: Ollie Oxenfree
 description: Spec game writing for a sci-fi fantasy action-RPG about siblings solving a dimensional mystery. Runner-up, ELVTR Game Writing Competition.
 tags: [writing, game-writing, video-games]
-modified-date: Saturday, March 14th 2026, 7:20:27 pm
+modified-date: Sunday, March 15th 2026, 4:17:44 pm
 created-date: Friday, September 19th 2025, 5:46:45 am
 draft:
 ---
+# Ollie Oxenfree
 
 <span class="status-badge">Spec Only</span>
 
@@ -98,7 +99,7 @@ Comprehensive character bio covering psychology, voice systems, relationship dyn
 
 <div class="related-grid">
 
-<a href="/digital-garden/samsaras-edge" class="related-card">
+<a href="/projects/samsaras-edge" class="related-card">
   <div class="related-card-icon">S</div>
   <div class="related-card-content">
     <h3 class="related-card-title">SamSara's Edge</h3>
@@ -106,7 +107,7 @@ Comprehensive character bio covering psychology, voice systems, relationship dyn
   </div>
 </a>
 
-<a href="/digital-garden/grim-rock" class="related-card">
+<a href="/projects/grim-rock" class="related-card">
   <div class="related-card-icon">G</div>
   <div class="related-card-content">
     <h3 class="related-card-title">Grim Rock</h3>
@@ -114,7 +115,7 @@ Comprehensive character bio covering psychology, voice systems, relationship dyn
   </div>
 </a>
 
-<a href="/digital-garden/the-otter-side" class="related-card">
+<a href="/projects/the-otter-side" class="related-card">
   <div class="related-card-icon">T</div>
   <div class="related-card-content">
     <h3 class="related-card-title">The Otter Side</h3>

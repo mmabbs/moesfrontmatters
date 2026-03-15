@@ -2,10 +2,12 @@
 title: Film & TV
 description: Film producer and screenwriter portfolio. Short film credits, screenwriting samples, and production notes across comedy, drama, and horror.
 tags: 
-modified-date: Tuesday, January 6th 2026, 10:19:25 am
+modified-date: Sunday, March 15th 2026, 4:19:42 pm
 created-date: Monday, January 5th 2026, 10:01:55 pm
-draft: 
+draft: true
 ---
+
+# Film & TV
 
 A selection of work I've produced. In addition to other roles across the development/production value chain, I've worked as a consultant for production companies, grants bodies, financiers and equity investors in Canada, US, and the Arabian Gulf.
 

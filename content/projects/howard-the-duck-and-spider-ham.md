@@ -2,10 +2,11 @@
 title: Howard the Duck and Spider-Ham
 description: Spec barksheet for a Howard the Duck × Spider-Ham Insomniac game crossover. Partner dynamics, escalation patterns, and fourth-wall breaks.
 tags: [writing, game-writing, video-games]
-modified-date: Sunday, March 15th 2026, 3:32:46 pm
+modified-date: Sunday, March 15th 2026, 4:19:27 pm
 created-date: Monday, March 9th 2026, 12:09:59 am
 draft:
 ---
+# Howard the Duck & Spider-Ham
 
 <span class="status-badge">Spec Only</span>
 
@@ -32,7 +33,7 @@ draft:
 
 <div class="related-grid">
 
-<a href="/digital-garden/ollie-oxenfree" class="related-card">
+<a href="/projects/ollie-oxenfree" class="related-card">
   <div class="related-card-icon">O</div>
   <div class="related-card-content">
     <h3 class="related-card-title">Ollie Oxenfree</h3>
@@ -40,7 +41,7 @@ draft:
   </div>
 </a>
 
-<a href="/digital-garden/samsaras-edge" class="related-card">
+<a href="/projects/samsaras-edge" class="related-card">
   <div class="related-card-icon">S</div>
   <div class="related-card-content">
     <h3 class="related-card-title">SamSara's Edge</h3>
@@ -48,7 +49,7 @@ draft:
   </div>
 </a>
 
-<a href="/digital-garden/grim-rock" class="related-card">
+<a href="/projects/grim-rock" class="related-card">
   <div class="related-card-icon">G</div>
   <div class="related-card-content">
     <h3 class="related-card-title">Grim Rock</h3>
@@ -56,7 +57,7 @@ draft:
   </div>
 </a>
 
-<a href="/digital-garden/the-otter-side" class="related-card">
+<a href="/projects/the-otter-side" class="related-card">
   <div class="related-card-icon">T</div>
   <div class="related-card-content">
     <h3 class="related-card-title">The Otter Side</h3>

@@ -2,10 +2,12 @@
 title: Marketing
 description: Content strategist and marketer portfolio. Campaign planning, brand voice, and UX case studies for indie games, startups, and interactive media.
 tags: 
-modified-date: Sunday, March 15th 2026, 3:33:15 pm
+modified-date: Sunday, March 15th 2026, 4:45:39 pm
 created-date: Monday, January 5th 2026, 10:01:41 pm
-draft: 
+draft: true
 ---
+
+# Content Strategy & Marketing
 
 <div class="callout-prominent">
   <p>

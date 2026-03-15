@@ -435,8 +435,7 @@ p {
   display: none;
 }
 
-// Hide on index page
-[data-slug="index"] .article-title {
+.article-title {
   display: none;
 }
 
@@ -955,6 +954,12 @@ a.tag-link {
 // ===================
 // CONTACT
 // ===================
+
+.contact {
+  font-family: $font-mono;
+  font-style: italic;
+  color: var(--accent);
+}
 
 // ===================
 // BLOCKQUOTES

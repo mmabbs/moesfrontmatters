@@ -2,10 +2,12 @@
 title: SamSara's Edge
 description: Spec game writing for a roguelite deckbuilder where a couple must clear dungeons made of their relationship baggage to save their marriage.
 tags: [writing, game-writing, video-games]
-modified-date: Sunday, March 15th 2026, 3:32:08 pm
+modified-date: Sunday, March 15th 2026, 4:18:00 pm
 created-date: Friday, September 19th 2025, 5:46:58 am
 draft:
 ---
+
+# SamSara's Edge
 
 %% <div class="project-hero-banner">
       <img src=".site-assets/samsara-tree.jpg" alt="Harriet poster">
@@ -87,7 +89,7 @@ A trial scene where a dysfunctional couple attempts to emotionally manipulate a 
 
 <div class="related-grid">
 
-<a href="/digital-garden/ollie-oxenfree" class="related-card">
+<a href="/projects/ollie-oxenfree" class="related-card">
   <div class="related-card-icon">O</div>
   <div class="related-card-content">
     <h3 class="related-card-title">Ollie Oxenfree</h3>
@@ -95,7 +97,7 @@ A trial scene where a dysfunctional couple attempts to emotionally manipulate a 
   </div>
 </a>
 
-<a href="/digital-garden/grim-rock" class="related-card">
+<a href="/projects/grim-rock" class="related-card">
   <div class="related-card-icon">G</div>
   <div class="related-card-content">
     <h3 class="related-card-title">Grim Rock</h3>
@@ -103,7 +105,7 @@ A trial scene where a dysfunctional couple attempts to emotionally manipulate a 
   </div>
 </a>
 
-<a href="/digital-garden/the-otter-side" class="related-card">
+<a href="/projects/the-otter-side" class="related-card">
   <div class="related-card-icon">T</div>
   <div class="related-card-content">
     <h3 class="related-card-title">The Otter Side</h3>

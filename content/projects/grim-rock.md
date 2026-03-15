@@ -2,10 +2,12 @@
 title: Grim Rock
 description: Spec writing for a dark fantasy RPG and film. 1969, WWII drags on against Nazi werewolves, and a nurse flees the Sandman's 'cures'
 tags: [writing, game-writing, film-tv, video-games]
-modified-date: Monday, March 9th 2026, 6:23:27 pm
+modified-date: Sunday, March 15th 2026, 4:17:10 pm
 created-date: Friday, September 19th 2025, 5:46:53 am
 draft:
 ---
+
+# Grim Rock
 
 <span class="status-badge">Spec Only</span>
 
@@ -17,7 +19,7 @@ draft:
             <path d="M6 2v7M3 6l3 3 3-3M2 10h8"/>
           </svg></span>
     </a>
-    <a href="/digital-garden/grim-rock" class="artifact-title-link">
+    <a href="/projects/grim-rock" class="artifact-title-link">
       <span class="project-link">Grim Rock <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9L9 3M9 3H5M9 3v4"/></svg></span>
     </a>
     <span class="artifact-info"><span class="format">Scene</span> | Fantasy, Action-Adventure, Historical Revisionism | 3 pages</span>
@@ -34,7 +36,7 @@ draft:
 
 <div class="related-grid">
 
-<a href="/digital-garden/ollie-oxenfree" class="related-card">
+<a href="/projects/ollie-oxenfree" class="related-card">
   <div class="related-card-icon">O</div>
   <div class="related-card-content">
     <h3 class="related-card-title">Ollie Oxenfree</h3>
@@ -42,7 +44,7 @@ draft:
   </div>
 </a>
 
-<a href="/digital-garden/samsaras-edge" class="related-card">
+<a href="/projects/samsaras-edge" class="related-card">
   <div class="related-card-icon">S</div>
   <div class="related-card-content">
     <h3 class="related-card-title">SamSara's Edge</h3>
@@ -50,7 +52,7 @@ draft:
   </div>
 </a>
 
-<a href="/digital-garden/the-otter-side" class="related-card">
+<a href="/projects/the-otter-side" class="related-card">
   <div class="related-card-icon">T</div>
   <div class="related-card-content">
     <h3 class="related-card-title">The Otter Side</h3>
