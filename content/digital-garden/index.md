@@ -3,8 +3,8 @@ title: Digital Garden
 aliases: digital-garden
 description: Notes, reflections, and works-in-progress. Learning in public.
 tags: 
-modified-date: Monday, March 9th 2026, 12:40:25 am
-created-date: Monday, January 5th 2026, 10:02:28 pm
+modified: 2026-03-15T18:11:31
+created: 2026-03-14T12:52:13
 draft: 
 permalink: /digital-garden/
 ---

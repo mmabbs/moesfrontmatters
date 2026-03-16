@@ -2,8 +2,8 @@
 title: Harriet
 description: Producer notes for Harriet (2023). A childhood game of Marco Polo turned deadly. Decades later, her cousins come back to haunt her.
 tags: [producing, film-tv]
-modified-date: Sunday, March 15th 2026, 4:18:22 pm
-created-date: Friday, November 14th 2025, 12:21:25 am
+modified: 2026-03-15T18:12:20
+created: 2026-03-14T12:52:13
 draft: true
 ---
 

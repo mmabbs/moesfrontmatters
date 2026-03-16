@@ -1,14 +1,13 @@
 ---
-title:
+title: What Are Wikilinks?
 description: Internal navigation page demonstrating wikilink connections across the garden. 
-tags:
-  - wikilinks
-modified-date: Sunday, March 15th 2026, 3:32:21 pm
-created-date: Tuesday, September 9th 2025, 7:44:53 pm
-draft: true
+tags: wikilinks
+modified: 2026-03-15T18:40:41
+created: 2026-03-14T12:52:13
+draft: 
 ---
 
 AKA "internal links", which connect notes to create a network of associated ideas. 
 
-Where you start and end up doesn't matter [[Digital Garden/index|...unless you end up where you started.]]
+Where you start and end up doesn't matter [[test-post]]
 

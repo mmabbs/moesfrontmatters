@@ -2,8 +2,8 @@
 title: The Otter Side
 description:
 tags: [marketing, content-strategy, video-games, mobile-games]
-modified-date: Sunday, March 15th 2026, 4:17:34 pm
-created-date: Friday, September 19th 2025, 6:07:13 am
+modified: 2026-03-15T18:13:20
+created: 2026-03-14T12:52:13
 draft: true
 ---
 

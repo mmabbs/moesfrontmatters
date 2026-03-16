@@ -1,13 +1,14 @@
 ---
-title: Moe's Frontmatters
+title: Home
 description: Game writer, film producer, content strategist and marketer. Narrative design, screenwriting, and marketing case studies across games and film.
 tags: 
-modified-date: Sunday, March 15th 2026, 4:53:57 pm
-created-date: Monday, January 5th 2026, 10:11:45 pm
+modified: 2026-03-15T21:59:54
+created: 2026-03-15T17:55:05
 draft: 
 permalink: 
-cssclasses: no-title
+
 ---
+
 	
 <p class="hero-eyebrow">Portfolio & Digital Garden</p>
 
@@ -22,11 +23,10 @@ I write, I produce, I market — and what makes that work is treating them as on
 
 I've written narrative, dialogue, and world documentation for games, produced films, and built strategy for indie games and early-stage startups — content, product, and go-to-market. I also spent over a decade evaluating projects for a film fund, reading scripts, scrutinizing budgets, and assessing market viability. I'm built for teams that need someone who gets the whole picture.
 
-[Learn more about me](about-me). 
+[Learn more about me](about-me.md). 
 
-You can reach me at <span class="contact">moe[at]moesfrontmatters.com</span>
+You can reach me at <span class="contact">moe[at]moesfrontmatters.com</span>.
 
-    
 <div class="hero-tags">
   <a href="/tags/writing" class="tag">#writing</a>
   <a href="/tags/producing" class="tag">#producing</a>
@@ -92,6 +92,7 @@ You can reach me at <span class="contact">moe[at]moesfrontmatters.com</span>
   <div class="artifact-accolade">
     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trophy-icon lucide-trophy"><path d="M10 14.66v1.626a2 2 0 0 1-.976 1.696A5 5 0 0 0 7 21.978"/><path d="M14 14.66v1.626a2 2 0 0 0 .976 1.696A5 5 0 0 1 17 21.978"/><path d="M18 9h1.5a1 1 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M6 9a6 6 0 0 0 12 0V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1z"/><path d="M6 9H4.5a1 1 0 0 1 0-5H6"/></svg> Runner-Up (top 10 of 50) in ELVTR's Game Writing Competition
   </div>
+  
 </div>
 
 <div class="artifact-card">
@@ -184,7 +185,6 @@ You can reach me at <span class="contact">moe[at]moesfrontmatters.com</span>
 </div>
 
 <div class="artifacts-grid">
-
 <div class="artifact-card">
   <div class="artifact-meta">
     <a href="gr-bestiary-monopetrid.pdf" class="artifact-title-link">
@@ -228,7 +228,7 @@ You can reach me at <span class="contact">moe[at]moesfrontmatters.com</span>
 
 <div class="callout-prominent">
   <p>
-    Due to NDAs, case studies emphasize methodology and strategic approach rather than final deliverables. For other queries, 
+    Due to NDAs, case studies emphasize methodology and strategic approach rather than final deliverables. If you'd like to discuss a project in detail, reach out at <em>moe[at]moesfrontmatters.com</em>
   </p>
 </div>
 
@@ -363,3 +363,5 @@ A selection of work I've produced. In addition to other roles across the develop
 <p>
 This part of the site documents my experience with completed projects and works-in-progress through case studies, post-mortems, reflections, and observations. It's also an ongoing process of learning in public, a way to show how I think and connect ideas across different domains.
 </p>
+
+<div id="garden-carousel"></div>

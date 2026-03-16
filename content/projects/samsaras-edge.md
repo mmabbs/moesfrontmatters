@@ -2,16 +2,12 @@
 title: SamSara's Edge
 description: Spec game writing for a roguelite deckbuilder where a couple must clear dungeons made of their relationship baggage to save their marriage.
 tags: [writing, game-writing, video-games]
-modified-date: Sunday, March 15th 2026, 4:18:00 pm
-created-date: Friday, September 19th 2025, 5:46:58 am
+modified: 2026-03-15T21:48:30
+created: 2026-03-15T16:59:34
 draft:
 ---
 
 # SamSara's Edge
-
-%% <div class="project-hero-banner">
-      <img src=".site-assets/samsara-tree.jpg" alt="Harriet poster">
-</div> %%
 
 <span class="status-badge">Spec Only</span>
 
@@ -20,8 +16,8 @@ draft:
 
   </div>
   <div class="meta-item">
-    <span class="meta-label">Platform</span>
-    <span class="meta-value">PC / Console</span>
+    <span class="meta-label">Format</span>
+    <span class="meta-value">Game</span>
   </div>
   <div class="meta-item">
     <span class="meta-label">Genre</span>
@@ -43,11 +39,7 @@ draft:
   </p>
 </div>
 
-
-
-## Writing Samples
 ---
-
 
   <div class="artifact-meta">
     <span class="artifact-type">Artifact <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5">
