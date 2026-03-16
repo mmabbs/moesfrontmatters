@@ -136,6 +136,10 @@ $radius-md: 8px;
     color: var(--darkgray);
   }
 
+  .accent-text {
+    color: var(--accent);
+  }
+
   // Theme-specific: Film cards (different shadow values)
   .film-card {
     box-shadow:
@@ -398,15 +402,15 @@ h2 {
 
 h3 {
   font-family: $font-display;
-  font-size: var(--text-lg);
+  font-size: var(--text-xl);
   font-weight: 500;
   margin-top: 1.5rem;
   margin-bottom: 0.5rem;
 }
 
 h4 {
-  font-size: var(--text-base);
-  font-weight: 600;
+  font-size: var(--text-lg);
+  font-weight: 500;
   margin-top: 1.25rem;
   margin-bottom: 0.5rem;
 }
@@ -423,7 +427,7 @@ p {
   margin-bottom: 1rem;
   font-size: var(--text-base);
   line-height: 1.65;
-  max-width: 65ch;
+  // max-width: 65ch;
 }
 
 // ===================
@@ -771,6 +775,38 @@ a.tag-link {
     height: 10px;
     transform: translateY(1px);
   }
+}
+
+.section-link {
+  font-family: $font-mono;
+  font-size: var(--text-base);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 4px 10px;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: all var(--transition-fast);
+  color: var(--link);
+  border: 1px solid var(--link);
+
+  &:hover {
+    background: var(--link);
+    color: var(--bg-deep);
+  }
+
+  svg {
+    width: 15px;
+    height: 15px;
+    transform: translateY(3px);
+    transform: translateX(-3px);
+  }
+}
+
+svg {
+  width: 15px;
+  height: 15px;
+  transform: translateY(3px);
+  transform: translateX(-3px);
 }
 
 .artifact-info {
@@ -1403,7 +1439,7 @@ button.toc-header h3 {
   background: var(--bg-surface);
   border-radius: $radius-md;
   border-left: 3px solid var(--accent);
-  margin-bottom: 2.5rem;
+  margin-bottom: 2rem;
 
   &::before {
     content: "Logline";

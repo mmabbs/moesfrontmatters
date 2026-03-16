@@ -2,7 +2,7 @@
 title: Home
 description: Game writer, film producer, content strategist and marketer. Narrative design, screenwriting, and marketing case studies across games and film.
 tags: 
-modified: 2026-03-15T21:59:54
+modified: 2026-03-16T00:22:06
 created: 2026-03-15T17:55:05
 draft: 
 permalink: 
@@ -134,7 +134,7 @@ You can reach me at <span class="contact">moe[at]moesfrontmatters.com</span>.
     </a>
     <span class="artifact-info"><span class="format">Barksheet</span> · Sci-Fi, Fantasy · 1 spreadsheet</span>
   </div>
-  <h3 class="artifact-title">Ollie Liviere</h3>
+  <h3 class="artifact-title">Ollie Liviere - Barks</h3>
   <p class="artifact-description">
 	Barks with VO direction, triggers, and firing conditions in combat, stealth, puzzle-solving, and AFK moments.
   </p>
@@ -152,7 +152,7 @@ You can reach me at <span class="contact">moe[at]moesfrontmatters.com</span>.
     </a>
     <span class="artifact-info"><span class="format">Biography</span> · Sci-Fi, Fantasy · 1 spreadsheet</span>
   </div>
-  <h3 class="artifact-title">Ollie Liviere</h3>
+  <h3 class="artifact-title">Ollie Liviere - Bio</h3>
   <p class="artifact-description">
     Comprehensive character bio covering psychology, voice systems, relationship dynamics, moral framework, and formative backstory. 
   </p>
@@ -171,7 +171,7 @@ You can reach me at <span class="contact">moe[at]moesfrontmatters.com</span>.
     <span class="artifact-info">
     <span class="artifact-info"><span class="format">Barksheet</span> · Action-Adventure · 1 spreadsheet</span>
   </div>
-  <h3 class="artifact-title">Howard the Duck</h3>
+  <h3 class="artifact-title">Howard the Duck - Barks</h3>
   <p class="artifact-description">
     Barks with partner dynamics, escalation patterns, meta-commentary, and conditional firing logic in combat, stealth, exploration, and traversal.
   </p>
@@ -197,7 +197,7 @@ You can reach me at <span class="contact">moe[at]moesfrontmatters.com</span>.
     </a>
     <span class="artifact-info"><span class="format">Bestiary</span> · Dark Fantasy, Action-Adventure, RPG  · 1 page</span>
   </div>
-  <h3 class="artifact-title">Motopetrids</h3>
+  <h3 class="artifact-title">Motopetrids - Bestiary Entry</h3>
   <p class="artifact-description">
     The scourge of WWII British pilots reimagined as a "Class B" biological parasite in a 60s FBI profile. An environmental hazard with high-risk-high-reward social mechanics.
   </p>
@@ -357,11 +357,17 @@ A selection of work I've produced. In addition to other roles across the develop
 </div>
 
 <div class="section-divider" id="digital-garden">
-  <span class="label">Digital Garden</span>
+  <a href="/digital-garden"><span class="section-link">Digital Garden <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9L9 3M9 3H5M9 3v4"/></svg></span></a>
+</div>
+
+<div>
+<svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9L9 3M9 3H5M9 3v4"/></svg>
 </div>
 
 <p>
-This part of the site documents my experience with completed projects and works-in-progress through case studies, post-mortems, reflections, and observations. It's also an ongoing process of learning in public, a way to show how I think and connect ideas across different domains.
+This part of the site documents my experience with completed projects and works-in-progress through case studies, post-mortems, reflections, and observations. It also includes random musings on the subjects that interest me, showing how I think and how my domain knowledge cross-pollinate. <span class="accent-text">Needless to say, these notes do not include early-stage ideas on original IP.</span>
 </p>
-
+<p></p>
+</div>
+<h4> Recent Notes </h4>
 <div id="garden-carousel"></div>

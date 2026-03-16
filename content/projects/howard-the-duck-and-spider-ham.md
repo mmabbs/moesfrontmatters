@@ -2,7 +2,7 @@
 title: Howard the Duck and Spider-Ham
 description: Spec barksheet for a Howard the Duck × Spider-Ham Insomniac game crossover. Partner dynamics, escalation patterns, and fourth-wall breaks.
 tags: [writing, game-writing, video-games]
-modified: 2026-03-15T18:12:23
+modified: 2026-03-15T23:40:54
 created: 2026-03-15T16:59:33
 draft:
 ---
@@ -11,7 +11,27 @@ draft:
 
 <span class="status-badge">Spec Only</span>
 
-<div class="artifact-card">
+<div class="project-meta-strip">
+  <div class="meta-item">
+    <span class="meta-label">Format</span>
+    <p> Game </p>
+  </div>
+  <div class="meta-item">
+    <span class="meta-label">Genre</span>
+      <p>Sci-Fi, Fantasy, Action-Adventure</p>
+  </div>
+  <div class="meta-item">
+    <span class="meta-label">Comparables</span>
+    <p><em>Spider-Man (Insomniac)</em></p>
+  </div>
+</div>
+
+<div class="project-logline">
+  <p class="logline-text">
+  A portable hole swallows the Pet Avengers and a post-it frames Howard the Duck and Spider-Ham. To clear their names and rescue the pets, they must sleuth and skirmish across realities. Problem is, Spider-Ham sees a buddy-cop adventure, and Howard just sees hell...
+  </p>
+</div>
+
   <div class="artifact-meta">
     <a href="howard-barksheet.pdf" class="artifact-title-link">
       <span class="artifact-type">Artifact <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5">
@@ -19,7 +39,7 @@ draft:
           </svg></span>
     </a>
     <span class="artifact-info">
-    <span class="artifact-info"><span class="format">Barksheet</span> · Action-Adventure · 1 spreadsheet</span>
+    <span class="artifact-info"><span class="format">Barksheet</span> | 1 spreadsheet</span>
   </div>
   <h3 class="artifact-title">Howard the Duck</h3>
   <p class="artifact-description">
@@ -28,7 +48,6 @@ draft:
 </div>
 
 ---
-
 
 ## See also...
 
