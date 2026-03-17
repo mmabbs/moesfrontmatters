@@ -319,12 +319,34 @@ input[type="checkbox"]:checked {
 
 // Callouts
 .callout {
+  color: var(--darkgray);
   background-color: var(--bg-elevated);
   border: 1px solid var(--bg-hover);
+  border-radius: $radius-sm;
+  font-style: normal;
+}
+
+.callout-title > .callout-title-inner {
+  font-family: $font-body;
+  font-weight: 400;
+}
+
+.callout-title .callout-icon {
+  background-color: var(--accent);
+}
+
+.callout-title .fold-callout-icon {
+  background-color: var(--link);
 }
 
 .callout-title > .callout-title-inner > p {
   color: var(--darkgray);
+  font-family: $font-body;
+}
+
+.callout-content > p {
+  font-family: $font-body;
+  font-style: normal;
 }
 
 // Artifact accolade
@@ -339,13 +361,6 @@ input[type="checkbox"]:checked {
   svg {
     flex-shrink: 0;
   }
-}
-
-// Callout prominent
-.callout-prominent {
-  background: var(--accent-glow);
-  border-left: 3px solid var(--accent);
-  color: var(--accent);
 }
 
 // Noise texture opacity
@@ -562,6 +577,15 @@ a.tag-link {
   padding: 6px 12px;
   border-radius: $radius-sm;
   transition: all var(--transition-fast);
+}
+
+// Folder listing tags — horizontal layout
+ul.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  list-style: none;
+  padding-left: 0;
 }
 
 // ===================
@@ -797,7 +821,7 @@ a.tag-link {
   svg {
     width: 15px;
     height: 15px;
-    transform: translateY(3px);
+    transform: translateY(5px);
     transform: translateX(-3px);
   }
 }
@@ -850,9 +874,9 @@ svg {
 // BREADCRUMBS
 // ===================
 
-// .breadcrumb-element a {
-//   font-weight: 500;
-// }
+.breadcrumb-element a {
+  font-weight: 400;
+}
 
 // ===================
 // BACKLINKS
@@ -861,35 +885,6 @@ svg {
 // ul#list-1.overflow li a {
 //   font-weight: 500;
 // }
-
-// ===================
-// CALLOUT PROMINENT
-// ===================
-
-.callout-prominent {
-  padding: 1.5rem;
-  margin: 3rem 0;
-  background: var(--accent-glow);
-  border-left: 3px solid var(--accent);
-
-  p {
-    margin: 0;
-    font-size: var(--text-base);
-    line-height: 1.7;
-    color: var(--accent);
-    max-width: none;
-  }
-
-  a {
-    color: var(--link);
-    text-decoration: underline;
-    text-underline-offset: 2px;
-
-    &:hover {
-      color: var(--link-hover);
-    }
-  }
-}
 
 // ===================
 // FILM GRID
@@ -1008,23 +1003,6 @@ blockquote {
   border-radius: 0 $radius-sm $radius-sm 0;
   padding: 1rem 1.25rem;
   margin: 1.5rem 0;
-}
-
-// ===================
-// CALLOUTS
-// ===================
-
-.callout {
-  color: var(--darkgray);
-  border-radius: $radius-sm;
-}
-
-.callout-title {
-  padding: 0.75rem 0;
-  font-family: $font-mono;
-  font-size: var(--text-xs);
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
 }
 
 // ===================
@@ -1163,7 +1141,16 @@ hr {
   }
 }
 
-// Table of Contents
+// Table of Contents — show only on digital-garden notes
+.toc {
+  display: none;
+}
+
+body[data-slug^="digital-garden/"] .toc,
+body[data-slug^="Digital-Garden/"] .toc {
+  display: block;
+}
+
 button.toc-header h3 {
   font-family: $font-mono;
   font-size: var(--text-xs);
@@ -1787,6 +1774,7 @@ button.toc-header h3 {
   font-size: var(--text-base);
   font-weight: 500;
   color: var(--dark);
+  margin-top: 0;
   margin-bottom: 0.25rem;
 }
 

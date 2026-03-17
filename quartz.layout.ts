@@ -114,6 +114,7 @@ export const defaultListPageLayout: PageLayout = {
       ],
     }),
     Component.Explorer({
+      folderClickBehavior: "collapse",
       sortFn: customExplorerSort,
     }),
   ],

@@ -2,7 +2,7 @@
 title: Home
 description: Game writer, film producer, content strategist and marketer. Narrative design, screenwriting, and marketing case studies across games and film.
 tags: 
-modified: 2026-03-16T00:22:06
+modified: 2026-03-16T01:08:37
 created: 2026-03-15T17:55:05
 draft: 
 permalink: 
@@ -81,7 +81,7 @@ You can reach me at <span class="contact">moe[at]moesfrontmatters.com</span>.
           </svg></span>
     </a>
     <a href="/projects/ollie-oxenfree" class="artifact-title-link">
-      <span class="project-link">Ollie Oxenfree <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9L9 3M9 3H5M9 3v4"/></svg></span>
+      <span class="project-link">Ollie Oxenfree <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9L9 3M9 3H5M9 3v4"/></svg></span>
     </a>
     <span class="artifact-info"><span class="format">Cinematic</span> | Fantasy, Action-Adventure, RPG | 3 pages</span>
   </div>
@@ -103,7 +103,7 @@ You can reach me at <span class="contact">moe[at]moesfrontmatters.com</span>.
           </svg></span>
     </a>
     <a href="/projects/samsaras-edge" class="artifact-title-link">
-      <span class="project-link">SamSara's Edge <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9L9 3M9 3H5M9 3v4"/></svg></span>
+      <span class="project-link">SamSara's Edge <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9L9 3M9 3H5M9 3v4"/></svg></span>
     </a>
     <span class="artifact-info"><span class="format">Cinematic</span> · Sci-Fi, Dark Comedy, Action-Adventure · 3 pages</span>
   </div>
@@ -130,7 +130,7 @@ You can reach me at <span class="contact">moe[at]moesfrontmatters.com</span>.
           </svg></span>
     </a>
     <a href="/projects/ollie-oxenfree" class="artifact-title-link">
-      <span class="project-link">Ollie Oxenfree <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9L9 3M9 3H5M9 3v4"/></svg></span>
+      <span class="project-link">Ollie Oxenfree <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9L9 3M9 3H5M9 3v4"/></svg></span>
     </a>
     <span class="artifact-info"><span class="format">Barksheet</span> · Sci-Fi, Fantasy · 1 spreadsheet</span>
   </div>
@@ -148,7 +148,7 @@ You can reach me at <span class="contact">moe[at]moesfrontmatters.com</span>.
           </svg></span>
     </a>
     <a href="/projects/ollie-oxenfree" class="artifact-title-link">
-      <span class="project-link">Ollie Oxenfree <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9L9 3M9 3H5M9 3v4"/></svg></span>
+      <span class="project-link">Ollie Oxenfree <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9L9 3M9 3H5M9 3v4"/></svg></span>
     </a>
     <span class="artifact-info"><span class="format">Biography</span> · Sci-Fi, Fantasy · 1 spreadsheet</span>
   </div>
@@ -166,7 +166,7 @@ You can reach me at <span class="contact">moe[at]moesfrontmatters.com</span>.
           </svg></span>
     </a>
     <a href="/projects/howard-the-duck-and-spider-ham" class="artifact-title-link">
-      <span class="project-link">Howard the Duck & Spider-Ham <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9L9 3M9 3H5M9 3v4"/></svg></span>
+      <span class="project-link">Howard the Duck & Spider-Ham <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9L9 3M9 3H5M9 3v4"/></svg></span>
     </a>
     <span class="artifact-info">
     <span class="artifact-info"><span class="format">Barksheet</span> · Action-Adventure · 1 spreadsheet</span>
@@ -193,7 +193,7 @@ You can reach me at <span class="contact">moe[at]moesfrontmatters.com</span>.
           </svg></span>
     </a>
     <a href="/projects/grim-rock" class="artifact-title-link">
-      <span class="project-link">Grim Rock <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9L9 3M9 3H5M9 3v4"/></svg></span>
+      <span class="project-link">Grim Rock <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9L9 3M9 3H5M9 3v4"/></svg></span>
     </a>
     <span class="artifact-info"><span class="format">Bestiary</span> · Dark Fantasy, Action-Adventure, RPG  · 1 page</span>
   </div>
@@ -211,7 +211,7 @@ You can reach me at <span class="contact">moe[at]moesfrontmatters.com</span>.
           </svg></span>
     </a>
     <a href="/projects/grim-rock" class="artifact-title-link">
-      <span class="project-link">Grim Rock <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9L9 3M9 3H5M9 3v4"/></svg></span>
+      <span class="project-link">Grim Rock <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9L9 3M9 3H5M9 3v4"/></svg></span>
     </a>
     <span class="artifact-info"><span class="format">Flavor Text</span> · Dark Fantasy, Action-Adventure, RPG · 1 page</span>
   </div>
@@ -237,7 +237,7 @@ You can reach me at <span class="contact">moe[at]moesfrontmatters.com</span>.
 <div class="artifact-card">
   <div class="artifact-meta">
     <a href="/projects/the-otter-side" class="artifact-title-link">
-      <span class="project-link">The Otter Side <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9L9 3M9 3H5M9 3v4"/></svg></span>
+      <span class="project-link">The Otter Side <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9L9 3M9 3H5M9 3v4"/></svg></span>
     </a>
     <span class="artifact-info"><span class="format">Content Strategy & Marketing </span> · Mobile Game · Cozy Runner </span>
   </div>
@@ -250,7 +250,7 @@ You can reach me at <span class="contact">moe[at]moesfrontmatters.com</span>.
 <div class="artifact-card">
   <div class="artifact-meta">
     <a href="/projects/fitin" class="artifact-title-link">
-      <span class="project-link">FitIn.io <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9L9 3M9 3H5M9 3v4"/></svg></span>
+      <span class="project-link">FitIn.io <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9L9 3M9 3H5M9 3v4"/></svg></span>
     </a>
     <span class="artifact-info"><span class="format">UX Design & Strategy</span> · Social Enterprise · Wellness SaaS</span>
   </div>
@@ -266,7 +266,13 @@ You can reach me at <span class="contact">moe[at]moesfrontmatters.com</span>.
   <span class="label">Film & TV</span>
 </div>
 
-<p> A selection of scenes from feature screenplays and pilots</p>
+{ADD LEAD-IN FOR SCRIPTS AND PRODUCTIONS} In addition to other roles across the development/production value chain, I've worked as a consultant for production companies, grants bodies, financiers and equity investors in Canada, US, and the Arabian Gulf.
+
+> [!question]- Looking for coverage samples?
+> Contents
+
+
+<h4 class="film-tv-artifact-heading">Scenes</h4>
 
 <div class="artifacts-grid">
 <div class="artifact-card">
@@ -277,7 +283,7 @@ You can reach me at <span class="contact">moe[at]moesfrontmatters.com</span>.
           </svg></span>
     </a>
     <a href="/projects/grim-rock" class="artifact-title-link">
-      <span class="project-link">Grim Rock <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9L9 3M9 3H5M9 3v4"/></svg></span>
+      <span class="project-link">Grim Rock <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9L9 3M9 3H5M9 3v4"/></svg></span>
     </a>
     <span class="artifact-info"><span class="format">Scene</span> | Fantasy, Action-Adventure, Historical Revisionism | 3 pages</span>
   </div>
@@ -289,7 +295,7 @@ You can reach me at <span class="contact">moe[at]moesfrontmatters.com</span>.
 </div>
 
 <p>
-A selection of work I've produced. In addition to other roles across the development/production value chain, I've worked as a consultant for production companies, grants bodies, financiers and equity investors in Canada, US, and the Arabian Gulf.
+A selection of work I've produced XXX.
 </p>
 
 <div class="film-grid">
@@ -357,17 +363,12 @@ A selection of work I've produced. In addition to other roles across the develop
 </div>
 
 <div class="section-divider" id="digital-garden">
-  <a href="/digital-garden"><span class="section-link">Digital Garden <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9L9 3M9 3H5M9 3v4"/></svg></span></a>
-</div>
-
-<div>
-<svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9L9 3M9 3H5M9 3v4"/></svg>
+  <a href="/digital-garden"><span class="section-link">Digital Garden <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9L9 3M9 3H5M9 3v4"/></svg></span></a>
 </div>
 
 <p>
 This part of the site documents my experience with completed projects and works-in-progress through case studies, post-mortems, reflections, and observations. It also includes random musings on the subjects that interest me, showing how I think and how my domain knowledge cross-pollinate. <span class="accent-text">Needless to say, these notes do not include early-stage ideas on original IP.</span>
 </p>
-<p></p>
 </div>
 <h4> Recent Notes </h4>
 <div id="garden-carousel"></div>

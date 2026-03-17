@@ -2,7 +2,7 @@
 title: Ollie Oxenfree
 description: Spec game writing for a sci-fi fantasy action-RPG about siblings solving a dimensional mystery. Runner-up, ELVTR Game Writing Competition.
 tags: [writing, game-writing, video-games]
-modified: 2026-03-15T21:07:03
+modified: 2026-03-16T03:01:34
 created: 2026-03-15T16:59:35
 draft:
 ---
@@ -34,17 +34,19 @@ draft:
   </div>
 </div>
 
-<div class="project-logline">
-  <p class="logline-text">
-    Siblings Ollie and Finn set out to solve the mystery of how their fellow "Inklings" – "people of the ink" from the storybook dimension — switched places with half of the world's children.
-  </p>
-</div>
+## Frontmatter
 
-**{A BIT ON THE CONTEST}**
+The scene, barksheet and character bio were entries to ELVTR's 2024 Game Writing Contest, with judges XXXX (GAME) and XXXX (GAME)
 
+---
+
+## Logline
+
+Siblings Ollie and Finn set out to solve the mystery of how their fellow "Inklings" – "people of the ink" from the storybook dimension — switched places with half of the world's children.
+
+---
 
 ## Writing Samples
----
 
   <div class="artifact-meta">
     <a href="#" class="artifact-title-link">
@@ -55,6 +57,7 @@ draft:
     <span class="artifact-info"><span class="format">Cinematic</span> · 3 pages</span>
   </div>
   
+
 ### "New Dog, Old Tricks"
 
 A young technician and her robotic dog chase a lead on her missing brother, uncovering something far stranger in an old woman's house.  
@@ -72,7 +75,8 @@ A young technician and her robotic dog chase a lead on her missing brother, unco
     <span class="artifact-info"><span class="format">Bark Sheet</span> · 1 spreadsheet</span>
   </div>
   
-### "Ollie Liviere" (barks)
+
+### Ollie Liviere - Barks
 
 Barks with VO direction, triggers, and firing conditions across stealth, combat, puzzle-solving, and AFK moments.
 
@@ -87,12 +91,12 @@ Barks with VO direction, triggers, and firing conditions across stealth, combat,
     <span class="artifact-info"><span class="format">Biography</span> · 1 page</span>
   </div>
   
-### "Ollie Liviere" (bio)
+
+### Ollie Liviere - Bio
 
 Comprehensive character bio covering psychology, voice systems, relationship dynamics, moral framework, and formative backstory.
 
 ---
-
 
 ## See also...
 
