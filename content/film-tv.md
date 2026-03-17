@@ -2,8 +2,8 @@
 title: Film & TV
 description: Film producer and screenwriter portfolio. Short film credits, screenwriting samples, and production notes across comedy, drama, and horror.
 tags: 
-modified-date: Sunday, March 15th 2026, 4:19:42 pm
-created-date: Monday, January 5th 2026, 10:01:55 pm
+modified: 2026-03-17T14:54:37
+created: 2026-03-15T15:18:58
 draft: true
 ---
 

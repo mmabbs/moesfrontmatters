@@ -2,7 +2,7 @@
 title: Home
 description: Game writer, film producer, content strategist and marketer. Narrative design, screenwriting, and marketing case studies across games and film.
 tags: 
-modified: 2026-03-16T01:08:37
+modified: 2026-03-17T16:36:32
 created: 2026-03-15T17:55:05
 draft: 
 permalink: 
@@ -226,11 +226,7 @@ You can reach me at <span class="contact">moe[at]moesfrontmatters.com</span>.
   <span class="label">Marketing</span>
 </div>
 
-<div class="callout-prominent">
-  <p>
-    Due to NDAs, case studies emphasize methodology and strategic approach rather than final deliverables. If you'd like to discuss a project in detail, reach out at <em>moe[at]moesfrontmatters.com</em>
-  </p>
-</div>
+> [!warning] Due to NDAs, case studies emphasize methodology and strategic approach rather than final deliverables. If you'd like to discuss a project in detail, please reach out at <span class="contact">moe[at]moesfrontmatters.com</span>
 
 <div class="artifacts-grid">
 
@@ -367,8 +363,11 @@ A selection of work I've produced XXX.
 </div>
 
 <p>
-This part of the site documents my experience with completed projects and works-in-progress through case studies, post-mortems, reflections, and observations. It also includes random musings on the subjects that interest me, showing how I think and how my domain knowledge cross-pollinate. <span class="accent-text">Needless to say, these notes do not include early-stage ideas on original IP.</span>
+This part of the site documents my experience with completed projects and works-in-progress through case studies, post-mortems, reflections, and observations. It also includes random musings on the subjects that interest me, showing how I think and how my domain knowledge cross-pollinate.
 </p>
-</div>
+
+> [!shield] Cryptomnesia is real. Rest assured, none of these notes include early-stage original IP ideas.
+
 <h4> Recent Notes </h4>
 <div id="garden-carousel"></div>
+

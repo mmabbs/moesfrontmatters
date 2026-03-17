@@ -2,8 +2,8 @@
 title: Games
 description: Game writing and narrative design portfolio. Cinematics, bark sheets, character bios, and worldbuilding for sci-fi and fantasy action-adventure games.
 tags: 
-modified-date: Sunday, March 15th 2026, 4:45:07 pm
-created-date: Monday, January 5th 2026, 10:01:29 pm
+modified: 2026-03-17T14:54:43
+created: 2026-03-15T15:18:58
 draft: true
 ---
 

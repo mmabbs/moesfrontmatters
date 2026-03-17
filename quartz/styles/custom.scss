@@ -318,6 +318,11 @@ input[type="checkbox"]:checked {
 }
 
 // Callouts
+// .lucide-shield-check {
+//   width: 24px;
+//   height: 24px;
+// }
+
 .callout {
   color: var(--darkgray);
   background-color: var(--bg-elevated);
@@ -333,6 +338,10 @@ input[type="checkbox"]:checked {
 
 .callout-title .callout-icon {
   background-color: var(--accent);
+}
+
+.callout-icon {
+  margin-right: 5px;
 }
 
 .callout-title .fold-callout-icon {
@@ -827,10 +836,10 @@ ul.tags {
 }
 
 svg {
-  width: 15px;
-  height: 15px;
-  transform: translateY(3px);
-  transform: translateX(-3px);
+  // width: 15px;
+  // height: 15px;
+  // transform: translateY(3px);
+  // transform: translateX(-3px);
 }
 
 .artifact-info {

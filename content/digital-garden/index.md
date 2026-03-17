@@ -3,10 +3,9 @@ title: Digital Garden
 aliases: digital-garden
 description: Notes, reflections, and works-in-progress. Learning in public.
 tags: 
-modified: 2026-03-15T18:11:31
+modified: 2026-03-17T14:56:00
 created: 2026-03-14T12:52:13
 draft: 
-permalink: /digital-garden/
 ---
 
 This part of the site documents my experience with completed projects and works-in-progress through case studies, post-mortems, reflections, and observations. It's also an ongoing process of learning in public, a way to show how I think and connect ideas across different domains.
