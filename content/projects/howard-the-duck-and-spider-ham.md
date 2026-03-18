@@ -3,47 +3,39 @@ title: Howard the Duck & Spider-Ham
 seoTitle: Howard the Duck & Spider-Ham | Action Adventure Game Writing Spec
 description: Spec barksheet for a Howard the Duck × Spider-Ham Insomniac game crossover. Partner dynamics, escalation patterns, and fourth-wall breaks.
 tags: [writing, game-writing, video-games]
-modified: 2026-03-18T15:57:42
+modified: 2026-03-18T19:45:15
 created: 2026-03-15T16:59:33
 draft:
 ---
 
 # Howard the Duck & Spider-Ham
 
-<span class="status-badge">Spec Only</span>
-
-<div class="project-meta-strip">
-	<div class="meta-item">
-		<span class="meta-label">Format</span>
-		<p> Game </p>
-	</div>
-	<div class="meta-item">
-		<span class="meta-label">Genre</span>
-			<p>Sci-Fi, Fantasy, Action-Adventure</p>
-	</div>
-	<div class="meta-item">
-		<span class="meta-label">Comparables</span>
-		<p><em>Spider-Man (Insomniac)</em></p>
-	</div>
+<div class="page-meta">
+	<span class="status-badge">Spec Only</span>
+	<span class="artifact-info"><span class="format">Game</span> · Sci-Fi, Fantasy, Action-Adventure · Comparables: <em>Spider-Man (Insomniac)</em></span>
 </div>
 
-<div class="project-logline">
-	<p class="logline-text">
-	A portable hole swallows the Pet Avengers and a post-it frames Howard the Duck and Spider-Ham. To clear their names and rescue the pets, they must sleuth and skirmish across realities. Problem is, Spider-Ham sees a buddy-cop adventure, and Howard just sees hell...
-	</p>
-</div>
+## Frontmatter 
 
-<div class="artifact-meta">
-		<a href="howard-barksheet.pdf" class="artifact-title-link">
-			<span class="artifact-type">Artifact <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 2v7M3 6l3 3 3-3M2 10h8"/></svg></span>
-		</a>
-		<span class="artifact-info">
-		<span class="artifact-info"><span class="format">Barksheet</span> | 1 spreadsheet</span>
+XXXX
+
+## Logline
+
+A portable hole swallows the Pet Avengers and a post-it frames Howard the Duck and Spider-Ham. To clear their names and rescue the pets, they must sleuth and skirmish across realities. Problem is, Spider-Ham sees a buddy-cop adventure, and Howard just sees hell...
+
+## Writing Samples
+
+<div class="artifacts-grid">
+<div class="artifact-card">
+	<div class="artifact-title-row">
+		<h4 class="artifact-title">Howard the Duck - Barks</h4>
+		<a href="gr-scene.pdf" class="download-badge">PDF ↓</a>
+		<span class="artifact-info"><span class="format">Barksheet</span></span>
 	</div>
-	<h3 class="artifact-title">Howard the Duck</h3>
 	<p class="artifact-description">
 		Barks with partner dynamics, escalation patterns, meta-commentary, and conditional firing logic in combat, stealth, exploration, and traversal.
 	</p>
+</div>
 </div>
 
 ## See also...

@@ -3,7 +3,7 @@ title: Home
 seoTitle: Creative Producer, Writer Portfolio | Games, Film, Marketing
 description: Explore my creative producer and writer portfolio across narrative design in games, screenwriting, and marketing. View my latest work in games and marketing.
 tags:
-modified: 2026-03-18T16:34:53
+modified: 2026-03-18T19:53:13
 created: 2026-03-15T17:55:05
 draft:
 ---
@@ -96,7 +96,7 @@ You can reach me at <span class="contact">moe[at]moesfrontmatters.com</span>.
 <div class="artifacts-grid">
 <div class="artifact-card">
 	<div class="artifact-title-row">
-		<h4 class="artifact-title">Ollie Liviere - Barks</h4>
+		<h4 class="artifact-title">Ollie Liviere</h4>
 		<a href="ollie-barksheet.pdf" class="download-badge">PDF ↓</a>
 		<span class="artifact-info"><span class="format">Barksheet</span> · Sci-Fi, Fantasy ·</span>
 		<a href="/projects/ollie-oxenfree" class="project-link">Ollie Oxenfree</a>
@@ -108,7 +108,7 @@ You can reach me at <span class="contact">moe[at]moesfrontmatters.com</span>.
 
 <div class="artifact-card">
 	<div class="artifact-title-row">
-		<h4 class="artifact-title">Ollie Liviere - Bio</h4>
+		<h4 class="artifact-title">Ollie Liviere</h4>
 		<a href="ollie-bio.pdf" class="download-badge">PDF ↓</a>
 		<span class="artifact-info"><span class="format">Biography</span> · Sci-Fi, Fantasy ·</span>
 		<a href="/projects/ollie-oxenfree" class="project-link">Ollie Oxenfree</a>
@@ -120,7 +120,7 @@ You can reach me at <span class="contact">moe[at]moesfrontmatters.com</span>.
 
 <div class="artifact-card">
 	<div class="artifact-title-row">
-		<h4 class="artifact-title">Howard the Duck - Barks</h4>
+		<h4 class="artifact-title">Howard the Duck</h4>
 		<a href="howard-barksheet.pdf" class="download-badge">PDF ↓</a>
 		<span class="artifact-info"><span class="format">Barksheet</span> · Action-Adventure ·</span>
 		<a href="/projects/howard-the-duck-and-spider-ham" class="project-link">Howard the Duck & Spider-Ham</a>
@@ -136,9 +136,9 @@ You can reach me at <span class="contact">moe[at]moesfrontmatters.com</span>.
 <div class="artifacts-grid">
 <div class="artifact-card">
 	<div class="artifact-title-row">
-		<h4 class="artifact-title">Motopetrids - Bestiary Entry</h4>
+		<h4 class="artifact-title">Motopetrids</h4>
 		<a href="gr-bestiary-monopetrid.pdf" class="download-badge">PDF ↓</a>
-		<span class="artifact-info"><span class="format">Bestiary</span> · Dark Fantasy, RPG ·</span>
+		<span class="artifact-info"><span class="format">Bestiary Profile</span> · Dark Fantasy, RPG ·</span>
 		<a href="/projects/grim-rock" class="project-link">Grim Rock</a>
 	</div>
 	<p class="artifact-description">
@@ -150,7 +150,7 @@ You can reach me at <span class="contact">moe[at]moesfrontmatters.com</span>.
 	<div class="artifact-title-row">
 		<h4 class="artifact-title">McCarthy's Letter to Madam President-Elect</h4>
 		<a href="gr-mccarthy-letter.pdf" class="download-badge">PDF ↓</a>
-		<span class="artifact-info"><span class="format">Flavor Text</span> · Dark Fantasy, RPG ·</span>
+		<span class="artifact-info"><span class="format">Flavour Text</span> · Dark Fantasy, RPG ·</span>
 		<a href="/projects/grim-rock" class="project-link">Grim Rock</a>
 	</div>
 	<p class="artifact-description">
@@ -209,7 +209,7 @@ In addition to other roles across the development/production value chain, I've w
 	<div class="artifact-title-row">
 		<h4 class="artifact-title">"The Draw"</h4>
 		<a href="gr-scene.pdf" class="download-badge">PDF ↓</a>
-		<span class="artifact-info"><span class="format">Film Scene</span> · Fantasy, Historical · 3 pages</span>
+		<span class="artifact-info"><span class="format">Film Scene</span> · Fantasy, Historical · 3 pages ·</span>
 		<a href="/projects/grim-rock" class="project-link">Grim Rock</a>
 	</div>
 	<p class="artifact-description">
