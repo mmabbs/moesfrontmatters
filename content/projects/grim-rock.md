@@ -1,8 +1,9 @@
 ---
 title: Grim Rock
+seoTitle: Grim Rock | Action Fantasy RPG Game Writing Spec
 description: Spec writing for a dark fantasy RPG and film. 1969, WWII drags on against Nazi werewolves, and a nurse flees the Sandman's 'cures'
 tags: [writing, game-writing, film-tv, video-games]
-modified: 2026-03-15T21:56:59
+modified: 2026-03-17T20:31:18
 created: 2026-03-15T16:59:34
 draft:
 ---

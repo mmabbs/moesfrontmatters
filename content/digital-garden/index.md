@@ -1,9 +1,10 @@
 ---
 title: Digital Garden
+seoTitle: 
 aliases: digital-garden
 description: Notes, reflections, and works-in-progress. Learning in public.
 tags: 
-modified: 2026-03-17T14:56:00
+modified: 2026-03-17T20:33:11
 created: 2026-03-14T12:52:13
 draft: 
 ---

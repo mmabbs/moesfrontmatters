@@ -1,8 +1,9 @@
 ---
 title: The Otter Side
+seoTitle: The Otter Side | Mobile Game Content Strategy & Marketing
 description:
 tags: [marketing, content-strategy, video-games, mobile-games]
-modified: 2026-03-15T18:13:20
+modified: 2026-03-17T20:30:07
 created: 2026-03-14T12:52:13
 draft: true
 ---
@@ -10,7 +11,6 @@ draft: true
 # The Otter Side
 
 ![banner](tos_brand_img.png)
-
 
 ## Frontmatters
 
@@ -66,7 +66,6 @@ I built a hierarchical messaging system that connects emotional core to context-
 **Supporting Level:** [Proof points and specifics that substantiate secondary messages with concrete gameplay evidence]
 
 This architecture ensures consistency across all touchpoints while allowing flexibility for different channels, audiences, and campaign objectives.
-
 
 ## What I Built
 

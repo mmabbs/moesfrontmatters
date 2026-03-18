@@ -1,8 +1,9 @@
 ---
 title: SamSara's Edge
+seoTitle: SamSara's Edge | Roguelite Comedy Game Writing Spec
 description: Spec game writing for a roguelite deckbuilder where a couple must clear dungeons made of their relationship baggage to save their marriage.
 tags: [writing, game-writing, video-games]
-modified: 2026-03-15T21:48:30
+modified: 2026-03-17T20:28:44
 created: 2026-03-15T16:59:34
 draft:
 ---
@@ -48,6 +49,7 @@ draft:
     <span class="artifact-info"><span class="format">Cinematic Script</span> · 3 pages</span>
   </div>
   
+
 ### "A Visit to the Magistrate"
 
 A trial scene where a dysfunctional couple attempts to emotionally manipulate a sensitive, anthophile AI judge into choosing their partner as the first to enter the dungeon. Features branching dialogue trees and relationship stat impacts.
@@ -61,6 +63,7 @@ A trial scene where a dysfunctional couple attempts to emotionally manipulate a 
     <span class="artifact-info"><span class="format">Playable Onboarding</span> · 4 pages</span>
   </div>
   
+
 ### Coming soon!  
 
 ---
@@ -72,10 +75,10 @@ A trial scene where a dysfunctional couple attempts to emotionally manipulate a 
     <span class="artifact-info"><span class="format">Branching Dialogue</span></span>
   </div>
   
+
 ### Coming soon!  
 
 ---
-
 
 ## See also...
 

@@ -1,8 +1,9 @@
 ---
 title: Ollie Oxenfree
+seoTitle: Ollie Oxenfree | Sci-Fi Action RPG Game Writing Spec
 description: Spec game writing for a sci-fi fantasy action-RPG about siblings solving a dimensional mystery. Runner-up, ELVTR Game Writing Competition.
 tags: [writing, game-writing, video-games]
-modified: 2026-03-16T03:01:34
+modified: 2026-03-17T20:26:20
 created: 2026-03-15T16:59:35
 draft:
 ---

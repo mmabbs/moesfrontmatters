@@ -1,12 +1,12 @@
 ---
 title: Home
+seoTitle: Creative Producer & Writer | Portfolio of Moe
 description: Game writer, film producer, content strategist and marketer. Narrative design, screenwriting, and marketing case studies across games and film.
 tags: 
-modified: 2026-03-17T16:36:32
+modified: 2026-03-17T20:04:35
 created: 2026-03-15T17:55:05
 draft: 
 permalink: 
-
 ---
 
 	
@@ -265,7 +265,7 @@ You can reach me at <span class="contact">moe[at]moesfrontmatters.com</span>.
 {ADD LEAD-IN FOR SCRIPTS AND PRODUCTIONS} In addition to other roles across the development/production value chain, I've worked as a consultant for production companies, grants bodies, financiers and equity investors in Canada, US, and the Arabian Gulf.
 
 > [!question]- Looking for coverage samples?
-> Contents
+> Please reach out at <span class="contact">moe[at]moesfrontmatters.com</span>. Due to NDAs, samples do not include films/shows that have not received distribution. All samples have redacted project titles and personnel.
 
 
 <h4 class="film-tv-artifact-heading">Scenes</h4>

@@ -26,7 +26,11 @@ npx quartz build --serve  # Dev server with hot reload
 ## Frontmatter
 
 Required for published pages:
-- `title` — 60 chars max
+- `title` — Display title (nav, breadcrumbs, page header). 60 chars max
 - `description` — 155 chars max
 - `tags` — Array `[tag1, tag2]`
 - `draft: true` — Excludes from build
+
+Optional overrides (custom, not native Quartz):
+- `seoTitle` — Overrides `title` in `<title>`, `og:title`, `twitter:title`. Nav elements still use `title`
+- `socialDescription` — Overrides `description` in OG/Twitter tags (native Quartz)

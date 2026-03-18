@@ -13,8 +13,9 @@ export default (() => {
     ctx,
   }: QuartzComponentProps) => {
     const titleSuffix = cfg.pageTitleSuffix ?? ""
-    const title =
+    const pageTitle =
       (fileData.frontmatter?.title ?? i18n(cfg.locale).propertyDefaults.title) + titleSuffix
+    const title = (fileData.frontmatter?.seoTitle as string) ?? pageTitle
     const description =
       fileData.frontmatter?.socialDescription ??
       fileData.frontmatter?.description ??
