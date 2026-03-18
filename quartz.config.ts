@@ -44,8 +44,8 @@ const config: QuartzConfig = {
           gray: "#E8E4D9",
           darkgray: "#5C5955",
           dark: "#1A1918",
-          secondary: "#0B8299",  // frost (link)
-          tertiary: "#D4530A",   // ember (accent)
+          secondary: "#6b8699",  // slate (link)
+          tertiary: "#5e7d53",   // lichen (accent)
           highlight: "#EBE8DE",
           textHighlight: "#fff2a8",
         },
@@ -55,8 +55,8 @@ const config: QuartzConfig = {
           gray: "#1E1B18",
           darkgray: "#9C9891",
           dark: "#FAF8F5",
-          secondary: "#7DD3E8",   // frost (link)
-          tertiary: "#FF6B35",    // ember (accent)
+          secondary: "#839aad",   // slate (link)
+          tertiary: "#7a9e6d",    // lichen (accent)
           highlight: "#1E1B18",
           textHighlight: "#b3aa0288",
         },
