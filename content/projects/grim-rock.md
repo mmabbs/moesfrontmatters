@@ -33,7 +33,7 @@ In 1969, as WWII rages against Nazi werewolves, a guilt-ridden nurse and the reb
 		<span class="artifact-info"><span class="format">Film Scene</span> · 3 pages</span>
 	</div>
 	<p class="artifact-description">
-		A nurse sits across from her surrogate father to draw his blood, a key ingredient in the sand wafers he uses to cure children's nightmares. But it's the morning after she discovered his secret lab, turning this routine procedure into a quiet interrogation about loyalty, change and the cost of careless words. 
+		A nurse sits across from her surrogate father to draw his blood, a key ingredient in the sand wafers he uses to cure children's nightmares		a nurse sits across from her surrogate father to draw his blood, a key ingredient in the sand wafers he uses to cure children's nightmares. but it's the morning after she discovered his secret lab, turning this routine procedure into a quiet interrogation about loyalty, change and the cost of careless words. . But it's the morning after she discovered his secret lab, turning this routine procedure into a quiet interrogation about loyalty, change and the cost of careless words. 
 	</p>
 </div>
 <div class="artifact-card">
