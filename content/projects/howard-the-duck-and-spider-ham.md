@@ -1,8 +1,11 @@
 ---
 title: Howard the Duck & Spider-Ham
 seoTitle: Howard the Duck & Spider-Ham | Action Adventure Game Writing Spec
-description: Spec barksheet for a Howard the Duck × Spider-Ham Insomniac game crossover. Partner dynamics, escalation patterns, and fourth-wall breaks.
-tags: [writing, game-writing, video-games]
+description: View the action-adventure game writing spec for Howard the Duck & Spider-Ham. Explore the barksheet and their partner dynamics as they cross realities.
+tags:
+  - writing
+  - game-writing
+  - video-games
 modified: 2026-03-18T19:45:15
 created: 2026-03-15T16:59:33
 draft:

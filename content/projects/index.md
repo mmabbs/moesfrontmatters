@@ -1,9 +1,9 @@
 ---
 title: Projects
 seoTitle: All Projects | Game Writing, Film & Marketing Portfolio
-description:
-tags: 
-modified: 2026-03-17T20:25:02
+description: Explore Moe Abbas' creative producer and writing portfolio. View all artifacts, case studies and productions across games, film, and marketing.
+tags:
+modified: 2026-03-18T20:40:35
 created: 2026-03-15T18:49:55
 draft:
 ---

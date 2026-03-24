@@ -1,7 +1,6 @@
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
 
-
 /**
  * Quartz 4 Configuration
  *
@@ -18,9 +17,9 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "moesfrontmatters.com",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    ignorePatterns: ["private", "templates", ".obsidian", "draft-pages"],
     defaultDateType: "modified",
-    theme: { 
+    theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
@@ -44,8 +43,8 @@ const config: QuartzConfig = {
           gray: "#E8E4D9",
           darkgray: "#5C5955",
           dark: "#1A1918",
-          secondary: "#6b8699",  // slate (link)
-          tertiary: "#5e7d53",   // lichen (accent)
+          secondary: "#6b8699", // slate (link)
+          tertiary: "#5e7d53", // lichen (accent)
           highlight: "#EBE8DE",
           textHighlight: "#fff2a8",
         },
@@ -55,8 +54,8 @@ const config: QuartzConfig = {
           gray: "#1E1B18",
           darkgray: "#9C9891",
           dark: "#FAF8F5",
-          secondary: "#839aad",   // slate (link)
-          tertiary: "#7a9e6d",    // lichen (accent)
+          secondary: "#839aad", // slate (link)
+          tertiary: "#7a9e6d", // lichen (accent)
           highlight: "#1E1B18",
           textHighlight: "#b3aa0288",
         },
