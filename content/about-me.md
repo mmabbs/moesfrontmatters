@@ -1,7 +1,6 @@
 ---
 title: About Me
 seoTitle:
-aliases: About Me
 description: Game writer, film producer, content strategist and marketer. Narrative design, screenwriting, and marketing case studies across games, film and SaaS.
 tags:
 modified: 2026-04-06T16:31:39
