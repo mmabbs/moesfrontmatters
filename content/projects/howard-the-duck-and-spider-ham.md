@@ -6,7 +6,7 @@ tags:
   - writing
   - game-writing
   - video-games
-modified: 2026-03-18T19:45:15
+modified: 2026-04-13T11:23:37
 created: 2026-03-15T16:59:33
 draft:
 ---
@@ -17,10 +17,6 @@ draft:
 	<span class="status-badge">Spec Only</span>
 	<span class="artifact-info"><span class="format">Game</span> · Sci-Fi, Fantasy, Action-Adventure · Comparables: <em>Spider-Man (Insomniac)</em></span>
 </div>
-
-## Frontmatter 
-
-XXXX
 
 ## Logline
 

@@ -18,11 +18,11 @@ draft:
 <p class="hero-intro">Creative Producer & Writer</p>
 
 <div class="hero-bio">
-I write, I produce, I market — and what makes that work is treating them as one conversation, not three. The question is always the same: what makes something good, what makes it shippable, and what makes it land?
+I write, produce, and market — and what makes that work is treating them as one conversation, not three. The question is always the same: what makes something good, what makes it shippable, and what makes it land?
 
 I've written narrative, dialogue, and world documentation for games, produced films, and built strategy for indie games and early-stage startups — content, product, and go-to-market. I also spent over a decade evaluating projects for a film fund, reading scripts, scrutinizing budgets, and assessing market viability. I'm built for teams that need someone who gets the whole picture.
 
-[Learn more about me](about-me.md).
+[Learn more about me](about-me-draft-1.md).
 
 You can reach me at <span class="contact">moe[at]moesfrontmatters.com</span>.
 </div>

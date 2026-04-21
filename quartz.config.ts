@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "moesfrontmatters.com",
-    ignorePatterns: ["private", "templates", ".obsidian", "draft-pages"],
+    ignorePatterns: ["private", "templates", ".obsidian", "drafts", "draft-pages"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",

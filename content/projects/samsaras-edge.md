@@ -3,7 +3,7 @@ title: SamSara's Edge
 seoTitle: SamSara's Edge | Roguelite Comedy Game Writing Spec
 description: Spec game writing for a roguelite deckbuilder where a couple must clear dungeons made of their relationship baggage to save their marriage.
 tags: [writing, game-writing, video-games]
-modified: 2026-03-18T15:57:43
+modified: 2026-04-11T16:06:06
 created: 2026-03-15T16:59:34
 draft:
 ---
@@ -15,13 +15,9 @@ draft:
 	<span class="artifact-info"><span class="format">Game</span> · Sci-Fi, Comedy, Roguelite · Comparables: <em>The Lobster, Psychonauts</em></span>
 </div>
 
-## Frontmatter
-
-XXXX
-
 ## Logline
 
-After faking their compatibility score in an AI-run city, Sara and Sam must clear psychogeographic dungeons filled with their relationship baggage if they want to save their marriage.
+After faking their romantic compatibility score in an AI-run city, Sara and Sam must clear psychogeographic dungeons filled with their relationship baggage if they want to save their marriage.
 
 ## Writing Samples
 
