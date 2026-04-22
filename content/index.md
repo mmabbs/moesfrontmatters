@@ -3,7 +3,7 @@ title: Home
 seoTitle: Creative Producer, Writer Portfolio | Games, Film, Marketing
 description: Explore my creative producer and writer portfolio across narrative design in games, screenwriting, and marketing. View my latest work in games and marketing.
 tags:
-modified: 2026-04-21T15:30:07
+modified: 2026-04-21T21:31:55
 created: 2026-03-15T17:55:05
 draft:
 ---
@@ -20,7 +20,7 @@ draft:
 <div class="hero-bio">
 I write, produce, and market — and what makes that work is treating them as one conversation, not three. The question is always the same: what makes something good, what makes it shippable, and what makes it land?
 
-I've written narrative, dialogue, and world documentation for games, produced films, and built strategy for indie games and early-stage startups — content, product, and go-to-market. I also spent over a decade evaluating projects for a film fund, reading scripts, scrutinizing budgets, and assessing market viability. I'm built for teams that need someone who gets the whole picture.
+I've written narrative, dialogue, and1 world documentation for games, produced films, and built strategy for indie games and early-stage startups — content, product, and go-to-market. I also spent over a decade evaluating projects for a film fund, reading scripts, scrutinizing budgets, and assessing market viability. I'm built for teams that need someone who gets the whole picture.
 
 [Learn more about me](about-me.md).
 
@@ -175,7 +175,7 @@ You can reach me at <span class="contact">moe[at]moesfrontmatters.com</span>.
 		<a href="/projects/the-otter-side" class="project-link">The Otter Side</a>
 	</div>
 	<p class="artifact-description">
-		Comprehensive content strategy framework including thematic positioning, messaging architecture, voice systems, and multi-platform campaign roadmaps for indie studio's debut mobile title.
+		Comprehensive content strategy framework including a pitch deck, thematic positioning, messaging architecture, voice systems, and multi-platform campaign roadmaps for indie studio's debut mobile title.
 	</p>
 </div>
 
