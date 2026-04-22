@@ -1,9 +1,9 @@
 ---
 title: Home
-seoTitle: Creative Producer, Writer Portfolio | Games, Film, Marketing
-description: Explore my creative producer and writer portfolio across narrative design in games, screenwriting, and marketing. View my latest work in games and marketing.
+seoTitle: Producer & Writer Portfolio | Content Strategy, Games, Film
+description: Explore my producer and writer portfolio across content strategy, marketing, narrative design in games, and screenwriting. View my latest work in games and marketing.
 tags:
-modified: 2026-04-21T21:31:55
+modified: 2026-04-21T22:31:13
 created: 2026-03-15T17:55:05
 draft:
 ---
@@ -175,7 +175,7 @@ You can reach me at <span class="contact">moe[at]moesfrontmatters.com</span>.
 		<a href="/projects/the-otter-side" class="project-link">The Otter Side</a>
 	</div>
 	<p class="artifact-description">
-		Comprehensive content strategy framework including a pitch deck, thematic positioning, messaging architecture, voice systems, and multi-platform campaign roadmaps for indie studio's debut mobile title.
+			Comprehensive content strategy framework including a pitch deck, thematic positioning, messaging architecture, voice systems, and multi-platform campaign roadmaps for indie studio's debut mobile title.
 	</p>
 </div>
 
