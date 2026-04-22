@@ -3,7 +3,7 @@ title: Home
 seoTitle: Producer & Writer Portfolio | Content Strategy, Games, Film
 description: Explore my producer and writer portfolio across content strategy, marketing, narrative design in games, and screenwriting. View my latest work in games and marketing.
 tags:
-modified: 2026-04-21T22:31:13
+modified: 2026-04-21T22:48:23
 created: 2026-03-15T17:55:05
 draft:
 ---
@@ -20,7 +20,7 @@ draft:
 <div class="hero-bio">
 I write, produce, and market — and what makes that work is treating them as one conversation, not three. The question is always the same: what makes something good, what makes it shippable, and what makes it land?
 
-I've written narrative, dialogue, and1 world documentation for games, produced films, and built strategy for indie games and early-stage startups — content, product, and go-to-market. I also spent over a decade evaluating projects for a film fund, reading scripts, scrutinizing budgets, and assessing market viability. I'm built for teams that need someone who gets the whole picture.
+I've written narrative and worldbuilding documentation for games, produced films, and built strategy for indie games and early-stage startups — content, product, and go-to-market. I also spent over a decade evaluating more than 900 projects for a film fund, reading scripts, scrutinizing budgets, and assessing market viability. I'm built for teams that need someone who gets the whole picture.
 
 [Learn more about me](about-me.md).
 
