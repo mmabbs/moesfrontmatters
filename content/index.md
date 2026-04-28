@@ -3,7 +3,7 @@ title: Home
 seoTitle: Producer & Writer Portfolio | Content Strategy, Games, Film
 description: Explore my producer and writer portfolio across content strategy, marketing, narrative design in games, and screenwriting. View my latest work in games and marketing.
 tags:
-modified: 2026-04-21T22:48:23
+modified: 2026-04-28T09:16:11
 created: 2026-03-15T17:55:05
 draft:
 ---
@@ -15,7 +15,7 @@ draft:
 	<span class="accent">Frontmatters</span>
 </h1>
 
-<p class="hero-intro">Creative Producer & Writer</p>
+<p class="hero-intro">Creative Producer | Writer | Content Strategist | Marketer</p>
 
 <div class="hero-bio">
 I write, produce, and market — and what makes that work is treating them as one conversation, not three. The question is always the same: what makes something good, what makes it shippable, and what makes it land?
@@ -223,7 +223,7 @@ In addition to other roles across the development/production value chain, I've w
 <div class="film-grid">
 
 <a href="/projects/prom-night" class="film-card">
-	<img src="/site-assets/promnight_poster.webp" alt="Prom Night poster" width="400" height="600" loading="lazy">
+	<img src="/site-assets/prom-night-2025-poster.png" alt="Prom Night poster" width="400" height="600" loading="lazy">
 	<div class="film-overlay">
 		<h4>Prom Night (2017)</h4>
 		<p><span class="meta-label">Role:</span> Producer, Production Manager</p>

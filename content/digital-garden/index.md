@@ -9,6 +9,7 @@ created: 2026-03-14T12:52:13
 draft: 
 ---
 
-This part of the site documents my experience with completed projects and works-in-progress through case studies, post-mortems, reflections, and observations. It's also an ongoing process of learning in public, a way to show how I think and connect ideas across different domains.
+This part of the site documents my experience with completed projects and works-in-progress through case studies, post-mortems, reflections, and observations. You'll also find general musings about life, art, etc., [something referring to the certificates]
+
 
 Many notes here are intentionally unfinished "seedlings," waiting to be expanded and connected. My hope is to create a feedback loop where others can offer new perspectives.
