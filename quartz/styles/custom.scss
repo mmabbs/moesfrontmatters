@@ -323,6 +323,7 @@ h6 {
 
 strong {
   color: var(--dark);
+  font-weight: 500;
 }
 
 // Blockquotes
@@ -632,7 +633,7 @@ a.tag-link {
   font-family: $font-mono;
   font-size: var(--text-xs);
   padding: 6px 12px;
-  border-radius: $radius-sm;
+  border-radius: 20px;
   transition: all var(--transition-fast);
 }
 
@@ -2324,4 +2325,96 @@ footer {
 
 .carousel-next {
   right: -18px;
+}
+
+// ===================
+// PAGE WIDTH OVERRIDE
+// ===================
+
+#quartz-body:has(article.site-pg-width) {
+  grid-template-columns: 200px auto 200px;
+}
+
+// ===================
+// ABOUT PAGE
+// ===================
+
+.about-layout {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.about-text {
+  flex: 1;
+}
+
+.about-photo {
+  flex-shrink: 0;
+  width: 400px;
+  margin-top: 3.5rem;
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: $radius-md;
+    max-width: none;
+  }
+}
+
+@media all and ($mobile) {
+  .about-layout {
+    flex-direction: column-reverse;
+  }
+
+  .about-photo {
+    width: 240px;
+  }
+}
+
+// ===================
+// BONAFIDES GRID
+// ===================
+
+.bonafides-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  align-items: start;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.bonafides-card {
+  display: flex;
+  flex-direction: column;
+  border-radius: $radius-md;
+  overflow: hidden;
+  border: 1px solid var(--bg-elevated);
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+    max-width: none;
+    border-radius: 0;
+    margin: 0;
+  }
+}
+
+.bonafides-label {
+  display: block;
+  padding: 0.6rem 0.75rem;
+  font-size: var(--text-xs);
+  color: var(--text-secondary);
+  background: var(--bg-elevated);
+  font-family: $font-mono;
+}
+
+@media all and ($mobile) {
+  .bonafides-grid {
+    grid-template-columns: 1fr;
+  }
 }

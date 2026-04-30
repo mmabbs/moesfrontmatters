@@ -6,7 +6,7 @@ tags:
   - writing
   - game-writing
   - video-games
-modified: 2026-03-18T20:38:00
+modified: 2026-04-29T20:03:46
 created: 2026-03-15T16:59:35
 draft:
 ---
@@ -15,12 +15,15 @@ draft:
 
 <div class="page-meta">
 	<span class="status-badge">Spec Only</span>
-	<span class="artifact-info"><span class="format">Game</span> · Sci-Fi, Fantasy, Action-Adventure · Comparables: <em>???</em></span>
+	<span class="artifact-info"><span class="format">Game</span> · Sci-Fi, Fantasy, Action-Adventure · Comparables: <em>Fables, Pan's Labyrinth</em></span>
 </div>
 
 ## Frontmatter
 
-The scene, barksheet and character bio were entries to ELVTR's 2024 Game Writing Contest.
+The scene, barksheet and character bio were entries to ELVTR's 2024 Game Writing Contest. 
+
+> **PROMPT**: In a post-apocalyptic world, society has begun to rebuild. A young engineer is tasked with restoring a key piece of technology that could help humanity thrive again. However, this technology can also be weaponized. 
+> **CHALLENGE**: Write a scene between the engineer and another character in the style of a video game cinematic, showcasing their differing perspectives and the underlying tension.
 
 ## Logline
 
