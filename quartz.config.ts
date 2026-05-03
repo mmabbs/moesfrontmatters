@@ -13,7 +13,8 @@ const config: QuartzConfig = {
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: "plausible",
+      provider: "google",
+      tagId: "G-XPWM630G25",
     },
     locale: "en-US",
     baseUrl: "moesfrontmatters.com",
