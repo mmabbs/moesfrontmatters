@@ -13,3 +13,5 @@ This part of the site documents my experience with completed projects and works-
 
 > [!shield] Cryptomnesia sucks. Rest assured, none of these notes include early-stage ideas for original IP.
 
+<div class="subscribe-bar"><a href="/index.xml" target="_blank">Subscribe to the Garden via RSS</a></div>
+

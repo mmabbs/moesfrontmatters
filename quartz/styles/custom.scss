@@ -2374,6 +2374,48 @@ footer {
 }
 
 // ===================
+// RSS SUBSCRIBE LINK
+// ===================
+
+.subscribe-bar {
+  display: inline-flex;
+  align-items: center;
+  margin-top: var(--space-16);
+  padding: 0.5rem 1rem;
+  background: rgba(131, 154, 173, 0.1);
+  border-left: 2px solid var(--frost);
+  border-radius: 0 $radius-sm $radius-sm 0;
+  transition: background var(--transition-fast);
+
+  &:hover {
+    background: rgba(131, 154, 173, 0.18);
+  }
+
+  a {
+    font-family: $font-mono;
+    font-size: var(--text-sm);
+    letter-spacing: 0.05em;
+    color: var(--frost);
+    text-decoration: none;
+    background: transparent;
+    padding: 0;
+    transition: color var(--transition-fast);
+
+    &:hover {
+      color: var(--link-hover);
+    }
+  }
+}
+
+// ===================
+// DIGITAL GARDEN INDEX
+// ===================
+
+body[data-slug="digital-garden/index"] h3 {
+  font-size: var(--text-lg);
+}
+
+// ===================
 // BONAFIDES GRID
 // ===================
 
