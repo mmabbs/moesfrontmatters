@@ -6,9 +6,9 @@ tags:
   - ai
   - workflows
   - research
-modified: 2026-05-10T03:42:56
+modified: 2026-05-10T03:57:09
 created: 2026-03-14T12:52:13
-draft: 
+draft: true
 ---
 
 # How I Use AI
@@ -29,7 +29,7 @@ Here's how I use AI:
 
 ## Turning repetitive work into repeatable systems
 
-### AI as an Admin Assistant
+### Admin Assistant
 
 A lot of knowledge work is the same steps in a different order: pulling research, formatting documentation, migrating metadata, converting files between formats. I build workflows that handle the repetitive parts so I can spend my time on the parts that need judgment.
 
@@ -47,9 +47,9 @@ A lot of knowledge work is the same steps in a different order: pulling research
 - For **persistent memory**: session logging using the note-taker tool outlining what was discussed, the work done, open questions, and tasks left to do. 
 - For **Claude Code:** a combination of CLAUDE.md, rules, memory entries and vault schema files that outline my conventions.
 
-## Testing Big Claims and Smoothing Out the Small Stuff
+## Researching 
 
-### AI as a Research Assistant
+### Research Assistant
 
 When I need to get smart on a new space quickly, stay in the know of industry news/events, or want to dig deeper on a writer's framing of a topic, I use AI to pull, organize, and synthesize information faster than I could manually. It lets me spend more time reading and vetting for accuracy and strategic insight rather than clicking through paywalled articles and pages of filler to find the one paragraph that's actually useful. Even then, context drift, poor attribution, and fabricated proof of claims is a perennial issue.
 
@@ -58,7 +58,7 @@ When I need to get smart on a new space quickly, stay in the know of industry ne
 - An **events scraper** that lists various upcoming industry events in Toronto tech from Luma, Meetup, Eventbrite, and industry-specific sites. Scrapes happen in parallel and create a date-stamped Obsidian note with the full listing. Supports keyword filtering and date-range limits so I can narrow to what's relevant without manually checking many different platforms.
 - An **industry news scraper** that runs twice weekly to research industry developments across business, design, marketing, games and technology beats, then writes a curated digest note with sourced summaries. It deduplicates against the last five issues automatically, so coverage stays fresh instead of recycling the same stories.
 - A **bias-detector** that analyzes news and opinion journalism for bias across five dimensions: fallacious reasoning, rhetorical strategy, source quality, structural balance, and evidentiary rigor. It runs a multi-pass close reading against 61 catalogued fallacies and 16 editorial bias patterns, then outputs a structured analysis with severity ratings and directional leans.
-- A **market intelligence** tool that finds product and service gaps in my professional domains. It scans sites like Reddit to surface unmet needs and emerging trends, synthesizes the week's signals through strategic frameworks (JTBD, competitive mapping, Blue Ocean), and lets me run a full opportunity brief on anything worth pursuing.
+- A **market intelligence radar** that finds product and service gaps in my professional domains. It scans sites like Reddit to surface unmet needs and emerging trends, synthesizes the week's signals through strategic frameworks (JTBD, competitive mapping, Blue Ocean), and lets me run a full opportunity brief on anything worth pursuing.
 
 #### Harness
 
@@ -67,7 +67,7 @@ When I need to get smart on a new space quickly, stay in the know of industry ne
 
 ## Learning with methods that play nice with my brain
 
-### AI as a Teaching Assistant
+### Teaching Assistant
 
 Research tells me what's out there, while teaching helps me understand it. I use AI to break down unfamiliar concepts in ways that match how I actually learn: visual breakdowns, structured comparisons, analogies to adjacent domains I know, worked examples I can interrogate. When I was studying deckbuilder design, that meant mapping decision trees and reward loops rather than reading a summary. I'm a huge fan of the "infinite canvas" that is a web page, so I tend to make interactive HTML pages that use a combination of words and images through [[pop-ups#^pop-up-2|progressive disclosure]]. 
 
