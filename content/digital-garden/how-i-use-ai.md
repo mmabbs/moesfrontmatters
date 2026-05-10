@@ -6,9 +6,9 @@ tags:
   - ai
   - workflows
   - research
-modified: 2026-05-10T03:57:09
+modified: 2026-05-10T04:02:40
 created: 2026-03-14T12:52:13
-draft: true
+draft: 
 ---
 
 # How I Use AI

@@ -43,7 +43,7 @@ async function mouseEnterHandler(
   const hash = decodeURIComponent(targetUrl.hash)
   targetUrl.hash = ""
   targetUrl.search = ""
-  const popoverId = `popover-${link.pathname}`
+  const popoverId = `popover-${link.pathname}${hash !== "" ? `-${hash.slice(1)}` : ""}`
   const prevPopoverElement = document.getElementById(popoverId)
 
   // dont refetch if there's already a popover
@@ -100,6 +100,14 @@ async function mouseEnterHandler(
       if (elts.length === 0) return
 
       elts.forEach((elt) => popoverInner.appendChild(elt))
+
+      if (hash !== "") {
+        const targetId = hash.slice(1)
+        const targetEl = popoverInner.querySelector(`[id="popover-internal-${targetId}"]`) as HTMLElement | null
+        if (targetEl && !/^H[1-6]$/.test(targetEl.tagName)) {
+          popoverInner.replaceChildren(targetEl)
+        }
+      }
   }
 
   if (!!document.getElementById(popoverId)) {
