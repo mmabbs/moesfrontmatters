@@ -1034,6 +1034,18 @@ a.internal.project-link,
   }
 }
 
+#quartz-body .search > .search-button {
+  border-color: var(--gray);
+
+  & > p {
+    color: var(--text-secondary);
+  }
+}
+
+ul.section-ul > li.section-li {
+  margin-bottom: 0;
+}
+
 .section-link {
   font-family: $font-mono;
   font-size: var(--text-base);

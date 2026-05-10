@@ -3,7 +3,7 @@ title: About Me
 seoTitle:
 description: Game writer, film producer, content strategist and marketer. Narrative design, screenwriting, and marketing case studies across games, film and SaaS.
 tags:
-modified: 2026-04-29T15:02:01
+modified: 2026-05-06T21:43:35
 created: 2026-03-15T15:18:59
 draft: false
 cssclasses: site-pg-width
@@ -23,4 +23,8 @@ cssclasses: site-pg-width
 </div>
 </div>
 
+
+> [!ai] On LLMs
+> I use AI to build workflows, automate research and learning, and catch mistakes, including AI's own. I've built custom tools and plugins to make that work. I don't use it to generate art or writing.
+> [[how-i-use-ai|What that looks like in practice.]]
 

@@ -107,8 +107,10 @@ async function _navigate(url: URL, isBack: boolean = false) {
   // scroll into place and add history
   if (!isBack) {
     if (url.hash) {
-      const el = document.getElementById(decodeURIComponent(url.hash.substring(1)))
-      el?.scrollIntoView()
+      const hash = decodeURIComponent(url.hash.substring(1))
+      document.querySelectorAll(".popover").forEach((el) => el.remove())
+      const el = document.getElementById(hash)
+      el?.scrollIntoView({ behavior: "smooth", block: "start" })
     } else {
       window.scrollTo({ top: 0 })
     }
@@ -154,8 +156,10 @@ function createRouter() {
       event.preventDefault()
 
       if (isSamePage(url) && url.hash) {
-        const el = document.getElementById(decodeURIComponent(url.hash.substring(1)))
-        el?.scrollIntoView()
+        const hash = decodeURIComponent(url.hash.substring(1))
+        document.querySelectorAll(".popover").forEach((el) => el.remove())
+        const el = document.getElementById(hash)
+        el?.scrollIntoView({ behavior: "smooth", block: "start" })
         history.pushState({}, "", url)
         return
       }
