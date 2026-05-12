@@ -26,5 +26,5 @@ cssclasses: site-pg-width
 
 > [!ai] On LLMs
 > I use AI to build workflows, automate research and learning, and catch mistakes, including AI's own. I've built custom tools and plugins to make that work. I don't use it to generate art or writing.
-> [[how-i-use-ai|What that looks like in practice.]]
+> [[how-i-use-llms|What that looks like in practice.]]
 

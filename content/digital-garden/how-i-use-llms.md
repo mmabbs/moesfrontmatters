@@ -1,31 +1,34 @@
 ---
-title: How I Use AI
-seoTitle: How I Use AI | Notes on AI Usage for Workflows and Research
-description: a note on what AI proficiency means in my work. Workflow automation, quality assurance, and custom tooling.
+title: How I Use LLMs
+seoTitle: How I Use LLMs | Notes on AI and LLMs Usage for Workflows and Research
+description: a note on what LLM proficiency means in my work. Workflow automation, quality assurance, and custom tooling.
 tags:
   - ai
+  - llms
   - workflows
   - research
-modified: 2026-05-10T04:02:40
+modified: 2026-05-12T17:07:44
 created: 2026-03-14T12:52:13
-draft: 
+draft:
 ---
 
-# How I Use AI
+# How I Use LLMs
 
-Over the past 16 months, using Claude Code and Gemini CLI, I've developed custom agents, skills, MCP servers, and plugins for AI to act as an assistant with admin, research and teaching. Some are simple single-purpose utilities. Others are complex, multi-step systems with their own rules, templates, and error handling.
+Over the past 16 months, I've developed custom agents, skills, MCP servers, and plugins for LLMs to act as an assistant with admin, research and learning. Some are simple single-purpose utilities. Others are complex, multi-step systems with their own rules, templates, and error handling. My main drivers are Claude Desktop and Claude Code, with Gemini for quick specific searches and NotebookLM for multi-source reference grounding.
 
-I've used AI as a layer on apps/suites like Notion, Office, and many others, preferring the CLI approach via Claude Code over built-in offerings. For day-to-day use, I prefer Obsidian and have come to love its flexibility. So much so that this site was built using Obsidian (via Quartz 4).
+I've used LLMs as a layer on apps/suites like Notion, Office, and many others, preferring the CLI approach via Claude Code over built-in offerings. For day-to-day note-taking, I prefer Obsidian and have come to love its flexibility. So much so that this site you're on was built on Obsidian (via Quartz 4).
 
-I don't use it to generate art or creative writing. Never mind the subpar quality standard and ethical implications of output that taps into (stolen) copyrighted IP, you sink way more time in fixing AI output than just doing it yourself or hiring a pro. I also don't understand why anyone would want to willingly take the fun out of the here-and-now imaginative exercise that is the creative act, as messy and frustrating as it can often be.
+I don't use it to generate art or writing for games. Never mind the subpar quality standard and ethical implications of output that taps into (stolen) copyrighted IP, LLMs are a lot more limited at writing and reasoning than evangelists would have you believe. Besides, you sink way more time in fixing LLM output than just doing it yourself or hiring a pro. I also don't understand why anyone would want to willingly take the fun out of the here-and-now imaginative exercise that is the creative act, as messy and frustrating as it can often be. But to each their own...
 
-Speaking of messy and frustrating: AI has serious flaws when it comes to veracity and requires a harness to manage them. A large part of why I made complex multi-step systems is tied to managing AI's short-lived memory, fabrications, fake sourcing, and confident claims without evidence. Sure, models now can self-correct mid-"thought", but their reasoning or assumptions might be off. Even then, outputs can get...weird.
+Speaking of messy and frustrating, a quick note on harnesses: AI has serious flaws when it comes to veracity and requires context engineering to manage its short-lived memory, fabrications, fake sourcing, confident claims without evidence, etc. That's on top of the frustrating "great model -> model degradation -> great model" cycle that companies seem to follow. Sure, LLMs now can self-correct mid-"thought", but their reasoning or assumptions are often flawed. You'll always be at the mercy of its under-the-hood wiring. 
 
-> I once asked Claude to scan for rogue processes that were overheating my laptop. It responded with a poem about the frailties of old age...
+> I once asked Claude, in a fresh context window outside a project, to scan for rogue processes that were overheating my laptop. It responded with a poem about the frailties of old age...
 
-This wasn't some impromptu "lateral thinking" hinting at hyperthermia. It was a leak from another user's conversation in the cloud. [^1]
+This wasn't some impromptu "lateral thinking" hint to suggest hyperthermia. I didn't have rules or instructions to tilt it towards metaphor. No, this was a leak from another user's conversation in the cloud. [^1]
 
-Here's how I use AI: 
+Admittedly, this was an extreme (and rare) case. But you can imagine all the possible subtle inaccuracies that can happen despite the use of controls. Needless to say, LLM output without human judgment is useless, if not dangerous in certain situations.
+
+With that in mind, here's how I use AI:
 
 ## Turning repetitive work into repeatable systems
 
@@ -42,11 +45,6 @@ A lot of knowledge work is the same steps in a different order: pulling research
 - A **pdf-handler** that handles text and table extraction, merging, splitting, page rotation, watermarking, OCR for scanned documents, and form filling. It's the workhorse I reach for when I need to manipulate or pull structured data out of a PDF.
 - A **pdf-splitter** that splits full PDF books into individual chapter files, then generates an Obsidian MOC and chapter stub notes for each, all with consistent naming and cross-linking. I built it to prepare reference books for NotebookLM — chapter-level PDFs are more useful for targeted queries than dumping in a 400-page file.
 
-#### Harness
-
-- For **persistent memory**: session logging using the note-taker tool outlining what was discussed, the work done, open questions, and tasks left to do. 
-- For **Claude Code:** a combination of CLAUDE.md, rules, memory entries and vault schema files that outline my conventions.
-
 ## Researching 
 
 ### Research Assistant
@@ -60,27 +58,22 @@ When I need to get smart on a new space quickly, stay in the know of industry ne
 - A **bias-detector** that analyzes news and opinion journalism for bias across five dimensions: fallacious reasoning, rhetorical strategy, source quality, structural balance, and evidentiary rigor. It runs a multi-pass close reading against 61 catalogued fallacies and 16 editorial bias patterns, then outputs a structured analysis with severity ratings and directional leans.
 - A **market intelligence radar** that finds product and service gaps in my professional domains. It scans sites like Reddit to surface unmet needs and emerging trends, synthesizes the week's signals through strategic frameworks (JTBD, competitive mapping, Blue Ocean), and lets me run a full opportunity brief on anything worth pursuing.
 
-#### Harness
-
-- A **research auditor** that checks whether cited sources actually support the claims they're attached to.
-- A **logical verification tool** that extracts every claim from aggregated and paraphrased research, maps the dependency chain between them, and checks whether each conclusion actually follows from its stated premises.
+> [!ai]- How I ensure summaries are accurate
+> - A **research auditor** that checks whether cited source actually support the claims they're attached to.
+> - A **logical verification tool** that extracts every claim from aggregated and paraphrased research, maps the dependency chain between them, and checks whether each conclusion actually follows from its stated premises.
 
 ## Learning with methods that play nice with my brain
 
 ### Teaching Assistant
 
-Research tells me what's out there, while teaching helps me understand it. I use AI to break down unfamiliar concepts in ways that match how I actually learn: visual breakdowns, structured comparisons, analogies to adjacent domains I know, worked examples I can interrogate. When I was studying deckbuilder design, that meant mapping decision trees and reward loops rather than reading a summary. I'm a huge fan of the "infinite canvas" that is a web page, so I tend to make interactive HTML pages that use a combination of words and images through [[pop-ups#^pop-up-2|progressive disclosure]]. 
+Research tells me what's out there, while teaching helps me understand it. 
+These tools help me break down unfamiliar concepts in ways that match how I actually learn: visual breakdowns, structured comparisons, analogies to adjacent domains I know, source grounding via docs/books in NotebookLM, worked examples I can interrogate. I'm a huge fan of the "infinite canvas" that is a web page, so I tend to make interactive HTML pages that structure deep dives through [[pop-ups#^pop-up-2|progressive disclosure]], accessible via a toggle. 
 
 #### Tools
 
-- A **roguelite deckbuilder teacher** that generates structured game design lessons with deep dives, hands-on exercises, and industry-standard terminology, configurable by audience level and genre spotlight. I built it while studying deckbuilder design patterns so I could get lessons scoped to what I actually needed to learn rather than wading through beginner material or skipping between disconnected resources.
+- A **roguelite deckbuilder teacher** that generates structured game design lessons with game profiles, concept deep dives, hands-on exercises, and industry-standard terminology. I built it while studying deckbuilder design patterns so I could get lessons scoped to what I actually needed to learn more of rather than wading through 101 material I already knew.
 - A **game design primer** that breaks down design concepts through multiple lenses (Schell/Koster perspectives, player experience, designer intent) with real-game examples and Mermaid diagrams, outputting structured reference notes to my vault. It has a "working designer" mode that starts from the design problem a concept solves rather than its definition, which is more useful when I'm trying to think with a concept rather than just look it up.
-- A **coding concept primer** that takes any technical concept related to CLI commands and python syntax and produces a layered explanation with everyday analogies, visual diagrams, and practical gotchas, then saves it as a reference note in my vault. It also includes comparisons to similar concepts in JavaScript, which I learned at a coding bootcamp.
-
-#### Harness
-
-- PDFs that I upload as grounding sources, typically in NotebookLM
-- Mandatory source citations as proof for claims
+- A **coding concept primer** that takes any technical concept related to CLI commands and python syntax and produces a layered explanation with everyday analogies, visual diagrams, and practical gotchas, then saves it as a reference note in my vault. It also leverages my bootcamp-acquired knowledge of JavaScript to close the comprehension gap. 
 
 
 > [!question]- Interested in seeing my Claude skills and plugins?
@@ -90,4 +83,4 @@ Research tells me what's out there, while teaching helps me understand it. I use
 
 ---
 
-[^1]: Admittedly, a pretty rare glitch, but it does make a strong case for local LLMs. 
+[^1]: It make a strong case for local LLMs...
