@@ -7,7 +7,7 @@ tags:
   - llms
   - workflows
   - research
-modified: 2026-05-12T17:07:44
+modified: 2026-05-12T22:10:50
 created: 2026-03-14T12:52:13
 draft:
 ---
@@ -45,7 +45,7 @@ A lot of knowledge work is the same steps in a different order: pulling research
 - A **pdf-handler** that handles text and table extraction, merging, splitting, page rotation, watermarking, OCR for scanned documents, and form filling. It's the workhorse I reach for when I need to manipulate or pull structured data out of a PDF.
 - A **pdf-splitter** that splits full PDF books into individual chapter files, then generates an Obsidian MOC and chapter stub notes for each, all with consistent naming and cross-linking. I built it to prepare reference books for NotebookLM — chapter-level PDFs are more useful for targeted queries than dumping in a 400-page file.
 
-## Researching 
+## Researching Faster, Vetting Harder
 
 ### Research Assistant
 
@@ -62,7 +62,7 @@ When I need to get smart on a new space quickly, stay in the know of industry ne
 > - A **research auditor** that checks whether cited source actually support the claims they're attached to.
 > - A **logical verification tool** that extracts every claim from aggregated and paraphrased research, maps the dependency chain between them, and checks whether each conclusion actually follows from its stated premises.
 
-## Learning with methods that play nice with my brain
+## Learning on my own terms
 
 ### Teaching Assistant
 
