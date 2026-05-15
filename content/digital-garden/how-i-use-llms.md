@@ -7,26 +7,32 @@ tags:
   - llms
   - workflows
   - research
-modified: 2026-05-15T15:37:26
+modified: 2026-05-15T16:29:54
 created: 2026-03-14T12:52:13
-draft: true
+draft: false
 ---
 
 # How I Use LLMs
 
-Over the past 16 months, I've developed custom agents, skills, MCP servers, and plugins for LLMs to act as an assistant with admin, research and learning. Some are simple single-purpose utilities. Others are complex, multi-step systems with their own rules, templates, and error handling. My main drivers are Claude Desktop and Claude Code, with Gemini for quick specific searches and NotebookLM for multi-source reference grounding.
+Over the past 16 months, I've developed custom agents, skills, MCP servers, and plugins for LLMs to act as an assistant with admin, research and learning. Some are simple single-purpose utilities. Others are complex, multi-step systems with their own rules, templates, and error handling. My main drivers are Claude Desktop and Claude Code (CC), with Gemini for quick specific searches and NotebookLM for multi-source reference grounding.
 
-I've used LLMs as a layer on apps/suites like Notion, Office, and many others, preferring the CLI approach via Claude Code over built-in offerings. For day-to-day note-taking, I prefer Obsidian and have come to love its flexibility. So much so that this site you're on was built on Obsidian (via Quartz 4).
+I've used LLMs as a layer on apps/suites like Notion, Office, and many others, preferring the CLI approach via Claude Code over built-in offerings. For day-to-day note-taking, I prefer Obsidian and have come to love its flexibility for, well, everything (this site was built on Obsidian!). It also works beautifully with CC, so my session notes go there. 
 
-I don't use it to generate art or writing for games. Never mind the subpar quality standard and ethical implications of output that taps into (stolen) copyrighted IP, LLMs are a lot more limited at writing and reasoning than evangelists would have you believe. Besides, you sink way more time in fixing LLM output than just doing it yourself or hiring a pro. I also don't understand why anyone would want to willingly take the fun out of the here-and-now imaginative exercise that is the creative act, as messy and frustrating as it can often be. But to each their own...
+I don't use it to generate art or writing for games. Never mind the subpar quality standard and ethical implications of output that uses (stolen) copyrighted IP, LLMs are a lot more limited at reasoning than evangelists would have you believe. Pattern-matching clashes with the type of thinking required for logical argumentation. It's even worse with rhetorical strategy and execution. 
 
-Speaking of messy and frustrating, a quick note on harnesses: AI has serious flaws when it comes to veracity and requires context engineering to manage its short-lived memory, fabrications, fake sourcing, confident claims without evidence, etc. That's on top of the frustrating "great model -> model degradation -> great model" cycle that companies seem to follow. Sure, LLMs now can self-correct mid-"thought", but their reasoning or assumptions are often flawed. You'll always be at the mercy of its under-the-hood wiring. 
+You sink way more time in fixing LLM output — and they all need fixing — than just doing it yourself or hiring a pro, and that's especially true of any purely creative act. Also, I don't understand why anyone would want to willingly take the fun out of the here-and-now imaginative exercise that is the creative act, as messy and frustrating as it can often be. But to each their own...
+
+Anyway! Speaking of messy and frustrating, because AI has buckets full of flaws, most of my tooling are either harnesses themselves or built with a robust harness. AI requires context engineering to manage its short-lived memory, fabrications, fake sourcing, confident claims without evidence, the list goes on. 
+
+Sure, LLMs now can self-correct mid-"thought", but the reasoning or assumptions that drove it to second-guess could also be flawed. Regardless, we'll always be at the mercy of its under-the-hood wiring [^2]
 
 > I once asked Claude, in a fresh context window outside a project, to scan for rogue processes that were overheating my laptop. It responded with a poem about the frailties of old age...
 
-This wasn't some impromptu "lateral thinking" hint to suggest hyperthermia. I didn't have rules or instructions to tilt it towards metaphor. No, this was a leak from another user's conversation in the cloud. [^1]
+This wasn't some playful "lateral thinking" to imply hyperthermia among the elderly. I didn't have rules or instructions to tilt it towards metaphor. This was a leak from another user's conversation in the cloud [^1] 
 
-Admittedly, this was an extreme (and rare) case. But you can imagine all the possible subtle inaccuracies that can happen despite the use of controls. Needless to say, LLM output without human judgment is useless, if not dangerous in certain situations.
+If someone else's unrelated chat in the cloud can leak into mine, copyrighted IP can land in someone else's with no rhyme or reason
+
+> If something that illogical can slip past a model with thinking mode on, imagine all the subtle inaccuracies that can happen when it *sounds* good on paper. 
 
 With that in mind, here's how I use AI:
 
@@ -34,7 +40,7 @@ With that in mind, here's how I use AI:
 
 ### Admin Assistant
 
-A lot of knowledge work is the same steps in a different order: pulling research, formatting documentation, migrating metadata, converting files between formats. I build workflows that handle the repetitive parts so I can spend my time on the parts that need judgment.
+A lot of knowledge work is the same steps in a different order: pulling research, formatting documentation, migrating metadata, converting files between formats. I build workflows that handle the repetitive parts so I can spend my time on the parts that need judgment. 
 
 #### Tools
 
@@ -49,7 +55,7 @@ A lot of knowledge work is the same steps in a different order: pulling research
 
 ### Research Assistant
 
-When I need to get smart on a new space quickly, stay in the know of industry news/events, or want to dig deeper on a writer's framing of a topic, I use AI to pull, organize, and synthesize information faster than I could manually. It lets me spend more time reading and vetting for accuracy and strategic insight rather than clicking through paywalled articles and pages of filler to find the one paragraph that's actually useful. Even then, context drift, poor attribution, and fabricated proof of claims is a perennial issue.
+When I need to get smart on a new space quickly, stay in the know of industry news/events, or want to dig deeper on a framing of a topic, I use AI to pull, organize, and synthesize information faster than I could manually. It lets me spend more time reading and vetting for accuracy and strategic insight rather than clicking through paywalled articles and pages of filler to find the one paragraph that's actually useful. Even then, context drift, poor attribution, and fabricated proof of claims is a perennial issue. One harness I use is an "integrity gate": asking it to confirm what certain sections say to ensure it actually read the doc/site.
 
 #### Tools
 
@@ -84,3 +90,5 @@ These tools help me break down unfamiliar concepts in ways that match how I actu
 ---
 
 [^1]: It make a strong case for local LLMs...
+
+[^2]: Companies now have this annoying "great model -> model degradation -> great new model" cycle with ever-shortening windows due to limited compute, making the tech unreliable as a long-term AI layer. Also a strong case for local LLMs...
