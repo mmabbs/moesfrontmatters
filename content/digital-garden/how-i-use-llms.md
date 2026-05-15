@@ -7,9 +7,9 @@ tags:
   - llms
   - workflows
   - research
-modified: 2026-05-12T22:10:50
+modified: 2026-05-15T15:37:26
 created: 2026-03-14T12:52:13
-draft:
+draft: true
 ---
 
 # How I Use LLMs
