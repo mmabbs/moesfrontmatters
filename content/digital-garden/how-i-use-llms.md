@@ -7,9 +7,9 @@ tags:
   - llms
   - workflows
   - research
-modified: 2026-05-15T16:29:54
+modified: 2026-05-16T13:35:51
 created: 2026-03-14T12:52:13
-draft: false
+draft: true
 ---
 
 # How I Use LLMs
@@ -72,7 +72,22 @@ When I need to get smart on a new space quickly, stay in the know of industry ne
 
 ### Teaching Assistant
 
-Research tells me what's out there, while teaching helps me understand it. 
+This has been life-changing for me because of its downstream effects. Research tells me what's out there, while teaching can help me understand it *and*, if it's practical, teach me how to do the thing.
+
+> This is the difference between vibe-coders/vibe-sloppers and people like me: we care about learning to execute the process ourselves, rather than blindly accept the outcome wholesale. 
+
+Why even bother? Safety, self-reliance and the joy of learning a new skill. You might ask "well, how do you know if the output for teaching you is itself reliable?" Again, source grounding and a really solid harness—the rules, instructions, and (ideally) output template that keeps it focused to your goal. All of which have to be specific. 
+
+Ironically, starting from the desired, specific outcome is one of the strongest positions from which to tackle this *and* just about anything else you want to build with LLMs. The outcome automatically filters out bloat and unnecessary complexity during the planning stage.
+
+And, yes, "planning" as well as learning to build the thing is overhead tax. And it's ironic based on how LLMs are marketed, *but only if you accept the premise* *of what LLMs "should" be in all case scenarios*. 
+
+I'd rather spend two days reaching an outcome that I can recreate on my own and, in turn, personally vet, than spend 1 hour repeatedly "one-shotting" myself in the foot to settle for something that's likely a house of cards. Of course, YMMV. Personally, I'm not going to learn a coding language just so I can do simple admin tasks when LLMs are perfectly capable of following the "yes-no" logic of, say, email triage based on dates, with a prompt or two, with or without a thin harness. 
+
+The funny thing about "risking" the "scenic" route is the realization that comes with it: there's no such thing as a "scenic route", whether you're learning to build with LLMs, learning to write, or even driving down a long road. Every scenic route has trash and roadkill if you look closely enough. Even "wasting time" doing it once lets you preemptively avoid Fancy Google Wizard's little trojan horses of trash in the future. 
+
+> "I want to learn python to build a UI dashboard that automatically launches in a pop-up window every morning at 7am to show all of my projects, project stage and next steps." → you'll learn more about the capabilities and flaws of LLMs this way than you would if used like Fancy Google Wizard
+
 These tools help me break down unfamiliar concepts in ways that match how I actually learn: visual breakdowns, structured comparisons, analogies to adjacent domains I know, source grounding via docs/books in NotebookLM, worked examples I can interrogate. I'm a huge fan of the "infinite canvas" that is a web page, so I tend to make interactive HTML pages that structure deep dives through [[pop-ups#^pop-up-2|progressive disclosure]], accessible via a toggle. 
 
 #### Tools
