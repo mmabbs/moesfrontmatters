@@ -3,7 +3,7 @@ title: SamSara's Edge
 seoTitle: SamSara's Edge | Roguelite Comedy Game Writing Spec
 description: Spec game writing for a roguelite deckbuilder where a couple must clear dungeons made of their relationship baggage to save their marriage.
 tags: [writing, game-writing, video-games]
-modified: 2026-04-11T16:06:06
+modified: 2026-05-20T08:25:34
 created: 2026-03-15T16:59:34
 draft:
 ---
@@ -49,18 +49,18 @@ After faking their romantic compatibility score in an AI-run city, Sara and Sam 
 <div class="related-list">
 	<a href="/projects/ollie-oxenfree" class="related-item">
 		<span class="related-title">Ollie Oxenfree</span>
-		<span class="related-desc">– Scene · Character Work</span>
+		<span class="related-desc"> – Scene · Character Work</span>
 	</a>
 	<a href="/projects/howard-the-duck-and-spider-ham" class="related-item">
 		<span class="related-title">Howard the Duck & Spider-Ham</span>
-		<span class="related-desc">– Character Work</span>
+		<span class="related-desc"> – Character Work</span>
 	</a>
 	<a href="/projects/grim-rock" class="related-item">
 		<span class="related-title">Grim Rock</span>
-		<span class="related-desc">– Scene · Worldbuilding</span>
+		<span class="related-desc"> – Scene · Worldbuilding</span>
 	</a>
 	<a href="/projects/the-otter-side" class="related-item">
 		<span class="related-title">The Otter Side</span>
-		<span class="related-desc">– Marketing · Mobile Game</span>
+		<span class="related-desc"> – Marketing · Mobile Game</span>
 	</a>
 </div>

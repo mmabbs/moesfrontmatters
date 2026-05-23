@@ -1,109 +1,92 @@
 ---
 title: How I Use LLMs
 seoTitle: How I Use LLMs | Notes on AI and LLMs Usage for Workflows and Research
-description: a note on what LLM proficiency means in my work. Workflow automation, quality assurance, and custom tooling.
+description: A note on what LLM proficiency means in my work. Workflow automation, quality assurance, and custom tooling.
 tags:
   - ai
   - llms
   - workflows
   - research
-modified: 2026-05-16T13:35:51
+modified: 2026-05-23T19:10:19
 created: 2026-03-14T12:52:13
-draft: true
+draft: false
 ---
 
 # How I Use LLMs
 
-Over the past 16 months, I've developed custom agents, skills, MCP servers, and plugins for LLMs to act as an assistant with admin, research and learning. Some are simple single-purpose utilities. Others are complex, multi-step systems with their own rules, templates, and error handling. My main drivers are Claude Desktop and Claude Code (CC), with Gemini for quick specific searches and NotebookLM for multi-source reference grounding.
+Over the past 16 months, I've built custom agents, plugins, skills and MCP servers for LLMs — some simple single-purpose utilities, others complex multi-step systems with their own rules, templates, and error handling. I split my time between Claude Desktop and Claude Code (CC), depending on whether I need the CLI as a workflow layer via Obsidian (AKA the greatest note-taking app of all time). Gemini handles quick, targeted searches, while NotebookLM handles source-grounding.
 
-I've used LLMs as a layer on apps/suites like Notion, Office, and many others, preferring the CLI approach via Claude Code over built-in offerings. For day-to-day note-taking, I prefer Obsidian and have come to love its flexibility for, well, everything (this site was built on Obsidian!). It also works beautifully with CC, so my session notes go there. 
+These clankers have a lot of loose bolts. Non-persistent memory, hallucinations, confabulations, fake sourcing, etc. The list goes on. As a result, my tools and workflows are built with a harness—the context engineering that results in rules, templates, and guardrails helping keep the LLM on track with what it's supposed to do. Some of my tools are harnesses themselves.
 
-I don't use it to generate art or writing for games. Never mind the subpar quality standard and ethical implications of output that uses (stolen) copyrighted IP, LLMs are a lot more limited at reasoning than evangelists would have you believe. Pattern-matching clashes with the type of thinking required for logical argumentation. It's even worse with rhetorical strategy and execution. 
 
-You sink way more time in fixing LLM output — and they all need fixing — than just doing it yourself or hiring a pro, and that's especially true of any purely creative act. Also, I don't understand why anyone would want to willingly take the fun out of the here-and-now imaginative exercise that is the creative act, as messy and frustrating as it can often be. But to each their own...
+> [!ai]- My thoughts on GenAI in creative writing
+> 
+> Since LLMs are next-token predictors based on datasets, what appears as "divergent thinking" is a ruse: all its doing is surfacing the most commonly associated concepts from training data. You can argue "well, we do the same, only LLMs know more." True. But trusting a technology that only knows what the next token is, not where it came from, forces you into the minefield of stolen copyrighted IP. You can only disarm what you detect. And what you assume is "safe to use" in that output might be anything but.
+> 
+> Then there's the context ceiling, along with the diminishing returns as it accumulates. Given the depth that goes into themes, concepts, character work, etc. *what do you even select?* You're forced into arbitrary selection that could become useless two prompts later.
+> 
+> The scope creep of thinking about how much of your thinking should go into its thinking so that it thinks about your story "better" than the way you think about it is an epistemological rigamarole. It's overthinking and tinkering in preparation of writing. 
+>
+> I'd rather just write the damn thing myself.
 
-Anyway! Speaking of messy and frustrating, because AI has buckets full of flaws, most of my tooling are either harnesses themselves or built with a robust harness. AI requires context engineering to manage its short-lived memory, fabrications, fake sourcing, confident claims without evidence, the list goes on. 
-
-Sure, LLMs now can self-correct mid-"thought", but the reasoning or assumptions that drove it to second-guess could also be flawed. Regardless, we'll always be at the mercy of its under-the-hood wiring [^2]
-
-> I once asked Claude, in a fresh context window outside a project, to scan for rogue processes that were overheating my laptop. It responded with a poem about the frailties of old age...
-
-This wasn't some playful "lateral thinking" to imply hyperthermia among the elderly. I didn't have rules or instructions to tilt it towards metaphor. This was a leak from another user's conversation in the cloud [^1] 
-
-If someone else's unrelated chat in the cloud can leak into mine, copyrighted IP can land in someone else's with no rhyme or reason
-
-> If something that illogical can slip past a model with thinking mode on, imagine all the subtle inaccuracies that can happen when it *sounds* good on paper. 
-
-With that in mind, here's how I use AI:
+Even with a solid harness, [[pop-ups#^pop-up-3|we're at the mercy of backend wiring]]. I'd rather have Claude make space for me to do my own thinking than have it do the thinking for me:
 
 ## Turning repetitive work into repeatable systems
 
 ### Admin Assistant
 
-A lot of knowledge work is the same steps in a different order: pulling research, formatting documentation, migrating metadata, converting files between formats. I build workflows that handle the repetitive parts so I can spend my time on the parts that need judgment. 
+I use Obsidian for *everything*, and my organization system has everything you'd expect: tags, frontmatter, inline metadata, schemas, and a graveyard of unprocessed notes. Claude Code shines in this area. It helps me keep my plugin count down, and, most importantly, fuels my misguided dream of maximum note interconnectedness.
 
 #### Tools
 
-- A **file auditor** that validates frontmatter properties across my Obsidian vaults against controlled vocabularies, finds broken wikilinks and duplicate content, and flags stale daily notes. It also suggests missing metadata based on file location and content, so a note sitting in Projects/X/ with no project: field gets caught automatically.
-- A **task creator** that creates task notes or inline tasks with proper frontmatter, priority levels, and context tags, supporting one-off, bulk, and interactive modes. It's designed to be suggested proactively when a session has open work items, so nothing falls through the cracks between sessions.
-- A **task auditor** that finds inline tasks I've tagged `#claude` scattered across the vault and consolidates them into per-project master task lists, with wikilinks back to the source file. This exists because I drop task markers wherever I happen to be working, and without a sweep they'd stay buried in random notes.
-- A **note-taker** that uses templates based on note type and writes vault-conformant files with the right frontmatter, body structure and file naming convention. After creation, it scans the generated content for open tasks and offers to convert them into tracked task notes.
-- A **pdf-handler** that handles text and table extraction, merging, splitting, page rotation, watermarking, OCR for scanned documents, and form filling. It's the workhorse I reach for when I need to manipulate or pull structured data out of a PDF.
-- A **pdf-splitter** that splits full PDF books into individual chapter files, then generates an Obsidian MOC and chapter stub notes for each, all with consistent naming and cross-linking. I built it to prepare reference books for NotebookLM — chapter-level PDFs are more useful for targeted queries than dumping in a 400-page file.
+- A **note-taker** built around templates by note type, following frontmatter, body structure, and file naming conventions. The bread and butter of bread and butter tasks
+- A **file auditor** that validates frontmatter across my Obsidian vaults. It catches broken wikilinks and duplicate content, flags stale daily notes
+- A **task creator** for spinning up tasks with priority levels, deadlines, and contextual tags
+- A **task auditor** that sweeps the vault for inline tasks I've tagged `#claude` and consolidates them into per-project master lists, wikilinked back to the source. I drop task markers wherever I happen to be working — without a sweep they'd stay buried in random notes
+- A **pdf-handler** — the workhorse for text and table extraction, merging, splitting, OCR, and form filling. Anything involving pulling structured data out of a PDF starts here
+- A **pdf-splitter** that breaks full PDF books into individual chapter files, then generates an Obsidian MOC with chapter stubs. I built it to prep reference books for NotebookLM because chapter-level PDFs are far more useful for targeted queries than dumping in a 400-page monster
 
 ## Researching Faster, Vetting Harder
 
 ### Research Assistant
 
-When I need to get smart on a new space quickly, stay in the know of industry news/events, or want to dig deeper on a framing of a topic, I use AI to pull, organize, and synthesize information faster than I could manually. It lets me spend more time reading and vetting for accuracy and strategic insight rather than clicking through paywalled articles and pages of filler to find the one paragraph that's actually useful. Even then, context drift, poor attribution, and fabricated proof of claims is a perennial issue. One harness I use is an "integrity gate": asking it to confirm what certain sections say to ensure it actually read the doc/site.
+When I need to get smart on a new space fast, keep up with industry news and events, or dig deeper on some topic framing, I use AI to pull, organize, and synthesize reams of information, sparing me the Easter Egg hunt across paywalled articles. Even then, context drift, poor attribution, and fabricated sourcing never stop being a problem. Every research-based tool has an "integrity gate", where the LLM must quote lines and answers obscure questions about the text to prove it read the material.
 
 #### Tools
 
-- An **events scraper** that lists various upcoming industry events in Toronto tech from Luma, Meetup, Eventbrite, and industry-specific sites. Scrapes happen in parallel and create a date-stamped Obsidian note with the full listing. Supports keyword filtering and date-range limits so I can narrow to what's relevant without manually checking many different platforms.
-- An **industry news scraper** that runs twice weekly to research industry developments across business, design, marketing, games and technology beats, then writes a curated digest note with sourced summaries. It deduplicates against the last five issues automatically, so coverage stays fresh instead of recycling the same stories.
-- A **bias-detector** that analyzes news and opinion journalism for bias across five dimensions: fallacious reasoning, rhetorical strategy, source quality, structural balance, and evidentiary rigor. It runs a multi-pass close reading against 61 catalogued fallacies and 16 editorial bias patterns, then outputs a structured analysis with severity ratings and directional leans.
-- A **market intelligence radar** that finds product and service gaps in my professional domains. It scans sites like Reddit to surface unmet needs and emerging trends, synthesizes the week's signals through strategic frameworks (JTBD, competitive mapping, Blue Ocean), and lets me run a full opportunity brief on anything worth pursuing.
-
-> [!ai]- How I ensure summaries are accurate
-> - A **research auditor** that checks whether cited source actually support the claims they're attached to.
-> - A **logical verification tool** that extracts every claim from aggregated and paraphrased research, maps the dependency chain between them, and checks whether each conclusion actually follows from its stated premises.
+- A **research auditor** that checks for fabricated sources and ensures there's a source for every claim made. I won't even bother reading long LLM output until the auditor does its work 
+- A **[[pop-ups#^pop-up-4|Graph of Verification]]-based argument parser** that extracts every claim from aggregated and paraphrased research, maps the dependency chain between them, and checks whether each conclusion actually follows from its premises. More valuable for academic sources, but super helpful when rhetoric buries the argument
+- An **events scraper** pulls upcoming Toronto tech events from Luma, Meetup, Eventbrite, and industry-specific sites and drops them into a date-stamped note. Keyword filtering and date-range limits mean I'm not tab-hopping across six platforms every Sunday
+- An **industry news scraper** runs twice weekly across business, design, marketing, games and technology beats, then writes a curated digest with sourced summaries. It deduplicates against the last five notes automatically, so I'm always reading fresh headlines to worry about 
+- A **market intelligence radar** for finding product/service gaps in areas of interest. It scans sites like Reddit to surface unmet needs and emerging trends and synthesizes signals through strategic frameworks (JTBD, competitive mapping, Blue Ocean). 
 
 ## Learning on my own terms
 
 ### Teaching Assistant
 
-This has been life-changing for me because of its downstream effects. Research tells me what's out there, while teaching can help me understand it *and*, if it's practical, teach me how to do the thing.
+Research tells me what's out there. A teaching assistant helps me understand it. If I want something built and care enough about the skill required, I'll use the LLM to teach me the skill. 
 
-> This is the difference between vibe-coders/vibe-sloppers and people like me: we care about learning to execute the process ourselves, rather than blindly accept the outcome wholesale. 
+The assistant helps me break down unfamiliar concepts in ways that match how I actually learn: visual breakdowns and structured comparisons, worked examples I can interrogate, and analogies to adjacent domains I know. All of which are based on verifiable sources that I manually review. I'm a huge fan of the "infinite canvas" of a web page, so I tend to make interactive HTML pages that structure deep dives through [[pop-ups#^pop-up-2|progressive disclosure]], accessible via a toggle. 
 
-Why even bother? Safety, self-reliance and the joy of learning a new skill. You might ask "well, how do you know if the output for teaching you is itself reliable?" Again, source grounding and a really solid harness—the rules, instructions, and (ideally) output template that keeps it focused to your goal. All of which have to be specific. 
-
-Ironically, starting from the desired, specific outcome is one of the strongest positions from which to tackle this *and* just about anything else you want to build with LLMs. The outcome automatically filters out bloat and unnecessary complexity during the planning stage.
-
-And, yes, "planning" as well as learning to build the thing is overhead tax. And it's ironic based on how LLMs are marketed, *but only if you accept the premise* *of what LLMs "should" be in all case scenarios*. 
-
-I'd rather spend two days reaching an outcome that I can recreate on my own and, in turn, personally vet, than spend 1 hour repeatedly "one-shotting" myself in the foot to settle for something that's likely a house of cards. Of course, YMMV. Personally, I'm not going to learn a coding language just so I can do simple admin tasks when LLMs are perfectly capable of following the "yes-no" logic of, say, email triage based on dates, with a prompt or two, with or without a thin harness. 
-
-The funny thing about "risking" the "scenic" route is the realization that comes with it: there's no such thing as a "scenic route", whether you're learning to build with LLMs, learning to write, or even driving down a long road. Every scenic route has trash and roadkill if you look closely enough. Even "wasting time" doing it once lets you preemptively avoid Fancy Google Wizard's little trojan horses of trash in the future. 
-
-> "I want to learn python to build a UI dashboard that automatically launches in a pop-up window every morning at 7am to show all of my projects, project stage and next steps." → you'll learn more about the capabilities and flaws of LLMs this way than you would if used like Fancy Google Wizard
-
-These tools help me break down unfamiliar concepts in ways that match how I actually learn: visual breakdowns, structured comparisons, analogies to adjacent domains I know, source grounding via docs/books in NotebookLM, worked examples I can interrogate. I'm a huge fan of the "infinite canvas" that is a web page, so I tend to make interactive HTML pages that structure deep dives through [[pop-ups#^pop-up-2|progressive disclosure]], accessible via a toggle. 
+How do I know if the teaching output itself is reliable? If it's outside my domain expertise, I don't! This is when source grounding and harnesses become that much more important. 
 
 #### Tools
 
-- A **roguelite deckbuilder teacher** that generates structured game design lessons with game profiles, concept deep dives, hands-on exercises, and industry-standard terminology. I built it while studying deckbuilder design patterns so I could get lessons scoped to what I actually needed to learn more of rather than wading through 101 material I already knew.
-- A **game design primer** that breaks down design concepts through multiple lenses (Schell/Koster perspectives, player experience, designer intent) with real-game examples and Mermaid diagrams, outputting structured reference notes to my vault. It has a "working designer" mode that starts from the design problem a concept solves rather than its definition, which is more useful when I'm trying to think with a concept rather than just look it up.
-- A **coding concept primer** that takes any technical concept related to CLI commands and python syntax and produces a layered explanation with everyday analogies, visual diagrams, and practical gotchas, then saves it as a reference note in my vault. It also leverages my bootcamp-acquired knowledge of JavaScript to close the comprehension gap. 
+- A **roguelite deckbuilder teacher** that walks through design patterns in a left-brained way, with lessons scoped to gaps in my knowledge 
+- A **game design primer** that breaks down design concepts through multiple lenses (Schell/Koster perspectives, player experience, designer intent). It has a "working designer" mode that starts from the design problem a concept solves rather than its definition
+- A **coding concept primer** for CLI commands and Python syntax. Explanations layered with everyday analogies, visual diagrams, practical gotchas, and comparisons to JavaScript (which I know)
+- A **Python "paired programming" partner** that teaches through real projects. I drive, while it offers explanations, live code runs to show cause and effect, gotchas that trip up JS developers, and learns to dial back guidance as my skills grow across sessions
+
+---
+
+There's a useful distinction that gets lost in the noise around AI: having an LLM produce something for you isn't the same as having it teach you to make it yourself. I'm learning Python, in a way that leverages my knowledge of JavaScript, by building something I actually need (a dashboard that centralizes the progress of various projects). 
+
+Going beyond the chatbot has helped separate the signal from the noise around these debates about the threat of AI. 
+
+> **The more you use LLMs the *smart* way to unlock their potential, the more you realize just how unfinished the output really is. You need human input and judgment at every step.** 
+
+Intent and effort matter. So does knowing where your judgment ends and an expert's begins. 
 
 
 > [!question]- Interested in seeing my Claude skills and plugins?
 > A selection of these is being cleaned up for public release. I'll link the repos here when they're ready.
-
-
-
----
-
-[^1]: It make a strong case for local LLMs...
-
-[^2]: Companies now have this annoying "great model -> model degradation -> great new model" cycle with ever-shortening windows due to limited compute, making the tech unreliable as a long-term AI layer. Also a strong case for local LLMs...

@@ -93,7 +93,10 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   right: [
     Component.DesktopOnly(Component.TableOfContents()),
-    Component.Backlinks(),
+    Component.ConditionalRender({
+      component: Component.Backlinks(),
+      condition: (page) => page.fileData.slug !== "coming-soon",
+    }),
     // Component.Graph()
   ],
 }
@@ -116,6 +119,9 @@ export const defaultListPageLayout: PageLayout = {
     Component.Explorer({
       folderClickBehavior: "collapse",
       sortFn: customExplorerSort,
+      filterFn: (node) => {
+        return node.data?.tags?.includes("nav-exclude") !== true
+      },
     }),
   ],
   right: [],

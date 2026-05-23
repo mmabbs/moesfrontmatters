@@ -1,9 +1,9 @@
 ---
 title: About Me
-seoTitle:
+seoTitle: About the Creative Producer and Writer | Content Strategy, Marketing, Games, Film 
 description: Game writer, film producer, content strategist and marketer. Narrative design, screenwriting, and marketing case studies across games, film and SaaS.
 tags:
-modified: 2026-05-16T12:35:11
+modified: 2026-05-21T22:26:10
 created: 2026-03-15T15:18:59
 draft: false
 cssclasses: site-pg-width

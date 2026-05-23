@@ -3,7 +3,7 @@ title: Home
 seoTitle: Producer & Writer Portfolio | Content Strategy, Games, Film
 description: Explore my producer and writer portfolio across content strategy, marketing, narrative design in games, and screenwriting. View my latest work in games and marketing.
 tags:
-modified: 2026-04-28T09:16:11
+modified: 2026-05-20T08:04:42
 created: 2026-03-15T17:55:05
 draft:
 ---
@@ -183,7 +183,7 @@ You can reach me at <span class="contact">moe[at]moesfrontmatters.com</span>.
 	<div class="artifact-title-row">
 		<h4 class="artifact-title">UX Design & User Research for a Wellness Booking App</h4>
 		<span class="artifact-info"><span class="format">UX Design & Strategy</span> · Social Enterprise · Wellness SaaS ·</span>
-		<a href="/projects/fitin" class="project-link">FitIn.io</a>
+		<a href="/coming-soon" class="project-link">FitIn.io</a>
 	</div>
 	<p class="artifact-description">
 		Ethical marketplace connecting fitness seekers with inclusive classes and trainers. Delivered wireframes, prototypes, and user research that attracted investor interest during pre-launch.
