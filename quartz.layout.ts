@@ -50,7 +50,7 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/inquisitivebadger/",
+      GitHub: "https://github.com/mmabbs/",
       LinkedIn: "https://www.linkedin.com/in/moe-m-abbas/",
     },
   }),
