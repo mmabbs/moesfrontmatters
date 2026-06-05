@@ -15,8 +15,8 @@ const defaultOptions: JsonLdOptions = {
   authorName: "Moe Abbas",
   // authorJobTitle omitted — add when positioning is settled
   sameAs: [
-    "https://www.linkedin.com/in/moeabbas/",
-    "https://github.com/InquisitiveBadger",
+    "https://www.linkedin.com/in/moe-m-abbas/",
+    "https://github.com/mmabbs",
   ],
 }
 

@@ -1,11 +1,11 @@
 # Moe's Frontmatters - robots.txt
-# https://inquisitivebadger.github.io/moesfrontmatters/
+# https://moesfrontmatters.com
 
 User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://inquisitivebadger.github.io/moesfrontmatters/sitemap.xml
+Sitemap: https://moesfrontmatters.com/sitemap.xml
 
 # Block crawling of static assets (optional, reduces crawl budget waste)
 Disallow: /static/
