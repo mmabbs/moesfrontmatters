@@ -32,6 +32,8 @@ jobs:
         run: touch public/.nojekyll
       - name: Add CNAME file
         run: echo "moesfrontmatters.com" > public/CNAME
+      - name: Add robots.txt to site root
+        run: cp quartz/static/robots.txt public/robots.txt
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:
