@@ -11,3 +11,16 @@ private/
 replit.nix
 .quartz/
 quartz/cli/tui/dist/
+.impeccable
+
+# Tooling / session artifacts (local-only, never publish)
+.playwright-mcp/
+.mcp.json
+.claude/
+/2026-05-26-130309-quartz-v5-pt-1.txt
+
+# Local working backups
+archived/
+
+# Working drafts — contains confidential client source material; keep local
+content/drafts/
