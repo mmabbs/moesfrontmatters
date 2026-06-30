@@ -3,8 +3,10 @@ title: Home
 seoTitle: Producer & Writer Portfolio | Content Strategy, Games, Film
 description: Explore my producer and writer portfolio across content strategy, marketing, narrative design in games, and screenwriting. View my latest work in games and marketing.
 tags:
-modified: 2026-05-20T08:04:42
-created: 2026-03-15T17:55:05
+  - cards-2-3
+  - list-cards
+modified: 06-28-2026
+created: 06-26-2026
 draft:
 ---
 
@@ -48,11 +50,11 @@ You can reach me at <span class="contact">moe[at]moesfrontmatters.com</span>.
 		<span class="nav-title">Marketing</span>
 		<span class="nav-desc">— Content strategy frameworks and UX case studies.</span>
 	</a>
+	<a href="/digital-garden" class="nav-item" data-no-popover="true">
+		<span class="nav-title">Digital Garden</span>
+		<span class="nav-desc">— Notes, case studies, reflections, and observations on completed projects and works-in-progress.</span>
+	</a>
 </nav>
-
-<p class="garden-nav">
-	<a href="/digital-garden">Digital Garden</a> — Notes on completed projects and works-in-progress through case studies, post-mortems, reflections, and observations, as well as random musings on the subjects that interest me.
-</p>
 
 <hr class="nav-divider">
 
@@ -81,7 +83,7 @@ You can reach me at <span class="contact">moe[at]moesfrontmatters.com</span>.
 <div class="artifact-card">
 	<div class="artifact-title-row">
 		<h4 class="artifact-title">"A Visit to the Magistrate"</h4>
-		<a href="#" class="download-badge">PDF ↓</a>
+		<span class="download-badge" style="opacity: 0.4; pointer-events: none;">Coming Soon</span>
 		<span class="artifact-info"><span class="format">Cinematic</span> · Sci-Fi · 3 pages ·</span>
 		<a href="/projects/samsaras-edge" class="project-link">SamSara's Edge</a>
 	</div>
@@ -167,6 +169,8 @@ You can reach me at <span class="contact">moe[at]moesfrontmatters.com</span>.
 
 > [!warning] Due to NDAs, case studies emphasize methodology and strategic approach rather than final deliverables. If you'd like to discuss a project in detail, please reach out at <span class="contact">moe[at]moesfrontmatters.com</span>
 
+<h3 class="artifact-group-header">Case Studies</h3>
+
 <div class="artifacts-grid">
 <div class="artifact-card">
 	<div class="artifact-title-row">
@@ -220,68 +224,17 @@ In addition to other roles across the development/production value chain, I've w
 
 <h3 class="artifact-group-header">Produced Works</h3>
 
-<div class="film-grid">
-
-<a href="/projects/prom-night" class="film-card">
-	<img src="/site-assets/prom-night-2025-poster.png" alt="Prom Night poster" width="400" height="600" loading="lazy">
-	<div class="film-overlay">
-		<h4>Prom Night (2017)</h4>
-		<p><span class="meta-label">Role:</span> Producer, Production Manager</p>
-		<p><span class="meta-label">Genre:</span> Comedy · 13m 28s</p>
-		<p><span class="meta-label">Dir:</span> Sam MacAdam</p>
-		<p><span class="meta-label">Cast:</span> Gerry Dee, Trevor Tordjman, Carol Huska</p>
-		<p class="film-synopsis">Three overprotective fathers find a positive pregnancy test and go on a mission to find out before the end of prom night which one of their teens is pregnant.</p>
-	</div>
-</a>
-
-<a href="https://vimeo.com/1058828508" class="film-card">
-	<img src="/site-assets/gourmade-poster.webp" alt="Gourmade poster" width="400" height="600" loading="lazy">
-	<div class="film-overlay">
-		<h4>Gourmade (2024)</h4>
-		<p><span class="meta-label">Role:</span> Co-Producer</p>
-		<p><span class="meta-label">Genre:</span> Commercial, Comedy · 2m 45s</p>
-		<p><span class="meta-label">Dir:</span> Sam MacAdam</p>
-		<p><span class="meta-label">Cast:</span> Paloma Nuñez, Emma Hunter</p>
-		<p class="film-synopsis">A late-night emotional eater find out that delicious meals aren't the only things this revolutionary smart oven called 'Gourmade' is dishing out.</p>
-	</div>
-</a>
-
-<a href="https://www.youtube.com/watch?v=6ZXmlmHNco0" class="film-card">
-	<img src="/site-assets/desire-poster.webp" alt="Desire poster" width="400" height="600" loading="lazy">
-	<div class="film-overlay">
-		<h4>Desire (2014)</h4>
-		<p><span class="meta-label">Role:</span> Executive Producer</p>
-		<p><span class="meta-label">Genre:</span> Drama · 13m 52s</p>
-		<p><span class="meta-label">Dir:</span> Hala Matar</p>
-		<p><span class="meta-label">Cast:</span> Johnny Knoxville, Sophie Kennedy Clarke, Matthew Gray Gubler, Lydia Hearst</p>
-		<p class="film-synopsis">A silver screen actress drifts in and out of her character as she longs for the love of her co-star.</p>
-	</div>
-</a>
-
-<a href="/projects/bark" class="film-card">
-	<img src="/site-assets/bark-poster.webp" alt="Bark poster" width="400" height="600" loading="lazy">
-	<div class="film-overlay">
-		<h4>Bark (2023)</h4>
-		<p><span class="meta-label">Role:</span> Producer, Production Manager</p>
-		<p><span class="meta-label">Genre:</span> Drama · 13m 8s</p>
-		<p><span class="meta-label">Dir:</span> Ganesh Thava</p>
-		<p><span class="meta-label">Cast:</span> Aranan Sathian, Ganesh Thava</p>
-		<p class="film-synopsis">A queer South Asian boy on the verge of self-discovery wages a silent battle against the rigid expectations imposed upon him.</p>
-	</div>
-</a>
-
-<a href="/projects/harriet" class="film-card">
-	<img src="/site-assets/harriet-poster.webp" alt="Harriet poster" width="400" height="600" loading="lazy">
-	<div class="film-overlay">
-		<h4>Harriet Jones (2023)</h4>
-		<p><span class="meta-label">Role:</span> Producer, PM</p>
-		<p><span class="meta-label">Genre:</span> Horror · 7m 7s</p>
-		<p><span class="meta-label">Dir:</span> Sam MacAdam</p>
-		<p><span class="meta-label">Cast:</span> Jessica Salgueiro, Jordan Clark</p>
-		<p class="film-synopsis">An innocent game of Marco Polo between two cousins takes a sinister turn when one is killed. Decades later, Harriet, the sole survivor, is driven mad with guilt, plagued by waking nightmares — or is it her cousin back for one more game?</p>
-	</div>
-</a>
-
-</div>
+For produced shorts, screenwriting credits, and more — see the full [[film-tv|Film & TV]] page.
 
 </section>
+
+<hr class="nav-divider">
+
+<p class="hero-bio" style="margin-top: var(--space-32);">
+If your next project needs someone who sees the whole picture — <span class="contact">moe[at]moesfrontmatters.com</span>.
+</p>
+
+
+- DR. NO
+- ![[prom-night-2025-poster.png]]
+- FILM BY SAM

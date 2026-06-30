@@ -217,13 +217,13 @@ $radius-md: 8px;
   --accent-shadow: rgba(94, 125, 83, 0.2);
 
   // Slate accent
-  --frost: #6b8699;
-  --frost-dim: #567085;
+  --frost: #4d7085;
+  --frost-dim: #3d6075;
 
   // Links (using darker slate for accessibility)
-  --link: #6b8699;
-  --link-hover: #567085;
-  --link-bg: rgba(107, 134, 153, 0.08);
+  --link: #4d7085;
+  --link-hover: #3d6075;
+  --link-bg: rgba(77, 112, 133, 0.08);
 
   // Success
   --success: #4a7a4e;
@@ -237,8 +237,8 @@ $radius-md: 8px;
   --accolade-bg: rgba(154, 63, 85, 0.08);
 
   // Callout semantic colors (darker for light bg)
-  --callout-warning: #a07838;
-  --callout-note: #6e6e68;
+  --callout-warning: #8a6830;
+  --callout-note: #5a5a55;
   --callout-error: #a04545;
   --callout-success: #4a7a4e;
 
@@ -414,7 +414,7 @@ body::before {
   position: fixed;
   inset: 0;
   pointer-events: none;
-  z-index: 9999;
+  z-index: 1;
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
   opacity: 0.03;
 }
@@ -478,7 +478,7 @@ p {
   margin-bottom: 1rem;
   font-size: var(--text-base);
   line-height: 1.65;
-  // max-width: 65ch;
+  max-width: 65ch;
 }
 
 // ===================
@@ -487,11 +487,11 @@ p {
 
 [data-slug="Games"] [data-slug="Marketing"] [data-slug="index"],
 .content-meta {
-  display: none;
+  display: none !important;
 }
 
 .article-title {
-  display: none;
+  display: none !important;
 }
 
 .page article > h1 {
@@ -506,7 +506,7 @@ p {
   text-transform: uppercase;
   letter-spacing: 0.2em;
   color: var(--dark);
-  margin-bottom: var(--space-64);
+  margin-bottom: var(--space-32);
 }
 
 // Legacy support
@@ -517,7 +517,7 @@ p {
   font-weight: 600;
   line-height: 0.95;
   letter-spacing: -0.03em;
-  margin: 0 0 var(--space-16) 0;
+  margin: 0 0 var(--space-8) 0;
   color: var(--dark);
 
   span {
@@ -830,7 +830,9 @@ a.internal.nav-item,
   margin-top: 12px;
   font-size: var(--text-sm);
   color: var(--darkgray);
-  line-height: 1.6;
+  line-height: 1.8;
+  text-align: justify;
+  hyphens: auto;
 
   a {
     font-family: $font-display;
@@ -868,7 +870,10 @@ a.internal.nav-item,
 // ===================
 
 .section {
-  margin-top: var(--space-32);
+  margin-top: var(--space-32) !important;
+  position: relative !important;
+  z-index: 0 !important;
+  display: block !important;
 }
 
 .section-title {
@@ -1441,7 +1446,7 @@ button.toc-header h3 {
   }
 
   .hero-intro {
-    font-size: var(--text-base);
+    font-size: var(--text-xs);
     margin-bottom: var(--space-32);
   }
 
