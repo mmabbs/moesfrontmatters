@@ -494,9 +494,6 @@ p {
   display: none !important;
 }
 
-.page article > h1 {
-  font-size: var(--text-5xl);
-}
 
 // Hero eyebrow label
 .hero-eyebrow {
@@ -513,7 +510,7 @@ p {
 // Dramatic hero title - much larger scale
 .hero-title {
   font-family: $font-display;
-  font-size: clamp(4rem, 12vw, 10rem);
+  font-size: clamp(3rem, 9vw, 7rem);
   font-weight: 600;
   line-height: 0.95;
   letter-spacing: -0.03em;
