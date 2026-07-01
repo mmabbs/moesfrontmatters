@@ -3095,38 +3095,48 @@ body[data-slug="games-2"] {
 // ===================
 // DOMAIN SPREAD LAYOUT (Matuschak-style horizontal-scroll columns)
 // ===================
-// Each project is a fixed-width column. The container scrolls
-// horizontally. Each column scrolls vertically for long content.
-// On mobile, collapses to a single stacked column.
+// Fixed-width columns in a horizontal flex container at viewport
+// height. Each column scrolls vertically. The whole thing scrolls
+// horizontally. Edge-to-edge — no sidebars, no container padding.
 
-#quartz-body:has(article.domain-spread) {
-  grid-template-columns: auto;
+.page:has(article.domain-spread) > #quartz-body {
+  grid-template-columns: auto !important;
+  grid-template-rows: auto 1fr auto !important;
   grid-template-areas:
     "grid-header"
     "grid-center"
-    "grid-footer";
+    "grid-footer" !important;
+  column-gap: 0 !important;
+  height: 100vh;
+  overflow: hidden;
 
   .sidebar {
-    display: none;
+    display: none !important;
   }
 
   .center {
-    max-width: 100%;
-    overflow-x: auto;
+    max-width: 100% !important;
+    min-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden;
+  }
+
+  .page-header {
+    display: none;
   }
 }
 
 article.domain-spread {
   .article-title,
-  .content-meta,
-  .page-header {
+  .content-meta {
     display: none;
   }
 
   .domain-landing {
     display: flex;
     flex-direction: row;
-    height: calc(100vh - 3rem);
+    height: calc(100vh - 2rem);
     overflow-x: auto;
     overflow-y: hidden;
     gap: 0;
@@ -3139,10 +3149,10 @@ article.domain-spread {
     height: 100%;
     overflow-y: auto;
     padding: var(--space-32) var(--space-32);
-    border-left: 1px solid var(--bg-hover);
+    border-right: 1px solid var(--bg-hover);
 
-    &:first-child {
-      border-left: none;
+    &:last-child {
+      border-right: none;
     }
 
     h2 {
@@ -3163,6 +3173,11 @@ article.domain-spread {
 }
 
 @media all and ($mobile) {
+  .page:has(article.domain-spread) > #quartz-body {
+    height: auto;
+    overflow: visible;
+  }
+
   article.domain-spread {
     .domain-landing {
       flex-direction: column;
@@ -3175,12 +3190,16 @@ article.domain-spread {
       flex: none;
       height: auto;
       overflow-y: visible;
-      border-left: none;
+      border-right: none;
       border-top: 1px solid var(--bg-hover);
-      padding: var(--space-32) 0;
+      padding: var(--space-32) var(--space-16);
 
       &:first-child {
         border-top: none;
+      }
+
+      &:last-child {
+        border-right: none;
       }
     }
   }
