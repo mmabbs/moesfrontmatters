@@ -3095,37 +3095,9 @@ body[data-slug="games-2"] {
 // ===================
 // DOMAIN SPREAD LAYOUT (Matuschak-style horizontal-scroll columns)
 // ===================
-// Fixed-width columns in a horizontal flex container at viewport
-// height. Each column scrolls vertically. The whole thing scrolls
-// horizontally. Edge-to-edge — no sidebars, no container padding.
-
-.page:has(article.domain-spread) > #quartz-body {
-  grid-template-columns: auto !important;
-  grid-template-rows: auto 1fr auto !important;
-  grid-template-areas:
-    "grid-header"
-    "grid-center"
-    "grid-footer" !important;
-  column-gap: 0 !important;
-  height: 100vh;
-  overflow: hidden;
-
-  .sidebar {
-    display: none !important;
-  }
-
-  .center {
-    max-width: 100% !important;
-    min-width: 100% !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    overflow: hidden;
-  }
-
-  .page-header {
-    display: none;
-  }
-}
+// Breaks out of the Quartz grid container to fill the viewport
+// edge-to-edge. Fixed-width columns scroll horizontally, each
+// column scrolls vertically independently.
 
 article.domain-spread {
   .article-title,
@@ -3136,11 +3108,12 @@ article.domain-spread {
   .domain-landing {
     display: flex;
     flex-direction: row;
-    height: calc(100vh - 2rem);
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    height: calc(100vh - 5rem);
     overflow-x: auto;
     overflow-y: hidden;
     gap: 0;
-    margin: 0;
     padding: 0;
   }
 
@@ -3173,14 +3146,11 @@ article.domain-spread {
 }
 
 @media all and ($mobile) {
-  .page:has(article.domain-spread) > #quartz-body {
-    height: auto;
-    overflow: visible;
-  }
-
   article.domain-spread {
     .domain-landing {
       flex-direction: column;
+      width: auto;
+      margin-left: 0;
       height: auto;
       overflow-x: visible;
       overflow-y: visible;
@@ -3192,14 +3162,10 @@ article.domain-spread {
       overflow-y: visible;
       border-right: none;
       border-top: 1px solid var(--bg-hover);
-      padding: var(--space-32) var(--space-16);
+      padding: var(--space-32) 0;
 
       &:first-child {
         border-top: none;
-      }
-
-      &:last-child {
-        border-right: none;
       }
     }
   }
