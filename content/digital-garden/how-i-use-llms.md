@@ -7,8 +7,8 @@ tags:
   - llms
   - workflows
   - research
-modified: 2026-05-23T19:10:19
-created: 2026-03-14T12:52:13
+modified: 06-25-2026
+created: 06-05-2026
 draft: false
 ---
 
@@ -57,7 +57,7 @@ When I need to get smart on a new space fast, keep up with industry news and eve
 - A **research auditor** that checks for fabricated sources and ensures there's a source for every claim made. I won't even bother reading long LLM output until the auditor does its work 
 - A **[[pop-ups#^pop-up-4|Graph of Verification]]-based argument parser** that extracts every claim from aggregated and paraphrased research, maps the dependency chain between them, and checks whether each conclusion actually follows from its premises. More valuable for academic sources, but super helpful when rhetoric buries the argument
 - An **events scraper** pulls upcoming Toronto tech events from Luma, Meetup, Eventbrite, and industry-specific sites and drops them into a date-stamped note. Keyword filtering and date-range limits mean I'm not tab-hopping across six platforms every Sunday
-- An **industry news scraper** runs twice weekly across business, design, marketing, games and technology beats, then writes a curated digest with sourced summaries. It deduplicates against the last five notes automatically, so I'm always reading fresh headlines to worry about 
+- An **[AI industry news scraper](https://github.com/mmabbs/mabbs-claude-skills/tree/main/skills/ai-news)** runs every weekday across the Canadian AI beat — funding, hiring, policy, and market moves — then writes a curated digest with sourced summaries. It deduplicates against the last five notes automatically, so I'm always reading fresh headlines to worry about 
 - A **market intelligence radar** for finding product/service gaps in areas of interest. It scans sites like Reddit to surface unmet needs and emerging trends and synthesizes signals through strategic frameworks (JTBD, competitive mapping, Blue Ocean). 
 
 ## Learning on my own terms
@@ -86,7 +86,3 @@ Going beyond the chatbot has helped separate the signal from the noise around th
 > **The more you use LLMs the *smart* way to unlock their potential, the more you realize just how unfinished the output really is. You need human input and judgment at every step.** 
 
 Intent and effort matter. So does knowing where your judgment ends and an expert's begins. 
-
-
-> [!question]- Interested in seeing my Claude skills and plugins?
-> A selection of these is being cleaned up for public release. I'll link the repos here when they're ready.
