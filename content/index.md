@@ -56,6 +56,6 @@ You can reach me at <a href="mailto:moe@moesfrontmatters.com" class="contact">mo
 
 <hr class="nav-divider">
 
-<p class="hero-bio" style="margin-top: var(--space-32);">
+<p class="cta-closing">
 If your next project needs someone who sees the whole picture — <a href="mailto:moe@moesfrontmatters.com" class="contact">moe[at]moesfrontmatters.com</a>.
 </p>

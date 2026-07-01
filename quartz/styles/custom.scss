@@ -911,6 +911,25 @@ a.internal.nav-item,
   background: var(--bg-hover);
 }
 
+.cta-closing {
+  font-family: $font-display;
+  font-size: var(--text-xl);
+  font-weight: 500;
+  line-height: 1.4;
+  color: var(--dark);
+  margin-top: var(--space-32);
+
+  .contact {
+    color: var(--accent);
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+  }
+}
+
 @media all and ($mobile) {
   .nav-item {
     flex-direction: column;
@@ -3070,5 +3089,55 @@ body[data-slug="games-2"] {
       border-top: none;
       padding-top: 0;
     }
+  }
+}
+
+// ===================
+// ENTRANCE ANIMATION
+// ===================
+
+@keyframes entrance {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+[data-slug="index"] .hero-eyebrow,
+[data-slug="index"] .hero-title,
+[data-slug="index"] .hero-intro,
+[data-slug="index"] .hero-bio,
+[data-slug="index"] .hero-tags,
+[data-slug="index"] .nav-list,
+[data-slug="index"] .nav-divider,
+[data-slug="index"] .cta-closing {
+  opacity: 0;
+  animation: entrance 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+[data-slug="index"] .hero-eyebrow { animation-delay: 0.05s; }
+[data-slug="index"] .hero-title { animation-delay: 0.15s; }
+[data-slug="index"] .hero-intro { animation-delay: 0.25s; }
+[data-slug="index"] .hero-bio { animation-delay: 0.4s; }
+[data-slug="index"] .hero-tags { animation-delay: 0.6s; }
+[data-slug="index"] .nav-list { animation-delay: 0.8s; }
+[data-slug="index"] .nav-divider { animation-delay: 1.0s; }
+[data-slug="index"] .cta-closing { animation-delay: 1.1s; }
+
+// ===================
+// REDUCED MOTION
+// ===================
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01s !important;
+    animation-delay: 0s !important;
+    transition-duration: 0.01s !important;
   }
 }
