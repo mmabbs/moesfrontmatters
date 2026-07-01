@@ -858,7 +858,7 @@ a.internal.nav-item,
   transition: color var(--transition-fast);
 
   &::after {
-    content: " \2193";
+    content: " \2192";
     font-family: $font-mono;
     font-size: var(--text-sm);
     color: var(--link);

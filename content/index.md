@@ -24,7 +24,7 @@ I've written narrative and worldbuilding documentation for games, produced films
 
 [Learn more about me](about-me.md).
 
-You can reach me at <span class="contact">moe[at]moesfrontmatters.com</span>.
+You can reach me at <a href="mailto:moe@moesfrontmatters.com" class="contact">moe[at]moesfrontmatters.com</a>.
 </div>
 
 <div class="hero-tags">
@@ -57,5 +57,5 @@ You can reach me at <span class="contact">moe[at]moesfrontmatters.com</span>.
 <hr class="nav-divider">
 
 <p class="hero-bio" style="margin-top: var(--space-32);">
-If your next project needs someone who sees the whole picture — <span class="contact">moe[at]moesfrontmatters.com</span>.
+If your next project needs someone who sees the whole picture — <a href="mailto:moe@moesfrontmatters.com" class="contact">moe[at]moesfrontmatters.com</a>.
 </p>
