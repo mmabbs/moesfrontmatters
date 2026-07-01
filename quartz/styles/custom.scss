@@ -210,7 +210,9 @@ $radius-md: 8px;
   --text-tertiary: #9c9891;
 
   // Lichen accent (darker for light mode accessibility)
-  --accent: #5e7d53;
+  // #5e7d53 measured 4.52:1 on cream (barely passes AA) — darkened slightly
+  // to #5b7950 (4.8:1) for a safety margin against rendering variance
+  --accent: #5b7950;
   --accent-hover: #4a6842;
   --accent-dim: #3d5636;
   --accent-glow: rgba(94, 125, 83, 0.1);
@@ -241,6 +243,45 @@ $radius-md: 8px;
   --callout-note: #5a5a55;
   --callout-error: #a04545;
   --callout-success: #4a7a4e;
+
+  // Callout icon/title colors (WCAG AA fix for light mode)
+  // quartz/styles/callouts.scss sets --color per data-callout type with
+  // hardcoded, theme-agnostic hex values meant for the near-black dark
+  // background. On cream (#fefcf8) several measured well under 4.5:1
+  // (question 2.15:1, warning 2.67:1, tip 2.28:1, info/todo 2.33:1,
+  // abstract 2.37:1, success 2.82:1, note 3.24:1, failure/danger/bug 4.21:1).
+  // These overrides darken --color per type (same hue, reduced lightness)
+  // to land at ~4.6:1. Higher specificity here (:root[saved-theme="light"]
+  // .callout[data-callout]) wins over the base rule regardless of source order.
+  .callout {
+    &[data-callout="note"] {
+      --color: #0e68ff;
+    }
+    &[data-callout="abstract"] {
+      --color: #007bb2;
+    }
+    &[data-callout="info"],
+    &[data-callout="todo"] {
+      --color: #007f92;
+    }
+    &[data-callout="tip"] {
+      --color: #008271;
+    }
+    &[data-callout="success"] {
+      --color: #07845d;
+    }
+    &[data-callout="question"] {
+      --color: #966c1d;
+    }
+    &[data-callout="warning"] {
+      --color: #ab6121;
+    }
+    &[data-callout="failure"],
+    &[data-callout="danger"],
+    &[data-callout="bug"] {
+      --color: #d83333;
+    }
+  }
 
   // Card hover text (same as --light in light mode)
   --card-hover-text: var(--light);
