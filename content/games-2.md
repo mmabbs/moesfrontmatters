@@ -1,14 +1,14 @@
 ---
-title: Games
+title: Games-2
 seoTitle: Game Writing Portfolio | Narrative Design Specs
 description: Game writing and narrative design portfolio. Cinematics, bark sheets, character bios, and worldbuilding for sci-fi and fantasy action-adventure games.
 tags:
   - writing
   - game-writing
   - video-games
-modified: 05-27-2026
+modified: 06-28-2026
 created: 05-27-2026
-draft: true
+draft: false
 ---
 
 <div class="domain-landing">

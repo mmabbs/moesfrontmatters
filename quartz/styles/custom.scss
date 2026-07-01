@@ -478,7 +478,6 @@ p {
   margin-bottom: 1rem;
   font-size: var(--text-base);
   line-height: 1.65;
-  max-width: 65ch;
 }
 
 // ===================
@@ -495,6 +494,10 @@ p {
 }
 
 
+.page > #quartz-body .page-header {
+  margin-top: 3rem;
+}
+
 // Hero eyebrow label
 .hero-eyebrow {
   font-family: $font-mono;
@@ -506,11 +509,14 @@ p {
   margin-bottom: var(--space-32);
 }
 
-// Legacy support
-// Dramatic hero title - much larger scale
+// Override base.scss .page article > h1 { font-size: 2rem } for hero title
+.page article > h1.hero-title {
+  font-size: clamp(3rem, 6vw, 4rem);
+}
+
 .hero-title {
   font-family: $font-display;
-  font-size: clamp(3rem, 9vw, 7rem);
+  font-size: clamp(3rem, 6vw, 4rem);
   font-weight: 600;
   line-height: 0.95;
   letter-spacing: -0.03em;
@@ -533,7 +539,7 @@ p {
   text-transform: uppercase;
   letter-spacing: 0.2em;
   color: var(--accent);
-  margin-bottom: var(--space-32);
+  margin-bottom: var(--space-16);
 }
 
 .hero-bio {
@@ -1338,7 +1344,7 @@ hr {
   background: linear-gradient(90deg, transparent, var(--bg-hover), transparent);
   height: 1px;
   border: none;
-  margin: 3rem 0;
+  margin: 1.5rem 0;
 }
 
 // ===================
@@ -2180,6 +2186,7 @@ a.internal.related-item,
 footer {
   opacity: 1; // Override base 0.5 opacity for accessibility
   color: var(--darkgray);
+  margin-bottom: 1rem;
 
   a {
     color: var(--darkgray);
