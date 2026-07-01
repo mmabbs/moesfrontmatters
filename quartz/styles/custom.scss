@@ -474,6 +474,15 @@ body::after {
 // TYPOGRAPHY
 // ===================
 
+// Cap reading text to comfortable line length without constraining
+// grids, cards, or layout containers. The .center column has no
+// fixed max-width (it's `auto` in the grid), so on wide viewports
+// body text runs 100-160+ chars/line without this.
+article p,
+article li {
+  max-width: 75ch;
+}
+
 h1 {
   font-family: $font-display;
   font-size: var(--text-3xl);
