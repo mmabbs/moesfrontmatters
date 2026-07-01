@@ -3093,8 +3093,11 @@ body[data-slug="games-2"] {
 }
 
 // ===================
-// DOMAIN SPREAD LAYOUT (Matuschak-style full-viewport columns)
+// DOMAIN SPREAD LAYOUT (Matuschak-style horizontal-scroll columns)
 // ===================
+// Each project is a fixed-width column. The container scrolls
+// horizontally. Each column scrolls vertically for long content.
+// On mobile, collapses to a single stacked column.
 
 #quartz-body:has(article.domain-spread) {
   grid-template-columns: auto;
@@ -3106,32 +3109,80 @@ body[data-slug="games-2"] {
   .sidebar {
     display: none;
   }
+
+  .center {
+    max-width: 100%;
+    overflow-x: auto;
+  }
 }
 
 article.domain-spread {
   .article-title,
-  .content-meta {
+  .content-meta,
+  .page-header {
     display: none;
   }
 
   .domain-landing {
-    grid-template-columns: repeat(5, 1fr);
-    gap: var(--space-32);
-    min-height: calc(100vh - 6rem);
-    align-items: start;
-    padding: 0 var(--space-32);
+    display: flex;
+    flex-direction: row;
+    height: calc(100vh - 3rem);
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 0;
+    margin: 0;
+    padding: 0;
   }
 
   .domain-col {
-    padding-top: var(--space-16);
+    flex: 0 0 420px;
+    height: 100%;
+    overflow-y: auto;
+    padding: var(--space-32) var(--space-32);
+    border-left: 1px solid var(--bg-hover);
+
+    &:first-child {
+      border-left: none;
+    }
+
+    h2 {
+      font-size: var(--text-3xl);
+      margin-bottom: var(--space-16);
+    }
+  }
+
+  .domain-logline {
+    font-size: var(--text-base);
+    line-height: 1.65;
+    color: var(--text-secondary);
+  }
+
+  .domain-artifacts {
+    margin-top: var(--space-32);
   }
 }
 
 @media all and ($mobile) {
-  article.domain-spread .domain-landing {
-    grid-template-columns: 1fr;
-    min-height: auto;
-    padding: 0;
+  article.domain-spread {
+    .domain-landing {
+      flex-direction: column;
+      height: auto;
+      overflow-x: visible;
+      overflow-y: visible;
+    }
+
+    .domain-col {
+      flex: none;
+      height: auto;
+      overflow-y: visible;
+      border-left: none;
+      border-top: 1px solid var(--bg-hover);
+      padding: var(--space-32) 0;
+
+      &:first-child {
+        border-top: none;
+      }
+    }
   }
 }
 
