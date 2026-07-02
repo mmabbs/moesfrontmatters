@@ -16,7 +16,7 @@ draft: false
 <div class="artifacts-grid">
 <div class="artifact-card">
 	<div class="artifact-title-row">
-		<h4 class="artifact-title">"New Dog, Old Tricks"</h4>
+		<h3 class="artifact-title">"New Dog, Old Tricks"</h4>
 		<a href="/site-assets/ollie-scene.pdf" class="download-badge">PDF ↓</a>
 		<span class="artifact-info"><span class="format">Cinematic</span> · Sci-Fi · 3 pages ·</span>
 		<a href="/loglines/ollie-oxenfree" class="project-link">Ollie Oxenfree</a>
@@ -31,7 +31,7 @@ draft: false
 
 <div class="artifact-card">
 	<div class="artifact-title-row">
-		<h4 class="artifact-title">"A Visit to the Magistrate"</h4>
+		<h3 class="artifact-title">"A Visit to the Magistrate"</h4>
 		<span class="download-badge" style="opacity: 0.4; pointer-events: none;">Coming Soon</span>
 		<span class="artifact-info"><span class="format">Cinematic</span> · Sci-Fi · 3 pages ·</span>
 		<a href="/loglines/samsaras-edge" class="project-link">SamSara's Edge</a>
@@ -43,7 +43,7 @@ draft: false
 
 <div class="artifact-card">
 	<div class="artifact-title-row">
-		<h4 class="artifact-title">"Riders on the Storm"</h4>
+		<h3 class="artifact-title">"Riders on the Storm"</h4>
 		<span class="download-badge" style="opacity: 0.4; pointer-events: none;">Coming Soon</span>
 		<span class="artifact-info"><span class="format">Playable Onboarding</span> ·</span>
 		<a href="/loglines/samsaras-edge" class="project-link">SamSara's Edge</a>
@@ -56,7 +56,7 @@ draft: false
 <div class="artifacts-grid">
 <div class="artifact-card">
 	<div class="artifact-title-row">
-		<h4 class="artifact-title">Ollie Liviere</h4>
+		<h3 class="artifact-title">Ollie Liviere</h4>
 		<a href="/site-assets/ollie-barksheet.pdf" class="download-badge">PDF ↓</a>
 		<span class="artifact-info"><span class="format">Barksheet</span> · Sci-Fi, Fantasy ·</span>
 		<a href="/loglines/ollie-oxenfree" class="project-link">Ollie Oxenfree</a>
@@ -68,7 +68,7 @@ draft: false
 
 <div class="artifact-card">
 	<div class="artifact-title-row">
-		<h4 class="artifact-title">Ollie Liviere</h4>
+		<h3 class="artifact-title">Ollie Liviere</h4>
 		<a href="/site-assets/ollie-bio.pdf" class="download-badge">PDF ↓</a>
 		<span class="artifact-info"><span class="format">Biography</span> · Sci-Fi, Fantasy ·</span>
 		<a href="/loglines/ollie-oxenfree" class="project-link">Ollie Oxenfree</a>
@@ -80,7 +80,7 @@ draft: false
 
 <div class="artifact-card">
 	<div class="artifact-title-row">
-		<h4 class="artifact-title">Howard the Duck</h4>
+		<h3 class="artifact-title">Howard the Duck</h4>
 		<a href="/site-assets/howard-barksheet.pdf" class="download-badge">PDF ↓</a>
 		<span class="artifact-info"><span class="format">Barksheet</span> · Action-Adventure ·</span>
 		<a href="/loglines/howard-the-duck-and-spider-ham" class="project-link">Howard the Duck & Spider-Ham</a>
@@ -96,7 +96,7 @@ draft: false
 <div class="artifacts-grid">
 <div class="artifact-card">
 	<div class="artifact-title-row">
-		<h4 class="artifact-title">"The Draw"</h4>
+		<h3 class="artifact-title">"The Draw"</h4>
 		<a href="/site-assets/gr-scene.pdf" class="download-badge">PDF ↓</a>
 		<span class="artifact-info"><span class="format">Film Scene</span> · Fantasy, Historical · 3 pages ·</span>
 		<a href="/loglines/grim-rock" class="project-link">Grim Rock</a>
@@ -112,7 +112,7 @@ draft: false
 <div class="artifacts-grid">
 <div class="artifact-card">
 	<div class="artifact-title-row">
-		<h4 class="artifact-title">Motopetrids</h4>
+		<h3 class="artifact-title">Motopetrids</h4>
 		<a href="/site-assets/gr-bestiary-monopetrid.pdf" class="download-badge">PDF ↓</a>
 		<span class="artifact-info"><span class="format">Bestiary Profile</span> · Dark Fantasy, RPG ·</span>
 		<a href="/loglines/grim-rock" class="project-link">Grim Rock</a>
@@ -124,7 +124,7 @@ draft: false
 
 <div class="artifact-card">
 	<div class="artifact-title-row">
-		<h4 class="artifact-title">McCarthy's Letter to Madam President-Elect</h4>
+		<h3 class="artifact-title">McCarthy's Letter to Madam President-Elect</h4>
 		<a href="/site-assets/gr-mccarthy-letter.pdf" class="download-badge">PDF ↓</a>
 		<span class="artifact-info"><span class="format">Flavour Text</span> · Dark Fantasy, RPG ·</span>
 		<a href="/loglines/grim-rock" class="project-link">Grim Rock</a>
@@ -140,7 +140,7 @@ draft: false
 <div class="artifacts-grid">
 <div class="artifact-card">
 	<div class="artifact-title-row">
-		<h4 class="artifact-title">Pitch Deck</h4>
+		<h3 class="artifact-title">Pitch Deck</h4>
 		<span class="artifact-info"><span class="format">Content Strategy</span> ·</span>
 		<a href="/loglines/the-otter-side" class="project-link">The Otter Side</a>
 	</div>
@@ -148,7 +148,7 @@ draft: false
 
 <div class="artifact-card">
 	<div class="artifact-title-row">
-		<h4 class="artifact-title">Messaging Architecture</h4>
+		<h3 class="artifact-title">Messaging Architecture</h4>
 		<span class="artifact-info"><span class="format">Framework</span> ·</span>
 		<a href="/loglines/the-otter-side" class="project-link">The Otter Side</a>
 	</div>
@@ -156,7 +156,7 @@ draft: false
 
 <div class="artifact-card">
 	<div class="artifact-title-row">
-		<h4 class="artifact-title">Voice Pattern Systems</h4>
+		<h3 class="artifact-title">Voice Pattern Systems</h4>
 		<span class="artifact-info"><span class="format">Framework</span> ·</span>
 		<a href="/loglines/the-otter-side" class="project-link">The Otter Side</a>
 	</div>
