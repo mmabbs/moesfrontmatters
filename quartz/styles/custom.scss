@@ -478,7 +478,7 @@ body::after {
 // grids, cards, or layout containers. The .center column has no
 // fixed max-width (it's `auto` in the grid), so on wide viewports
 // body text runs 100-160+ chars/line without this.
-article p,
+article p:not(.hero-eyebrow):not(.hero-intro):not(.cta-closing),
 article li {
   max-width: 75ch;
 }
@@ -935,7 +935,7 @@ a.internal.nav-item,
 
 .cta-closing {
   font-family: $font-display;
-  font-size: var(--text-xl);
+  font-size: var(--text-lg);
   font-weight: 500;
   line-height: 1.4;
   color: var(--dark);
@@ -2290,6 +2290,15 @@ footer {
   opacity: 1; // Override base 0.5 opacity for accessibility
   color: var(--darkgray);
   margin-bottom: 1rem;
+  text-align: center;
+
+  p {
+    margin-bottom: 0.25rem;
+  }
+
+  ul {
+    justify-content: center;
+  }
 
   a {
     color: var(--darkgray);
