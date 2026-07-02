@@ -543,6 +543,26 @@ p {
   display: none !important;
 }
 
+// Frost-colored artifact category headings on landing pages
+body[data-slug="games"] h2,
+body[data-slug="film-tv"] h2,
+body[data-slug="marketing"] h2 {
+  color: var(--frost);
+}
+
+// Logline pages: hide breadcrumbs, meta, and title (utility pages for popovers)
+body[data-slug^="loglines/"] {
+  .breadcrumb-container,
+  .content-meta,
+  .article-title {
+    display: none !important;
+  }
+}
+
+// Backlinks sidebar: prevent horizontal overflow
+.backlinks > ul.overflow {
+  overflow-x: hidden;
+}
 
 .page > #quartz-body .page-header {
   margin-top: 3rem;
