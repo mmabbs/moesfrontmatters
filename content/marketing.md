@@ -8,14 +8,14 @@ created: 2026-03-15T15:18:59
 draft: false
 ---
 
-> [!warning] Due to NDAs, case studies emphasize methodology and strategic approach rather than final deliverables. If you'd like to discuss a project in detail, please reach out at <span class="contact">moe[at]moesfrontmatters.com</span>
+> [!warning] Due to NDAs, case studies emphasize methodology and strategic approach rather than final deliverables. If you'd like to discuss a project in detail, please reach out at <a href="mailto:moe@moesfrontmatters.com" class="contact">moe[at]moesfrontmatters.com</a>
 
-<h3 class="artifact-group-header">Case Studies</h3>
+<h2 class="artifact-group-header">Case Studies</h2>
 
 <div class="artifacts-grid">
 <div class="artifact-card">
 	<div class="artifact-title-row">
-		<h4 class="artifact-title">Building a Brand for an Indie Mobile Game</h4>
+		<h3 class="artifact-title">Building a Brand for an Indie Mobile Game</h4>
 		<span class="artifact-info"><span class="format">Content Strategy & Marketing</span> · Mobile Game · Cozy Runner ·</span>
 		<a href="/projects/the-otter-side" class="project-link">The Otter Side</a>
 	</div>
@@ -26,7 +26,7 @@ draft: false
 
 <div class="artifact-card">
 	<div class="artifact-title-row">
-		<h4 class="artifact-title">UX Design & User Research for a Wellness Booking App</h4>
+		<h3 class="artifact-title">UX Design & User Research for a Wellness Booking App</h4>
 		<span class="artifact-info"><span class="format">UX Design & Strategy</span> · Social Enterprise · Wellness SaaS ·</span>
 		<a href="/coming-soon" class="project-link">FitIn.io</a>
 	</div>
