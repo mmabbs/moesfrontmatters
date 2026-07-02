@@ -550,18 +550,16 @@ body[data-slug="marketing"] h2 {
   color: var(--frost);
 }
 
-// Logline pages: hide breadcrumbs, meta, and title (utility pages for popovers)
-body[data-slug^="loglines/"] {
-  .breadcrumb-container,
-  .content-meta,
-  .article-title {
-    display: none !important;
-  }
+// Logline pages: hide page header (breadcrumbs, title, meta)
+// Uses :has() to look at article.logline-page and target the preceding .page-header
+.center:has(> article.logline-page) .page-header {
+  display: none !important;
 }
 
 // Backlinks sidebar: prevent horizontal overflow
+// Base ul.overflow sets overflow-y: auto which implicitly makes overflow-x: auto
 .backlinks > ul.overflow {
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 .page > #quartz-body .page-header {
