@@ -551,7 +551,7 @@ body[data-slug="marketing"] h2 {
 }
 
 body[data-slug="games"] .markdown-rendered > h2 ~ h2,
-body[data-slug="film-tv"] .markdown-rendered > h3.artifact-group-header ~ h3.artifact-group-header {
+body[data-slug="film-tv"] .markdown-rendered > h2.artifact-group-header ~ h2.artifact-group-header {
   margin-top: var(--space-64);
   padding-top: var(--space-32);
   border-top: 1px solid var(--bg-elevated);

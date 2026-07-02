@@ -8,19 +8,17 @@ created: 05-26-2026
 draft: false
 ---
 
-# Film & TV
-
 In addition to other roles across the development/production value chain, I've worked as a consultant for production companies, grants bodies, financiers and equity investors in Canada, US, and the Arabian Gulf.
 
 > [!question]- Looking for coverage samples?
 > Please reach out at <span class="contact">moe[at]moesfrontmatters.com</span>. Due to NDAs, samples do not include films/shows that have not received distribution. All samples have redacted project titles and personnel.
 
-<h3 class="artifact-group-header">Scenes</h3>
+<h2 class="artifact-group-header">Scenes</h2>
 
 <div class="artifacts-grid">
 <div class="artifact-card">
 	<div class="artifact-title-row">
-		<h4 class="artifact-title">"The Draw"</h4>
+		<h3 class="artifact-title">"The Draw"</h3>
 		<a href="/site-assets/gr-scene.pdf" class="download-badge">PDF ↓</a>
 		<span class="artifact-info"><span class="format">Film Scene</span> · Fantasy, Historical · 3 pages ·</span>
 		<a href="/projects/grim-rock" class="project-link">Grim Rock</a>
@@ -31,7 +29,7 @@ In addition to other roles across the development/production value chain, I've w
 </div>
 </div>
 
-<h3 class="artifact-group-header">Produced Works</h3>
+<h2 class="artifact-group-header">Produced Works</h2>
 
 <div class="film-grid">
 
@@ -40,7 +38,7 @@ In addition to other roles across the development/production value chain, I've w
 		<img src="/site-assets/prom-night-2025-poster.png" alt="Prom Night poster" width="400" height="600" loading="lazy">
 	</a>
 	<div class="film-overlay">
-		<h4>Prom Night (2017)</h4>
+		<h3>Prom Night (2017)</h3>
 		<p><span class="meta-label">Role:</span> Producer, Production Manager</p>
 		<p><span class="meta-label">Genre:</span> Comedy · 13m 28s</p>
 		<p><span class="meta-label">Dir:</span> Sam MacAdam</p>
@@ -54,7 +52,7 @@ In addition to other roles across the development/production value chain, I've w
 		<img src="/site-assets/gourmade-poster.webp" alt="Gourmade poster" width="400" height="600" loading="lazy">
 	</a>
 	<div class="film-overlay">
-		<h4>Gourmade (2024)</h4>
+		<h3>Gourmade (2024)</h3>
 		<p><span class="meta-label">Role:</span> Co-Producer</p>
 		<p><span class="meta-label">Genre:</span> Commercial, Comedy · 2m 45s</p>
 		<p><span class="meta-label">Dir:</span> Sam MacAdam</p>
@@ -68,7 +66,7 @@ In addition to other roles across the development/production value chain, I've w
 		<img src="/site-assets/desire-poster.webp" alt="Desire poster" width="400" height="600" loading="lazy">
 	</a>
 	<div class="film-overlay">
-		<h4>Desire (2014)</h4>
+		<h3>Desire (2014)</h3>
 		<p><span class="meta-label">Role:</span> Executive Producer</p>
 		<p><span class="meta-label">Genre:</span> Drama · 13m 52s</p>
 		<p><span class="meta-label">Dir:</span> Hala Matar</p>
@@ -82,7 +80,7 @@ In addition to other roles across the development/production value chain, I've w
 		<img src="/site-assets/bark-poster.webp" alt="Bark poster" width="400" height="600" loading="lazy">
 	</a>
 	<div class="film-overlay">
-		<h4>Bark (2023)</h4>
+		<h3>Bark (2023)</h3>
 		<p><span class="meta-label">Role:</span> Producer, Production Manager</p>
 		<p><span class="meta-label">Genre:</span> Drama · 13m 8s</p>
 		<p><span class="meta-label">Dir:</span> Ganesh Thava</p>
@@ -96,7 +94,7 @@ In addition to other roles across the development/production value chain, I've w
 		<img src="/site-assets/harriet-poster.webp" alt="Harriet poster" width="400" height="600" loading="lazy">
 	</a>
 	<div class="film-overlay">
-		<h4>Harriet Jones (2023)</h4>
+		<h3>Harriet Jones (2023)</h3>
 		<p><span class="meta-label">Role:</span> Producer, PM</p>
 		<p><span class="meta-label">Genre:</span> Horror · 7m 7s</p>
 		<p><span class="meta-label">Dir:</span> Sam MacAdam</p>
