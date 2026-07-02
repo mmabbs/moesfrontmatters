@@ -557,8 +557,8 @@ body[data-slug="marketing"] h2 {
 }
 
 // Backlinks sidebar: prevent horizontal overflow
-// Base ul.overflow sets overflow-y: auto which implicitly makes overflow-x: auto
-.backlinks > ul.overflow {
+// The .backlinks container itself has overflow-x: auto with content 24px wider than client
+.backlinks {
   overflow-x: hidden !important;
 }
 
