@@ -551,8 +551,10 @@ body[data-slug="marketing"] h2 {
 }
 
 // Logline pages: hide page header (breadcrumbs, title, meta)
-// Uses :has() to look at article.logline-page and target the preceding .page-header
-.center:has(> article.logline-page) .page-header {
+// Standalone page: :has() looks at article.logline-page and targets the preceding .page-header
+// Popover: targets the first .popover-hint child (header div) when logline-page article is present
+.center:has(> article.logline-page) .page-header,
+.popover-inner:has(> article.logline-page) > .popover-hint:first-child {
   display: none !important;
 }
 
