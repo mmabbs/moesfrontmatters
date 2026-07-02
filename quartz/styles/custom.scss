@@ -579,11 +579,6 @@ body[data-slug="marketing"] h2 {
   margin-bottom: var(--space-32);
 }
 
-// Override base.scss .page article > h1 { font-size: 2rem } for hero title
-.page article > h1.hero-title {
-  font-size: clamp(3rem, 6vw, 4rem);
-}
-
 .hero-title {
   font-family: $font-display;
   font-size: clamp(3rem, 6vw, 4rem);
