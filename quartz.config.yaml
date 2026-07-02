@@ -19,9 +19,16 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: Playfair Display
-      body: Bricolage Grotesque
-      code: JetBrains Mono
+      header:
+        name: Playfair Display
+        weights: [400, 500, 600, 900]
+      body:
+        name: Bricolage Grotesque
+        weights: [400, 500]
+        includeItalic: false
+      code:
+        name: JetBrains Mono
+        weights: [400, 500, 700]
     colors:
       lightMode:
         light: "#FEFCF8"
