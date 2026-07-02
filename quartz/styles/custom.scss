@@ -1242,14 +1242,11 @@ svg {
   margin-top: 2rem;
 }
 
-.film-card {
+.film-card-wrapper {
   position: relative;
-  display: block;
   aspect-ratio: 2 / 3;
   overflow: hidden;
   border-radius: $radius-md;
-  text-decoration: none;
-  font-weight: normal;
   transition:
     transform var(--transition-normal),
     box-shadow var(--transition-normal);
@@ -1261,6 +1258,14 @@ svg {
       opacity: 1;
     }
   }
+}
+
+.film-card {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  font-weight: normal;
 
   img {
     width: 100%;

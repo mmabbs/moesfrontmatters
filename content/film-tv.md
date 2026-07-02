@@ -35,8 +35,10 @@ In addition to other roles across the development/production value chain, I've w
 
 <div class="film-grid">
 
-<a href="/projects/prom-night" class="film-card">
-	<img src="/site-assets/prom-night-2025-poster.png" alt="Prom Night poster" width="400" height="600" loading="lazy">
+<div class="film-card-wrapper">
+	<a href="/projects/prom-night" class="film-card">
+		<img src="/site-assets/prom-night-2025-poster.png" alt="Prom Night poster" width="400" height="600" loading="lazy">
+	</a>
 	<div class="film-overlay">
 		<h4>Prom Night (2017)</h4>
 		<p><span class="meta-label">Role:</span> Producer, Production Manager</p>
@@ -45,10 +47,12 @@ In addition to other roles across the development/production value chain, I've w
 		<p><span class="meta-label">Cast:</span> Gerry Dee, Trevor Tordjman, Carol Huska</p>
 		<p class="film-synopsis">Three overprotective fathers find a positive pregnancy test and go on a mission to find out before the end of prom night which one of their teens is pregnant.</p>
 	</div>
-</a>
+</div>
 
-<a href="https://vimeo.com/1058828508" class="film-card">
-	<img src="/site-assets/gourmade-poster.webp" alt="Gourmade poster" width="400" height="600" loading="lazy">
+<div class="film-card-wrapper">
+	<a href="https://vimeo.com/1058828508" class="film-card">
+		<img src="/site-assets/gourmade-poster.webp" alt="Gourmade poster" width="400" height="600" loading="lazy">
+	</a>
 	<div class="film-overlay">
 		<h4>Gourmade (2024)</h4>
 		<p><span class="meta-label">Role:</span> Co-Producer</p>
@@ -57,10 +61,12 @@ In addition to other roles across the development/production value chain, I've w
 		<p><span class="meta-label">Cast:</span> Paloma Nuñez, Emma Hunter</p>
 		<p class="film-synopsis">A late-night emotional eater find out that delicious meals aren't the only things this revolutionary smart oven called 'Gourmade' is dishing out.</p>
 	</div>
-</a>
+</div>
 
-<a href="https://www.youtube.com/watch?v=6ZXmlmHNco0" class="film-card">
-	<img src="/site-assets/desire-poster.webp" alt="Desire poster" width="400" height="600" loading="lazy">
+<div class="film-card-wrapper">
+	<a href="https://www.youtube.com/watch?v=6ZXmlmHNco0" class="film-card">
+		<img src="/site-assets/desire-poster.webp" alt="Desire poster" width="400" height="600" loading="lazy">
+	</a>
 	<div class="film-overlay">
 		<h4>Desire (2014)</h4>
 		<p><span class="meta-label">Role:</span> Executive Producer</p>
@@ -69,10 +75,12 @@ In addition to other roles across the development/production value chain, I've w
 		<p><span class="meta-label">Cast:</span> Johnny Knoxville, Sophie Kennedy Clarke, Matthew Gray Gubler, Lydia Hearst</p>
 		<p class="film-synopsis">A silver screen actress drifts in and out of her character as she longs for the love of her co-star.</p>
 	</div>
-</a>
+</div>
 
-<a href="/projects/bark" class="film-card">
-	<img src="/site-assets/bark-poster.webp" alt="Bark poster" width="400" height="600" loading="lazy">
+<div class="film-card-wrapper">
+	<a href="/projects/bark" class="film-card">
+		<img src="/site-assets/bark-poster.webp" alt="Bark poster" width="400" height="600" loading="lazy">
+	</a>
 	<div class="film-overlay">
 		<h4>Bark (2023)</h4>
 		<p><span class="meta-label">Role:</span> Producer, Production Manager</p>
@@ -81,10 +89,12 @@ In addition to other roles across the development/production value chain, I've w
 		<p><span class="meta-label">Cast:</span> Aranan Sathian, Ganesh Thava</p>
 		<p class="film-synopsis">A queer South Asian boy on the verge of self-discovery wages a silent battle against the rigid expectations imposed upon him.</p>
 	</div>
-</a>
+</div>
 
-<a href="/projects/harriet" class="film-card">
-	<img src="/site-assets/harriet-poster.webp" alt="Harriet poster" width="400" height="600" loading="lazy">
+<div class="film-card-wrapper">
+	<a href="/projects/harriet" class="film-card">
+		<img src="/site-assets/harriet-poster.webp" alt="Harriet poster" width="400" height="600" loading="lazy">
+	</a>
 	<div class="film-overlay">
 		<h4>Harriet Jones (2023)</h4>
 		<p><span class="meta-label">Role:</span> Producer, PM</p>
@@ -93,6 +103,6 @@ In addition to other roles across the development/production value chain, I've w
 		<p><span class="meta-label">Cast:</span> Jessica Salgueiro, Jordan Clark</p>
 		<p class="film-synopsis">An innocent game of Marco Polo between two cousins takes a sinister turn when one is killed. Decades later, Harriet, the sole survivor, is driven mad with guilt, plagued by waking nightmares — or is it her cousin back for one more game?</p>
 	</div>
-</a>
+</div>
 
 </div>
