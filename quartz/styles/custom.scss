@@ -2503,11 +2503,12 @@ footer {
 
 @media all and ($mobile) {
   .about-layout {
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
 
   .about-photo {
     width: 240px;
+    align-self: center;
   }
 }
 
