@@ -883,6 +883,7 @@ a.internal.nav-item,
     content: " \2192";
     font-family: $font-mono;
     font-size: var(--text-sm);
+    vertical-align: middle;
     color: var(--link);
     transition: color var(--transition-fast);
   }
