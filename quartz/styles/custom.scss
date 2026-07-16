@@ -1224,6 +1224,16 @@ svg {
   font-weight: 400;
 }
 
+.breadcrumb-element p {
+  margin-block: 0;
+  font-size: 0;
+
+  &::after {
+    content: ">";
+    font-size: 1rem;
+  }
+}
+
 // ===================
 // BACKLINKS
 // ===================
