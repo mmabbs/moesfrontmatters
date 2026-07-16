@@ -8,7 +8,7 @@ created: 2026-03-15T15:18:59
 draft: false
 ---
 
-> [!warning] Due to NDAs, case studies emphasize methodology and strategic approach rather than final deliverables. If you'd like to discuss a project in detail, please reach out at <a href="mailto:moe@moesfrontmatters.com" class="contact">moe[at]moesfrontmatters.com</a>
+> [!warning] Due to NDAs, case studies emphasize methodology and strategic approach rather than final deliverables. If you'd like to discuss a project in detail, please reach out at <span class="contact">moe[at]moesfrontmatters.com</span>
 
 <h2 class="artifact-group-header">Case Studies</h2>
 
