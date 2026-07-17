@@ -7,4 +7,6 @@ tsconfig.tsbuildinfo
 .quartz-cache
 .quartz/
 private/
+.quartz/
+quartz/cli/tui/dist/
 archived/

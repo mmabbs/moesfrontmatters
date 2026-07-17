@@ -1,0 +1,225 @@
+# yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
+configuration:
+  pageTitle: "Moe's Frontmatters"
+  pageTitleSuffix: ""
+  enableSPA: true
+  enablePopovers: true
+  analytics:
+    provider: google
+    tagId: G-XPWM630G25
+  locale: en-US
+  baseUrl: moesfrontmatters.com
+  ignorePatterns:
+    - private
+    - templates
+    - .obsidian
+    - drafts
+    - draft-pages
+  theme:
+    fontOrigin: googleFonts
+    cdnCaching: true
+    typography:
+      header:
+        name: Playfair Display
+        weights: [400, 500, 600, 900]
+      body:
+        name: Bricolage Grotesque
+        weights: [400, 500]
+        includeItalic: false
+      code:
+        name: JetBrains Mono
+        weights: [400, 500, 700]
+    colors:
+      lightMode:
+        light: "#FEFCF8"
+        lightgray: "#F5F2EA"
+        gray: "#E8E4D9"
+        darkgray: "#5C5955"
+        dark: "#1A1918"
+        secondary: "#6b8699"
+        tertiary: "#5e7d53"
+        highlight: "#EBE8DE"
+        textHighlight: "#fff2a8"
+      darkMode:
+        light: "#0A0908"
+        lightgray: "#0F0E0C"
+        gray: "#1E1B18"
+        darkgray: "#9C9891"
+        dark: "#FAF8F5"
+        secondary: "#839aad"
+        tertiary: "#7a9e6d"
+        highlight: "#1E1B18"
+        textHighlight: "#b3aa0288"
+plugins:
+  # --- Transformers ---
+  - source: github:quartz-community/note-properties
+    enabled: true
+    options:
+      includeAll: false
+      hidePropertiesView: true
+    order: 5
+  - source: github:quartz-community/created-modified-date
+    enabled: true
+    options:
+      defaultDateType: modified
+      priority:
+        - frontmatter
+        - git
+        - filesystem
+    order: 10
+  - source: github:quartz-community/syntax-highlighting
+    enabled: true
+    options:
+      theme:
+        light: github-light
+        dark: github-dark
+      keepBackground: false
+    order: 20
+  - source: github:quartz-community/obsidian-flavored-markdown
+    enabled: true
+    options:
+      enableInHtmlEmbed: false
+      enableCheckbox: true
+    order: 30
+  - source: github:quartz-community/github-flavored-markdown
+    enabled: true
+    order: 40
+  - source: github:quartz-community/table-of-contents
+    enabled: true
+    order: 50
+    layout:
+      position: right
+      priority: 10
+      display: desktop-only
+  - source: github:quartz-community/crawl-links
+    enabled: true
+    options:
+      markdownLinkResolution: shortest
+    order: 60
+  - source: github:quartz-community/description
+    enabled: true
+    order: 70
+  - source: github:quartz-community/latex
+    enabled: true
+    options:
+      renderEngine: katex
+    order: 80
+
+  # --- Filters ---
+  - source: github:quartz-community/remove-draft
+    enabled: true
+  - source: github:quartz-community/unlisted-pages
+    enabled: true
+    order: 45
+
+  # --- Emitters ---
+  - source: github:quartz-community/alias-redirects
+    enabled: true
+  - source: github:quartz-community/content-index
+    enabled: true
+    options:
+      enableSiteMap: true
+      enableRSS: true
+  - source: github:quartz-community/favicon
+    enabled: true
+  - source: github:quartz-community/og-image
+    enabled: true
+  - source: github:quartz-community/cname
+    enabled: true
+
+  # --- Page Types ---
+  - source: github:quartz-community/content-page
+    enabled: true
+  - source: github:quartz-community/folder-page
+    enabled: true
+  - source: github:quartz-community/tag-page
+    enabled: true
+  - source: github:quartz-community/canvas-page
+    enabled: true
+
+  # --- Layout Components ---
+  - source: github:quartz-community/article-title
+    enabled: true
+    layout:
+      position: beforeBody
+      priority: 10
+  - source: github:quartz-community/content-meta
+    enabled: true
+    layout:
+      position: beforeBody
+      priority: 20
+  - source: github:quartz-community/breadcrumbs
+    enabled: true
+    layout:
+      position: beforeBody
+      priority: 5
+      condition: not-index
+  - source: github:quartz-community/backlinks
+    enabled: true
+    layout:
+      position: right
+      priority: 30
+  - source: github:quartz-community/darkmode
+    enabled: true
+    layout:
+      position: left
+      priority: 30
+      group: toolbar
+  - source: github:quartz-community/spacer
+    enabled: true
+    order: 25
+    layout:
+      position: left
+      priority: 25
+      display: mobile-only
+  - source: github:quartz-community/footer
+    enabled: true
+    options:
+      links:
+        GitHub: https://github.com/mmabbs/
+        LinkedIn: https://www.linkedin.com/in/moe-m-abbas/
+
+  # --- Disabled (available but not active) ---
+  - source: github:quartz-community/search
+    enabled: false
+  - source: github:quartz-community/explorer
+    enabled: false
+  - source: github:quartz-community/page-title
+    enabled: false
+  - source: github:quartz-community/graph
+    enabled: false
+  - source: github:quartz-community/reader-mode
+    enabled: false
+  - source: github:quartz-community/stacked-pages
+    enabled: false
+  - source: github:quartz-community/comments
+    enabled: false
+  - source: github:quartz-community/tag-list
+    enabled: false
+  - source: github:quartz-community/recent-notes
+    enabled: false
+  - source: github:quartz-community/encrypted-pages
+    enabled: false
+  - source: github:quartz-community/bases-page
+    enabled: true
+
+layout:
+  groups:
+    toolbar:
+      priority: 35
+      direction: row
+      gap: 0.5rem
+  byPageType:
+    "404":
+      positions:
+        beforeBody: []
+        left: []
+        right: []
+    content: {}
+    folder:
+      positions:
+        right: []
+    tag:
+      positions:
+        right: []
+    canvas: {}

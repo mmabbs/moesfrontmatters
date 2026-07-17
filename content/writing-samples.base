@@ -1,0 +1,93 @@
+filters:
+  and:
+    - file.inFolder("artifacts")
+properties:
+  title:
+    displayName: Title
+  artifact-type:
+    displayName: Type
+  genre:
+    displayName: Genre
+  project:
+    displayName: Project
+  domain:
+    displayName: Domain
+  download:
+    displayName: Download
+views:
+  - type: table
+    name: All Samples
+    order:
+      - file.name
+      - title
+      - artifact-type
+      - domain
+      - genre
+      - project
+      - download
+    sort:
+      - property: domain
+        direction: ASC
+      - property: artifact-type
+        direction: ASC
+    columnSize:
+      note.title: 280
+      note.artifact-type: 140
+      note.domain: 100
+      note.genre: 180
+  - type: table
+    name: By Craft Type
+    groupBy:
+      property: artifact-type
+      direction: ASC
+    order:
+      - file.name
+      - title
+      - domain
+      - genre
+      - project
+      - download
+    sort:
+      - property: title
+        direction: ASC
+    columnSize:
+      note.title: 280
+      note.domain: 100
+  - type: table
+    name: By Domain
+    groupBy:
+      property: domain
+      direction: ASC
+    order:
+      - file.name
+      - title
+      - artifact-type
+      - genre
+      - project
+      - download
+    sort:
+      - property: artifact-type
+        direction: ASC
+    columnSize:
+      note.title: 280
+      note.artifact-type: 140
+  - type: cards
+    name: Cards
+    order:
+      - file.name
+      - title
+      - artifact-type
+      - domain
+      - genre
+      - project
+    limit: 20
+  - type: list
+    name: List
+    groupBy:
+      property: domain
+      direction: ASC
+    order:
+      - file.name
+      - title
+      - artifact-type
+      - genre

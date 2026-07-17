@@ -1,48 +1,37 @@
 ---
 title: Marketing
+seoTitle: Content Strategy & Marketing Portfolio
 description: Content strategist and marketer portfolio. Campaign planning, brand voice, and UX case studies for indie games, startups, and interactive media.
-tags: 
-modified: 2026-03-17T14:54:47
+tags:
+modified: 06-29-2026
 created: 2026-03-15T15:18:59
-draft: true
+draft: false
 ---
 
-# Content Strategy & Marketing
+> [!warning] Due to NDAs, case studies emphasize methodology and strategic approach rather than final deliverables. If you'd like to discuss a project in detail, please reach out at <span class="contact">moe[at]moesfrontmatters.com</span>
 
-<div class="callout-prominent">
-  <p>
-    <strong>My current game marketing projects are in active development.</strong> Because of this, detailed deliverables like content strategy plans, voice guides, and campaign roadmaps are available <a href="mailto:moe@moesfrontmatters.com">by request</a>. The showcases below focus on methodology and strategic approach.
-  </p>
-</div>
+<h2 class="artifact-group-header">Case Studies</h2>
 
 <div class="artifacts-grid">
+<div class="artifact-card">
+	<div class="artifact-title-row">
+		<h3 class="artifact-title">Building a Brand for an Indie Mobile Game</h4>
+		<span class="artifact-info"><span class="format">Content Strategy & Marketing</span> · Mobile Game · Cozy Runner ·</span>
+		<a href="/projects/the-otter-side" class="project-link">The Otter Side</a>
+	</div>
+	<p class="artifact-description">
+			Comprehensive content strategy framework including a pitch deck, thematic positioning, messaging architecture, voice systems, and multi-platform campaign roadmaps for indie studio's debut mobile title.
+	</p>
+</div>
 
-<a href="#" class="artifact-card">
-  <div class="artifact-meta">
-    <span class="artifact-type">Content Strategy</span>
-    <span class="artifact-project">
-      <span class="project-link">The Otter Side</span>
-      · Mobile · Cozy Endless Runner
-    </span>
-  </div>
-  <h3 class="artifact-title">Marketing Lead @ Seaside Studio</h3>
-  <p class="artifact-description">
-    Comprehensive content strategy framework including thematic positioning, messaging architecture, voice systems, and multi-platform campaign roadmaps for indie studio's debut mobile title.
-  </p>
-</a>
-
-<a href="#" class="artifact-card">
-  <div class="artifact-meta">
-    <span class="artifact-type">UX Design</span>
-    <span class="artifact-project">
-      <span class="project-link">FitIn.io</span>
-      · Social Enterprise · Wellness SaaS
-    </span>
-  </div>
-  <h3 class="artifact-title">UX Designer</h3>
-  <p class="artifact-description">
-    Ethical marketplace connecting fitness seekers with inclusive classes and trainers. Delivered wireframes, prototypes, and user research that attracted investor interest during pre-launch.
-  </p>
-</a>
-
+<div class="artifact-card">
+	<div class="artifact-title-row">
+		<h3 class="artifact-title">UX Design & User Research for a Wellness Booking App</h4>
+		<span class="artifact-info"><span class="format">UX Design & Strategy</span> · Social Enterprise · Wellness SaaS ·</span>
+		<a href="/coming-soon" class="project-link">FitIn.io</a>
+	</div>
+	<p class="artifact-description">
+		Ethical marketplace connecting fitness seekers with inclusive classes and trainers. Delivered wireframes, prototypes, and user research that attracted investor interest during pre-launch.
+	</p>
+</div>
 </div>

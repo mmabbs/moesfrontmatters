@@ -19,7 +19,7 @@ cssclasses: site-pg-width
 <p>As a film/tv producer, I've run end-to-end development on shorts and commercials: developing ideas, raising funding, and running sets to close the distance from script to screen. As a grants reader for over a decade, I evaluated 900+ projects seeking up to $2M, assessing not just creative quality but but why projects would or wouldn't reach their audiences. As a UX Designer and Content Strategist at FitIn, a three-person SaaS startup, I was hired to design screens. I ended up filling gaps across brand voice, information architecture, empty and error states, and usability testing.</p>
 <p>Different domains, same function: seeing the full chain from creative intent to shipped product, fixing what's blocking it and filling what's missing.</p>
 <p>Now I work across games and tech. Right now I'm marketing/content strategy lead on <a href="/projects/the-otter-side" class="internal">The Otter Side</a>, building go-to-market strategy and campaigns. I'm also writing and designing games of my own.</p>
-<p>If you're making something creative and need someone who's developed, evaluated, shipped, and marketed work across industries, I'd love to hear about it: <a href="mailto:moe@moesfrontmatters.com">moe@moesfrontmatters.com</a></p>
+<p>If you're making something creative and need someone who's developed, evaluated, shipped, and marketed work across industries, I'd love to hear about it: <span class="contact">moe[at]moesfrontmatters.com</span></p>
 </div>
 </div>
 

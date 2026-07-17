@@ -4,9 +4,9 @@ seoTitle: Coming Soon | Moe's Frontmatters
 description: This page isn't ready yet, but it will be (soon!)
 tags:
   - nav-exclude
-modified: 2026-05-20T12:37:09
-created: 2026-05-20T06:55:36
-draft:
+modified: 05-27-2026
+created: 05-26-2026
+draft: false
 ---
 
 # Coming soon!
