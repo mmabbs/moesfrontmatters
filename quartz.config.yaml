@@ -199,7 +199,7 @@ plugins:
   - source: github:quartz-community/recent-notes
     enabled: false
   - source: github:quartz-community/encrypted-pages
-    enabled: false
+    enabled: true
   - source: github:quartz-community/bases-page
     enabled: true
 
