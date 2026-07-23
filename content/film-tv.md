@@ -21,7 +21,7 @@ In addition to other roles across the development/production value chain, I've w
 <div class="artifact-card">
 	<div class="artifact-title-row">
 		<h3 class="artifact-title">"The Draw"</h3>
-		<a href="/site-assets/gr-scene.pdf" class="download-badge">PDF ↓</a>
+		<a href="artifacts/gr-scene.pdf" class="download-badge">PDF ↓</a>
 		<span class="artifact-info"><span class="format">Film Scene</span> · Fantasy, Historical · 3 pages ·</span>
 		<a href="/projects/grim-rock" class="project-link">Grim Rock</a>
 	</div>

@@ -39,7 +39,7 @@ Siblings Ollie and Finn set out to solve the mystery of how their fellow "Inklin
 <div class="artifact-card">
 	<div class="artifact-title-row">
 		<h4 class="artifact-title">"New Dog, Old Tricks"</h4>
-		<a href="/ollie-scene.pdf" class="download-badge">PDF ↓</a>
+		<a href="artifacts/ollie-scene.pdf" class="download-badge">PDF ↓</a>
 		<span class="artifact-info"><span class="format">Cinematic</span> · 3 pages</span>
 	</div>
 	<p class="artifact-description">A young technician and her robotic dog chase a lead on her missing brother, uncovering something far stranger in an old woman's house. A cinematic quest moment that blends dark humor, visual spectacle, and a major turning point.</p>
@@ -48,7 +48,7 @@ Siblings Ollie and Finn set out to solve the mystery of how their fellow "Inklin
 <div class="artifact-card">
 	<div class="artifact-title-row">
 		<h4 class="artifact-title">Ollie Liviere - Barks</h4>
-		<a href="/ollie-barksheet.pdf" class="download-badge">PDF ↓</a>
+		<a href="artifacts/ollie-barksheet.pdf" class="download-badge">PDF ↓</a>
 		<span class="artifact-info"><span class="format">Barksheet</span></span>
 	</div>
 	<p class="artifact-description">Barks with VO direction, triggers, and firing conditions across stealth, combat, puzzle-solving, and AFK moments.
@@ -58,7 +58,7 @@ Siblings Ollie and Finn set out to solve the mystery of how their fellow "Inklin
 <div class="artifact-card">
 	<div class="artifact-title-row">
 		<h4 class="artifact-title">Ollie Liviere - Bio</h4>
-		<a href="/ollie-bio.pdf" class="download-badge">PDF ↓</a>
+		<a href="artifacts/ollie-bio.pdf" class="download-badge">PDF ↓</a>
 		<span class="artifact-info"><span class="format">Biography</span></span>
 	</div>
 	<p class="artifact-description">Comprehensive character bio covering psychology, voice systems, relationship dynamics, moral framework, and formative backstory.</p>

@@ -19,7 +19,7 @@ draft: false
 <div class="artifact-card">
 	<div class="artifact-title-row">
 		<h3 class="artifact-title">"New Dog, Old Tricks"</h4>
-		<a href="/site-assets/ollie-scene.pdf" class="download-badge">PDF ↓</a>
+		<a href="artifacts/ollie-scene.pdf" class="download-badge">PDF ↓</a>
 		<span class="artifact-info"><span class="format">Cinematic</span> · Sci-Fi · 3 pages ·</span>
 		<a href="/projects/ollie-oxenfree" class="project-link">Ollie Oxenfree</a>
 	</div>
@@ -50,7 +50,7 @@ draft: false
 <div class="artifact-card">
 	<div class="artifact-title-row">
 		<h3 class="artifact-title">Ollie Liviere</h4>
-		<a href="/site-assets/ollie-barksheet.pdf" class="download-badge">PDF ↓</a>
+		<a href="artifacts/ollie-barksheet.pdf" class="download-badge">PDF ↓</a>
 		<span class="artifact-info"><span class="format">Barksheet</span> · Sci-Fi, Fantasy ·</span>
 		<a href="/projects/ollie-oxenfree" class="project-link">Ollie Oxenfree</a>
 	</div>
@@ -62,7 +62,7 @@ draft: false
 <div class="artifact-card">
 	<div class="artifact-title-row">
 		<h3 class="artifact-title">Ollie Liviere</h4>
-		<a href="/site-assets/ollie-bio.pdf" class="download-badge">PDF ↓</a>
+		<a href="artifacts/ollie-bio.pdf" class="download-badge">PDF ↓</a>
 		<span class="artifact-info"><span class="format">Biography</span> · Sci-Fi, Fantasy ·</span>
 		<a href="/projects/ollie-oxenfree" class="project-link">Ollie Oxenfree</a>
 	</div>
@@ -74,7 +74,7 @@ draft: false
 <div class="artifact-card">
 	<div class="artifact-title-row">
 		<h3 class="artifact-title">Howard the Duck</h4>
-		<a href="/site-assets/howard-barksheet.pdf" class="download-badge">PDF ↓</a>
+		<a href="artifacts/howard-barksheet.pdf" class="download-badge">PDF ↓</a>
 		<span class="artifact-info"><span class="format">Barksheet</span> · Action-Adventure ·</span>
 		<a href="/loglines/howard-the-duck-and-spider-ham" class="project-link">Howard the Duck & Spider-Ham</a>
 	</div>
@@ -90,7 +90,7 @@ draft: false
 <div class="artifact-card">
 	<div class="artifact-title-row">
 		<h3 class="artifact-title">"The Draw"</h4>
-		<a href="/site-assets/gr-scene.pdf" class="download-badge">PDF ↓</a>
+		<a href="artifacts/gr-scene.pdf" class="download-badge">PDF ↓</a>
 		<span class="artifact-info"><span class="format">Film Scene</span> · Fantasy, Historical · 3 pages ·</span>
 		<a href="/projects/grim-rock" class="project-link">Grim Rock</a>
 	</div>
@@ -106,7 +106,7 @@ draft: false
 <div class="artifact-card">
 	<div class="artifact-title-row">
 		<h3 class="artifact-title">Motopetrids</h4>
-		<a href="/site-assets/gr-bestiary-monopetrid.pdf" class="download-badge">PDF ↓</a>
+		<a href="artifacts/gr-bestiary-monopetrid.pdf" class="download-badge">PDF ↓</a>
 		<span class="artifact-info"><span class="format">Bestiary Profile</span> · Dark Fantasy, RPG ·</span>
 		<a href="/projects/grim-rock" class="project-link">Grim Rock</a>
 	</div>
@@ -118,7 +118,7 @@ draft: false
 <div class="artifact-card">
 	<div class="artifact-title-row">
 		<h3 class="artifact-title">McCarthy's Letter to Madam President-Elect</h4>
-		<a href="/site-assets/gr-mccarthy-letter.pdf" class="download-badge">PDF ↓</a>
+		<a href="artifacts/gr-mccarthy-letter.pdf" class="download-badge">PDF ↓</a>
 		<span class="artifact-info"><span class="format">Flavour Text</span> · Dark Fantasy, RPG ·</span>
 		<a href="/projects/grim-rock" class="project-link">Grim Rock</a>
 	</div>

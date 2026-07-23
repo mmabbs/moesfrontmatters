@@ -36,19 +36,19 @@ A Content Strategy that includes:
 
 ## Inside the Deck
 
-![competitive positioning](site-assets/tos-deck-pg-05.png)
+![competitive positioning](artifacts/tos-deck-pg-05.png)
 
 *Competitive positioning (page 5)*
 
-![messaging architecture](site-assets/tos-deck-pg-10.png)
+![messaging architecture](artifacts/tos-deck-pg-10.png)
 
 *Messaging architecture (page 10)*
 
-![keyword component system](site-assets/tos-deck-pg-12.png)
+![keyword component system](artifacts/tos-deck-pg-12.png)
 
 *Keyword component system (page 12)*
 
-![persona monetization analysis](site-assets/tos-deck-pg-18.png)
+![persona monetization analysis](artifacts/tos-deck-pg-18.png)
 
 *Persona Monetization analysis (page 18)*
 

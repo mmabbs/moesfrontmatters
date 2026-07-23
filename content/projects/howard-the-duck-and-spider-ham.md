@@ -28,7 +28,7 @@ A portable hole swallows the Pet Avengers and a post-it frames Howard the Duck a
 <div class="artifact-card">
 	<div class="artifact-title-row">
 		<h4 class="artifact-title">Howard the Duck - Barks</h4>
-		<a href="gr-scene.pdf" class="download-badge">PDF ↓</a>
+		<a href="artifacts/gr-scene.pdf" class="download-badge">PDF ↓</a>
 		<span class="artifact-info"><span class="format">Barksheet</span></span>
 	</div>
 	<p class="artifact-description">
