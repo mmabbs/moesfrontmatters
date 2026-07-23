@@ -3,10 +3,12 @@ title: Marketing
 seoTitle: Content Strategy & Marketing Portfolio
 description: Content strategist and marketer portfolio. Campaign planning, brand voice, and UX case studies for indie games, startups, and interactive media.
 tags:
-modified: 06-29-2026
-created: 2026-03-15T15:18:59
+modified: 07-23-2026
+created: 07-17-2026
 draft: false
 ---
+
+# Marketing 
 
 > [!warning] Due to NDAs, case studies emphasize methodology and strategic approach rather than final deliverables. If you'd like to discuss a project in detail, please reach out at <span class="contact">moe[at]moesfrontmatters.com</span>
 

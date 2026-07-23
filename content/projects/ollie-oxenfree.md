@@ -24,8 +24,10 @@ The scene, barksheet and character bio were entries to ELVTR's 2024 Game Writing
 
 **The submission placed Runner-Up, reaching top 10 out of 50.**
 
-> **PROMPT**: In a post-apocalyptic world, society has begun to rebuild. A young engineer is tasked with restoring a key piece of technology that could help humanity thrive again. However, this technology can also be weaponized. 
-> **CHALLENGE**: Write a scene between the engineer and another character in the style of a video game cinematic, showcasing their differing perspectives and the underlying tension.
+<blockquote class="prompt-block">
+<p><strong>PROMPT</strong>: In a post-apocalyptic world, society has begun to rebuild. A young engineer is tasked with restoring a key piece of technology that could help humanity thrive again. However, this technology can also be weaponized.</p>
+<p><strong>CHALLENGE</strong>: Write a scene between the engineer and another character in the style of a video game cinematic, showcasing their differing perspectives and the underlying tension.</p>
+</blockquote>
 
 ## Logline
 

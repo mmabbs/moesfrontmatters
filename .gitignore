@@ -10,3 +10,5 @@ private/
 .quartz/
 quartz/cli/tui/dist/
 archived/
+.playwright-mcp/
+.playwright-verified
