@@ -3,8 +3,8 @@ title: SamSara's Edge
 seoTitle: SamSara's Edge | Roguelite Comedy Game Writing Spec
 description: Spec game writing for a roguelite deckbuilder where a couple must clear dungeons made of their relationship baggage to save their marriage.
 tags: [writing, game-writing, video-games]
-modified: 2026-05-20T08:25:34
-created: 2026-03-15T16:59:34
+modified: 07-16-2026
+created: 07-01-2026
 draft:
 ---
 
@@ -30,17 +30,6 @@ After faking their romantic compatibility score in an AI-run city, Sara and Sam 
 	</div>
 	<p class="artifact-description">
 		A trial scene where a dysfunctional couple attempt to emotionally manipulate a sensitive, anthophile AI judge into choosing their partner as the first to enter a roguelite dungeon.
-	</p>
-</div>
-
-<div class="artifact-card">
-	<div class="artifact-title-row">
-		<h4 class="artifact-title">"Riders on the Storm"</h4>
-			<a href="/coming-soon" class="download-badge">PDF ↓</a>
-		<span class="artifact-info"><span class="format">Playable Onboarding</span> · 3 pages</span>
-	</div>
-	<p class="artifact-description">
-	Coming soon!
 	</p>
 </div>
 

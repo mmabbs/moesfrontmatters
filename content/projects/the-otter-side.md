@@ -7,14 +7,12 @@ tags:
   - content-strategy
   - video-games
   - mobile-games
-modified: 2026-04-21T21:29:45
-created: 2026-03-14T12:52:13
+modified: 07-16-2026
+created: 07-01-2026
 draft: 
 ---
 
 # The Otter Side
-
-![banner](tos_brand_img.png)
 
 A mobile game that combines endless runner mechanics with cozy village-building progression. Players rescue neighbors swept away in river rapids, then use collected resources to rebuild a storm-damaged community. [I serve as Content Strategist and Marketing Lead, responsible for developing the complete content strategy, messaging architecture, and go-to-market positioning from the ground up].
 
@@ -57,6 +55,8 @@ A Content Strategy that includes:
 
 
 ---
+
+Test 
 
 > [!question] Want to see the full pitch deck and framework docs?
 > Since this project is in active development, deliverables are only available upon request and viewable through a live walkthrough (no downloads).

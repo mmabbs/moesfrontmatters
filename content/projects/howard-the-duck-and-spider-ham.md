@@ -6,9 +6,9 @@ tags:
   - writing
   - game-writing
   - video-games
-modified: 2026-04-13T11:23:37
-created: 2026-03-15T16:59:33
-draft:
+modified: 07-16-2026
+created: 07-01-2026
+draft: false
 ---
 
 # Howard the Duck & Spider-Ham
