@@ -1213,9 +1213,9 @@ svg {
 .artifact-accolade {
   margin-top: 1rem;
   padding: 0.5rem 1rem;
-  border-left: 2px solid;
+  border: 1px solid;
   font-size: var(--text-sm);
-  border-radius: 0 $radius-sm $radius-sm 0;
+  border-radius: $radius-sm;
 }
 
 // ===================
@@ -1362,10 +1362,14 @@ svg {
 blockquote {
   font-family: $font-display;
   font-style: italic;
-  border-left-width: 3px;
-  border-radius: 0 $radius-sm $radius-sm 0;
+  border: 1px solid var(--accent);
+  border-radius: $radius-sm;
   padding: 1rem 1.25rem;
   margin: 1.5rem 0;
+
+  &.prompt-block {
+    font-style: normal;
+  }
 }
 
 // ===================
@@ -1799,7 +1803,7 @@ button.toc-header h3 {
   padding: 2rem;
   background: var(--bg-surface);
   border-radius: $radius-md;
-  border-left: 3px solid var(--accent);
+  border: 1px solid var(--accent);
   margin-bottom: 2rem;
 
   &::before {
@@ -2535,8 +2539,8 @@ footer {
   margin-top: var(--space-16);
   padding: 0.5rem 1rem;
   background: rgba(131, 154, 173, 0.1);
-  border-left: 2px solid var(--frost);
-  border-radius: 0 $radius-sm $radius-sm 0;
+  border: 1px solid var(--frost);
+  border-radius: $radius-sm;
   transition: background var(--transition-fast);
 
   &:hover {

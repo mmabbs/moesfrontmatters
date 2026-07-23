@@ -6,10 +6,12 @@ tags:
   - writing
   - game-writing
   - video-games
-modified: 07-16-2026
+modified: 07-23-2026
 created: 05-27-2026
 draft: false
 ---
+
+# Games
 
 ## Cinematics & Cutscenes
 
