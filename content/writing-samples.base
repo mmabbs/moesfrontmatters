@@ -1,6 +1,6 @@
 filters:
   and:
-    - file.inFolder("artifacts")
+    - file.inFolder("site-assets")
 properties:
   title:
     displayName: Title
