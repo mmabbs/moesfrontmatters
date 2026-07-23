@@ -483,6 +483,10 @@ article li {
   max-width: 75ch;
 }
 
+article .callout[data-callout] .callout-content > p {
+  max-width: none;
+}
+
 h1 {
   font-family: $font-display;
   font-size: var(--text-3xl);
