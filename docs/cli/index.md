@@ -53,3 +53,14 @@ To check which version of Quartz you are currently running, use the `--version` 
 ```shell
 npx quartz --version
 ```
+
+## Contents
+
+- 📁 **`docs/cli/`**
+  - `docs/cli/build.md`
+  - `docs/cli/create.md`
+  - `docs/cli/plugin.md`
+  - `docs/cli/restore.md`
+  - `docs/cli/sync.md`
+  - `docs/cli/tui.md`
+  - `docs/cli/upgrade.md`

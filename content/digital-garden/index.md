@@ -15,3 +15,4 @@ This part of the site documents my experience with completed projects and works-
 
 <div class="subscribe-bar"><a href="/index.xml" target="_blank">Subscribe to the Garden via RSS</a></div>
 
+

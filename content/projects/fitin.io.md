@@ -10,7 +10,7 @@ created: 2026-03-14T12:52:13
 draft: true
 ---
 
-# FitIn
+# FitIn.io
 
 ## UX Without Content, Brand, and Research Isn't UX
 

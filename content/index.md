@@ -15,19 +15,25 @@ draft:
 	<span class="accent">Frontmatters</span>
 </h1>
 
-<p class="hero-intro">Creative Producer | Writer | Content Strategist | Marketer</p>
+<p class="hero-intro">AI Automation Specialist | Writer | Content Strategist | Marketer | Producer</p>
 
 <div class="hero-bio">
-I write, produce, and market — and what makes that work is treating them as one  conversation, not three. The question is always the same: what makes something good, what makes it shippable, and what makes it land?
+I design AI-enabled tools, workflows and knowledge systems, drawing on fifteen years in film/tv production, content strategy/marketing, and UX.
 
-I've written narrative and worldbuilding documentation for games, produced films, and built strategy for indie games and early-stage startups — content, product, and go-to-market. I also spent over a decade evaluating more than 900 projects for a film fund, reading scripts, scrutinizing budgets, and assessing market viability. I'm built for teams that need someone who gets the whole picture.
+My work includes tools for checking research citations, automating research workflows,  and systems for reviewing and maintaining AI configurations. I map the problem, design the workflow, and build or prototype what’s appropriate, working with technical specialists when production engineering is needed.
+
+Film production taught me to coordinate people, budgets, and changing requirements. Content strategy and UX taught me to organize information around the people using it. Those experiences shape how I approach automation: understanding the work before deciding what to automate.
 
 [Learn more about me](about-me.md).
 
-If your next project needs someone who sees the whole picture, reach out at <span class="contact">moe[at]moesfrontmatters.com</span>.
+If you need your AI workflows up and running, reach out at <span class="contact">moe[at]moesfrontmatters.com</span>.
 </div>
 
 <nav class="nav-list">
+	<a href="/ai" class="nav-item">
+		<span class="nav-title">AI</span>
+		<span class="nav-desc">Case studies on tools, workflows, and knowledge systems</span>
+	</a>
 	<a href="/games" class="nav-item">
 		<span class="nav-title">Games</span>
 		<span class="nav-desc">Cinematics, character work, lore, and worldbuilding artifacts.</span>

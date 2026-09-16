@@ -8,4 +8,4 @@ created: 05-26-2026
 draft: true
 ---
 
-![[writing-samples.base]]
+![[Writing Samples.base]]

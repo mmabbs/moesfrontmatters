@@ -9,3 +9,4 @@ draft:
 ---
 
 A collection of all my projects in one place.
+
