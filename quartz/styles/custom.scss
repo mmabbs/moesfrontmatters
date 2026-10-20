@@ -659,7 +659,7 @@ body[data-slug="games"] .markdown-rendered > h2 ~ h2 {
 }
 .hero-intro {
   font-family: $font-body;
-  font-size: clamp(1.0625rem, 0.985rem + 0.33vw, 1.25rem); // 17px → 20px
+  font-size: var(--text-xs);
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 0.2em;
@@ -844,27 +844,10 @@ ul.tags {
   transition: all 1s cubic-bezier(0.16, 1, 0.3, 1);
   overflow: hidden;
 
-  // Accent bar on left
-  &::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    width: 3px;
-    background: var(--accent);
-    transform: scaleY(0);
-    transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
-  }
-
   &:hover {
     background: var(--accent);
     transform: translateY(-4px);
     box-shadow: 0 20px 40px var(--accent-glow);
-
-    &::before {
-      transform: scaleY(1);
-    }
 
     .nav-card-number,
     .nav-card-title,
@@ -2287,25 +2270,9 @@ a.internal.related-item,
   overflow: hidden;
   background: var(--bg-surface);
 
-  &::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    width: 3px;
-    background: var(--accent);
-    transform: scaleY(0);
-    transition: transform var(--transition-fast);
-  }
-
   &:hover {
     transform: translateX(4px);
     border-color: var(--accent-dim);
-
-    &::before {
-      transform: scaleY(1);
-    }
 
     .artifact-title {
       color: var(--accent);
