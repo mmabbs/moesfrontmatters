@@ -10,7 +10,7 @@
   MOE'S FRONTMATTERS
   ============================================
   Direction: Dramatic scale + Temperature contrast
-  Typography: Zilla Slab (display) + Satoshi (body) + JetBrains Mono (code) [font test branch]
+  Typography: Zilla Slab (display) + Satoshi (body) + JetBrains Mono (code)
   Palette: Deep void backgrounds + Lichen/Slate accent system
   Spacing: Power of 2 (2, 4, 8, 16, 32, 64, 128)
   ============================================
@@ -20,27 +20,10 @@
 // FONTS
 // ===================
 
-// Font test: Zilla Slab (Google Fonts) + Satoshi (Fontshare).
-// Loaded with @font-face, not @import: custom.scss is appended after the
-// quartz-base layer, so an @import here would sit mid-file and be ignored.
-@font-face {
-  font-family: "Zilla Slab";
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/zillaslab/v12/dFa5ZfeM_74wlPZtksIFYskZ6HOpW3pwfa0.woff2)
-    format("woff2");
-}
-
-@font-face {
-  font-family: "Zilla Slab";
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/zillaslab/v12/dFa5ZfeM_74wlPZtksIFYuUe6HOpW3pwfa0.woff2)
-    format("woff2");
-}
-
+// Zilla Slab and JetBrains Mono load from Google Fonts via quartz.config.yaml.
+// Satoshi is on Fontshare, which that setting can't reach, so it loads here.
+// @font-face, not @import: custom.scss is appended after the quartz-base
+// layer, so an @import here would sit mid-file and be ignored.
 @font-face {
   font-family: "Satoshi";
   font-style: normal;
