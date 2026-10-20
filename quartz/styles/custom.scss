@@ -656,11 +656,17 @@ body[data-slug="games"] .markdown-rendered > h2 ~ h2 {
     color: var(--accent);
     // font-style: italic;
   }
+
+  // Quartz's heading link icon wraps onto its own empty line here,
+  // adding ~55px under the headline. Already aria-hidden and untabbable.
+  a[role="anchor"] {
+    display: none;
+  }
 }
 .hero-intro {
   font-family: $font-body;
   font-size: var(--text-xs);
-  font-weight: 400;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.2em;
   color: var(--accent);
