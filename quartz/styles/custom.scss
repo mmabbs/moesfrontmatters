@@ -10,7 +10,7 @@
   MOE'S FRONTMATTERS
   ============================================
   Direction: Dramatic scale + Temperature contrast
-  Typography: Playfair Display (display) + Bricolage Grotesque (body) + JetBrains Mono (code)
+  Typography: Zilla Slab (display) + Satoshi (body) + JetBrains Mono (code) [font test branch]
   Palette: Deep void backgrounds + Lichen/Slate accent system
   Spacing: Power of 2 (2, 4, 8, 16, 32, 64, 128)
   ============================================
@@ -20,11 +20,56 @@
 // FONTS
 // ===================
 
-$font-display: "Playfair Display", Georgia, serif;
-$font-body:
-  "Bricolage Grotesque",
-  -apple-system,
-  sans-serif;
+// Font test: Zilla Slab (Google Fonts) + Satoshi (Fontshare).
+// Loaded with @font-face, not @import: custom.scss is appended after the
+// quartz-base layer, so an @import here would sit mid-file and be ignored.
+@font-face {
+  font-family: "Zilla Slab";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/zillaslab/v12/dFa5ZfeM_74wlPZtksIFYskZ6HOpW3pwfa0.woff2)
+    format("woff2");
+}
+
+@font-face {
+  font-family: "Zilla Slab";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/zillaslab/v12/dFa5ZfeM_74wlPZtksIFYuUe6HOpW3pwfa0.woff2)
+    format("woff2");
+}
+
+@font-face {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("https://cdn.fontshare.com/wf/TTX2Z3BF3P6Y5BQT3IV2VNOK6FL22KUT/7QYRJOI3JIMYHGY6CH7SOIFRQLZOLNJ6/KFIAZD4RUMEZIYV6FQ3T3GP5PDBDB6JY.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("https://cdn.fontshare.com/wf/P2LQKHE6KA6ZP4AAGN72KDWMHH6ZH3TA/ZC32TK2P7FPS5GFTL46EU6KQJA24ZYDB/7AHDUZ4A7LFLVFUIFSARGIWCRQJHISQP.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("https://cdn.fontshare.com/wf/LAFFD4SDUCDVQEXFPDC7C53EQ4ZELWQI/PXCT3G6LO6ICM5I3NTYENYPWJAECAWDD/GHM6WVH6MILNYOOCXHXB5GTSGNTMGXZR.woff2")
+    format("woff2");
+}
+
+$font-display: "Zilla Slab", Georgia, serif;
+$font-body: "Satoshi", "Helvetica Neue", sans-serif;
 $font-mono: "JetBrains Mono", "SF Mono", monospace;
 
 $radius-sm: 4px;
@@ -487,10 +532,11 @@ article .callout[data-callout] .callout-content > p {
   max-width: none;
 }
 
+// Fluid sizes run from a 375px to a 1280px viewport.
 h1 {
   font-family: $font-display;
-  font-size: var(--text-3xl);
-  font-weight: 500;
+  font-size: clamp(2rem, 1.275rem + 3.09vw, 3.75rem); // 32px → 60px
+  font-weight: 600;
   margin-top: 2rem;
   margin-bottom: 1rem;
   letter-spacing: -0.02em;
@@ -498,7 +544,7 @@ h1 {
 
 h2 {
   font-family: $font-display;
-  font-size: var(--text-2xl);
+  font-size: clamp(1.5rem, 1.19rem + 1.33vw, 2.25rem); // 24px → 36px
   font-weight: 500;
   margin-top: 2rem;
   margin-bottom: 1rem;
@@ -507,7 +553,7 @@ h2 {
 
 h3 {
   font-family: $font-display;
-  font-size: var(--text-xl);
+  font-size: clamp(1.125rem, 0.97rem + 0.66vw, 1.5rem); // 18px → 24px
   font-weight: 500;
   margin-top: 1.5rem;
   margin-bottom: 0.5rem;
@@ -531,7 +577,8 @@ h6 {
 p {
   margin-bottom: 1rem;
   font-size: var(--text-base);
-  line-height: 1.65;
+  font-weight: 400;
+  line-height: 1.6;
 }
 
 // ===================
@@ -594,7 +641,7 @@ body[data-slug="games"] .markdown-rendered > h2 ~ h2 {
 
 .hero-title {
   font-family: $font-display;
-  font-size: clamp(3rem, 6vw, 4rem);
+  font-size: clamp(2rem, 1.275rem + 3.09vw, 3.75rem); // 32px → 60px, matches h1
   font-weight: 600;
   line-height: 0.95;
   letter-spacing: -0.03em;
@@ -611,9 +658,9 @@ body[data-slug="games"] .markdown-rendered > h2 ~ h2 {
   }
 }
 .hero-intro {
-  font-family: $font-mono;
-  font-size: var(--text-xs);
-  font-weight: 700;
+  font-family: $font-body;
+  font-size: clamp(1.0625rem, 0.985rem + 0.33vw, 1.25rem); // 17px → 20px
+  font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 0.2em;
   color: var(--accent);
@@ -979,7 +1026,7 @@ a.internal.nav-item,
 
 .section-title {
   font-family: $font-display;
-  font-size: var(--text-2xl);
+  font-size: clamp(1.5rem, 1.19rem + 1.33vw, 2.25rem); // 24px → 36px, matches h2
   font-weight: 500;
   color: var(--dark);
   margin-bottom: 1.5rem;
@@ -1572,26 +1619,18 @@ button.toc-header h3 {
     margin-bottom: var(--space-16);
   }
 
+  // Font test: hero-title, hero-intro, h1 and h2 sizes are fluid now,
+  // so their mobile font-size overrides are removed.
   .hero-title {
-    font-size: clamp(2.5rem, 10vw, 4rem);
     margin-bottom: var(--space-32);
   }
 
   .hero-intro {
-    font-size: var(--text-xs);
     margin-bottom: var(--space-32);
   }
 
   .hero-tags {
     margin-top: var(--space-32);
-  }
-
-  h1 {
-    font-size: var(--text-2xl);
-  }
-
-  h2 {
-    font-size: var(--text-xl);
   }
 
   .film-grid {
@@ -1724,8 +1763,9 @@ button.toc-header h3 {
 // }
 
 .meta-label {
-  font-family: $font-mono;
-  font-size: var(--text-xs);
+  font-family: $font-body;
+  font-size: 0.8125rem; // 13px
+  font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   color: var(--accent);
@@ -1733,7 +1773,8 @@ button.toc-header h3 {
 
 .meta-value {
   font-family: $font-body;
-  font-size: var(--text-base);
+  font-size: 0.9375rem; // 15px
+  font-weight: 400;
   color: var(--dark);
 }
 
@@ -1772,8 +1813,9 @@ button.toc-header h3 {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  font-family: $font-mono;
-  font-size: var(--text-xs);
+  font-family: $font-body;
+  font-size: 0.8125rem; // 13px
+  font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   padding: 6px 12px;
@@ -2314,6 +2356,9 @@ a.internal.related-item,
 
 footer {
   opacity: 1; // Override base 0.5 opacity for accessibility
+  font-family: $font-body;
+  font-size: 0.875rem; // 14px
+  font-weight: 400;
   color: var(--darkgray);
   margin-bottom: 1rem;
   text-align: center;
