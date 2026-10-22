@@ -43,7 +43,7 @@ configuration:
         secondary: "#24211D"
         tertiary: "#76531B"
         highlight: "#E8E1D6"
-        textHighlight: "#fff2a8"
+        textHighlight: "#76531B33"
       darkMode:
         light: "#24211D"
         lightgray: "#2A2622"
@@ -53,7 +53,7 @@ configuration:
         secondary: "#F1EADF"
         tertiary: "#C9913B"
         highlight: "#302D28"
-        textHighlight: "#b3aa0288"
+        textHighlight: "#C9913B4D"
 plugins:
   # --- Transformers ---
   - source: github:quartz-community/note-properties

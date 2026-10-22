@@ -9,7 +9,7 @@ draft:
 ---
 
 <h1 class="hero-title">
-	<span>Moe's</span>
+	<span>Moe’s</span>
 	<span class="accent">Frontmatters</span>
 </h1>
 
