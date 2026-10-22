@@ -3214,6 +3214,40 @@ body[data-slug="games-2"] {
 }
 
 // ===================
+// SHORT PAGES AND 404
+// ===================
+
+// The sidebars are a full screen tall and span every grid row. On a page
+// shorter than the screen, the grid shares their spare height out between
+// rows and opens a gap above the footer. Give all of it to the footer row,
+// so the footer follows the content. Long pages have no spare height.
+@media all and ($desktop) {
+  .page[data-frame="default"] > #quartz-body {
+    grid-template-rows: auto auto 1fr;
+  }
+}
+
+@media all and ($tablet) {
+  .page[data-frame="default"] > #quartz-body {
+    grid-template-rows: auto auto auto 1fr;
+  }
+}
+
+// The 404's heading sits inside the article, where a Quartz rule caps
+// article h1s at 2rem. Match the inner-page title instead.
+[data-slug="404"] article > h1 {
+  font-size: clamp(2rem, 1.275rem + 3.09vw, 3.75rem); // 32px → 60px
+}
+
+// The way home reads as a running-text link: cream with the ochre underline.
+[data-slug="404"] article > a {
+  font-weight: 500;
+  text-decoration: underline;
+  text-decoration-color: var(--accent);
+  text-underline-offset: 3px;
+}
+
+// ===================
 // TOUCH TARGETS
 // ===================
 

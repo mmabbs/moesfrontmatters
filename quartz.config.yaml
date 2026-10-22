@@ -223,10 +223,13 @@ layout:
       direction: row
       gap: 0.5rem
   byPageType:
+    # Default frame puts the 404 in the page grid like every other page
+    # (the page type ships with the edge-to-edge "minimal" frame). The left
+    # sidebar stays for the theme toggle; the footer carries the domain nav.
     "404":
+      template: default
       positions:
         beforeBody: []
-        left: []
         right: []
     content: {}
     folder:
