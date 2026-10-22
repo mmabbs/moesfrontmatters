@@ -127,12 +127,6 @@
       "commit": "93304d22e1d7f09f93a33658ec273f7cb8d17793",
       "installedAt": "2026-06-26T19:31:29.190Z"
     },
-    "footer": {
-      "source": "github:quartz-community/footer",
-      "resolved": "https://github.com/quartz-community/footer.git",
-      "commit": "6ed61928d3c0178d7cef972ebcbca6a206a2f065",
-      "installedAt": "2026-06-26T19:31:29.204Z"
-    },
     "github-flavored-markdown": {
       "source": "github:quartz-community/github-flavored-markdown",
       "resolved": "https://github.com/quartz-community/github-flavored-markdown.git",

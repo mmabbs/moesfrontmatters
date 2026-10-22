@@ -176,9 +176,18 @@ plugins:
       position: left
       priority: 25
       display: mobile-only
-  - source: github:quartz-community/footer
+  # Local fork: domain nav + contact line in place of the Quartz credit.
+  # Rebuild after editing src/: cd plugins/footer && npm run build
+  - source: ./plugins/footer
     enabled: true
     options:
+      nav:
+        AI: /ai
+        Games: /games
+        Film & TV: /film-tv
+        Marketing: /marketing
+      contactLabel: "Get in touch:"
+      contact: moe[at]moesfrontmatters.com
       links:
         GitHub: https://github.com/mmabbs/
         LinkedIn: https://www.linkedin.com/in/moe-m-abbas/
