@@ -97,72 +97,72 @@ $radius-md: 8px;
 // ===================
 
 :root[saved-theme="dark"] {
-  // Backgrounds - deeper void aesthetic
-  --light: #0a0908;
-  --lightgray: #0f0e0c;
-  --gray: #1e1b18;
-  --darkgray: #9c9891;
-  --dark: #faf8f5;
+  // Backgrounds - S&H warm charcoal base
+  --light: #24211d;
+  --lightgray: #2a2622;
+  --gray: #383430;
+  --darkgray: #b0aaa1;
+  --dark: #f1eadf;
 
   // Extended palette
-  --bg-void: #0a0908;
-  --bg-deep: #0f0e0c;
-  --bg-surface: #161412;
-  --bg-elevated: #1e1b18;
-  --bg-hover: #2d2a28;
-  --text-primary: #faf8f5;
-  --text-secondary: #9c9891;
-  --text-tertiary: #5c5955;
+  --bg-void: #24211d;
+  --bg-deep: #2a2622;
+  --bg-surface: #302d28;
+  --bg-elevated: #383430;
+  --bg-hover: #45423d;
+  --text-primary: #f1eadf;
+  --text-secondary: #b0aaa1;
+  --text-tertiary: #7e7a73;
 
-  // Lichen accent system (primary)
-  --accent: #7a9e6d;
-  --accent-hover: #9ab890;
-  --accent-dim: #5e7d53;
-  --accent-glow: rgba(122, 158, 109, 0.15);
-  --accent-shadow: rgba(122, 158, 109, 0.2);
+  // Ochre accent system (primary) - S&H dark-ground ochre, 5.80:1 on charcoal
+  --accent: #c9913b;
+  --accent-hover: #dfa95b;
+  --accent-dim: #5e7d68; // pine - large text and borders only
+  --accent-glow: rgba(201, 145, 59, 0.12); // flat tint, not a glow
+  --accent-shadow: rgba(201, 145, 59, 0.25);
 
-  // Slate accent system (navigation)
-  --frost: #839aad;
-  --frost-dim: #6b8699;
+  // Navigation (was slate; S&H has no blue)
+  --frost: #b0aaa1;
+  --frost-dim: #7e7a73;
 
-  // Links (semantic) - using slate
-  --link: #839aad;
-  --link-hover: #a3b8c8;
-  --link-bg: rgba(131, 154, 173, 0.1);
+  // Links - cream text, ochre underline and hover (keeps ochre scarce)
+  --link: #f1eadf;
+  --link-hover: #c9913b;
+  --link-bg: rgba(201, 145, 59, 0.1);
 
   // Success
-  --success: #6d9470;
-  --success-glow: rgba(109, 148, 112, 0.15);
+  --success: #7d9f88;
+  --success-glow: rgba(94, 125, 104, 0.15);
 
   // Extended category palette
   --clay: #c2856a;
   --ochre: #b5a467;
   --dusk: #8a7aad;
-  --accolade: #c06078;
-  --accolade-bg: rgba(192, 96, 120, 0.1);
+  --accolade: #c9913b;
+  --accolade-bg: rgba(201, 145, 59, 0.08);
 
   // Callout semantic colors
-  --callout-warning: #c4944d;
-  --callout-note: #8a8a82;
-  --callout-error: #c45c5c;
-  --callout-success: #6d9470;
+  --callout-warning: #c9913b;
+  --callout-note: #f1eadf;
+  --callout-error: #d37e6c; // brick, 4.76:1 on its tint
+  --callout-success: #7d9f88;
 
   // Card hover text
-  --card-hover-text: #131211;
+  --card-hover-text: #24211d;
 
   // Overlay text (for dark overlays that don't change with theme)
-  --overlay-text: #faf8f5;
-  --overlay-text-secondary: #b8b4a8;
+  --overlay-text: #f1eadf;
+  --overlay-text-secondary: #b0aaa1;
 
   // Legacy mapping
   --secondary: var(--link);
   --tertiary: var(--accent);
 
-  --highlight: #232120;
+  --highlight: #302d28;
   --textHighlight: #b3aa0288;
 
   // Code colors
-  --code-background: #1a1918;
+  --code-background: #1d1a17;
   --code-comment: #7a7770;
   --code-function: #c2856a;
   --code-keyword: #879a39;
@@ -199,20 +199,6 @@ $radius-md: 8px;
     background-color: transparent;
     font-weight: 500;
   }
-
-  // Theme-specific: Gradient wash - lichen top-left, slate bottom-right, edge fade
-  body::after {
-    background:
-      radial-gradient(ellipse 120% 80% at 10% 0%, rgba(122, 158, 109, 0.08) 0%, transparent 50%),
-      radial-gradient(ellipse 80% 60% at 90% 100%, rgba(131, 154, 173, 0.04) 0%, transparent 50%),
-      linear-gradient(
-        to bottom,
-        rgba(10, 9, 8, 0.8) 0%,
-        transparent 5%,
-        transparent 75%,
-        rgba(10, 9, 8, 0.8) 100%
-      );
-  }
 }
 
 // ===================
@@ -220,113 +206,74 @@ $radius-md: 8px;
 // ===================
 
 :root[saved-theme="light"] {
-  // Backgrounds - warm cream base
-  --light: #fefcf8;
-  --lightgray: #f5f2ea;
-  --gray: #e8e4d9;
-  --darkgray: #5c5955;
-  --dark: #1a1918;
+  // Backgrounds - S&H cream base
+  --light: #f1eadf;
+  --lightgray: #e8e1d6;
+  --gray: #dad3c8;
+  --darkgray: #5e5a55;
+  --dark: #24211d;
 
   // Extended palette
-  --bg-void: #fefcf8;
-  --bg-deep: #fefcf8;
-  --bg-surface: #f5f2ea;
-  --bg-elevated: #ebe8de;
-  --bg-hover: #e8e4d9;
-  --text-primary: #1a1918;
-  --text-secondary: #5c5955;
-  --text-tertiary: #9c9891;
+  --bg-void: #f1eadf;
+  --bg-deep: #f1eadf;
+  --bg-surface: #e8e1d6;
+  --bg-elevated: #dfd8cd;
+  --bg-hover: #dad3c8;
+  --text-primary: #24211d;
+  --text-secondary: #5e5a55;
+  --text-tertiary: #8a857e;
 
-  // Lichen accent (darker for light mode accessibility)
-  // #5e7d53 measured 4.52:1 on cream (barely passes AA) — darkened slightly
-  // to #5b7950 (4.8:1) for a safety margin against rendering variance
-  --accent: #5b7950;
-  --accent-hover: #4a6842;
-  --accent-dim: #3d5636;
-  --accent-glow: rgba(94, 125, 83, 0.1);
-  --accent-shadow: rgba(94, 125, 83, 0.2);
+  // Ochre accent - one step darker than S&H's #886125, which fell to
+  // 4.27:1 on --bg-surface. #76531b holds AA on every light surface
+  // (5.81:1 on the cream base, 4.67:1 on --bg-hover).
+  --accent: #76531b;
+  --accent-hover: #664610;
+  --accent-dim: #5e7d68; // pine - large text and borders only
+  --accent-glow: rgba(118, 83, 27, 0.1); // flat tint, not a glow
+  --accent-shadow: rgba(118, 83, 27, 0.2);
 
-  // Slate accent
-  --frost: #4d7085;
-  --frost-dim: #3d6075;
+  // Navigation (was slate; S&H has no blue)
+  --frost: #5e5a55;
+  --frost-dim: #8a857e;
 
-  // Links (using darker slate for accessibility)
-  --link: #4d7085;
-  --link-hover: #3d6075;
-  --link-bg: rgba(77, 112, 133, 0.08);
+  // Links - charcoal text, ochre underline and hover
+  --link: #24211d;
+  --link-hover: #76531b;
+  --link-bg: rgba(118, 83, 27, 0.08);
 
   // Success
-  --success: #4a7a4e;
-  --success-glow: rgba(74, 122, 78, 0.12);
+  --success: #476350;
+  --success-glow: rgba(71, 99, 80, 0.12);
 
   // Extended category palette (darker for light bg)
   --clay: #a06b50;
   --ochre: #96884e;
   --dusk: #6e5f94;
-  --accolade: #9a3f55;
-  --accolade-bg: rgba(154, 63, 85, 0.08);
+  --accolade: #76531b;
+  --accolade-bg: rgba(118, 83, 27, 0.08);
 
   // Callout semantic colors (darker for light bg)
-  --callout-warning: #8a6830;
-  --callout-note: #5a5a55;
-  --callout-error: #a04545;
-  --callout-success: #4a7a4e;
-
-  // Callout icon/title colors (WCAG AA fix for light mode)
-  // quartz/styles/callouts.scss sets --color per data-callout type with
-  // hardcoded, theme-agnostic hex values meant for the near-black dark
-  // background. On cream (#fefcf8) several measured well under 4.5:1
-  // (question 2.15:1, warning 2.67:1, tip 2.28:1, info/todo 2.33:1,
-  // abstract 2.37:1, success 2.82:1, note 3.24:1, failure/danger/bug 4.21:1).
-  // These overrides darken --color per type (same hue, reduced lightness)
-  // to land at ~4.6:1. Higher specificity here (:root[saved-theme="light"]
-  // .callout[data-callout]) wins over the base rule regardless of source order.
-  .callout {
-    &[data-callout="note"] {
-      --color: #0e68ff;
-    }
-    &[data-callout="abstract"] {
-      --color: #007bb2;
-    }
-    &[data-callout="info"],
-    &[data-callout="todo"] {
-      --color: #007f92;
-    }
-    &[data-callout="tip"] {
-      --color: #008271;
-    }
-    &[data-callout="success"] {
-      --color: #07845d;
-    }
-    &[data-callout="question"] {
-      --color: #966c1d;
-    }
-    &[data-callout="warning"] {
-      --color: #ab6121;
-    }
-    &[data-callout="failure"],
-    &[data-callout="danger"],
-    &[data-callout="bug"] {
-      --color: #d83333;
-    }
-  }
+  --callout-warning: #76531b;
+  --callout-note: #24211d;
+  --callout-error: #944635; // brick, 4.95:1 on its tint
+  --callout-success: #476350;
 
   // Card hover text (same as --light in light mode)
   --card-hover-text: var(--light);
 
   // Overlay text (for dark overlays that don't change with theme)
-  --overlay-text: #faf8f5;
-  --overlay-text-secondary: #b8b4a8;
+  --overlay-text: #f1eadf;
+  --overlay-text-secondary: #b0aaa1;
 
   // Legacy mapping
   --secondary: var(--link);
   --tertiary: var(--accent);
 
-  --highlight: #edeadc;
+  --highlight: #e8e1d6;
   --textHighlight: #fff2a8;
 
   // Code
-  --code-background: #f6f4e8;
+  --code-background: #e8e1d6;
   --code-tag: #878580;
 
   // Theme-specific: em color (different from dark)
@@ -356,20 +303,6 @@ $radius-md: 8px;
   // Theme-specific: Override h3 color for dark overlay (light only)
   .film-overlay h4 {
     color: var(--overlay-text);
-  }
-
-  // Theme-specific: Gradient wash - lichen top-left, slate bottom-right, edge fade (subtle for light mode)
-  body::after {
-    background:
-      radial-gradient(ellipse 120% 80% at 10% 0%, rgba(94, 125, 83, 0.04) 0%, transparent 50%),
-      radial-gradient(ellipse 80% 60% at 90% 100%, rgba(107, 134, 153, 0.03) 0%, transparent 50%),
-      linear-gradient(
-        to bottom,
-        rgba(254, 252, 248, 0.8) 0%,
-        transparent 0%,
-        transparent 75%,
-        rgba(254, 252, 248, 0.8) 100%
-      );
   }
 }
 
@@ -668,12 +601,11 @@ body[data-slug="games"] .markdown-rendered > h2 ~ h2 {
   a {
     color: var(--link);
     text-decoration: underline;
-    text-decoration-color: var(--text-tertiary);
+    text-decoration-color: var(--accent);
     text-underline-offset: 3px;
 
     &:hover {
-      color: var(--dark);
-      text-decoration-color: var(--darkgray);
+      color: var(--link-hover);
     }
   }
 }
@@ -836,7 +768,6 @@ ul.tags {
   &:hover {
     background: var(--accent);
     transform: translateY(-4px);
-    box-shadow: 0 20px 40px var(--accent-glow);
 
     .nav-card-number,
     .nav-card-title,
@@ -942,12 +873,11 @@ a.internal.nav-item,
     color: var(--link);
     background: transparent;
     text-decoration: underline;
-    text-decoration-color: var(--text-tertiary);
+    text-decoration-color: var(--accent);
     text-underline-offset: 3px;
 
     &:hover {
-      color: var(--dark);
-      text-decoration-color: var(--darkgray);
+      color: var(--link-hover);
     }
   }
 }
@@ -1147,7 +1077,7 @@ a.internal.project-link,
   color: var(--link);
   background: transparent;
   text-decoration: underline;
-  text-decoration-color: var(--link);
+  text-decoration-color: var(--accent);
   text-underline-offset: 2px;
   transition:
     color var(--transition-fast),
@@ -1155,7 +1085,7 @@ a.internal.project-link,
 
   &:hover {
     color: var(--link-hover);
-    text-decoration-color: var(--link);
+    text-decoration-color: var(--accent);
   }
 }
 
@@ -1332,9 +1262,9 @@ svg {
   inset: 0;
   background: linear-gradient(
     to top,
-    rgba(19, 18, 17, 0.98) 0%,
-    rgba(19, 18, 17, 0.92) 50%,
-    rgba(19, 18, 17, 0.75) 100%
+    rgba(36, 33, 29, 0.98) 0%,
+    rgba(36, 33, 29, 0.92) 50%,
+    rgba(36, 33, 29, 0.75) 100%
   );
   opacity: 0;
   transition: opacity var(--transition-normal);
@@ -1431,6 +1361,15 @@ a {
 
 a.external {
   font-weight: 500;
+}
+
+// Links are cream (charcoal in light mode), so colour alone can't mark them.
+// The ochre underline is the cue.
+// Scoped to running text so headings, cards and nav lists keep their own styling.
+article :is(p, li, td, blockquote) > a:is(.internal, .external) {
+  text-decoration: underline;
+  text-decoration-color: var(--accent);
+  text-underline-offset: 3px;
 }
 
 a.internal.broken {
@@ -1648,16 +1587,13 @@ button.toc-header h3 {
     content: "";
     position: absolute;
     inset: 0;
-    background:
-      repeating-linear-gradient(
-        45deg,
-        transparent,
-        transparent 35px,
-        rgba(131, 154, 173, 0.03) 35px,
-        rgba(131, 154, 173, 0.03) 70px
-      ),
-      radial-gradient(circle at 20% 80%, rgba(122, 158, 109, 0.1) 0%, transparent 40%),
-      radial-gradient(circle at 80% 30%, rgba(131, 154, 173, 0.12) 0%, transparent 40%);
+    background: repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 35px,
+      rgba(241, 234, 223, 0.03) 35px,
+      rgba(241, 234, 223, 0.03) 70px
+    );
   }
 
   &::after {
@@ -1678,7 +1614,7 @@ button.toc-header h3 {
 // Floating geometric shapes
 .hero-shape {
   position: absolute;
-  border: 1px solid rgba(131, 154, 173, 0.2);
+  border: 1px solid rgba(241, 234, 223, 0.15);
   border-radius: 50%;
   animation: float 8s ease-in-out infinite;
 }
@@ -1977,7 +1913,7 @@ button.toc-header h3 {
 .gallery-item-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(to top, rgba(19, 18, 17, 0.9) 0%, transparent 50%);
+  background: linear-gradient(to top, rgba(36, 33, 29, 0.9) 0%, transparent 50%);
   opacity: 0;
   transition: opacity var(--transition-normal);
   padding: 1rem;
@@ -2005,7 +1941,7 @@ button.toc-header h3 {
     top: 0.5rem;
     bottom: 0.5rem;
     width: 2px;
-    background: linear-gradient(to bottom, var(--accent), var(--link));
+    background: var(--accent-dim);
   }
 }
 
@@ -2217,7 +2153,7 @@ a.internal.related-item,
   font-weight: 500;
   color: var(--link);
   text-decoration: underline;
-  text-decoration-color: var(--text-tertiary);
+  text-decoration-color: var(--accent);
   text-underline-offset: 3px;
   transition:
     color var(--transition-fast),
@@ -2226,7 +2162,6 @@ a.internal.related-item,
 
 .related-item:hover .related-title {
   color: var(--link-hover);
-  text-decoration-color: var(--link);
 }
 
 .related-desc {
@@ -2543,13 +2478,13 @@ footer {
   align-items: center;
   margin-top: var(--space-16);
   padding: 0.5rem 1rem;
-  background: rgba(131, 154, 173, 0.1);
+  background: var(--link-bg);
   border: 1px solid var(--frost);
   border-radius: $radius-sm;
   transition: background var(--transition-fast);
 
   &:hover {
-    background: rgba(131, 154, 173, 0.18);
+    background: var(--accent-glow);
   }
 
   a {
@@ -2656,7 +2591,6 @@ body[data-slug="digital-garden/index"] h3 {
       background: var(--bg-elevated);
       color: var(--text-primary);
       border-color: var(--accent-dim);
-      box-shadow: 0 0 8px var(--accent-glow);
     }
   }
 }
@@ -2786,7 +2720,7 @@ body[data-slug="digital-garden/index"] h3 {
     left: 0;
     right: 0;
     height: 50%;
-    background: linear-gradient(180deg, transparent, rgba(10, 9, 8, 0.4));
+    background: linear-gradient(180deg, transparent, rgba(36, 33, 29, 0.4));
     pointer-events: none;
   }
 }
@@ -2844,7 +2778,7 @@ body[data-slug="digital-garden/index"] h3 {
   font-weight: 900;
   font-size: var(--text-base);
   padding: var(--space-16);
-  background: linear-gradient(180deg, transparent 0%, rgba(10, 9, 8, 0.85) 100%);
+  background: linear-gradient(180deg, transparent 0%, rgba(36, 33, 29, 0.85) 100%);
   letter-spacing: -0.01em;
 
   a {
@@ -3190,14 +3124,30 @@ body[data-slug="games-2"] {
   animation: entrance 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 
-[data-slug="index"] .hero-eyebrow { animation-delay: 0.05s; }
-[data-slug="index"] .hero-title { animation-delay: 0.15s; }
-[data-slug="index"] .hero-intro { animation-delay: 0.25s; }
-[data-slug="index"] .hero-bio { animation-delay: 0.4s; }
-[data-slug="index"] .hero-tags { animation-delay: 0.6s; }
-[data-slug="index"] .nav-list { animation-delay: 0.8s; }
-[data-slug="index"] .nav-divider { animation-delay: 1.0s; }
-[data-slug="index"] .cta-closing { animation-delay: 1.1s; }
+[data-slug="index"] .hero-eyebrow {
+  animation-delay: 0.05s;
+}
+[data-slug="index"] .hero-title {
+  animation-delay: 0.15s;
+}
+[data-slug="index"] .hero-intro {
+  animation-delay: 0.25s;
+}
+[data-slug="index"] .hero-bio {
+  animation-delay: 0.4s;
+}
+[data-slug="index"] .hero-tags {
+  animation-delay: 0.6s;
+}
+[data-slug="index"] .nav-list {
+  animation-delay: 0.8s;
+}
+[data-slug="index"] .nav-divider {
+  animation-delay: 1s;
+}
+[data-slug="index"] .cta-closing {
+  animation-delay: 1.1s;
+}
 
 // ===================
 // REDUCED MOTION
