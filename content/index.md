@@ -8,14 +8,12 @@ created: 06-26-2026
 draft:
 ---
 
-<p class="hero-eyebrow">Portfolio & Digital Garden</p>
-
 <h1 class="hero-title">
 	<span>Moe's</span>
 	<span class="accent">Frontmatters</span>
 </h1>
 
-<p class="hero-intro">AI Automation Specialist | Writer | Content Strategist | Marketer | Producer</p>
+<p class="hero-intro">AI automation specialist&nbsp;· writer&nbsp;· content strategist&nbsp;· marketer&nbsp;· producer</p>
 
 <div class="hero-bio">
 I design AI-enabled tools, workflows and knowledge systems, drawing on fifteen years in film/tv production, content strategy/marketing, and UX.
