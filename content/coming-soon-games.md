@@ -2,10 +2,9 @@
 title: Coming Soon!
 seoTitle: Coming Soon | Moe's Frontmatters
 description: This page isn't ready yet, but it will be (soon!)
-tags:
-  - nav-exclude
-modified: 05-27-2026
-created: 05-26-2026
+tags: [nav-exclude]
+modified: 09-17-2026
+created: 09-17-2026
 draft: false
 ---
 
@@ -14,8 +13,6 @@ draft: false
 Still cooking this up. 
 
 ## Check out what's already live:
-
-
 
 <div class="related-list">
 	<a href="/projects/ollie-oxenfree" class="related-item">

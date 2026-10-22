@@ -2,11 +2,8 @@
 title: Games
 seoTitle: Game Writing Portfolio | Narrative Design Specs
 description: Game writing and narrative design portfolio. Cinematics, bark sheets, character bios, and worldbuilding for sci-fi and fantasy action-adventure games.
-tags:
-  - writing
-  - game-writing
-  - video-games
-modified: 07-23-2026
+tags: [writing, game-writing, video-games]
+modified: 09-17-2026
 created: 05-27-2026
 draft: false
 ---
@@ -34,7 +31,7 @@ draft: false
 <div class="artifact-card">
 	<div class="artifact-title-row">
 		<h3 class="artifact-title">"A Visit to the Magistrate"</h4>
-		<span class="download-badge" style="opacity: 0.4; pointer-events: none;">Coming Soon</span>
+		<a href="artifacts/sse-cinematic.pdf" class="download-badge">PDF ↓</a>
 		<span class="artifact-info"><span class="format">Cinematic</span> · Sci-Fi · 3 pages ·</span>
 		<a href="/projects/samsaras-edge" class="project-link">SamSara's Edge</a>
 	</div>

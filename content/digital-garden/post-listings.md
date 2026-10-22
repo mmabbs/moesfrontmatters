@@ -2,9 +2,8 @@
 title: Post Listings
 seoTitle:
 description: All digital garden posts in five different view formats.
-tags:
-  - nav-exclude
-modified: 05-26-2026
+tags: []
+modified: 09-17-2026
 created: 05-26-2026
 draft: false
 ---

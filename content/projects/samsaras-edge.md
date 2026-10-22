@@ -25,7 +25,7 @@ After faking their romantic compatibility score in an AI-run city, Sara and Sam 
 <div class="artifact-card">
 	<div class="artifact-title-row">
 		<h4 class="artifact-title">"A Visit to the Magistrate"</h4>
-		<a href="/coming-soon" class="download-badge">PDF ↓</a>
+		<a href="artifacts/sse-cinematic.pdf" class="download-badge">PDF ↓</a>
 		<span class="artifact-info"><span class="format">Cinematic</span> · 3 pages</span>
 	</div>
 	<p class="artifact-description">

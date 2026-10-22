@@ -2,11 +2,8 @@
 title: Ollie Oxenfree
 seoTitle: Ollie Oxenfree | Sci-Fi Action RPG Game Writing Spec
 description: View the action-RPG game writing spec for Ollie Oxenfree. Read the cinematic, bark sheet, and character biography of Ollie.
-tags:
-  - writing
-  - game-writing
-  - video-games
-modified: 07-16-2026
+tags: [writing, game-writing, video-games]
+modified: 09-17-2026
 created: 07-01-2026
 draft: false
 ---

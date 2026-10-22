@@ -2,12 +2,8 @@
 title: The Otter Side
 seoTitle: The Otter Side | Mobile Game Content Strategy & Marketing
 description:
-tags:
-  - marketing
-  - content-strategy
-  - video-games
-  - mobile-games
-modified: 07-16-2026
+tags: [marketing, content-strategy, video-games, mobile-games]
+modified: 09-17-2026
 created: 07-01-2026
 draft: 
 ---
@@ -56,7 +52,6 @@ A Content Strategy that includes:
 
 ---
 
-Test 
 
 > [!question] Want to see the full pitch deck and framework docs?
 > Since this project is in active development, deliverables are only available upon request and viewable through a live walkthrough (no downloads).

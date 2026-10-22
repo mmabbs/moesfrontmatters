@@ -2,14 +2,10 @@
 title: How I Use LLMs
 seoTitle: How I Use LLMs | Notes on AI and LLMs Usage for Workflows and Research
 description: A note on what LLM proficiency means in my work. Workflow automation, quality assurance, and custom tooling.
-tags:
-  - ai
-  - llms
-  - workflows
-  - research
-modified: 06-25-2026
+tags: [ai, llms, workflows, research]
+modified: 09-17-2026
 created: 06-05-2026
-draft: false
+draft: true
 ---
 
 # How I Use LLMs
@@ -21,13 +17,15 @@ These clankers have a lot of loose bolts. Non-persistent memory, hallucinations,
 
 > [!ai]- My thoughts on GenAI in creative writing
 > 
-> Since LLMs are next-token predictors based on datasets, what appears as "divergent thinking" is a ruse: all its doing is surfacing the most commonly associated concepts from training data. You can argue "well, we do the same, only LLMs know more." True. But trusting a technology that only knows what the next token is, not where it came from, forces you into the minefield of stolen copyrighted IP. You can only disarm what you detect. And what you assume is "safe to use" in that output might be anything but.
+> LLMs are next-token predictors based on datasets, so what appears as "divergent thinking" is a ruse: all its doing is surfacing the most commonly associated concepts from training data. Besides, datasets are minefields of (stolen) copyrighted IP that only spares bots and their invincible creators (for some baffling reason). what the next token is, not where it came from, forces you into the minefield of stolen copyrighted IP. 
 > 
 > Then there's the context ceiling, along with the diminishing returns as it accumulates. Given the depth that goes into themes, concepts, character work, etc. *what do you even select?* You're forced into arbitrary selection that could become useless two prompts later.
 > 
 > The scope creep of thinking about how much of your thinking should go into its thinking so that it thinks about your story "better" than the way you think about it is an epistemological rigamarole. It's overthinking and tinkering in preparation of writing. 
 >
 > I'd rather just write the damn thing myself.
+
+^ixnay-gen-ai
 
 Even with a solid harness, [[pop-ups#^pop-up-3|we're at the mercy of backend wiring]]. I'd rather have Claude make space for me to do my own thinking than have it do the thinking for me:
 

@@ -13,3 +13,29 @@ Inline tasks to complete during sessions. Check off each one when done.
 - [ ] Rethink the title chain "AI Automation Specialist | Writer | Content Strategist | Marketer | Producer."
 - [ ] Explore a larger font size for the title chain and "Portfolio & Digital Garden."
 - [ ] Discuss a less serif-heavy primary font if the current one feels too odd for the AI positioning.
+- [ ] Double check order of navigation
+
+## FitIn Case Study (`content/drafts/fitin-v7.md`)
+
+- [ ] Outline as a story
+- [ ] Think of section titling approach
+- [ ] Write third lesson
+- [ ] Write conclusion
+
+## Coming Soon page (`content/coming-soon-{domain}.md`)
+
+- [ ] Add space between "Check out what's already live" H3 heading and the redirect links
+- [x] Replace the game links on the marketing homepage's coming soon page with other marketing links
+- [x] Create domain-specific versions to include domain-related project redirects
+
+## "How I Use LLMs" page (`content/digital-garden/how-i-use-llms.md`)
+
+- [ ] Take out the "My thoughts on GenAI in creative writing" section
+- [ ] Review page — consider folding/replacing/removing page altogether (strongest lean); the info will be covered between the AI landing page's overview, portfolio pieces, and "gen-ai-in-arts" post.
+
+## "My Stance on Generative AI in the Arts" page (`content/digital-garden/gen-ai-in-arts.md`) - **NEW POST!**
+
+- [ ] Brainstorm post
+- [ ] Write draft 1
+- [ ] Edit draft
+- [ ] Publish post

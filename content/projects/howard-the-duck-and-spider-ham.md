@@ -2,11 +2,8 @@
 title: Howard the Duck & Spider-Ham
 seoTitle: Howard the Duck & Spider-Ham | Action Adventure Game Writing Spec
 description: View the action-adventure game writing spec for Howard the Duck & Spider-Ham. Explore the barksheet and their partner dynamics as they cross realities.
-tags:
-  - writing
-  - game-writing
-  - video-games
-modified: 07-16-2026
+tags: [writing, game-writing, video-games]
+modified: 09-17-2026
 created: 07-01-2026
 draft: false
 ---

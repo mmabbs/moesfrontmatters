@@ -3,9 +3,9 @@ title: AI
 seoTitle: AI Automation and Workflow Case Studies | Multi-Agent Systems, Evaluation Design, Workflow Pipelines
 description: Problem, build, result. Case studies in multi-agent orchestration, adversarial evaluation, and creative workflow automation — from an automation consultant with a production background.
 tags:
-modified: 09-09-2026
+modified: 09-17-2026
 created: 09-09-2026
-draft: true
+draft: 
 ---
 
 # AI
@@ -14,23 +14,47 @@ draft: true
 
 ## Case Studies
 
-These are build write-ups. Problem, build, result. If you need to know whether I can scope and ship a working system — not just write a paragraph about one — start here.
+These are build write-ups showing how I can scope and ship a working system.
 
-### Eval Suite {for a pre-existing pipeline}
+### [Insurance Intake](projects/ins-intake) 
 
-%% Includes regression tests. Break out of Script Asst? %%
+> [!ai] Summary
+> **What it is:** An AI workflow that reads an insurance brokerage's shared inbox, drafts the record a staff member would normally type out, and sends it to a broker to check. Every email, approval, and correction is logged, and the broker's corrections feed back into the AI's instructions. Demo build, made-up data.  
+> **Problem:** Someone reads every email, figures out which client and policy applies, and types a record into the brokerage's main system with dates to follow up. These emails aren't tidy.  
+> **My role:** Designer and builder. Build time: 6 days, while learning n8n.  
+> **Status:** Working demo, not in production. Nothing is filed until a person approves it.  
+> **Outcome:** On a scored test of 12 deliberately messy emails, it got every email's type right, as well as 71 of 72 details. All for about fifth of a cent per email.  
+> **Methods:** n8n (self-hosted) · Claude Haiku 5.5 · Gmail · Claude Code
 
-### Script Assistant Pipeline
+### [Script Assistant](projects/script-asst)
 
-AI screenwriting tools tend to do the writing for you. This pipeline does the opposite — it supports the writer's process without touching the creative work. At its core is a format-aware voice intake: spoken drafting through VoiceInk into structured screenplay format, preserving the intimacy of thinking out loud instead of forcing the writer into a text editor. The pipeline's six stages handle intake, formatting, and structural support. Components that run are demoed as builds; components in design are labeled as design.
+> [!ai] Summary
+> **What it is:** [Plain-language description.]  
+> **Problem:** [Operational problem.]  
+> **My role:** [Discovery, workflow design, prototype/build work, evaluation, etc.]  
+> **Status:** [What is demonstrably working now.]  
+> **Outcome:** [Measured result or demonstrated capability.]  
+> **Methods:** [A short, accurate list.]
+
+%%AI screenwriting tools tend to do the writing for you. This pipeline does the opposite — it supports the writer's process without touching the creative work. At its core is a format-aware voice intake: spoken drafting through VoiceInk into structured screenplay format, preserving the intimacy of thinking out loud instead of forcing the writer into a text editor. The pipeline's six stages handle intake, formatting, and structural support. Components that run are demoed as builds; components in design are labeled as design.
 
 **Problem:** Screenwriting tools that use AI either generate the writing (replacing the writer) or ignore format (adding manual work).
 **Build:** A six-stage pipeline anchored by format-aware voice intake — VoiceInk to structured screenplay, creative process intact. [EDITOR: note which stages are built vs. designed if that detail is useful here]
-**Result:** [EDITOR: result — what the demo shows, time saved, or what it replaced]
+**Result:** [EDITOR: result — what the demo shows, time saved, or what it replaced]%%
 
-[[case-studies/script-assistant]]
+### [Eval Suite {for a pre-existing pipeline}](projects/eval-suite)
 
-### {Insurance Brokerage Tool} 
+> [!ai] Summary
+> **What it is:** [Plain-language description.]  
+> **Problem:** [Operational problem.]  
+> **My role:** [Discovery, workflow design, prototype/build work, evaluation, etc.]  
+> **Status:** [What is demonstrably working now.]  
+> **Outcome:** [Measured result or demonstrated capability.]  
+> **Methods:** [A short, accurate list.]
+
+%% Includes regression tests. Break out of Script Asst? %%
+
+
 
 %% Claude's note: Two things do matter for the job-hunt version, and neither is about optics:
 
@@ -41,7 +65,3 @@ One forward-looking note, since the spec's endgame is a design-partner brokerage
 
 What the piece actually earns you is worth saying plainly: it's not just "I built a workflow." It's a workflow plus vertical research plus governance artifacts plus a human-in-the-loop design justified by a regulator's position. Almost no one shows up to an automation interview with that combination. Lead with it.
 %%
-
----
-
-The design patterns behind these builds — structured outputs, tool use, evaluation — are on the [How I Work With AI](digital-garden/how-i-use-llms) page.

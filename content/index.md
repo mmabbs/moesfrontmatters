@@ -2,8 +2,8 @@
 title: Home
 seoTitle: Producer & Writer Portfolio | Content Strategy, Games, Film
 description: Explore my producer and writer portfolio across content strategy, marketing, narrative design in games, and screenwriting. View my latest work in games and marketing.
-tags:
-modified: 07-16-2026
+tags: []
+modified: 09-17-2026
 created: 06-26-2026
 draft:
 ---
@@ -28,6 +28,9 @@ Film production taught me to coordinate people, budgets, and changing requiremen
 
 If you need your AI workflows up and running, reach out at <span class="contact">moe[at]moesfrontmatters.com</span>.
 </div>
+
+> [!ai]- My stance on generative AI in creative works
+> Bots for admin. That's it. [[how-i-use-llms#^ixnay-gen-ai|Here's why]]
 
 <nav class="nav-list">
 	<a href="/ai" class="nav-item">

@@ -2,10 +2,10 @@
 title: Marketing
 seoTitle: Content Strategy & Marketing Portfolio
 description: Content strategist and marketer portfolio. Campaign planning, brand voice, and UX case studies for indie games, startups, and interactive media.
-tags:
-modified: 07-23-2026
+tags: []
+modified: 09-17-2026
 created: 07-17-2026
-draft: false
+draft: 
 ---
 
 # Marketing 
@@ -30,7 +30,7 @@ draft: false
 	<div class="artifact-title-row">
 		<h3 class="artifact-title">UX Design & User Research for a Wellness Booking App</h4>
 		<span class="artifact-info"><span class="format">UX Design & Strategy</span> · Social Enterprise · Wellness SaaS ·</span>
-		<a href="/coming-soon" class="project-link">FitIn.io</a>
+		<a href="/coming-soon-marketing" class="project-link">FitIn.io</a>
 	</div>
 	<p class="artifact-description">
 		Ethical marketplace connecting fitness seekers with inclusive classes and trainers. Delivered wireframes, prototypes, and user research that attracted investor interest during pre-launch.
