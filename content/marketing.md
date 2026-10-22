@@ -10,7 +10,7 @@ draft:
 
 # Marketing 
 
-> [!warning] Due to NDAs, case studies emphasize methodology and strategic approach rather than final deliverables. If you'd like to discuss a project in detail, please reach out at <span class="contact">moe[at]moesfrontmatters.com</span>
+> [!note] Due to NDAs, case studies emphasize methodology and strategic approach rather than final deliverables. If you'd like to discuss a project in detail, please reach out at <span class="contact">moe[at]moesfrontmatters.com</span>
 
 <h2 class="artifact-group-header">Case Studies</h2>
 
