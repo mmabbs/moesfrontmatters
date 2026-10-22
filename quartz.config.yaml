@@ -22,11 +22,13 @@ configuration:
     cdnCaching: true
     typography:
       header:
-        name: Playfair Display
-        weights: [400, 500, 600, 900]
+        name: Zilla Slab
+        weights: [500, 600]
+      # Satoshi is on Fontshare, not Google Fonts. Google skips it and still
+      # serves the other families; custom.scss loads Satoshi with @font-face.
       body:
-        name: Bricolage Grotesque
-        weights: [400, 500]
+        name: Satoshi
+        weights: [400, 500, 700]
         includeItalic: false
       code:
         name: JetBrains Mono
