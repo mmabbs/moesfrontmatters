@@ -1,5 +1,23 @@
 # Changelog
 
+## 2026-10-22
+
+Branch `style/explore-sh-style` (not merged or pushed), plus one hotfix on `main` (`80d8bd7`, pushed and deployed).
+
+- **Hotfix on `main`:** the About page collapsed on phones. Its 3-column grid had no breakpoint, so at 390px the page rendered 480px wide with a 0px text column. The grid now applies on desktop only, and the photo stacks above the text on tablets and phones. Checked from 320px to 1440px on the live site.
+- Created `style/explore-sh-style` and merged `style/font-test-zilla-satoshi` into it.
+- Swapped the palette to Scout & Harness's: warm charcoal `#24211d` base with cream `#f1eadf` text (flipped in light mode), one ochre accent (`#c9913b` dark, `#76531b` light), and pine `#5e7d68`. Variable names are unchanged; only values moved. Every text colour passes WCAG AA.
+- Adopted S&H's flat rule: removed the gradient wash, hover glows and decorative gradients. Image scrims stay, retinted to charcoal.
+- Ochre at rest now marks only "Frontmatters", award boxes and the contact email. The role line, PDF badges, film meta labels, warning callouts and the RSS bar went neutral. The accolade moved from rose to ochre.
+- Links are cream (charcoal in light mode) with an ochre underline in running text.
+- Callouts read theme colours instead of hardcoded hex, so every type passes contrast in both modes. Removed the light-mode blue overrides.
+- Home: removed the "Portfolio & Digital Garden" eyebrow. The role line is now sentence case at body size. The title scales from 48px to 96px and reads "Moe’s" with a curly apostrophe.
+- Reading width: a new `--measure` of 34rem keeps prose near 74 characters per line (it was around 104). Callout boxes match it.
+- Section headings on Games, Film & TV and Marketing are cream and one size. A leftover rule had turned them grey. "New Dog, Old Tricks" (Games) and the Otter Side case study (Marketing) are staged as larger lead pieces.
+- Focus ring and text selection now use the palette, and the focus ring no longer morphs on keypress. Removed unused colour tokens and a dead decorative hatch.
+- Content: placeholder for the home page's gen-AI stance sentence (not ready to publish), and removed the stance callout from home.
+- `DESIGN.md` and `PRODUCT.md` still describe the old lichen/slate palette. Update them before merging.
+
 ## 2026-10-21
 
 Branch `content/ai-projects-and-coming-soon`, fast-forwarded into `main` and deployed (`0680e38`). The `style/font-test-zilla-satoshi` branch is pushed to GitHub but not merged.
