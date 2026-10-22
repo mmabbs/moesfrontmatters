@@ -87,6 +87,11 @@ $radius-md: 8px;
   --text-4xl: 3rem; // 48px
   --text-5xl: 4rem; // 64px
 
+  // Reading measure. 75ch came to 820px in Satoshi (its "0" is wide), wider
+  // than the 790px column, so lines ran ~104 chars. 34rem measured a median
+  // of 74 chars/line across home, games, marketing, about and a garden note.
+  --measure: 34rem;
+
   // Transitions
   --transition-fast: 0.2s ease;
   --transition-normal: 0.3s ease;
@@ -429,11 +434,17 @@ body::after {
 // body text runs 100-160+ chars/line without this.
 article p:not(.hero-intro):not(.cta-closing),
 article li {
-  max-width: 75ch;
+  max-width: var(--measure);
 }
 
 article .callout[data-callout] .callout-content > p {
   max-width: none;
+}
+
+// Cap the box instead: 1rem padding and a 1px border each side, so text
+// inside a callout runs to the same measure as the prose around it.
+article .callout[data-callout] {
+  max-width: calc(var(--measure) + 2rem + 2px);
 }
 
 // Fluid sizes run from a 375px to a 1280px viewport.
@@ -1140,7 +1151,7 @@ svg {
   color: var(--darkgray);
   line-height: 1.6;
   margin: 0;
-  max-width: 75ch;
+  max-width: var(--measure);
 }
 
 .artifact-accolade {
