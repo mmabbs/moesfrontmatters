@@ -1,5 +1,18 @@
 # Changelog
 
+## 2026-10-21
+
+Branch `content/ai-projects-and-coming-soon`, fast-forwarded into `main` and deployed (`0680e38`). The `style/font-test-zilla-satoshi` branch is pushed to GitHub but not merged.
+
+- Moved the uncommitted content work off the font branch onto its own branch cut from `main`, so the font test stays content-free.
+- Added project pages `eval-suite`, `ins-intake` and `script-asst`, the `coming-soon-ai` page, 17 screenshots in `site-assets/`, and the SamSara's Edge PDF at `site-assets/artifacts/sse-cinematic.pdf`.
+- Pointed SamSara's Edge's PDF button at the new PDF. It had linked to `/coming-soon`, which no longer exists.
+- Retired the `bark`, `harriet` and `prom-night` writing samples, and edited the homepage, About Me, AI, Games, Marketing, the coming-soon pages, four project pages and several digital-garden pages.
+- Set How I Use LLMs to `draft: true` while it's being reworked. Pages that link to it will lead nowhere until it's back.
+- Moved `pop-ups.md` from `digital-garden/` to the top level of `content/`, so it no longer shows in the digital-garden listing. Its links use the `[[pop-ups#^…]]` form and still resolve. Cleared its `aliases`.
+- Build skip rules: added `drafts/` to `.gitignore`, which the build honours. The build doesn't read `.git/info/exclude`, so that alone didn't hide the folder. `ignorePatterns` keeps the folder rules `private`, `templates` and `.obsidian`, plus filename rules including `**/*draft*.md`. Dropped `draft-pages` (no such folder) and the `coming-soon` and `pop-ups` rules that had hidden pages other pages link to. Tested with the build's own matcher: it publishes the same 71 files as before, and none come from `drafts/`, `private/` or `.trash/`.
+- `content/.trash/` (Obsidian's trash) stays uncommitted on purpose.
+
 ## 2026-10-20
 
 Branch `style/font-test-zilla-satoshi` (not merged or pushed).
