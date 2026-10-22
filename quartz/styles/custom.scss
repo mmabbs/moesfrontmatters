@@ -530,10 +530,12 @@ body[data-slug="games"] .markdown-rendered > h2 ~ h2 {
   display: none !important;
 }
 
-// Backlinks sidebar: prevent horizontal overflow
-// The .backlinks container itself has overflow-x: auto with content 24px wider than client
-.backlinks {
-  overflow-x: hidden !important;
+// Quartz's overflow lists (Backlinks, table of contents) are width: 100% plus
+// 24px of list padding, so they ran 24px wider than the sidebar and showed a
+// scrollbar. Count the padding inside the width instead.
+ul.overflow,
+ol.overflow {
+  box-sizing: border-box;
 }
 
 .page > #quartz-body .page-header {
@@ -1552,11 +1554,15 @@ body[data-slug^="Digital-Garden/"] .toc {
   display: block;
 }
 
-button.toc-header h3 {
-  font-family: $font-mono;
-  font-size: var(--text-xs);
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
+// The toggle centres its chevron on the heading's box. The h3's uneven
+// margins (24px above, 8px below) moved to the button, so the chevron
+// centres on the text and the spacing stays the same.
+button.toc-header {
+  margin: 1.5rem 0 0.5rem;
+
+  h3 {
+    margin: 0;
+  }
 }
 
 .toc ul li > a {
