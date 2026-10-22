@@ -15,7 +15,7 @@ draft:
 <h2 class="artifact-group-header">Case Studies</h2>
 
 <div class="artifacts-grid">
-<div class="artifact-card">
+<div class="artifact-card lead">
 	<div class="artifact-title-row">
 		<h3 class="artifact-title">Building a Brand for an Indie Mobile Game</h4>
 		<span class="artifact-info"><span class="format">Content Strategy & Marketing</span> · Mobile Game · Cozy Runner ·</span>
