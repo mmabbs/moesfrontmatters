@@ -13,8 +13,10 @@ configuration:
     - private
     - templates
     - .obsidian
-    - drafts
-    - draft-pages
+    - "**/*private*.md"
+    - "**/*templates*.md"
+    - "**/*.obsidian*.md"
+    - "**/*draft*.md"
   theme:
     fontOrigin: googleFonts
     cdnCaching: true
