@@ -1,7 +1,7 @@
 ---
 title: Pop-Ups
 seoTitle:
-aliases: [pop-ups]
+aliases:
 description:
 tags: 
 modified: 09-17-2026
