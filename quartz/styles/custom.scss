@@ -545,10 +545,12 @@ body[data-slug="games"] .markdown-rendered > h2 ~ h2 {
 // Hero eyebrow label
 .hero-title {
   font-family: $font-display;
-  font-size: clamp(2rem, 1.275rem + 3.09vw, 3.75rem); // 32px → 60px, matches h1
+  // The one theatrical moment: 48px at 390px wide → 96px from ~1200px.
+  // Inner-page h1s stay at 60px, so the home title is the only peak.
+  font-size: clamp(3rem, 1.55rem + 5.93vw, 6rem);
   font-weight: 600;
-  line-height: 0.95;
-  letter-spacing: -0.03em;
+  line-height: 0.92;
+  letter-spacing: -0.035em;
   margin: 0 0 var(--space-32) 0;
   color: var(--dark);
 
