@@ -432,7 +432,11 @@ body::after {
 // grids, cards, or layout containers. The .center column has no
 // fixed max-width (it's `auto` in the grid), so on wide viewports
 // body text runs 100-160+ chars/line without this.
-article p:not(.hero-intro):not(.cta-closing),
+//
+// One text edge: prose, the home role line, callout boxes and award boxes
+// all stop at --measure. Headings, rules, card dividers, the poster grid
+// and photos span the column as a second, deliberate edge.
+article p,
 article li {
   max-width: var(--measure);
 }
@@ -441,10 +445,10 @@ article .callout[data-callout] .callout-content > p {
   max-width: none;
 }
 
-// Cap the box instead: 1rem padding and a 1px border each side, so text
-// inside a callout runs to the same measure as the prose around it.
+// Cap the box, not its text: the box edge is what lines up with the prose.
 article .callout[data-callout] {
-  max-width: calc(var(--measure) + 2rem + 2px);
+  box-sizing: border-box;
+  max-width: var(--measure);
 }
 
 // Fluid sizes run from a 375px to a 1280px viewport.
@@ -1204,11 +1208,39 @@ svg {
 // FILM GRID
 // ===================
 
+// Rows sit further apart than columns so each caption reads with the
+// poster above it, not the one below.
 .film-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 1.5rem;
+  gap: 2.5rem 1.5rem;
   margin-top: 2rem;
+}
+
+.film-item {
+  margin: 0;
+}
+
+// Title, year and role stay visible on every device; the overlay keeps
+// the rest for hover and keyboard focus.
+.film-caption {
+  margin-top: 0.75rem;
+
+  h3 {
+    font-family: $font-display;
+    font-size: var(--text-lg);
+    font-weight: 600;
+    line-height: 1.2;
+    color: var(--text-primary);
+    margin: 0;
+  }
+
+  p {
+    font-size: var(--text-sm);
+    line-height: 1.4;
+    color: var(--text-secondary);
+    margin: 0.25rem 0 0;
+  }
 }
 
 .film-card-wrapper {
@@ -1220,7 +1252,8 @@ svg {
     transform var(--transition-normal),
     box-shadow var(--transition-normal);
 
-  &:hover {
+  &:hover,
+  &:focus-within {
     transform: translateY(-6px) scale(1.02);
 
     .film-overlay {
@@ -1271,6 +1304,8 @@ svg {
   );
   opacity: 0;
   transition: opacity var(--transition-normal);
+  // Covers the poster link; clicks must pass through to it.
+  pointer-events: none;
   padding: 1rem;
   display: flex;
   flex-direction: column;
@@ -1567,7 +1602,7 @@ button.toc-header h3 {
 
   .film-grid {
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    gap: 1rem;
+    gap: 2rem 1rem;
   }
 
   .artifact-meta {
@@ -2478,6 +2513,14 @@ footer {
   .about-photo {
     width: 240px;
     align-self: center;
+  }
+}
+
+// "On LLMs" sits after the layout in Markdown; on desktop, start it at the
+// text column (400px photo + 2rem gap) so it shares the text's left edge.
+@media all and ($desktop) {
+  .about-layout + .callout {
+    margin-left: calc(400px + 2rem);
   }
 }
 
