@@ -3153,6 +3153,42 @@ body[data-slug="games-2"] {
 }
 
 // ===================
+// TOUCH TARGETS
+// ===================
+
+// On touch screens, small controls get an invisible tap area of at least
+// 44×44px, centred on what's drawn. Nothing visible changes, and mouse
+// users keep the drawn size.
+@media (pointer: coarse) {
+  .darkmode,
+  .breadcrumb-element a,
+  :root[saved-theme] a.internal.download-badge,
+  .download-badge,
+  a.internal.project-link,
+  .backlinks a,
+  a.tag-link,
+  footer a {
+    position: relative;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: max(100%, 44px);
+      height: max(100%, 44px);
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  // Tag chips are 30px tall; 14px between wrapped rows keeps each chip's
+  // 44px tap area from overlapping the row below.
+  ul.tags {
+    row-gap: 14px;
+  }
+}
+
+// ===================
 // ENTRANCE ANIMATION
 // ===================
 
