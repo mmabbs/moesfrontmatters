@@ -16,7 +16,7 @@ draft:
 <p class="hero-intro">AI automation specialist&nbsp;· writer&nbsp;· content strategist&nbsp;· marketer&nbsp;· producer</p>
 
 <div class="hero-bio">
-I design AI-enabled tools, workflows and knowledge systems, drawing on fifteen years in film/tv production, content strategy/marketing, and UX.
+I design AI-enabled tools, workflows and knowledge systems, drawing on fifteen years in film/tv production, content strategy/marketing, and UX. [A sentence on my stance on creative generative ai]
 
 My work includes tools for checking research citations, automating research workflows,  and systems for reviewing and maintaining AI configurations. I map the problem, design the workflow, and build or prototype what’s appropriate, working with technical specialists when production engineering is needed.
 
@@ -26,9 +26,6 @@ Film production taught me to coordinate people, budgets, and changing requiremen
 
 If you need your AI workflows up and running, reach out at <span class="contact">moe[at]moesfrontmatters.com</span>.
 </div>
-
-> [!ai]- My stance on generative AI in creative works
-> Bots for admin. That's it. [[how-i-use-llms#^ixnay-gen-ai|Here's why]]
 
 <nav class="nav-list">
 	<a href="/ai" class="nav-item">
