@@ -24,7 +24,7 @@ In 1969, as WWII rages against Nazi werewolves, a guilt-ridden nurse and the reb
 <div class="artifacts-grid">
 <div class="artifact-card">
 	<div class="artifact-title-row">
-		<h4 class="artifact-title">"The Draw"</h4>
+		<h3 class="artifact-title">"The Draw"</h3>
 		<a href="artifacts/gr-scene.pdf" class="download-badge">PDF ↓</a>
 		<span class="artifact-info"><span class="format">Film Scene</span> · 3 pages</span>
 	</div>
@@ -34,7 +34,7 @@ In 1969, as WWII rages against Nazi werewolves, a guilt-ridden nurse and the reb
 </div>
 <div class="artifact-card">
 	<div class="artifact-title-row">
-		<h4 class="artifact-title">Motopetrids</h4>
+		<h3 class="artifact-title">Motopetrids</h3>
 			<a href="artifacts/gr-bestiary-monopetrid.pdf" class="download-badge">PDF ↓</a>
 		<span class="artifact-info"><span class="format">Bestiary Profile</span></span>
 	</div>
@@ -45,7 +45,7 @@ In 1969, as WWII rages against Nazi werewolves, a guilt-ridden nurse and the reb
 
 <div class="artifact-card">
 	<div class="artifact-title-row">
-		<h4 class="artifact-title">McCarthy's Letter to Madam President-Elect</h4>
+		<h3 class="artifact-title">McCarthy's Letter to Madam President-Elect</h3>
 			<a href="artifacts/gr-mccarthy-letter.pdf" class="download-badge">PDF ↓</a>
 		<span class="artifact-info"><span class="format">Flavour Text</span></span>
 	</div>

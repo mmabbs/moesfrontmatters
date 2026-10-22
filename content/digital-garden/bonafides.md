@@ -10,7 +10,7 @@ draft:
 
 # Bonafides
 
-### Certificates
+## Certificates
 
 <div class="bonafides-grid">
 <div class="bonafides-card">
@@ -23,7 +23,7 @@ draft:
 </div>
 </div>
 
-### Letter of Recommendation
+## Letter of Recommendation
 
 <p class="bonafides-attribution">From Adrian Ropp (Lead Writer at Avalanche, <em>Hogwarts Legacy</em>) in ELVTR's Game Writing course. Highlights interactive narrative design, character voice, cutscene writing, and budget-conscious storytelling</p>
 

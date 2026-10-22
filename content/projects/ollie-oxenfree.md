@@ -35,7 +35,7 @@ Siblings Ollie and Finn set out to solve the mystery of how their fellow "Inklin
 <div class="artifacts-grid">
 <div class="artifact-card">
 	<div class="artifact-title-row">
-		<h4 class="artifact-title">"New Dog, Old Tricks"</h4>
+		<h3 class="artifact-title">"New Dog, Old Tricks"</h3>
 		<a href="artifacts/ollie-scene.pdf" class="download-badge">PDF ↓</a>
 		<span class="artifact-info"><span class="format">Cinematic</span> · 3 pages</span>
 	</div>
@@ -44,7 +44,7 @@ Siblings Ollie and Finn set out to solve the mystery of how their fellow "Inklin
 
 <div class="artifact-card">
 	<div class="artifact-title-row">
-		<h4 class="artifact-title">Ollie Liviere - Barks</h4>
+		<h3 class="artifact-title">Ollie Liviere - Barks</h3>
 		<a href="artifacts/ollie-barksheet.pdf" class="download-badge">PDF ↓</a>
 		<span class="artifact-info"><span class="format">Barksheet</span></span>
 	</div>
@@ -54,7 +54,7 @@ Siblings Ollie and Finn set out to solve the mystery of how their fellow "Inklin
 
 <div class="artifact-card">
 	<div class="artifact-title-row">
-		<h4 class="artifact-title">Ollie Liviere - Bio</h4>
+		<h3 class="artifact-title">Ollie Liviere - Bio</h3>
 		<a href="artifacts/ollie-bio.pdf" class="download-badge">PDF ↓</a>
 		<span class="artifact-info"><span class="format">Biography</span></span>
 	</div>

@@ -1616,84 +1616,8 @@ button.toc-header h3 {
 // PROJECT PAGE STYLES
 // ===================
 
-// Project Hero Banner
-.project-hero-banner {
-  position: relative;
-  width: 100%;
-  height: 280px;
-  overflow: hidden;
-  background: linear-gradient(
-    135deg,
-    var(--bg-elevated) 0%,
-    var(--bg-surface) 50%,
-    var(--bg-deep) 100%
-  );
-  border-radius: $radius-md;
-  margin-bottom: 2rem;
-
-  img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-    margin: 0;
-  }
-
-  &::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 40px;
-    background: linear-gradient(to top, var(--bg-deep), transparent);
-  }
-}
-
 .project-page h2 {
   margin-bottom: 3rem; // or whatever you need
-}
-
-// Floating geometric shapes
-.hero-shape {
-  position: absolute;
-  border: 1px solid rgba(241, 234, 223, 0.15);
-  border-radius: 50%;
-  animation: float 8s ease-in-out infinite;
-}
-
-.hero-shape-1 {
-  width: 180px;
-  height: 180px;
-  top: -30px;
-  right: 10%;
-  animation-delay: 0s;
-}
-
-.hero-shape-2 {
-  width: 100px;
-  height: 100px;
-  top: 50%;
-  left: 5%;
-  animation-delay: -2s;
-}
-
-.hero-shape-3 {
-  width: 60px;
-  height: 60px;
-  bottom: 30%;
-  right: 25%;
-  animation-delay: -4s;
-}
-
-@keyframes float {
-  0%,
-  100% {
-    transform: translateY(0) rotate(0deg);
-  }
-  50% {
-    transform: translateY(-15px) rotate(3deg);
-  }
 }
 
 // Project Meta Strip
@@ -1757,39 +1681,21 @@ button.toc-header h3 {
 //   }
 // }
 
-// Status Badge
+// Status Badge: a quiet mono label. Outlined, not filled, so it doesn't read
+// as a button beside the PDF chips; neutral, because ochre is kept for the
+// name, awards and contact; static, because a spec's status isn't live.
 .status-badge {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
-  font-family: $font-body;
-  font-size: 0.8125rem; // 13px
+  font-family: $font-mono;
+  font-size: var(--text-xs);
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  padding: 6px 12px;
+  padding: 3px 9px;
+  border: 1px solid var(--bg-hover);
   border-radius: $radius-sm;
-  background: var(--accent-glow);
-  color: var(--accent);
-
-  &::before {
-    content: "";
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
-    background: currentColor;
-    animation: pulse 2s ease-in-out infinite;
-  }
-}
-
-@keyframes pulse {
-  0%,
-  100% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0.4;
-  }
+  color: var(--text-secondary);
 }
 
 // Project Logline
@@ -2252,10 +2158,6 @@ a.internal.related-item,
 
 // Project Page Responsive
 @media all and ($mobile) {
-  .project-hero-banner {
-    height: 180px;
-  }
-
   .project-meta-strip {
     gap: 1.5rem 2rem;
   }
