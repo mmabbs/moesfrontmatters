@@ -2490,8 +2490,12 @@ footer {
 // PAGE WIDTH OVERRIDE
 // ===================
 
-#quartz-body:has(article.site-pg-width) {
-  grid-template-columns: 200px auto 200px;
+// Desktop only: unscoped, this 3-column grid overrode Quartz's single-column
+// mobile and tablet layouts and collapsed the article to 0px on phones.
+@media all and ($desktop) {
+  #quartz-body:has(article.site-pg-width) {
+    grid-template-columns: 200px auto 200px;
+  }
 }
 
 // ===================
@@ -2522,7 +2526,9 @@ footer {
   }
 }
 
-@media all and ($mobile) {
+// Stack below desktop: beside a fixed 400px photo, the text column can't fit
+// the tablet grid's 643px article without overflowing.
+@media all and ($mobile), all and ($tablet) {
   .about-layout {
     flex-direction: column;
   }
