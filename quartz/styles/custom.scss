@@ -1369,6 +1369,16 @@ a.external {
 // Browser surfaces in the palette. Focus is interaction, so it may be ochre
 // (5.8:1 against either base). Selection uses a 30% ochre wash with full-
 // strength text: 7.9:1 dark, 8.7:1 light (Quartz's default measured 2.3:1).
+//
+// A transparent 2px outline at rest: eleven components use `transition: all`,
+// which otherwise animated the ring from the browser default (3px, text
+// colour) to 2px ochre on every focus. Now only the colour fades in. Also
+// keeps the ring visible in forced-colors (high contrast) mode.
+:where(a, button, input, select, textarea, summary, [tabindex]) {
+  outline: 2px solid transparent;
+  outline-offset: 3px;
+}
+
 :focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 3px;
@@ -1594,19 +1604,6 @@ button.toc-header h3 {
     margin: 0;
   }
 
-  &::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: repeating-linear-gradient(
-      45deg,
-      transparent,
-      transparent 35px,
-      rgba(241, 234, 223, 0.03) 35px,
-      rgba(241, 234, 223, 0.03) 70px
-    );
-  }
-
   &::after {
     content: "";
     position: absolute;
@@ -1685,8 +1682,6 @@ button.toc-header h3 {
   font-family: $font-body;
   font-size: 0.8125rem; // 13px
   font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
   color: var(--text-secondary);
 }
 
