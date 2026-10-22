@@ -72,10 +72,9 @@
     --callout-icon: var(--callout-icon-safe);
   }
 
+  // Warning stays neutral: ochre is reserved for name, awards and contact.
+  // The warning icon is the cue.
   &[data-callout="warning"] {
-    --color: var(--callout-warning);
-    --border: var(--callout-warning);
-    --bg: color-mix(in srgb, var(--callout-warning) 8%, transparent);
     --callout-icon: var(--callout-icon-warning);
   }
 

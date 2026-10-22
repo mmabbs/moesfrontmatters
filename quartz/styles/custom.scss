@@ -142,7 +142,6 @@ $radius-md: 8px;
   --accolade-bg: rgba(201, 145, 59, 0.08);
 
   // Callout semantic colors
-  --callout-warning: #c9913b;
   --callout-note: #f1eadf;
   --callout-error: #d37e6c; // brick, 4.76:1 on its tint
   --callout-success: #7d9f88;
@@ -253,7 +252,6 @@ $radius-md: 8px;
   --accolade-bg: rgba(118, 83, 27, 0.08);
 
   // Callout semantic colors (darker for light bg)
-  --callout-warning: #76531b;
   --callout-note: #24211d;
   --callout-error: #944635; // brick, 4.95:1 on its tint
   --callout-success: #476350;
@@ -585,7 +583,7 @@ body[data-slug="games"] .markdown-rendered > h2 ~ h2 {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.2em;
-  color: var(--accent);
+  color: var(--text-secondary);
   margin-bottom: var(--space-32);
 }
 
@@ -1041,8 +1039,8 @@ a.internal.nav-item,
   font-family: $font-mono;
   font-size: var(--text-xs);
   font-weight: 500;
-  color: var(--accent);
-  background-color: var(--accent-glow);
+  color: var(--text-primary);
+  background-color: var(--bg-elevated);
   padding: 4px 10px;
   border-radius: 3px;
   text-decoration: none;
@@ -1676,7 +1674,7 @@ button.toc-header h3 {
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: var(--accent);
+  color: var(--text-secondary);
 }
 
 .meta-value {
@@ -2478,13 +2476,13 @@ footer {
   align-items: center;
   margin-top: var(--space-16);
   padding: 0.5rem 1rem;
-  background: var(--link-bg);
+  background: var(--bg-surface);
   border: 1px solid var(--frost);
   border-radius: $radius-sm;
   transition: background var(--transition-fast);
 
   &:hover {
-    background: var(--accent-glow);
+    background: var(--bg-elevated);
   }
 
   a {
