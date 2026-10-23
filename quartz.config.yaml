@@ -126,8 +126,14 @@ plugins:
       enableRSS: true
   - source: github:quartz-community/favicon
     enabled: true
-  - source: github:quartz-community/og-image
+  # Local fork of og-image 1.0.0: fetches Satoshi from Fontshare for link
+  # preview images (Google Fonts doesn't host it). No font file is stored
+  # in the repo; see plugins/og-image/src/emitter.tsx fetchFontshareTtf.
+  # Rebuild after editing src/: cd plugins/og-image && npm run build
+  - source: ./plugins/og-image
     enabled: true
+    options:
+      fontshare: [Satoshi]
   - source: github:quartz-community/cname
     enabled: true
 
