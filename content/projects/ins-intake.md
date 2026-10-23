@@ -1,5 +1,6 @@
 ---
 title: Insurance Intake Tool
+section: /ai
 seoTitle: 
 aliases: ins-intake
 description: 

@@ -1,5 +1,6 @@
 ---
 title: Evaluation Suite
+section: /ai
 seoTitle: 
 aliases: eval-suite
 description: 

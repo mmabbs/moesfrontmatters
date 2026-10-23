@@ -1,11 +1,12 @@
 ---
 title: The Otter Side
+section: /marketing
 seoTitle: The Otter Side | Mobile Game Content Strategy & Marketing
 description:
 tags: [marketing, content-strategy, video-games, mobile-games]
 modified: 09-17-2026
 created: 07-01-2026
-draft: 
+draft: true
 ---
 
 # The Otter Side

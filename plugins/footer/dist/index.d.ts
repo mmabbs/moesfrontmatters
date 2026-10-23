@@ -6,6 +6,7 @@ interface FooterOptions {
     contactLabel: string;
     contact: string;
     links: Record<string, string>;
+    owner: string;
 }
 declare const _default: (opts?: Partial<FooterOptions>) => QuartzComponent;
 

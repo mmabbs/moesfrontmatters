@@ -6,13 +6,14 @@ import type {
 import style from "./styles/footer.scss";
 
 // Local fork of quartz-community/footer for moesfrontmatters.com.
-// Every page ends on the domain nav, a contact line, and profile links,
-// in place of the upstream "Created with Quartz" credit.
+// Every page ends on the domain nav, a contact line, profile links,
+// and a copyright line that keeps the Quartz credit.
 export interface FooterOptions {
   nav: Record<string, string>;
   contactLabel: string;
   contact: string;
   links: Record<string, string>;
+  owner: string;
 }
 
 const trimSlashes = (s: string) => s.replace(/^\/+|\/+$/g, "");
@@ -51,6 +52,16 @@ export default ((opts?: Partial<FooterOptions>) => {
             </li>
           ))}
         </ul>
+        {opts?.owner && (
+          <p class="footer-credit">
+            © {new Date().getFullYear()} {opts.owner} · Made with{" "}
+            <span class="footer-heart" role="img" aria-label="love">
+              ❤️
+            </span>{" "}
+            and{" "}
+            <a href="https://quartz.jzhao.xyz/">Quartz</a>
+          </p>
+        )}
       </footer>
     );
   };

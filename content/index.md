@@ -16,6 +16,7 @@ draft:
 <p class="hero-intro">AI automation specialist&nbsp;· writer&nbsp;· content strategist&nbsp;· marketer&nbsp;· producer</p>
 
 <div class="hero-bio">
+
 I design AI-enabled tools, workflows and knowledge systems, drawing on fifteen years in film/tv production, content strategy/marketing, and UX. [A sentence on my stance on creative generative ai]
 
 My work includes tools for checking research citations, automating research workflows,  and systems for reviewing and maintaining AI configurations. I map the problem, design the workflow, and build or prototype what’s appropriate, working with technical specialists when production engineering is needed.
@@ -36,10 +37,12 @@ If you need your AI workflows up and running, reach out at <span class="contact"
 		<span class="nav-title">Games</span>
 		<span class="nav-desc">Cinematics, character work, lore, and worldbuilding artifacts.</span>
 	</a>
+	<!-- Hidden while film-tv.md is a draft. Restore when it goes live.
 	<a href="/film-tv" class="nav-item">
 		<span class="nav-title">Film & TV</span>
 		<span class="nav-desc">Produced shorts, screenwriting samples, and credits.</span>
 	</a>
+	-->
 	<a href="/marketing" class="nav-item">
 		<span class="nav-title">Marketing</span>
 		<span class="nav-desc">Content strategy frameworks and UX case studies.</span>

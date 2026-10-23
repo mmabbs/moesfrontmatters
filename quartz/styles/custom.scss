@@ -1544,13 +1544,14 @@ hr {
   }
 }
 
-// Table of Contents — show only on digital-garden notes
+// Table of Contents — show only on digital-garden notes and project pages
 .toc {
   display: none;
 }
 
 body[data-slug^="digital-garden/"] .toc,
-body[data-slug^="Digital-Garden/"] .toc {
+body[data-slug^="Digital-Garden/"] .toc,
+body[data-slug^="projects/"] .toc {
   display: block;
 }
 
@@ -2262,14 +2263,25 @@ footer {
   gap: 1.25rem;
 }
 
+.footer-credit {
+  margin: var(--space-16) 0 0;
+}
+
+// The emoji glyph overhangs its own advance and swallows the space after it.
+.footer-heart {
+  margin-inline: 0.15em;
+}
+
 // Home already lists every domain and the email in its own content.
 [data-slug="index"] .footer-nav,
 [data-slug="index"] .footer-contact {
   display: none;
 }
 
-// On the main pages Backlinks only ever say "Home". Garden notes and
-// project pages keep them, where notes link to each other.
+// On the main pages Backlinks only ever say "Home". Project pages keep
+// only their headings in the right sidebar. Garden notes keep Backlinks,
+// where notes link to each other.
+body[data-slug^="projects/"],
 [data-slug="index"],
 [data-slug="ai"],
 [data-slug="games"],
@@ -2278,6 +2290,45 @@ footer {
 [data-slug="about-me"] {
   .backlinks {
     display: none;
+  }
+}
+
+// ===================
+// SECTION NAV (left sidebar, tablet and desktop)
+// ===================
+
+// Rendered by the local plugin in plugins/section-nav. Same type and
+// "you are here" mark as the footer nav. On a project page the parent
+// section carries aria-current="true" and gets the same mark.
+.section-nav {
+  font-family: $font-display;
+
+  ul {
+    gap: var(--space-8);
+    padding-left: 0;
+  }
+
+  a {
+    font-size: var(--text-lg);
+    font-weight: 500;
+    line-height: 1.3;
+    color: var(--text-secondary);
+    text-decoration: none;
+    transition: color var(--transition-fast);
+
+    &:hover {
+      color: var(--text-primary);
+      text-decoration: underline;
+      text-decoration-color: var(--accent);
+      text-underline-offset: 4px;
+    }
+
+    &[aria-current] {
+      color: var(--text-primary);
+      text-decoration: underline;
+      text-decoration-color: var(--text-tertiary);
+      text-underline-offset: 4px;
+    }
   }
 }
 

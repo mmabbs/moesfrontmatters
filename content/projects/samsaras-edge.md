@@ -1,5 +1,6 @@
 ---
 title: SamSara's Edge
+section: /games
 seoTitle: SamSara's Edge | Roguelite Comedy Game Writing Spec
 description: Spec game writing for a roguelite deckbuilder where a couple must clear dungeons made of their relationship baggage to save their marriage.
 tags: [writing, game-writing, video-games]

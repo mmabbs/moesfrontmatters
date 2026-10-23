@@ -34,7 +34,20 @@ var Footer_default = ((opts) => {
         opts.contactLabel ? `${opts.contactLabel} ` : "",
         /* @__PURE__ */ u2("span", { class: "contact", children: opts.contact })
       ] }),
-      /* @__PURE__ */ u2("ul", { class: "footer-links", children: Object.entries(links).map(([text, href]) => /* @__PURE__ */ u2("li", { children: /* @__PURE__ */ u2("a", { href, children: text }) })) })
+      /* @__PURE__ */ u2("ul", { class: "footer-links", children: Object.entries(links).map(([text, href]) => /* @__PURE__ */ u2("li", { children: /* @__PURE__ */ u2("a", { href, children: text }) })) }),
+      opts?.owner && /* @__PURE__ */ u2("p", { class: "footer-credit", children: [
+        "\xA9 ",
+        (/* @__PURE__ */ new Date()).getFullYear(),
+        " ",
+        opts.owner,
+        " \xB7 Made with",
+        " ",
+        /* @__PURE__ */ u2("span", { class: "footer-heart", role: "img", "aria-label": "love", children: "\u2764\uFE0F" }),
+        " ",
+        "and",
+        " ",
+        /* @__PURE__ */ u2("a", { href: "https://quartz.jzhao.xyz/", children: "Quartz" })
+      ] })
     ] });
   };
   Footer.css = footer_default;

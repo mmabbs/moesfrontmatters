@@ -1,5 +1,6 @@
 ---
 title: Script Assistant
+section: /ai
 seoTitle: 
 aliases: script-asst
 description: 

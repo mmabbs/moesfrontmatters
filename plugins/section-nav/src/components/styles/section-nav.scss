@@ -1,0 +1,9 @@
+// Structure only. Type, colour and spacing live in quartz/styles/custom.scss
+// with the rest of the design system.
+.section-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}

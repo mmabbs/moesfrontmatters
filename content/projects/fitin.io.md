@@ -1,5 +1,6 @@
 ---
 title: FitIn
+section: /marketing
 seoTitle: FitIn | Wellness App UX & Content Strategy Case Study
 description:
 tags:
