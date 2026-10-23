@@ -12,7 +12,7 @@ draft:
 
 ## Certificates
 
-<div class="bonafides-grid">
+<div class="bonafides-grid zoomable">
 <div class="bonafides-card">
 	<img src="/site-assets/ga-cert-ux-design.png" alt="General Assembly UX Design Certificate" loading="lazy">
 	<span class="bonafides-label">General Assembly — UX Design</span>
@@ -27,7 +27,7 @@ draft:
 
 <p class="bonafides-attribution">From Adrian Ropp (Lead Writer at Avalanche, <em>Hogwarts Legacy</em>) in ELVTR's Game Writing course. Highlights interactive narrative design, character voice, cutscene writing, and budget-conscious storytelling</p>
 
-<div class="bonafides-grid">
+<div class="bonafides-grid zoomable">
 <div class="bonafides-card">
 	<img src="/site-assets/elvtr-game-writing-letter-of-rec-1.png" alt="Letter of Recommendation from Adrian Ropp, page 1" loading="lazy">
 	<span class="bonafides-label">pg1</span>

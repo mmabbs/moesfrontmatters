@@ -2633,6 +2633,89 @@ body[data-slug="digital-garden/index"] h3 {
 }
 
 // ===================
+// IMAGE ZOOM
+// ===================
+
+// quartz/static/scripts/image-zoom.js: images inside a .zoomable container
+// open full size in a <dialog>. Opt in by adding the class in content.
+.zoomable img {
+  cursor: zoom-in;
+
+  &:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+  }
+}
+
+.image-zoom {
+  max-width: 100vw;
+  max-height: 100dvh;
+  width: 100vw;
+  height: 100dvh;
+  margin: 0;
+  padding: var(--space-16);
+  border: none;
+  background: transparent;
+  box-sizing: border-box;
+  cursor: zoom-out;
+
+  &[open] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: image-zoom-in 0.2s ease-out;
+  }
+
+  &::backdrop {
+    background: color-mix(in srgb, var(--bg-void) 95%, transparent);
+  }
+}
+
+.image-zoom-img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  border-radius: $radius-md;
+  cursor: default;
+}
+
+.image-zoom-close {
+  position: absolute;
+  top: var(--space-8);
+  right: var(--space-8);
+  width: 44px;
+  height: 44px;
+  border: none;
+  border-radius: 50%;
+  background: var(--bg-elevated);
+  color: var(--text-primary);
+  font-size: var(--text-xl);
+  line-height: 1;
+  cursor: pointer;
+
+  &:hover {
+    background: var(--bg-hover);
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+  }
+}
+
+@keyframes image-zoom-in {
+  from {
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .image-zoom[open] {
+    animation: none;
+  }
+}
+
+// ===================
 // BASES VIEWS
 // ===================
 

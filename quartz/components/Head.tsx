@@ -97,6 +97,7 @@ export default (() => {
         <meta name="description" content={description} />
         <meta name="generator" content="Quartz" />
         <script src={joinSegments(baseDir, "static/scripts/garden-carousel.js")} defer></script>
+        <script src={joinSegments(baseDir, "static/scripts/image-zoom.js")} defer></script>
 
         {css.map((resource) => CSSResourceToStyleElement(resource, true))}
         {js
