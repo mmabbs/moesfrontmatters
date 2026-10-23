@@ -23,7 +23,8 @@ export default ((opts?: Partial<FooterOptions>) => {
   const links = opts?.links ?? {};
 
   const Footer: QuartzComponent = ({ displayClass, fileData }: QuartzComponentProps) => {
-    const slug = trimSlashes(String(fileData?.slug ?? ""));
+    // A folder's index page has the slug "folder/index"; compare it as "folder".
+    const slug = trimSlashes(String(fileData?.slug ?? "")).replace(/(^|\/)index$/, "");
     return (
       <footer class={`${displayClass ?? ""}`}>
         {Object.keys(nav).length > 0 && (

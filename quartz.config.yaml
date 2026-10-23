@@ -193,6 +193,7 @@ plugins:
         Games: /games
         # Film & TV: /film-tv  (restore when content/film-tv.md drops draft: true)
         Marketing: /marketing
+        Digital Garden: /digital-garden
         About: /about-me
   # Local fork: domain nav, contact line, and copyright with the Quartz credit.
   # Rebuild after editing src/: cd plugins/footer && npm run build
@@ -204,6 +205,7 @@ plugins:
         Games: /games
         # Film & TV: /film-tv  (restore when content/film-tv.md drops draft: true)
         Marketing: /marketing
+        Digital Garden: /digital-garden
       owner: Moe Abbas
       contactLabel: "Get in touch:"
       contact: moe[at]moesfrontmatters.com

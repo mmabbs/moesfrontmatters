@@ -19,11 +19,14 @@ export default ((opts?: Partial<SectionNavOptions>) => {
   const links = opts?.links ?? {};
 
   const SectionNav: QuartzComponent = ({ displayClass, fileData }: QuartzComponentProps) => {
-    const slug = trimSlashes(String(fileData?.slug ?? ""));
+    // A folder's index page has the slug "folder/index"; compare it as "folder".
+    const slug = trimSlashes(String(fileData?.slug ?? "")).replace(/(^|\/)index$/, "");
     const section = trimSlashes(String(fileData?.frontmatter?.section ?? ""));
     const current = (href: string) => {
       const target = trimSlashes(href);
-      if (target === slug || (target === "" && slug === "index")) return "page";
+      if (target === slug) return "page";
+      // Notes inside a section's folder (digital-garden/...) belong to it.
+      if (target && slug.startsWith(`${target}/`)) return "true";
       if (section && target === section) return "true";
       return undefined;
     };

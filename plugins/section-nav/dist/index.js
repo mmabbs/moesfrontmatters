@@ -26,11 +26,12 @@ var trimSlashes = (s2) => s2.replace(/^\/+|\/+$/g, "");
 var SectionNav_default = ((opts) => {
   const links = opts?.links ?? {};
   const SectionNav = ({ displayClass, fileData }) => {
-    const slug = trimSlashes(String(fileData?.slug ?? ""));
+    const slug = trimSlashes(String(fileData?.slug ?? "")).replace(/(^|\/)index$/, "");
     const section = trimSlashes(String(fileData?.frontmatter?.section ?? ""));
     const current = (href) => {
       const target = trimSlashes(href);
-      if (target === slug || target === "" && slug === "index") return "page";
+      if (target === slug) return "page";
+      if (target && slug.startsWith(`${target}/`)) return "true";
       if (section && target === section) return "true";
       return void 0;
     };

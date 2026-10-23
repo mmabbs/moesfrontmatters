@@ -27,7 +27,7 @@ var Footer_default = ((opts) => {
   const nav = opts?.nav ?? {};
   const links = opts?.links ?? {};
   const Footer = ({ displayClass, fileData }) => {
-    const slug = trimSlashes(String(fileData?.slug ?? ""));
+    const slug = trimSlashes(String(fileData?.slug ?? "")).replace(/(^|\/)index$/, "");
     return /* @__PURE__ */ u2("footer", { class: `${displayClass ?? ""}`, children: [
       Object.keys(nav).length > 0 && /* @__PURE__ */ u2("nav", { class: "footer-nav", "aria-label": "Sections", children: /* @__PURE__ */ u2("ul", { children: Object.entries(nav).map(([text, href]) => /* @__PURE__ */ u2("li", { children: /* @__PURE__ */ u2("a", { href, "aria-current": trimSlashes(href) === slug ? "page" : void 0, children: text }) })) }) }),
       opts?.contact && /* @__PURE__ */ u2("p", { class: "footer-contact", children: [
