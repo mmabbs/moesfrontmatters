@@ -18,6 +18,19 @@ Branch `style/explore-sh-style` (not merged or pushed), plus one hotfix on `main
 - Content: placeholder for the home page's gen-AI stance sentence (not ready to publish), and removed the stance callout from home.
 - `DESIGN.md` and `PRODUCT.md` still describe the old lichen/slate palette. Update them before merging.
 
+Later the same day, still on `style/explore-sh-style` (not merged or pushed):
+
+- One text edge: prose, the home role line, callout boxes and award boxes all stop at the 34rem measure. About's "On LLMs" callout lines up with its text column (`d085f5d`).
+- Film & TV: each poster has a caption with title, year and role, visible on every device. The details overlay also opens on keyboard focus. Clicking a poster now reaches its link; an invisible overlay had been catching the click.
+- Touch screens: small controls get an invisible 44×44px tap area without changing how they look. Mouse users are unaffected (`facaffc`).
+- Footer: a local plugin in `plugins/footer/` replaces Quartz's. Every page ends on an AI · Games · Film & TV · Marketing nav, "Get in touch:" with the email, and GitHub · LinkedIn. "Created with Quartz" is gone. The footer was removed from `quartz.lock.json` because the build links the local plugin itself (`2ade745`).
+- Backlinks are hidden on Home, AI, Games, Film & TV, Marketing and About.
+- The 404 page sits in the page grid with the site's heading and footer. Short pages no longer leave a gap above the footer (`4c84917`).
+- "Spec Only" badges on game project pages are a quiet grey label instead of a pulsing ochre pill. Heading levels no longer skip on project pages and Bonafides. Removed unused hero-banner styles (`1447af9`).
+- Marketing's NDA note is a note callout instead of a warning (`287c9cd`).
+- The Table of Contents heading matches the Backlinks heading. Fixed the sidebar list overflow that showed a scrollbar under both (`4381c73`).
+- Re-critique: 23/32 (was 22/32). Full findings are in `claude-files/2026-10-22-critique-run-4-full-findings.md` for review.
+
 ## 2026-10-21
 
 Branch `content/ai-projects-and-coming-soon`, fast-forwarded into `main` and deployed (`0680e38`). The `style/font-test-zilla-satoshi` branch is pushed to GitHub but not merged.

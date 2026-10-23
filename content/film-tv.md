@@ -5,7 +5,7 @@ description: Film producer and screenwriter portfolio. Short film credits, scree
 tags:
 modified: 07-16-2026
 created: 05-26-2026
-draft: false
+draft: true
 ---
 
 # Film/TV
