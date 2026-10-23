@@ -28,6 +28,12 @@ jobs:
         run: npm ci
       - name: Install Quartz Plugins
         run: npx quartz plugin install
+      # The local plugins in plugins/ (footer, section-nav, og-image) aren't in
+      # quartz.lock.json, so the step above skips them. This links them and
+      # rebuilds .quartz/plugins/index.ts, which core Quartz imports og-image
+      # from. Pinned plugins are already installed, so their versions don't move.
+      - name: Link Local Quartz Plugins
+        run: npx quartz plugin install --from-config
       - name: Build Quartz
         run: npx quartz build
       - name: Add .nojekyll file
