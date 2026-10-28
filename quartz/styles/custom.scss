@@ -91,7 +91,10 @@ $radius-md: 8px;
   // Reading measure. 75ch came to 820px in Satoshi (its "0" is wide), wider
   // than the 790px column, so lines ran ~104 chars. 34rem measured a median
   // of 74 chars/line across home, games, marketing, about and a garden note.
-  --measure: 34rem;
+  // Widened to 40rem (2026-10-28) so prose fills more of the column.
+  // Measured in the browser, Ollie Oxenfree's long paragraphs run 70-76
+  // chars/line at 40rem, so the 34rem figure above overstated its measure.
+  --measure: 40rem;
 
   // Transitions
   --transition-fast: 0.2s ease;
@@ -2493,6 +2496,39 @@ body[data-slug^="projects/"],
 @media all and ($desktop) {
   #quartz-body:has(article.site-pg-width) {
     grid-template-columns: 200px auto 200px;
+  }
+}
+
+// ===================
+// COLUMN DIVIDERS
+// ===================
+
+// Hairlines between the content column and the sidebars. The sidebars are
+// sticky and one screen tall, so a line on their inner edge runs the full
+// height of the window at every scroll position. Quartz's 5px column gap
+// would put the line against the text; 32px matches the sidebars' own
+// inner padding, so each line sits centred in its gutter.
+@media all and ($tablet) {
+  .page > #quartz-body {
+    column-gap: var(--space-32);
+  }
+
+  .page > #quartz-body .sidebar.left {
+    border-right: 1px solid var(--bg-hover);
+  }
+}
+
+@media all and ($desktop) {
+  .page > #quartz-body {
+    column-gap: var(--space-32);
+  }
+
+  .page > #quartz-body .sidebar.left {
+    border-right: 1px solid var(--bg-hover);
+  }
+
+  .page > #quartz-body .sidebar.right {
+    border-left: 1px solid var(--bg-hover);
   }
 }
 
