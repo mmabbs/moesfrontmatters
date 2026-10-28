@@ -1184,6 +1184,52 @@ svg {
   max-width: var(--measure);
 }
 
+// An award under an artifact is a `> [!accolade]` callout. Markdown can't
+// sit inside the card's HTML, so the callout follows the artifacts-grid and
+// the next artifact opens a new grid. These rules keep it reading as part
+// of the row above: the card gives up its bottom padding and hairline, and
+// the hairline moves below the award, onto the next card.
+.artifacts-grid:has(+ .callout[data-callout="accolade"]) {
+  margin-bottom: 0;
+
+  & > .artifact-card:last-child {
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+}
+
+.artifacts-grid + .callout[data-callout="accolade"] {
+  margin: var(--space-16) 0 0;
+  padding: 0.5rem 1rem;
+
+  // The base icon carries 3.2px of vertical padding, which made the row
+  // 24px tall; a bare 18px icon centred on the text keeps the box at 37px.
+  & > .callout-title {
+    padding: 0;
+    gap: 0.5rem;
+    align-items: center;
+  }
+
+  & > .callout-title > .callout-icon {
+    padding: 0;
+    height: 18px;
+  }
+
+  & > .callout-title p {
+    font-size: var(--text-sm);
+    line-height: normal;
+  }
+}
+
+.callout[data-callout="accolade"] + .artifacts-grid {
+  margin-top: 0;
+
+  & > .artifact-card:first-child {
+    margin-top: var(--space-32);
+    border-top: 1px solid var(--bg-elevated);
+  }
+}
+
 // ===================
 // BREADCRUMBS
 // ===================
@@ -3155,127 +3201,6 @@ body[data-slug="digital-garden/index"] h3 {
   font-family: $font-mono;
   font-size: var(--text-xs);
   color: var(--text-tertiary);
-}
-
-// ===================
-// DOMAIN LANDING PAGES
-// ===================
-
-.domain-landing {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: var(--space-32);
-  margin-top: var(--space-32);
-}
-
-.domain-col {
-  border-left: 2px solid var(--bg-hover);
-  padding-left: var(--space-32);
-
-  &:first-child {
-    border-left: none;
-    padding-left: 0;
-  }
-
-  h2 {
-    font-family: $font-display;
-    font-size: var(--text-2xl);
-    margin: 0 0 var(--space-8) 0;
-    line-height: 1.2;
-
-    a {
-      color: var(--dark);
-      text-decoration: none;
-
-      &:hover {
-        color: var(--link-hover);
-      }
-    }
-  }
-}
-
-.domain-genre {
-  font-family: $font-mono;
-  font-size: var(--text-xs);
-  color: var(--text-secondary);
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  margin: 0 0 var(--space-16) 0;
-}
-
-.domain-logline {
-  font-size: var(--text-sm);
-  color: var(--text-secondary);
-  line-height: 1.6;
-  margin: 0 0 var(--space-32) 0;
-}
-
-.domain-artifacts {
-  list-style: none;
-  padding: 0;
-  margin: 0 0 var(--space-16) 0;
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-8);
-
-  li {
-    display: flex;
-    align-items: baseline;
-    gap: var(--space-8);
-    font-size: var(--text-sm);
-    line-height: 1.4;
-
-    a:not(.download-badge) {
-      color: var(--link);
-      text-decoration: none;
-
-      &:hover {
-        color: var(--link-hover);
-      }
-    }
-  }
-}
-
-.domain-artifact-type {
-  font-family: $font-mono;
-  font-size: var(--text-xs);
-  color: var(--text-tertiary);
-
-  &::before {
-    content: "·";
-    margin-right: var(--space-4);
-  }
-}
-
-.domain-accolade {
-  font-family: $font-mono;
-  font-size: var(--text-xs);
-  color: var(--accolade);
-  background: var(--accolade-bg);
-  padding: var(--space-4) var(--space-8);
-  border-radius: $radius-sm;
-  display: inline-block;
-  margin-top: var(--space-8);
-}
-
-// Responsive: stack on smaller screens
-@media all and (max-width: 900px) {
-  .domain-landing {
-    grid-template-columns: 1fr;
-    gap: var(--space-64);
-  }
-
-  .domain-col {
-    border-left: none;
-    padding-left: 0;
-    border-top: 2px solid var(--bg-hover);
-    padding-top: var(--space-32);
-
-    &:first-child {
-      border-top: none;
-      padding-top: 0;
-    }
-  }
 }
 
 // ===================
