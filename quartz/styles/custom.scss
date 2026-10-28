@@ -1363,9 +1363,36 @@ blockquote {
   border-radius: $radius-sm;
   padding: 1rem 1.25rem;
   margin: 1.5rem 0;
+}
 
-  &.prompt-block {
-    font-style: normal;
+// ===================
+// PROMPT CALLOUT
+// ===================
+
+// Contest prompts: `> [!prompt]` in Markdown. The bold PROMPT / CHALLENGE
+// labels inside carry the heading, so the generated title bar is hidden.
+// Upright slab text on the surface step with an ochre outline; the box
+// stops at the measure like every other callout.
+.callout[data-callout="prompt"] {
+  --color: var(--text-secondary);
+  --border: var(--accent);
+  --bg: var(--bg-surface);
+  padding: 1rem 1.25rem;
+
+  & > .callout-title {
+    display: none;
+  }
+
+  // The content box is a grid, so paragraph margins add instead of
+  // collapsing; one row gap spaces them and keeps the padding even.
+  & > .callout-content {
+    gap: var(--space-16);
+  }
+
+  & > .callout-content > p {
+    margin: 0;
+    font-family: $font-display;
+    color: var(--text-secondary);
   }
 }
 
