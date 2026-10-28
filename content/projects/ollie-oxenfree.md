@@ -18,7 +18,7 @@ draft: false
 
 ## Frontmatter
 
-The scene, barksheet and character bio were entries to ELVTR's 2024 Game Writing Contest. The judges were Adrian Ropp (Lead Narrative Design, formerly at Avalanche Software) and Adam Dolin (Senior Writer & Narrative Designer, formerly at Santa Monica Studio and Guerilla Games)
+The scene, barksheet and character bio were entries to ELVTR's 2024 Game Writing Contest. The judges were Adrian Ropp (Lead Narrative Design, formerly at Avalanche Software) and Adam Dolin (Senior Writer & Narrative Designer, formerly at Santa Monica Studio and Guerilla Games).
 
 **The submission placed Runner-Up, reaching top 10 out of 50.**
 
@@ -27,9 +27,7 @@ The scene, barksheet and character bio were entries to ELVTR's 2024 Game Writing
 <p><strong>CHALLENGE</strong>: Write a scene between the engineer and another character in the style of a video game cinematic, showcasing their differing perspectives and the underlying tension.</p>
 </blockquote>
 
-## Logline
-
-Siblings Ollie and Finn set out to solve the mystery of how their fellow "Inklings" – "people of the ink" from the storybook dimension — switched places with half of the world's children.
+**Logline**: Siblings Ollie and Finn set out to solve the mystery of how their fellow "Inklings" – "people of the ink" from the storybook dimension — switched places with half of the world's children.
 
 ## Writing Samples
 
@@ -63,7 +61,7 @@ Siblings Ollie and Finn set out to solve the mystery of how their fellow "Inklin
 </div>
 </div>
 
-## See Also
+## See Also...
 
 <div class="related-list">
 	<a href="/projects/howard-the-duck-and-spider-ham" class="related-item">
