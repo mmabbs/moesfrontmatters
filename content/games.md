@@ -13,7 +13,7 @@ draft: false
 ## Cinematics & Cutscenes
 
 <div class="artifacts-grid">
-<div class="artifact-card lead">
+<div class="artifact-card">
 	<div class="artifact-title-row">
 		<h3 class="artifact-title">"New Dog, Old Tricks"</h4>
 		<a href="artifacts/ollie-scene.pdf" class="download-badge">PDF ↓</a>

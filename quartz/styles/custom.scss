@@ -503,12 +503,14 @@ p {
   display: none !important;
 }
 
-body[data-slug="games"] .markdown-rendered > h2 {
+body[data-slug="games"] .markdown-rendered > h2,
+body[data-slug="marketing"] .markdown-rendered > h2 {
   padding-bottom: var(--space-16);
   border-bottom: 1px solid var(--bg-elevated);
 }
 
-body[data-slug="games"] .markdown-rendered > h2 ~ h2 {
+body[data-slug="games"] .markdown-rendered > h2 ~ h2,
+body[data-slug="marketing"] .markdown-rendered > h2 ~ h2 {
   margin-top: var(--space-64);
 }
 
@@ -1131,24 +1133,6 @@ svg {
   color: var(--dark);
   margin: 0;
   transition: color var(--transition-fast);
-}
-
-// One staged lead piece per domain page. Title 22px → 30px stays below the
-// 24px → 36px section heading at every width; the logline steps up to 20px.
-.artifact-card.lead {
-  padding: var(--space-32) 0;
-
-  .artifact-title {
-    font-size: clamp(1.375rem, 1.1rem + 1.2vw, 1.875rem);
-    line-height: 1.15;
-  }
-
-  // 17px on phones (~40 chars/line) → 20px on desktop
-  .artifact-description {
-    font-size: clamp(1.0625rem, 0.95rem + 0.5vw, 1.25rem);
-    line-height: 1.55;
-    color: var(--text-primary);
-  }
 }
 
 .artifact-description {

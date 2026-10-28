@@ -12,10 +12,10 @@ draft:
 
 > [!note] Due to NDAs, case studies emphasize methodology and strategic approach rather than final deliverables. If you'd like to discuss a project in detail, please reach out at <span class="contact">moe[at]moesfrontmatters.com</span>
 
-<h2 class="artifact-group-header">Case Studies</h2>
+## Case Studies
 
 <div class="artifacts-grid">
-<div class="artifact-card lead">
+<div class="artifact-card">
 	<div class="artifact-title-row">
 		<h3 class="artifact-title">Building a Brand for an Indie Mobile Game</h4>
 		<span class="artifact-info"><span class="format">Content Strategy & Marketing</span> · Mobile Game · Cozy Runner ·</span>
@@ -38,7 +38,7 @@ draft:
 </div>
 </div>
 
-<h2 class="artifact-group-header">Frameworks & Deliverables</h2>
+## Frameworks & Deliverables
 
 <div class="artifacts-grid">
 <div class="artifact-card">
