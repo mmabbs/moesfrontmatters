@@ -17,7 +17,7 @@ draft:
 
 <div class="hero-bio">
 
-I design AI-enabled tools, workflows and knowledge systems, drawing on fifteen years in film/tv production, content strategy/marketing, and UX. [A sentence on my stance on creative generative ai]
+I design AI-enabled tools, workflows and knowledge systems, drawing on fifteen years in film/tv production, content strategy/marketing, and UX.
 
 My work includes tools for checking research citations, automating research workflows,  and systems for reviewing and maintaining AI configurations. I map the problem, design the workflow, and build or prototype what’s appropriate, working with technical specialists when production engineering is needed.
 
