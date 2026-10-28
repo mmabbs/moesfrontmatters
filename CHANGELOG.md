@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-10-27
+
+Claude setup only. No site changes. None of these files are in git. Backups are in `archived/` with a `2026-10-27-` prefix.
+
+- Rewrote `.claude/rules/impeccable.md`. It now picks the Impeccable stage from the kind of request (`shape`, `init`, the bare menu, new-work, `critique`, the fix and refine commands, `live`, `document`, `doctor`), and keeps the old run-time rules.
+- Added `.claude/rules/tool-adoption.md`: map a tool from its own source before any rule, memory or hand-off routes Claude to it.
+- Emptied the `rules` list in `.claude/context-injector.json`. The hook still reads the file.
+- `CLAUDE.md`: "Design and Brand" points at the Impeccable rule instead of the global reference. "Rules That Bite" points at the tool-adoption rule.
+- Moved `~/.claude/references/impeccable-design-commands.md` into `archived/`. Nothing else names it.
+- Added `.claude/scripts/route-test.sh` and `route-prompts.txt`. Two passes on the new rule scored 8/8. A control run with the old rule scored 2/8.
+
 ## 2026-10-22
 
 Branch `style/explore-sh-style` (not merged or pushed), plus one hotfix on `main` (`80d8bd7`, pushed and deployed).
