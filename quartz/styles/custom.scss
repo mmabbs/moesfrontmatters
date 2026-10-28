@@ -384,20 +384,6 @@ input[type="checkbox"]:checked {
   font-style: normal;
 }
 
-// Artifact accolade
-.artifact-accolade {
-  background: var(--accolade-bg);
-  border-left-color: var(--accolade);
-  color: var(--accolade);
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-
-  svg {
-    flex-shrink: 0;
-  }
-}
-
 // Noise texture opacity
 body::before {
   opacity: 0.03;
@@ -1170,17 +1156,6 @@ svg {
   color: var(--darkgray);
   line-height: 1.6;
   margin: 0;
-  max-width: var(--measure);
-}
-
-.artifact-accolade {
-  margin-top: 1rem;
-  padding: 0.5rem 1rem;
-  border: 1px solid;
-  font-size: var(--text-sm);
-  border-radius: $radius-sm;
-  // Outer edge lines up with the description's measure
-  box-sizing: border-box;
   max-width: var(--measure);
 }
 
