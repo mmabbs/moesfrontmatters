@@ -1570,6 +1570,20 @@ button.toc-header {
   }
 }
 
+// Guide lines for nested headings. The plugin indents each level by
+// padding alone; here a level keeps its parent's indent as a margin and
+// draws a hairline there, so lines at one depth join into a single rail.
+// Items stack with no margin between them, which keeps the rail unbroken.
+.toc ul.toc-content.overflow {
+  @for $i from 1 through 6 {
+    & > li.depth-#{$i} {
+      margin-left: calc(1rem * #{$i - 1});
+      padding-left: 1rem;
+      border-left: 1px solid var(--bg-elevated);
+    }
+  }
+}
+
 .toc ul li > a {
   font-weight: normal;
   font-size: var(--text-sm);
@@ -2503,32 +2517,20 @@ body[data-slug^="projects/"],
 // COLUMN DIVIDERS
 // ===================
 
-// Hairlines between the content column and the sidebars. The sidebars are
-// sticky and one screen tall, so a line on their inner edge runs the full
+// A hairline between the left sidebar and the content column. The sidebar
+// is sticky and one screen tall, so a line on its inner edge runs the full
 // height of the window at every scroll position. Quartz's 5px column gap
-// would put the line against the text; 32px matches the sidebars' own
-// inner padding, so each line sits centred in its gutter.
-@media all and ($tablet) {
+// would put the line against the text; 32px matches the sidebar's own
+// inner padding, so the line sits centred in its gutter. 0.5px draws one
+// device pixel on high-density screens and rounds up to 1px elsewhere.
+// The right side has no line: the TOC's own rails mark that column.
+@media all and not ($mobile) {
   .page > #quartz-body {
     column-gap: var(--space-32);
   }
 
   .page > #quartz-body .sidebar.left {
-    border-right: 1px solid var(--bg-hover);
-  }
-}
-
-@media all and ($desktop) {
-  .page > #quartz-body {
-    column-gap: var(--space-32);
-  }
-
-  .page > #quartz-body .sidebar.left {
-    border-right: 1px solid var(--bg-hover);
-  }
-
-  .page > #quartz-body .sidebar.right {
-    border-left: 1px solid var(--bg-hover);
+    border-right: 0.5px solid var(--bg-elevated);
   }
 }
 
