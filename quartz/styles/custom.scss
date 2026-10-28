@@ -1548,17 +1548,6 @@ hr {
   }
 }
 
-// Table of Contents — show only on digital-garden notes and project pages
-.toc {
-  display: none;
-}
-
-body[data-slug^="digital-garden/"] .toc,
-body[data-slug^="Digital-Garden/"] .toc,
-body[data-slug^="projects/"] .toc {
-  display: block;
-}
-
 // The toggle centres its chevron on the heading's box. The h3's uneven
 // margins (24px above, 8px below) moved to the button, so the chevron
 // centres on the text and the spacing stays the same.
@@ -3144,38 +3133,6 @@ body[data-slug="digital-garden/index"] h3 {
 // ===================
 // DOMAIN LANDING PAGES
 // ===================
-
-body[data-slug="games-2"] {
-  .page {
-    max-width: 100%;
-  }
-
-  .sidebar {
-    display: none;
-  }
-
-  .page > #quartz-body {
-    grid-template-columns: 1fr;
-    grid-template-areas:
-      "grid-header"
-      "grid-center"
-      "grid-footer";
-    padding: 0 var(--space-64);
-  }
-
-  .page #quartz-body .center {
-    max-width: 100%;
-    margin: 0;
-  }
-
-  .article-title {
-    display: none;
-  }
-
-  .content-meta {
-    display: none;
-  }
-}
 
 .domain-landing {
   display: grid;
