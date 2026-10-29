@@ -2317,7 +2317,7 @@ body[data-slug^="projects/"],
 }
 
 // ===================
-// SECTION NAV (left sidebar; a row on phones)
+// SECTION NAV (left sidebar; a menu on phones)
 // ===================
 
 // Rendered by the local plugin in plugins/section-nav. The current page
@@ -2331,15 +2331,13 @@ body[data-slug^="projects/"],
     padding-left: 0;
   }
 
-  // Phones: one wrapping row beside the theme toggle, so the page title
-  // isn't pushed below a tall list.
+  // Phones: the list hides behind the menu button, which fills the row up
+  // to the theme toggle.
   @media all and ($mobile) {
     flex: 1;
 
-    ul {
-      flex-direction: row;
-      flex-wrap: wrap;
-      gap: var(--space-8) 1.25rem;
+    .section-nav-list {
+      display: none;
     }
   }
 
@@ -2364,6 +2362,102 @@ body[data-slug^="projects/"],
       text-decoration-color: var(--text-tertiary);
       text-underline-offset: 4px;
     }
+  }
+}
+
+// Phone menu. The toggle and close button are the same 44px ghost button
+// in the same spot, so the menu opens and closes from one place. The icon
+// is pulled 10px left so its strokes sit on the text edge.
+.section-menu-toggle,
+.section-menu-close {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  margin-left: -10px;
+  padding: 0;
+  border: none;
+  border-radius: $radius-sm;
+  background: transparent;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: color var(--transition-fast);
+
+  &:hover {
+    color: var(--text-primary);
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+  }
+
+  svg {
+    width: 24px;
+    height: 24px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.75;
+    stroke-linecap: round;
+  }
+}
+
+.section-menu-toggle {
+  @media all and not ($mobile) {
+    display: none;
+  }
+}
+
+// The open menu covers the screen in the page ground, with the sections
+// stacked at headline scale: the one theatrical beat on a phone.
+.section-menu {
+  width: 100vw;
+  max-width: 100vw;
+  height: 100dvh;
+  max-height: 100dvh;
+  margin: 0;
+  // The top matches the phone sidebar's, so the close button lands on the toggle.
+  padding: var(--space-32) var(--space-16) var(--space-16);
+  border: none;
+  background: var(--bg-void);
+  color: var(--text-primary);
+  box-sizing: border-box;
+  overflow-y: auto;
+
+  &[open] {
+    display: flex;
+    flex-direction: column;
+    animation: section-menu-in 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  &::backdrop {
+    background: var(--bg-void);
+  }
+
+  ul {
+    flex: 1;
+    justify-content: center;
+    gap: var(--space-16);
+    padding: var(--space-32) 0 var(--space-64);
+  }
+
+  a {
+    font-size: var(--text-3xl);
+    letter-spacing: -0.02em;
+    line-height: 1.15;
+  }
+}
+
+// The page behind the open menu doesn't scroll.
+html:has(.section-menu[open]) {
+  overflow: hidden;
+}
+
+@keyframes section-menu-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
   }
 }
 

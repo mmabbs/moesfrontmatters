@@ -1,5 +1,43 @@
 // src/components/styles/section-nav.scss
 var section_nav_default = ".section-nav ul {\n  list-style: none;\n  margin: 0;\n  padding: 0;\n  display: flex;\n  flex-direction: column;\n}";
+
+// src/components/scripts/section-menu.ts
+var section_menu_default = `
+document.addEventListener("nav", () => {
+  const toggle = document.querySelector(".section-menu-toggle")
+  const menu = document.querySelector(".section-menu")
+  if (!toggle || !menu) return
+
+  const close = () => menu.close()
+  const open = () => {
+    menu.showModal()
+    toggle.setAttribute("aria-expanded", "true")
+  }
+  const onClose = () => toggle.setAttribute("aria-expanded", "false")
+  // The toggle only shows on phones; close the menu if the screen widens.
+  const wide = window.matchMedia("(min-width: 801px)")
+  const onWiden = () => {
+    if (wide.matches && menu.open) close()
+  }
+
+  const closeButton = menu.querySelector(".section-menu-close")
+  const links = menu.querySelectorAll("a")
+
+  toggle.addEventListener("click", open)
+  menu.addEventListener("close", onClose)
+  closeButton?.addEventListener("click", close)
+  links.forEach((a) => a.addEventListener("click", close))
+  wide.addEventListener("change", onWiden)
+
+  window.addCleanup(() => {
+    toggle.removeEventListener("click", open)
+    menu.removeEventListener("close", onClose)
+    closeButton?.removeEventListener("click", close)
+    links.forEach((a) => a.removeEventListener("click", close))
+    wide.removeEventListener("change", onWiden)
+  })
+})
+`;
 var l;
 l = { __e: function(n2, l2, u3, t2) {
   for (var i2, r2, o2; l2 = l2.__; ) if ((i2 = l2.__c) && !i2.__) try {
@@ -35,9 +73,29 @@ var SectionNav_default = ((opts) => {
       if (section && target === section) return "true";
       return void 0;
     };
-    return /* @__PURE__ */ u2("nav", { class: `section-nav ${displayClass ?? ""}`, "aria-label": "Site", children: /* @__PURE__ */ u2("ul", { children: Object.entries(links).map(([text, href]) => /* @__PURE__ */ u2("li", { children: /* @__PURE__ */ u2("a", { href, "aria-current": current(href), children: text }) })) }) });
+    const items = Object.entries(links).map(([text, href]) => /* @__PURE__ */ u2("li", { children: /* @__PURE__ */ u2("a", { href, "aria-current": current(href), children: text }) }));
+    return /* @__PURE__ */ u2("nav", { class: `section-nav ${displayClass ?? ""}`, "aria-label": "Site", children: [
+      /* @__PURE__ */ u2("ul", { class: "section-nav-list", children: items }),
+      /* @__PURE__ */ u2(
+        "button",
+        {
+          type: "button",
+          class: "section-menu-toggle",
+          "aria-label": "Open menu",
+          "aria-haspopup": "dialog",
+          "aria-expanded": "false",
+          "aria-controls": "section-menu",
+          children: /* @__PURE__ */ u2("svg", { viewBox: "0 0 24 24", "aria-hidden": "true", children: /* @__PURE__ */ u2("path", { d: "M4 7h16M4 12h16M4 17h16" }) })
+        }
+      ),
+      /* @__PURE__ */ u2("dialog", { id: "section-menu", class: "section-menu", "aria-label": "Sections", children: [
+        /* @__PURE__ */ u2("button", { type: "button", class: "section-menu-close", "aria-label": "Close menu", children: /* @__PURE__ */ u2("svg", { viewBox: "0 0 24 24", "aria-hidden": "true", children: /* @__PURE__ */ u2("path", { d: "M6 6l12 12M18 6L6 18" }) }) }),
+        /* @__PURE__ */ u2("ul", { children: items })
+      ] })
+    ] });
   };
   SectionNav.css = section_nav_default;
+  SectionNav.afterDOMLoaded = section_menu_default;
   return SectionNav;
 });
 
