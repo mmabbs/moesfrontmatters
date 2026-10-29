@@ -6,8 +6,8 @@ import type {
 import style from "./styles/footer.scss";
 
 // Local fork of quartz-community/footer for moesfrontmatters.com.
-// Every page ends on the domain nav, a contact line, profile links,
-// and a copyright line that keeps the Quartz credit.
+// Every page ends on an optional domain nav, profile links with the contact
+// email after them, and a copyright line that keeps the Quartz credit.
 export interface FooterOptions {
   nav: Record<string, string>;
   contactLabel: string;
@@ -40,18 +40,18 @@ export default ((opts?: Partial<FooterOptions>) => {
             </ul>
           </nav>
         )}
-        {opts?.contact && (
-          <p class="footer-contact">
-            {opts.contactLabel ? `${opts.contactLabel} ` : ""}
-            <span class="contact">{opts.contact}</span>
-          </p>
-        )}
         <ul class="footer-links">
           {Object.entries(links).map(([text, href]) => (
             <li>
               <a href={href}>{text}</a>
             </li>
           ))}
+          {opts?.contact && (
+            <li class="footer-contact">
+              {opts.contactLabel ? `${opts.contactLabel} ` : ""}
+              {opts.contact}
+            </li>
+          )}
         </ul>
         {opts?.owner && (
           <p class="footer-credit">

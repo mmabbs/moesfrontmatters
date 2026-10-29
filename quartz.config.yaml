@@ -175,15 +175,16 @@ plugins:
       position: left
       priority: 30
       group: toolbar
+  # Off: on phones the section nav fills the row and pushes the theme toggle right.
   - source: github:quartz-community/spacer
-    enabled: true
+    enabled: false
     order: 25
     layout:
       position: left
       priority: 25
       display: mobile-only
-  # Local plugin: section list in the left sidebar on tablet and desktop
-  # (Quartz's desktop-only hides it on phones, which use the footer nav).
+  # Local plugin: section list in the left sidebar on every screen size
+  # (the footer has no section nav, so phones need this one).
   # Project pages mark their `section:` frontmatter. Rebuild after editing src/:
   # cd plugins/section-nav && npm run build
   - source: ./plugins/section-nav
@@ -191,7 +192,6 @@ plugins:
     layout:
       position: left
       priority: 20
-      display: desktop-only
     options:
       links:
         Home: /
@@ -201,19 +201,13 @@ plugins:
         Marketing: /marketing
         Digital Garden: /digital-garden
         About: /about-me
-  # Local fork: domain nav, contact line, and copyright with the Quartz credit.
+  # Local fork: profile links, contact email, and copyright with the Quartz
+  # credit. Its `nav` option is unused; section-nav carries the sections.
   # Rebuild after editing src/: cd plugins/footer && npm run build
   - source: ./plugins/footer
     enabled: true
     options:
-      nav:
-        AI: /ai
-        Games: /games
-        # Film & TV: /film-tv  (restore when content/film-tv.md drops draft: true)
-        Marketing: /marketing
-        Digital Garden: /digital-garden
       owner: Moe Abbas
-      contactLabel: "Get in touch:"
       contact: moe[at]moesfrontmatters.com
       links:
         GitHub: https://github.com/mmabbs/
@@ -252,7 +246,7 @@ layout:
   byPageType:
     # Default frame puts the 404 in the page grid like every other page
     # (the page type ships with the edge-to-edge "minimal" frame). The left
-    # sidebar stays for the theme toggle; the footer carries the domain nav.
+    # sidebar carries the theme toggle and the section nav.
     "404":
       template: default
       positions:

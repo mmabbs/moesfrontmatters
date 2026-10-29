@@ -30,11 +30,13 @@ var Footer_default = ((opts) => {
     const slug = trimSlashes(String(fileData?.slug ?? "")).replace(/(^|\/)index$/, "");
     return /* @__PURE__ */ u2("footer", { class: `${displayClass ?? ""}`, children: [
       Object.keys(nav).length > 0 && /* @__PURE__ */ u2("nav", { class: "footer-nav", "aria-label": "Sections", children: /* @__PURE__ */ u2("ul", { children: Object.entries(nav).map(([text, href]) => /* @__PURE__ */ u2("li", { children: /* @__PURE__ */ u2("a", { href, "aria-current": trimSlashes(href) === slug ? "page" : void 0, children: text }) })) }) }),
-      opts?.contact && /* @__PURE__ */ u2("p", { class: "footer-contact", children: [
-        opts.contactLabel ? `${opts.contactLabel} ` : "",
-        /* @__PURE__ */ u2("span", { class: "contact", children: opts.contact })
+      /* @__PURE__ */ u2("ul", { class: "footer-links", children: [
+        Object.entries(links).map(([text, href]) => /* @__PURE__ */ u2("li", { children: /* @__PURE__ */ u2("a", { href, children: text }) })),
+        opts?.contact && /* @__PURE__ */ u2("li", { class: "footer-contact", children: [
+          opts.contactLabel ? `${opts.contactLabel} ` : "",
+          opts.contact
+        ] })
       ] }),
-      /* @__PURE__ */ u2("ul", { class: "footer-links", children: Object.entries(links).map(([text, href]) => /* @__PURE__ */ u2("li", { children: /* @__PURE__ */ u2("a", { href, children: text }) })) }),
       opts?.owner && /* @__PURE__ */ u2("p", { class: "footer-credit", children: [
         "\xA9 ",
         (/* @__PURE__ */ new Date()).getFullYear(),

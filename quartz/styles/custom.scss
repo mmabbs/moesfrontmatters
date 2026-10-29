@@ -2255,7 +2255,7 @@ a.internal.related-item,
 // ===================
 
 // Rendered by the local plugin in plugins/footer. Every page ends on the
-// domain nav, a contact line and profile links, left-aligned on the text edge.
+// profile links with the email after them, left-aligned on the text edge.
 footer {
   opacity: 1; // Override base 0.5 opacity for accessibility
   font-family: $font-body;
@@ -2283,41 +2283,6 @@ footer {
   }
 }
 
-.footer-nav ul {
-  gap: 0.5rem 1.5rem;
-}
-
-// 20px on phones so all four sections fit one line at 390px.
-.footer-nav a {
-  font-family: $font-display;
-  font-size: var(--text-xl);
-  font-weight: 500;
-  line-height: 1.3;
-
-  @media all and ($mobile) {
-    font-size: var(--text-lg);
-  }
-
-  &:hover {
-    text-decoration: underline;
-    text-decoration-color: var(--accent);
-    text-underline-offset: 4px;
-  }
-
-  // You are here: brighter, with a quiet underline that doesn't read as a link
-  &[aria-current="page"] {
-    color: var(--text-primary);
-    text-decoration: underline;
-    text-decoration-color: var(--text-tertiary);
-    text-underline-offset: 4px;
-  }
-}
-
-.footer-contact {
-  font-size: var(--text-base);
-  margin: var(--space-16) 0 var(--space-8);
-}
-
 .footer-links {
   gap: 1.25rem;
 }
@@ -2331,8 +2296,7 @@ footer {
   margin-inline: 0.15em;
 }
 
-// Home already lists every domain and the email in its own content.
-[data-slug="index"] .footer-nav,
+// Home already lists the email in its own content.
 [data-slug="index"] .footer-contact {
   display: none;
 }
@@ -2353,18 +2317,30 @@ body[data-slug^="projects/"],
 }
 
 // ===================
-// SECTION NAV (left sidebar, tablet and desktop)
+// SECTION NAV (left sidebar; a row on phones)
 // ===================
 
-// Rendered by the local plugin in plugins/section-nav. Same type and
-// "you are here" mark as the footer nav. On a project page the parent
-// section carries aria-current="true" and gets the same mark.
+// Rendered by the local plugin in plugins/section-nav. The current page
+// gets a "you are here" mark. On a project page the parent section
+// carries aria-current="true" and gets the same mark.
 .section-nav {
   font-family: $font-display;
 
   ul {
     gap: var(--space-8);
     padding-left: 0;
+  }
+
+  // Phones: one wrapping row beside the theme toggle, so the page title
+  // isn't pushed below a tall list.
+  @media all and ($mobile) {
+    flex: 1;
+
+    ul {
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: var(--space-8) 1.25rem;
+    }
   }
 
   a {
