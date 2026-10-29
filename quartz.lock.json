@@ -37,12 +37,6 @@
       "commit": "84fc96799671a65f76b66e30217dbefdd43a2905",
       "installedAt": "2026-06-26T19:31:28.545Z"
     },
-    "citations": {
-      "source": "github:quartz-community/citations",
-      "resolved": "https://github.com/quartz-community/citations.git",
-      "commit": "2ad133a123c5b15b7c41d4fb684d422622113081",
-      "installedAt": "2026-06-26T19:24:10.877Z"
-    },
     "cname": {
       "source": "github:quartz-community/cname",
       "resolved": "https://github.com/quartz-community/cname.git",
@@ -103,12 +97,6 @@
       "commit": "89e88af565dfaa9ab2d9c99677b82394ea7be356",
       "installedAt": "2026-06-26T19:31:29.129Z"
     },
-    "explicit-publish": {
-      "source": "github:quartz-community/explicit-publish",
-      "resolved": "https://github.com/quartz-community/explicit-publish.git",
-      "commit": "4afb630a1cc9034267beb93c928e81d0fa2f4d4b",
-      "installedAt": "2026-06-26T19:24:10.578Z"
-    },
     "explorer": {
       "source": "github:quartz-community/explorer",
       "resolved": "https://github.com/quartz-community/explorer.git",
@@ -139,12 +127,6 @@
       "commit": "46f0ba1c3c0cc484697572e7bcf315fa384d80d2",
       "installedAt": "2026-06-26T19:31:29.248Z"
     },
-    "hard-line-breaks": {
-      "source": "github:quartz-community/hard-line-breaks",
-      "resolved": "https://github.com/quartz-community/hard-line-breaks.git",
-      "commit": "0d448f38a24c568c5539ff2cd57d813293430ccd",
-      "installedAt": "2026-06-26T19:24:10.602Z"
-    },
     "latex": {
       "source": "github:quartz-community/latex",
       "resolved": "https://github.com/quartz-community/latex.git",
@@ -163,34 +145,11 @@
       "commit": "07eaca7b31a537c7c4a0fd2848b1f00014c940af",
       "installedAt": "2026-06-26T19:31:29.780Z"
     },
-    "obsidian-plugin-excalidraw": {
-      "source": "github:quartz-community/obsidian-plugin-excalidraw",
-      "resolved": "https://github.com/quartz-community/obsidian-plugin-excalidraw.git",
-      "commit": "dad0a4c0abdc8b3c2786277a2cbd67dc039c754c",
-      "installedAt": "2026-06-26T19:24:10.642Z"
-    },
-    "ox-hugo": {
-      "source": "github:quartz-community/ox-hugo",
-      "resolved": "https://github.com/quartz-community/ox-hugo.git",
-      "commit": "832871da9ab33d52f904456c1a5e14f1b2057d83",
-      "installedAt": "2026-06-26T19:24:10.578Z"
-    },
     "page-title": {
       "source": "github:quartz-community/page-title",
       "resolved": "https://github.com/quartz-community/page-title.git",
       "commit": "a1c1fe0a9c6a5ce1acf6efa01d473a7d9850e2a3",
       "installedAt": "2026-06-26T19:31:29.754Z"
-    },
-    "quartz-themes": {
-      "source": {
-        "name": "quartz-themes",
-        "repo": "github:saberzero1/quartz-themes",
-        "subdir": "plugin"
-      },
-      "resolved": "https://github.com/saberzero1/quartz-themes.git",
-      "commit": "945135e8b70576753d0591e1713fe56553100b3d",
-      "subdir": "plugin",
-      "installedAt": "2026-06-26T19:25:47.047Z"
     },
     "reader-mode": {
       "source": "github:quartz-community/reader-mode",
@@ -209,12 +168,6 @@
       "resolved": "https://github.com/quartz-community/remove-draft.git",
       "commit": "0a51a4c6abb3c86961a9bbf46f4538da87fcf9f8",
       "installedAt": "2026-05-26T15:18:58.361Z"
-    },
-    "roam": {
-      "source": "github:quartz-community/roam",
-      "resolved": "https://github.com/quartz-community/roam.git",
-      "commit": "b2aad70fdf548d07b8fd28df9edbdba7f256f166",
-      "installedAt": "2026-06-26T19:24:10.601Z"
     },
     "search": {
       "source": "github:quartz-community/search",
