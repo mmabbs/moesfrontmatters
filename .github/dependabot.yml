@@ -1,9 +1,12 @@
+# Version-update PRs are off (limit 0). Dependency bumps come from upstream Quartz merges.
+# Security-update PRs still open; they ignore this limit.
 version: 2
 updates:
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
       interval: "weekly"
+    open-pull-requests-limit: 0
     groups:
       production-dependencies:
         applies-to: "version-updates"
@@ -13,6 +16,7 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
+    open-pull-requests-limit: 0
     groups:
       ci-dependencies:
         applies-to: "version-updates"
