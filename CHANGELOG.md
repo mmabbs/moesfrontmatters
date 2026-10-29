@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-10-29
+
+On `main`, pushed and deployed (`1ca9128`). Checked on the live site.
+
+- `quartz.config.yaml`: moved About to second place in the section nav, between Home and AI.
+
 ## 2026-10-28
 
 Branch `style/footer-updates`, merged into `main`, pushed and deployed (`37f60af`, `eed0586`). The branch is deleted.
