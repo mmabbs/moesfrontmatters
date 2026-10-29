@@ -6,7 +6,9 @@ This document describes how branches are named and used in this repository. The 
 
 **main:** The primary branch. Represents the current "live" version of the site. All feature and content work should eventually be merged into `main`.
 
-**upstream/v4:** The Quartz upstream branch (remote only). Used as a source of updates from `jackyzha0/quartz`. Never push directly to `upstream`.
+**upstream/v5:** The Quartz upstream branch (remote only). Used as a source of updates from `jackyzha0/quartz`. Never push directly to `upstream`.
+
+**v4:** Local rollback snapshot of the site before the Quartz 5 migration. Never edit it.
 
 ## Short-lived branches
 
@@ -47,6 +49,20 @@ Examples:
 - config/update-quartz-layout
 - config/github-actions-setup
 - config/netlify-build-tweak
+
+**fix/:** Repairs that cut across content, style and config, such as migration cleanup or a broken build.
+
+Examples:
+
+- fix/v5-migration-prep
+- fix/style-and-content-cleanup
+
+**critique/:** Fixes that come out of an Impeccable critique of one page.
+
+Examples:
+
+- critique/games
+- critique/homepage-fixes
 
 Additional prefixes can be introduced if needed, but should follow the same pattern.
 
@@ -122,7 +138,7 @@ To pull changes from Quartz while keeping this branching strategy:
 
     git checkout main  
     git fetch upstream  
-    git merge upstream/v4  
+    git merge upstream/v5  
     git push origin main  
 
 Any follow-up adjustments (for example, fixing conflicts or adapting to breaking changes) should be done on a short-lived branch, using the same naming conventions, and then merged back into main.
