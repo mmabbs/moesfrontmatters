@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-10-28
+
+Branch `style/footer-updates`, merged into `main`, pushed and deployed (`37f60af`, `eed0586`). The branch is deleted.
+
+- Footer: removed the section row (AI, Games, Marketing, Digital Garden). The email moved next to LinkedIn as plain text, in the same 14px secondary tone as the links, with no "Get in touch:" label. It no longer uses the site-wide `.contact` class, which made it ochre mono. Home still hides it there. Removed the dead `.footer-nav` styles.
+- Phone menu: on screens 800px and below, the section nav hides behind a 44px menu button. It opens a full-screen native `<dialog>` with the six sections stacked in Zilla 36px. Esc, the close button, or tapping a link closes it. Focus stays inside, and the page behind doesn't scroll. Desktop and tablet keep the sidebar list. The script ships as a string module (`plugins/section-nav/src/components/scripts/section-menu.ts`), because the build's `.inline.ts` loader broke the type build.
+- `quartz.config.yaml`: section-nav is no longer `desktop-only`. The phone-only `spacer` is off, and the footer's `nav` and `contactLabel` options are gone.
+- Updated the stale Navigation, Typography and Layout lines in `DESIGN.md`, and its sidecar `.impeccable/design.json` (both local only).
+- Tested a fresh clone of the branch through the deploy workflow's steps before merging. Both commits built clean.
+
 ## 2026-10-27
 
 Claude setup only. No site changes. None of these files are in git. Backups are in `archived/` with a `2026-10-27-` prefix.
