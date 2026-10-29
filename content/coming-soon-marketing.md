@@ -14,11 +14,3 @@ draft: false
 
 Still cooking this up. 
 
-## Check out what's already live:
-
-<div class="related-list">
-	<a href="/projects/the-otter-side" class="related-item">
-		<span class="related-title">The Otter Side</span>
-		<span class="related-desc"> – Content Strategy · Messaging Architecture · Voice Pattern Systems</span>
-	</a>
-</div>
