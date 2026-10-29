@@ -11,18 +11,28 @@ import script from "./scripts/section-menu";
 // On a project page, the section named in its `section:` frontmatter is
 // marked too, so the nav doubles as the way back. On phones the list hides
 // behind a menu button that opens the same links in a full-screen dialog.
+// A link to a page that didn't publish (a draft) is left out.
 export interface SectionNavOptions {
   links: Record<string, string>;
 }
 
 const trimSlashes = (s: string) => s.replace(/^\/+|\/+$/g, "");
+// A folder's index page has the slug "folder/index"; compare it as "folder".
+const pageKey = (s: string) => trimSlashes(s).replace(/(^|\/)index$/, "");
 
 export default ((opts?: Partial<SectionNavOptions>) => {
   const links = opts?.links ?? {};
 
-  const SectionNav: QuartzComponent = ({ displayClass, fileData }: QuartzComponentProps) => {
-    // A folder's index page has the slug "folder/index"; compare it as "folder".
-    const slug = trimSlashes(String(fileData?.slug ?? "")).replace(/(^|\/)index$/, "");
+  const SectionNav: QuartzComponent = ({
+    displayClass,
+    fileData,
+    allFiles,
+  }: QuartzComponentProps) => {
+    const slug = pageKey(String(fileData?.slug ?? ""));
+    // allFiles holds only pages that passed the filters, so drafts are missing.
+    // Links that aren't site paths (http, mailto) always stay.
+    const published = new Set((allFiles ?? []).map((f) => pageKey(String(f.slug ?? ""))));
+    const isLive = (href: string) => !href.startsWith("/") || published.has(pageKey(href));
     const section = trimSlashes(String(fileData?.frontmatter?.section ?? ""));
     const current = (href: string) => {
       const target = trimSlashes(href);
@@ -32,13 +42,15 @@ export default ((opts?: Partial<SectionNavOptions>) => {
       if (section && target === section) return "true";
       return undefined;
     };
-    const items = Object.entries(links).map(([text, href]) => (
-      <li>
-        <a href={href} aria-current={current(href)}>
-          {text}
-        </a>
-      </li>
-    ));
+    const items = Object.entries(links)
+      .filter(([, href]) => !allFiles || isLive(href))
+      .map(([text, href]) => (
+        <li>
+          <a href={href} aria-current={current(href)}>
+            {text}
+          </a>
+        </li>
+      ));
     return (
       <nav class={`section-nav ${displayClass ?? ""}`} aria-label="Site">
         <ul class="section-nav-list">{items}</ul>

@@ -13,6 +13,7 @@ configuration:
     - private
     - templates
     - .obsidian
+    - drafts
     - "**/*private*.md"
     - "**/*templates*.md"
     - "**/*.obsidian*.md"
@@ -185,7 +186,9 @@ plugins:
       display: mobile-only
   # Local plugin: section list in the left sidebar on every screen size
   # (the footer has no section nav, so phones need this one).
-  # Project pages mark their `section:` frontmatter. Rebuild after editing src/:
+  # Project pages mark their `section:` frontmatter. Links to pages that didn't
+  # publish (drafts) are left out, so keep every section listed here.
+  # Rebuild after editing src/:
   # cd plugins/section-nav && npm run build
   - source: ./plugins/section-nav
     enabled: true
@@ -198,7 +201,7 @@ plugins:
         About: /about-me
         AI: /ai
         Games: /games
-        # Film & TV: /film-tv  (restore when content/film-tv.md drops draft: true)
+        Film & TV: /film-tv
         Marketing: /marketing
         Digital Garden: /digital-garden
   # Local fork: profile links, contact email, and copyright with the Quartz

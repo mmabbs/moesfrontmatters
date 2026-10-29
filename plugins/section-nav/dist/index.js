@@ -61,10 +61,17 @@ function u2(e2, t2, n2, o2, i2, u3) {
 
 // src/components/SectionNav.tsx
 var trimSlashes = (s2) => s2.replace(/^\/+|\/+$/g, "");
+var pageKey = (s2) => trimSlashes(s2).replace(/(^|\/)index$/, "");
 var SectionNav_default = ((opts) => {
   const links = opts?.links ?? {};
-  const SectionNav = ({ displayClass, fileData }) => {
-    const slug = trimSlashes(String(fileData?.slug ?? "")).replace(/(^|\/)index$/, "");
+  const SectionNav = ({
+    displayClass,
+    fileData,
+    allFiles
+  }) => {
+    const slug = pageKey(String(fileData?.slug ?? ""));
+    const published = new Set((allFiles ?? []).map((f3) => pageKey(String(f3.slug ?? ""))));
+    const isLive = (href) => !href.startsWith("/") || published.has(pageKey(href));
     const section = trimSlashes(String(fileData?.frontmatter?.section ?? ""));
     const current = (href) => {
       const target = trimSlashes(href);
@@ -73,7 +80,7 @@ var SectionNav_default = ((opts) => {
       if (section && target === section) return "true";
       return void 0;
     };
-    const items = Object.entries(links).map(([text, href]) => /* @__PURE__ */ u2("li", { children: /* @__PURE__ */ u2("a", { href, "aria-current": current(href), children: text }) }));
+    const items = Object.entries(links).filter(([, href]) => !allFiles || isLive(href)).map(([text, href]) => /* @__PURE__ */ u2("li", { children: /* @__PURE__ */ u2("a", { href, "aria-current": current(href), children: text }) }));
     return /* @__PURE__ */ u2("nav", { class: `section-nav ${displayClass ?? ""}`, "aria-label": "Site", children: [
       /* @__PURE__ */ u2("ul", { class: "section-nav-list", children: items }),
       /* @__PURE__ */ u2(
