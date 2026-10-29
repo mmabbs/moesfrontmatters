@@ -43,12 +43,10 @@ If you need your AI workflows up and running, reach out at **moe@moesfrontmatter
 		<span class="nav-desc">Produced shorts, screenwriting samples, and credits.</span>
 	</a>
 	-->
-	<!-- Hidden while marketing.md is a draft. Restore when it goes live.
 	<a href="/marketing" class="nav-item">
 		<span class="nav-title">Marketing</span>
 		<span class="nav-desc">Content strategy frameworks and UX case studies.</span>
 	</a>
-	-->
 	<a href="/digital-garden" class="nav-item" data-no-popover="true">
 		<span class="nav-title">Digital Garden</span>
 		<span class="nav-desc">Notes on projects and whatever's on my mind.</span>
