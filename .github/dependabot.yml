@@ -1,5 +1,6 @@
-# Version-update PRs are off (limit 0). Dependency bumps come from upstream Quartz merges.
+# npm version-update PRs are off (limit 0): dependency bumps come from upstream Quartz merges.
 # Security-update PRs still open; they ignore this limit.
+# github-actions stays on: deploy.yml is ours, and upstream merges will not update it.
 version: 2
 updates:
   - package-ecosystem: "npm"
@@ -16,7 +17,6 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
-    open-pull-requests-limit: 0
     groups:
       ci-dependencies:
         applies-to: "version-updates"
