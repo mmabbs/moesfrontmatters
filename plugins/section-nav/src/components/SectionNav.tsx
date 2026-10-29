@@ -29,14 +29,20 @@ export default ((opts?: Partial<SectionNavOptions>) => {
     allFiles,
   }: QuartzComponentProps) => {
     const slug = pageKey(String(fileData?.slug ?? ""));
+    // A page's own URL plus any `aliases:` it claims (those become redirects).
+    const urlsOf = (f: { slug?: unknown; aliases?: unknown }) => [
+      pageKey(String(f.slug ?? "")),
+      ...((f.aliases as string[] | undefined) ?? []).map(pageKey),
+    ];
     // allFiles holds only pages that passed the filters, so drafts are missing.
     // Links that aren't site paths (http, mailto) always stay.
-    const published = new Set((allFiles ?? []).map((f) => pageKey(String(f.slug ?? ""))));
+    const published = new Set((allFiles ?? []).flatMap(urlsOf));
     const isLive = (href: string) => !href.startsWith("/") || published.has(pageKey(href));
+    const ownUrls = fileData ? urlsOf(fileData) : [slug];
     const section = trimSlashes(String(fileData?.frontmatter?.section ?? ""));
     const current = (href: string) => {
       const target = trimSlashes(href);
-      if (target === slug) return "page";
+      if (ownUrls.includes(target)) return "page";
       // Notes inside a section's folder (digital-garden/...) belong to it.
       if (target && slug.startsWith(`${target}/`)) return "true";
       if (section && target === section) return "true";

@@ -70,12 +70,17 @@ var SectionNav_default = ((opts) => {
     allFiles
   }) => {
     const slug = pageKey(String(fileData?.slug ?? ""));
-    const published = new Set((allFiles ?? []).map((f3) => pageKey(String(f3.slug ?? ""))));
+    const urlsOf = (f3) => [
+      pageKey(String(f3.slug ?? "")),
+      ...(f3.aliases ?? []).map(pageKey)
+    ];
+    const published = new Set((allFiles ?? []).flatMap(urlsOf));
     const isLive = (href) => !href.startsWith("/") || published.has(pageKey(href));
+    const ownUrls = fileData ? urlsOf(fileData) : [slug];
     const section = trimSlashes(String(fileData?.frontmatter?.section ?? ""));
     const current = (href) => {
       const target = trimSlashes(href);
-      if (target === slug) return "page";
+      if (ownUrls.includes(target)) return "page";
       if (target && slug.startsWith(`${target}/`)) return "true";
       if (section && target === section) return "true";
       return void 0;
