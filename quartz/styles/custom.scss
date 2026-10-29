@@ -1590,6 +1590,27 @@ button.toc-header {
   }
 }
 
+// Collapsed, the plugin shrinks the TOC to 1.4rem and clips the overflow.
+// This header is taller than that (24px margin + slab heading), so the whole
+// toggle, chevron included, vanished. Size the collapsed box to its header,
+// and hide the list outright (the plugin relied on the clip to do that).
+.toc:has(button.toc-header.collapsed) {
+  flex: 0 0 auto;
+}
+
+.toc ul.toc-content.collapsed {
+  display: none;
+}
+
+// The list still scrolls; the plugin's bottom fade marks that there's more.
+.toc ul.toc-content.overflow {
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
 // Guide lines for nested headings. The plugin indents each level by
 // padding alone; here a level keeps its parent's indent as a margin and
 // draws a hairline there, so lines at one depth join into a single rail.
