@@ -30,7 +30,7 @@ export default defineConfig({
   outDir: "dist",
   platform: "node",
   banner: {
-    js: 'import { createRequire } from "module"; const require = createRequire(import.meta.url);',
+    js: 'import { createRequire as __ogCreateRequire } from "module"; const require = __ogCreateRequire(import.meta.url);',
   },
   esbuildOptions(options: BuildOptions) {
     options.jsx = "automatic";
