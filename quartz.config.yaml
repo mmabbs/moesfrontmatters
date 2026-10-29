@@ -195,12 +195,12 @@ plugins:
     options:
       links:
         Home: /
+        About: /about-me
         AI: /ai
         Games: /games
         # Film & TV: /film-tv  (restore when content/film-tv.md drops draft: true)
         Marketing: /marketing
         Digital Garden: /digital-garden
-        About: /about-me
   # Local fork: profile links, contact email, and copyright with the Quartz
   # credit. Its `nav` option is unused; section-nav carries the sections.
   # Rebuild after editing src/: cd plugins/footer && npm run build
