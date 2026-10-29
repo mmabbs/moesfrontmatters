@@ -35,12 +35,17 @@
   --callout-icon-safe: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLXNoaWVsZC1jaGVjay1pY29uIGx1Y2lkZS1zaGllbGQtY2hlY2siPjxwYXRoIGQ9Ik0yMCAxM2MwIDUtMy41IDcuNS03LjY2IDguOTVhMSAxIDAgMCAxLS42Ny0uMDFDNy41IDIwLjUgNCAxOCA0IDEzVjZhMSAxIDAgMCAxIDEtMWMyIDAgNC41LTEuMiA2LjI0LTIuNzJhMS4xNyAxLjE3IDAgMCAxIDEuNTIgMEMxNC41MSAzLjgxIDE3IDUgMTkgNWExIDEgMCAwIDEgMSAxeiIvPjxwYXRoIGQ9Im05IDEyIDIgMiA0LTQiLz48L3N2Zz4=");
 
   // Colours come from theme tokens in custom.scss (--callout-*, --accolade),
-  // so each type follows the S&H palette in both modes. Tints are 8% of the
-  // type colour; every title colour clears 4.5:1 on its tinted background.
+  // so each type follows the S&H palette in both modes. Callouts have no
+  // visible border (it stays 1px transparent so boxes keep their size).
+  // Every type sits on an 8% ochre tint with an ochre icon and neutral text;
+  // only status types keep their own colour, because green for success and
+  // red for error is what readers expect. Their tint is --callout-status-tint
+  // (stronger in dark mode, where 8% fades into the charcoal).
   &[data-callout] {
     --color: var(--callout-note);
-    --border: var(--gray);
-    --bg: var(--bg-surface);
+    --icon-color: var(--accent);
+    --border: transparent;
+    --bg: var(--accolade-bg);
     --callout-icon: var(--callout-icon-note);
   }
 
@@ -49,11 +54,10 @@
   }
 
   &[data-callout="tip"],
-  &[data-callout="success"],
-  &[data-callout="safe"] {
+  &[data-callout="success"] {
     --color: var(--callout-success);
-    --border: var(--accent-dim);
-    --bg: color-mix(in srgb, var(--accent-dim) 8%, transparent);
+    --icon-color: var(--callout-success);
+    --bg: color-mix(in srgb, var(--accent-dim) var(--callout-status-tint), transparent);
   }
 
   &[data-callout="tip"] {
@@ -72,8 +76,7 @@
     --callout-icon: var(--callout-icon-safe);
   }
 
-  // Warning stays neutral: ochre is reserved for name, awards and contact.
-  // The warning icon is the cue.
+  // Warning follows the default: ochre tint and icon, neutral text.
   &[data-callout="warning"] {
     --callout-icon: var(--callout-icon-warning);
   }
@@ -82,8 +85,8 @@
   &[data-callout="danger"],
   &[data-callout="bug"] {
     --color: var(--callout-error);
-    --border: var(--callout-error);
-    --bg: color-mix(in srgb, var(--callout-error) 8%, transparent);
+    --icon-color: var(--callout-error);
+    --bg: color-mix(in srgb, var(--callout-error) var(--callout-status-tint), transparent);
     --callout-icon: var(--callout-icon-failure);
   }
 
@@ -99,10 +102,10 @@
     --callout-icon: var(--callout-icon-book);
   }
 
+  // Awards are the one callout with ochre words, so they stay a signal.
   &[data-callout="accolade"] {
     --color: var(--accolade);
-    --border: var(--accolade);
-    --bg: var(--accolade-bg);
+    --icon-color: var(--accolade);
     --callout-icon: var(--callout-icon-accolade);
   }
 
