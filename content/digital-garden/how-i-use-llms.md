@@ -70,7 +70,6 @@ How do I know if the teaching output itself is reliable? If it's outside my doma
 
 #### Tools
 
-- A **roguelite deckbuilder teacher** that walks through design patterns in a left-brained way, with lessons scoped to gaps in my knowledge 
 - A **game design primer** that breaks down design concepts through multiple lenses (Schell/Koster perspectives, player experience, designer intent). It has a "working designer" mode that starts from the design problem a concept solves rather than its definition
 - A **coding concept primer** for CLI commands and Python syntax. Explanations layered with everyday analogies, visual diagrams, practical gotchas, and comparisons to JavaScript (which I know)
 - A **Python "paired programming" partner** that teaches through real projects. I drive, while it offers explanations, live code runs to show cause and effect, gotchas that trip up JS developers, and learns to dial back guidance as my skills grow across sessions
