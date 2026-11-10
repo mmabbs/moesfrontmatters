@@ -15,7 +15,7 @@ Inline tasks to complete during sessions. Check off each one when done.
 - [ ] Discuss a less serif-heavy primary font if the current one feels too odd for the AI positioning.
 - [ ] Double check order of navigation
 
-## FitIn Case Study (`content/drafts/fitin-v7.md`)
+## FitIn Case Study (`content/private/fitin-v7.md`)
 
 - [ ] Outline as a story
 - [ ] Think of section titling approach
@@ -32,6 +32,7 @@ Inline tasks to complete during sessions. Check off each one when done.
 
 - [ ] Take out the "My thoughts on GenAI in creative writing" section
 - [ ] Review page — consider folding/replacing/removing page altogether (strongest lean); the info will be covered between the AI landing page's overview, portfolio pieces, and "gen-ai-in-arts" post.
+- [?] Decide whether to publish this page or unlink it. It's a draft, but About Me and the AI Coming Soon page link to it, so visitors get a 404.
 
 ## "My Stance on Generative AI in the Arts" page (`content/digital-garden/gen-ai-in-arts.md`) - **NEW POST!**
 
@@ -39,3 +40,12 @@ Inline tasks to complete during sessions. Check off each one when done.
 - [ ] Write draft 1
 - [ ] Edit draft
 - [ ] Publish post
+
+## Broken links (from the 2026-11-10 link check)
+
+Re-check with `npx quartz build`, then `python3 .claude/scripts/check-links.py`.
+
+- [?] Decide whether to publish The Otter Side (`content/projects/the-otter-side.md`, draft) or unlink it. Seven live pages link to it and show a 404: About Me, Games, the games Coming Soon page, and the Grim Rock, Howard, Ollie and SamSara's Edge project pages.
+- [?] Decide what to do with the dead links on the Script Asst case study (`content/projects/script-asst.md`). It links to a research note (`research-light-catching-anxiety`) and an appendix that aren't on the site.
+- [?] Decide what to do with the Film & TV draft's links to `/projects/prom-night`, `/projects/bark` and `/projects/harriet`. Those pages don't exist.
+- [?] Decide whether to delete the unused `.logline-page` styling at `quartz/styles/custom.scss:525-528`. Nothing uses it now that `loglines/` is gone.
