@@ -57,4 +57,4 @@ A Content Strategy that includes:
 > [!question] Want to see the full pitch deck and framework docs?
 > Since this project is in active development, deliverables are only available upon request and viewable through a live walkthrough (no downloads).
 >
-> Get in touch: <span class="contact">moe[at]moesfrontmatters.com</span>
+> <a class="contact" data-email="bW9jLnNyZXR0YW10bm9yZnNlb21AZW9t">Get in touch</a>.
