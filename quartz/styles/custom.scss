@@ -1359,8 +1359,8 @@ svg {
 // ===================
 
 .contact {
-  font-family: $font-mono;
-  font-style: italic;
+  font-style: normal;
+  font-weight: 500;
   color: var(--accent);
 }
 
@@ -2341,11 +2341,6 @@ footer {
 // The emoji glyph overhangs its own advance and swallows the space after it.
 .footer-heart {
   margin-inline: 0.15em;
-}
-
-// Home already lists the email in its own content.
-[data-slug="index"] .footer-contact {
-  display: none;
 }
 
 // On the main pages Backlinks only ever say "Home". Project pages keep

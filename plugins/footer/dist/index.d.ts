@@ -5,6 +5,7 @@ interface FooterOptions {
     nav: Record<string, string>;
     contactLabel: string;
     contact: string;
+    contactText: string;
     links: Record<string, string>;
     owner: string;
 }

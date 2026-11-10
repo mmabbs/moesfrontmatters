@@ -1,5 +1,21 @@
 // src/components/styles/footer.scss
 var footer_default = "footer ul {\n  list-style: none;\n  margin: 0;\n  padding: 0;\n  display: flex;\n  flex-wrap: wrap;\n}";
+
+// src/components/scripts/email.inline.ts
+var email_inline_default = `// Plain JavaScript: tsup loads this file as text without transpiling it.
+// Turns each encoded address back into a mailto: link: the footer's, and any
+// <a data-email="..."> written into page text. The link text stays as
+// written, so the address only lives in the href.
+function revealEmails() {
+  document.querySelectorAll("a[data-email]").forEach((el) => {
+    const address = atob(el.getAttribute("data-email") || "").split("").reverse().join("");
+    el.setAttribute("href", "mailto:" + address);
+  });
+}
+
+document.addEventListener("nav", revealEmails);
+document.addEventListener("render", revealEmails);
+`;
 var l;
 l = { __e: function(n2, l2, u3, t2) {
   for (var i2, r2, o2; l2 = l2.__; ) if ((i2 = l2.__c) && !i2.__) try {
@@ -23,6 +39,9 @@ function u2(e2, t2, n2, o2, i2, u3) {
 
 // src/components/Footer.tsx
 var trimSlashes = (s2) => s2.replace(/^\/+|\/+$/g, "");
+var toAddress = (s2) => s2.replace(/\s*\[at\]\s*/i, "@").replace(/\s*\[dot\]\s*/gi, ".");
+var isAddress = (s2) => /^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(s2);
+var encodeAddress = (s2) => Buffer.from(s2.split("").reverse().join("")).toString("base64");
 var Footer_default = ((opts) => {
   const nav = opts?.nav ?? {};
   const links = opts?.links ?? {};
@@ -34,7 +53,7 @@ var Footer_default = ((opts) => {
         Object.entries(links).map(([text, href]) => /* @__PURE__ */ u2("li", { children: /* @__PURE__ */ u2("a", { href, children: text }) })),
         opts?.contact && /* @__PURE__ */ u2("li", { class: "footer-contact", children: [
           opts.contactLabel ? `${opts.contactLabel} ` : "",
-          opts.contact
+          isAddress(toAddress(opts.contact)) ? /* @__PURE__ */ u2("a", { class: "footer-email", "data-email": encodeAddress(toAddress(opts.contact)), children: opts.contactText ?? "Email" }) : opts.contact
         ] })
       ] }),
       opts?.owner && /* @__PURE__ */ u2("p", { class: "footer-credit", children: [
@@ -48,11 +67,12 @@ var Footer_default = ((opts) => {
         " ",
         "and",
         " ",
-        /* @__PURE__ */ u2("a", { href: "https://quartz.jzhao.xyz/", children: "Quartz" })
+        /* @__PURE__ */ u2("a", { href: "https://quartz.jzhao.xyz/", children: "Quartz v5" })
       ] })
     ] });
   };
   Footer.css = footer_default;
+  Footer.afterDOMLoaded = email_inline_default;
   return Footer;
 });
 
