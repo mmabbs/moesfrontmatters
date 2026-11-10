@@ -8,13 +8,13 @@ tags:
 modified: 11-10-2026
 created: 11-10-2026
 draft: 
+cssclasses:
+  - case-study
 ---
 
 # Case Study - Script Assistant
 
-## Summary box 
-
-> [!ai] Summary
+> [!ai]- Summary
 > **What it is:** A Claude Code plugin that files a screenwriter's raw ideas into organized Obsidian notes and turns research questions into sourced notes. It doesn't write the script or come up with ideas.  
 > **Problem:** A writer's ideas pile up in one place and have to be sorted by hand into the right notes as the story takes shape. A chat assistant can't do that job reliably: it has to be re-briefed every time, and it can't show what it changed.  
 > **My role:** I defined the problem from my own writing process, designed the workflow and note system, directed Claude Code agents to build it from my specs, and designed the evals that gate each part.  
@@ -26,7 +26,7 @@ draft:
 
 ## What it is
 
-> [!warning] The plugin doesn't author the screenplay or generate ideas for the writer.
+> [!info] The plugin doesn't author the screenplay or generate ideas for the writer.
 
 *Script Assistant* is a plugin for Claude Code, [Obsidian](https://obsidian.md/), and [Slugline](https://www.slugline.co/) that helps screenwriters organize their notes and flag issues related to incomplete development across the prewriting and writing stages.
 
@@ -58,7 +58,7 @@ At first there was one agent in a loop. It read, did the job, edited, and checke
 
 ## How it works
 
-> [!note] The MVP only covers the Prewriting Phase of the plugin, and it's intentionally shaped around how *I* work. The full version allows users to customize to their approach. 
+> [!info] The MVP only covers the Prewriting Phase of the plugin, and it's intentionally shaped around how *I* work. The full version allows users to customize to their approach. 
 
 The MVP only covers **migration** and **research** runs. A run is one pass the writer starts, doing one job.
 
@@ -106,7 +106,7 @@ A Brain Dump day, with all three kinds of markup:
 
 **Edit guard.** Code that runs after any run that edits notes. It compares every note with its snapshot, explains each change by the unit record or a known Run manager edit, runs 12 markup rules via code, and writes a flag for anything else to its flags file. A flag never stops a run, because a comment can allow an edit the rules wouldn't.
 
-> [!NOTE]- The components
+> [!technical]- The components
 >
 > | Component          | Model / effort | Reads                                                             | Writes                                                          | Called by                                   |
 > | ------------------ | -------------- | ----------------------------------------------------------------- | --------------------------------------------------------------- | ------------------------------------------- |
@@ -178,7 +178,7 @@ What happened: three batches and 25 units, every one approved in the first round
 
 ![[run-log-qs-for-you.png]]
 
-**[[digital-garden/run-2026-10-16-0931-migration|The full run log]]**
+[Full run log](run-2026-10-16-0931-migration.md)
 
 ### Research run
 
@@ -191,7 +191,7 @@ The request line after the run:
     - [AGENT] [[research-light-catching-anxiety]]
 ```
 
-**[[research-light-catching-anxiety|The 2026-10-22 research note]]**
+[Full research note](research-light-catching-anxiety.md)
 
 ## Evaluation and evidence
 
@@ -239,7 +239,7 @@ A pass meant three things:
 
 It passed in 3 of 3 runs, with 10 of 10 checks each. Every run read only the five files mentioned in its prompt. Its reply flagged the wristwatch line: "You tagged this line committed and your comment sends it to char-mara, but it was left where it is…"
 
-> [!NOTE]- Run 1's reply
+> [!technical]- Run 1's reply
 >
 > ```json
 > {"batch":"b1","round":0,"units":[{"unit":"u1","verdict":"approve","problems":[]},{"unit":"u2","verdict":"approve","problems":[]}],"missed":[{"source":{"note":"brain-dump.md","line":10,"text":"- Mara still wears Tobias's wristwatch, stopped at twenty past four, the minute the boat went down. #status/committed"},"what":"You tagged this line committed and your comment sends it to char-mara, but it was left where it is: nothing was copied to char-mara.md and no question asks you about it."}]}
@@ -316,7 +316,7 @@ A check that counts attempts will pass work that failed. I now check what a step
 > **Tests**
 > - All 354 code tests and 24 stand-in cases pass, and the migration-verifier passed all 17 of its eval cases in 3 of 3 runs.
 
-> [!NOTE]- Still in progress
+> [!in-progress]- Still in progress
 > **Prewriting Phase:** a Review run where an agent checks existing material against something that changed and flags continuity errors, unfulfilled setups, and loose ends. Designed, not built.
 >
 > **Writing Phase:** the script parser turns a Fountain screenplay into scenes with stable IDs, and it runs today. Designed, but not built:
