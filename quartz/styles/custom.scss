@@ -359,9 +359,12 @@ input[type="checkbox"]:checked {
 //   height: 24px;
 // }
 
+// Callouts render as <blockquote>, which is Zilla Slab italic site-wide.
+// Reset both here so tables and lists inside a callout match body text.
 .callout {
   color: var(--color);
   border-radius: $radius-sm;
+  font-family: $font-body;
   font-style: normal;
 }
 
@@ -1508,6 +1511,50 @@ a.internal.broken {
     font-size: var(--text-xs);
     text-transform: uppercase;
     letter-spacing: 0.05em;
+  }
+}
+
+// ===================
+// CASE STUDIES
+// ===================
+
+// Opt in with `cssclasses: [case-study]` in a page's frontmatter.
+// Tables read as reference lists, so text starts at the left edge and
+// rows sit tighter than prose.
+.case-study .table-container {
+  th,
+  td {
+    text-align: left;
+    vertical-align: top;
+    line-height: 1.4;
+  }
+}
+
+// Technical callouts hold reference detail, so their table text steps
+// down one size from body text.
+.callout[data-callout="technical"] .table-container td {
+  font-size: var(--text-sm);
+}
+
+// Code blocks wrap instead of scrolling sideways. Wrapped lines hang
+// under the text, not under the line number: --gutter matches the
+// number's width plus its 1rem margin.
+.case-study pre > code {
+  --gutter: 2rem;
+
+  &[data-line-numbers-max-digits="2"] {
+    --gutter: 3rem;
+  }
+
+  &[data-line-numbers-max-digits="3"] {
+    --gutter: 4rem;
+  }
+
+  & > [data-line] {
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+    padding-left: calc(0.25rem + var(--gutter));
+    text-indent: calc(-1 * var(--gutter));
   }
 }
 
@@ -2786,9 +2833,9 @@ body[data-slug="digital-garden/index"] h3 {
 // IMAGE ZOOM
 // ===================
 
-// quartz/static/scripts/image-zoom.js: images inside a .zoomable container
-// open full size in a <dialog>. Opt in by adding the class in content.
-.zoomable img {
+// quartz/static/scripts/image-zoom.js: every article image outside a link
+// opens full size in a <dialog>. Keep this selector in sync with the script.
+article img:not(a img) {
   cursor: zoom-in;
 
   &:focus-visible {

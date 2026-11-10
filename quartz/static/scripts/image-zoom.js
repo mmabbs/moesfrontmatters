@@ -1,4 +1,5 @@
-// Click-to-enlarge for images inside a `.zoomable` container.
+// Click-to-enlarge for every image in a page's article, except images
+// inside links (a click there should follow the link).
 // Opens the full-size image in a native <dialog>: Escape, the close button,
 // or a click outside the image closes it, and focus returns to the image.
 // Re-binds on Quartz's "nav" event, which fires after every page change.
@@ -21,7 +22,7 @@ function getZoomDialog() {
 }
 
 document.addEventListener("nav", () => {
-  const images = document.querySelectorAll(".zoomable img")
+  const images = document.querySelectorAll("article img:not(a img)")
   if (images.length === 0) return
 
   const dialog = getZoomDialog()
