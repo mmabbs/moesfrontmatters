@@ -25,7 +25,7 @@ Film production taught me to coordinate people, budgets, and changing requiremen
 
 [Learn more about me](about-me.md).
 
-If you need your AI workflows up and running, reach out at **moe@moesfrontmatters.com**.
+If you need your AI workflows up and running, reach out at <a class="contact" data-email="bW9jLnNyZXR0YW10bm9yZnNlb21AZW9t">email me</a>.
 </div>
 
 <nav class="nav-list">
