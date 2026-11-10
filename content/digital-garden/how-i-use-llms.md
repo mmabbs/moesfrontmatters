@@ -2,11 +2,7 @@
 title: How I Use LLMs
 seoTitle: How I Use LLMs | Notes on AI and LLMs Usage for Workflows and Research
 description: A note on what LLM proficiency means in my work.
-tags:
-  - ai
-  - llms
-  - workflows
-  - research
+tags: [ai, llms, workflows, research]
 modified: 09-17-2026
 created: 06-05-2026
 draft: true
