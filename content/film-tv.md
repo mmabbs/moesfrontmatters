@@ -13,7 +13,7 @@ draft: true
 In addition to other roles across the development/production value chain, I've worked as a consultant for production companies, grants bodies, financiers and equity investors in Canada, US, and the Arabian Gulf.
 
 > [!question]- Looking for coverage samples?
-> Please reach out at <span class="contact">moe[at]moesfrontmatters.com</span>. Due to NDAs, samples do not include films/shows that have not received distribution. All samples have redacted project titles and personnel.
+> Please <a class="contact" data-email="bW9jLnNyZXR0YW10bm9yZnNlb21AZW9t">reach out</a>. Due to NDAs, samples do not include films/shows that have not received distribution. All samples have redacted project titles and personnel.
 
 <h2 class="artifact-group-header">Scenes</h2>
 

@@ -10,7 +10,7 @@ draft: true
 
 # Marketing 
 
-> [!note] Due to NDAs, case studies emphasize methodology and strategic approach rather than final deliverables. If you'd like to discuss a project in detail, please reach out at <span class="contact">moe[at]moesfrontmatters.com</span>
+> [!note] Due to NDAs, case studies emphasize methodology and strategic approach rather than final deliverables. If you'd like to discuss a project in detail, please <a class="contact" data-email="bW9jLnNyZXR0YW10bm9yZnNlb21AZW9t">reach out</a>.
 
 ## Case Studies
 
