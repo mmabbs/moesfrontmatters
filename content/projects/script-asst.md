@@ -178,7 +178,7 @@ What happened: three batches and 25 units, every one approved in the first round
 
 ![[run-log-qs-for-you.png]]
 
-[Full run log](run-2026-10-16-0931-migration.md)
+[Full run log](companion-pages/run-2026-10-16-0931-migration.md)
 
 ### Research run
 

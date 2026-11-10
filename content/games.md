@@ -74,7 +74,7 @@ draft: false
 		<h3 class="artifact-title">Howard the Duck</h4>
 		<a href="artifacts/howard-barksheet.pdf" class="download-badge">PDF ↓</a>
 		<span class="artifact-info"><span class="format">Barksheet</span> · Action-Adventure ·</span>
-		<a href="/loglines/howard-the-duck-and-spider-ham" class="project-link">Howard the Duck & Spider-Ham</a>
+		<a href="/projects/howard-the-duck-and-spider-ham" class="project-link">Howard the Duck & Spider-Ham</a>
 	</div>
 	<p class="artifact-description">
 		Barks with partner dynamics, escalation patterns, meta-commentary, and conditional firing logic in combat, stealth, exploration, and traversal.
