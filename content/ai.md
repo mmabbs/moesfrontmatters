@@ -29,18 +29,14 @@ These are build write-ups showing how I can scope and ship a working system.
 ### [Script Assistant](projects/script-asst)
 
 > [!ai] Summary
-> **What it is:** [Plain-language description.]  
-> **Problem:** [Operational problem.]  
-> **My role:** [Discovery, workflow design, prototype/build work, evaluation, etc.]  
-> **Status:** [What is demonstrably working now.]  
-> **Outcome:** [Measured result or demonstrated capability.]  
-> **Methods:** [A short, accurate list.]
-
-%%AI screenwriting tools tend to do the writing for you. This pipeline does the opposite — it supports the writer's process without touching the creative work. At its core is a format-aware voice intake: spoken drafting through VoiceInk into structured screenplay format, preserving the intimacy of thinking out loud instead of forcing the writer into a text editor. The pipeline's six stages handle intake, formatting, and structural support. Components that run are demoed as builds; components in design are labeled as design.
-
-**Problem:** Screenwriting tools that use AI either generate the writing (replacing the writer) or ignore format (adding manual work).
-**Build:** A six-stage pipeline anchored by format-aware voice intake — VoiceInk to structured screenplay, creative process intact. [EDITOR: note which stages are built vs. designed if that detail is useful here]
-**Result:** [EDITOR: result — what the demo shows, time saved, or what it replaced]%%
+> **What it is:** A Claude Code plugin that files a screenwriter's raw ideas into organized Obsidian notes and turns research questions into sourced notes. It doesn't write the script or come up with ideas.  
+> **Problem:** A writer's ideas pile up in one place and have to be sorted by hand into the right notes as the story takes shape. A chat assistant can't do that job reliably: it has to be re-briefed every time, and it can't show what it changed.  
+> **My role:** I defined the problem from my own writing process, designed the workflow and note system, directed Claude Code agents to build it from my specs, and designed the evals that gate each part.  
+> **Status:** As of 2026-10-28, the MVP for *Script Assistant* is built. It covers the Pre-Writing Phase only. Next up is the Writing Phase.  
+> **Build:** Opus 5.5 workers wrote the tests and code, directed from Fable 5.1 and Opus 5.5 sessions.  
+> **Tools:** Claude Code (plugin host, agents, hooks), Claude Opus 5.5 and Sonnet 5.5 (agents), Obsidian (notes, backlinks, comments), Python (Run manager and Edit guard), Node (the research script)  
+> **Methods:** spec-first tests written by a separate worker, bare-model baseline runs, model-judge graders that quote evidence, a skeptic review before the build, 3-of-3 pass gates  
+> **Outcome:** On a real project, one migration run filed 25 ideas in about 13 minutes. All 25 were approved on the first check, and the Edit guard accounted for every one of the 96 changes. A research run turned one question into a footnoted note in 19 minutes. No run asked for permission, down from 14 prompts in the first test. All 354 code tests pass, and the migration-verifier passed all 17 of its eval cases in 3 of 3 runs.
 
 ### [Eval Suite {for a pre-existing pipeline}](projects/eval-suite)
 
