@@ -1358,10 +1358,18 @@ svg {
 // CONTACT
 // ===================
 
+// Email links match the homepage intro's links (.hero-bio a).
 .contact {
   font-style: normal;
   font-weight: 500;
-  color: var(--accent);
+  color: var(--link);
+  text-decoration: underline;
+  text-decoration-color: var(--accent);
+  text-underline-offset: 3px;
+
+  &:hover {
+    color: var(--link-hover);
+  }
 }
 
 // ===================
