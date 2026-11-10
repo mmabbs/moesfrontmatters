@@ -18,3 +18,5 @@ draft:
 I once asked Claude, in a fresh context window outside a project, to scan for rogue processes that were overheating my laptop. Its response? A poem about the frailties of old age...(Kinda, sorta) lateral-thinking, or a crossed wire from someone else's session? You decide. ^pop-up-3
 
 A framework that parses arguments into individual lines/blocks to see how the reasoning chains together (or not). ^pop-up-4
+
+
