@@ -1,5 +1,28 @@
 # Changelog
 
+## 2026-11-10
+
+### Companion pages (PR #71, merged and deployed)
+
+- Moved the Script Asst run log from `digital-garden/` to a new `companion-pages/` folder. An alias redirects the old `/digital-garden/run-2026-10-16-0931-migration` address. Checked on the live site.
+- Added `companion-pages/index.md` so the folder's list page has a title and intro.
+- Removed `projects/index.md` and the `loglines/` folder. The Games (Howard) and Marketing (Otter Side) logline links now point to the project pages.
+- Fixed the Script Asst "Full run log" link. A link written as just the filename resolved to the site root, so it uses the full path now.
+
+### Security fixes (PRs #72, #73, #74, merged and deployed)
+
+- `source-map-js` 1.2.1 → 1.2.2 in `package-lock.json` (alert 66).
+- `minimatch` 10 → 11 in `package.json` (Dependabot PR #73, alert 192). Upstream Quartz is still on 10, so expect a one-line conflict on the next upstream merge. Keep 11.
+- npm `overrides` in `footer`, `og-image` and `section-nav` that force the lint tool's minimatch to ^11.0.1 (alerts 193–195). The plugins' `dist/` files are unchanged.
+- 0 open Dependabot alerts. og-image still has 2 moderate `npm audit` warnings in `fflate` (via `satori`). It's build-time only, and Moe chose to leave it.
+
+### Local only (not committed)
+
+- Moe removed the `content/drafts/` folder (never tracked by git). Its two pages moved to `content/private/`.
+- `.claude/rules/drafting.md`: Claude's drafts now go to `content/private/`.
+- `.claude/scripts/check-links.py`: tests every internal link on the built site and source links on draft pages. `.claude/rules/live-site-verification.md` now says to run it after any structural change.
+- `CLAUDE.md`: the content folder list names `companion-pages/` instead of `loglines/`.
+
 ## 2026-10-29
 
 On `main`, pushed and deployed (`1ca9128`). Checked on the live site.
