@@ -2,8 +2,8 @@
 title: AI 
 seoTitle: AI Automation and Workflow Case Studies | Multi-Agent Systems, Evaluation Design, Workflow Pipelines
 description: Problem, build, result. Case studies in multi-agent orchestration, adversarial evaluation, and creative workflow automation — from an automation consultant with a production background.
-tags:
-modified: 09-17-2026
+tags: []
+modified: 11-10-2026
 created: 09-09-2026
 draft: 
 ---
@@ -16,7 +16,7 @@ draft:
 
 These are build write-ups showing how I can scope and ship a working system.
 
-### [Insurance Intake](projects/ins-intake) 
+### [Insurance Intake](projects/ins-intake) <span class="heading-label">(email workflow)</span>
 
 > [!ai] Summary
 > **What it is:** An AI workflow that reads an insurance brokerage's shared inbox, drafts the record a staff member would normally type out, and sends it to a broker to check. Every email, approval, and correction is logged, and the broker's corrections feed back into the AI's instructions. Demo build, made-up data.  
@@ -26,7 +26,7 @@ These are build write-ups showing how I can scope and ship a working system.
 > **Outcome:** On a scored test of 12 deliberately messy emails, it got every email's type right, as well as 71 of 72 details. All for about fifth of a cent per email.  
 > **Methods:** n8n (self-hosted) · Claude Haiku 5.5 · Gmail · Claude Code
 
-### [Script Assistant](projects/script-asst)
+### [Script Assistant](projects/script-asst) <span class="heading-label">(Claude Code plugin)</span>
 
 > [!ai] Summary
 > **What it is:** A Claude Code plugin that files a screenwriter's raw ideas into organized Obsidian notes and turns research questions into sourced notes. It doesn't write the script or come up with ideas.  
@@ -38,26 +38,17 @@ These are build write-ups showing how I can scope and ship a working system.
 > **Methods:** spec-first tests written by a separate worker, bare-model baseline runs, model-judge graders that quote evidence, a skeptic review before the build, 3-of-3 pass gates  
 > **Outcome:** On a real project, one migration run filed 25 ideas in about 13 minutes. All 25 were approved on the first check, and the Edit guard accounted for every one of the 96 changes. A research run turned one question into a footnoted note in 19 minutes. No run asked for permission, down from 14 prompts in the first test. All 354 code tests pass, and the migration-verifier passed all 17 of its eval cases in 3 of 3 runs.
 
-### [Eval Suite {for a pre-existing pipeline}](projects/eval-suite)
+### Eval Suite 
 
 > [!ai] Summary
-> **What it is:** [Plain-language description.]  
-> **Problem:** [Operational problem.]  
-> **My role:** [Discovery, workflow design, prototype/build work, evaluation, etc.]  
-> **Status:** [What is demonstrably working now.]  
-> **Outcome:** [Measured result or demonstrated capability.]  
-> **Methods:** [A short, accurate list.]
+> Coming soon!
 
-%% Includes regression tests. Break out of Script Asst? %%
+### Insurance Intake <span class="heading-label">(rollout kit)</span>
 
+> [!ai] Summary
+> Coming soon!
 
+### Dental Clinic <span class="heading-label">(rollout kit)</span> 
 
-%% Claude's note: Two things do matter for the job-hunt version, and neither is about optics:
-
-1. Write a second case study for a different reader. The one in the spec is aimed at principal brokers — it proves operational fluency and safety in their vocabulary (BMS, RIBO, E&O). A hiring manager for an Automation Lead or Solutions Architect role reads the same build for different evidence: how you scoped it to a one-week deliverable, why n8n over the alternatives, why the review queue sits where it sits, how the audit trail is structured. Same artifact, second write-up. The broker version proves you understand their business; the portfolio version proves you can think through a system. Don't hand a hiring manager the broker version and hope they translate.
-2. Be exact about what your developer built, if anything. The spec doesn't say whether the on-call developer touches the demo. If they do, the portfolio write-up says which parts — because "walk me through what you personally built" is the first question in any automation-role interview, and a vague answer there costs more than a modest one.
-
-One forward-looking note, since the spec's endgame is a design-partner brokerage with real system access: the moment a real client is involved, the permission question comes back. If the job hunt overlaps with that engagement, the portfolio piece stays the synthetic version unless the brokerage agrees to be named.
-
-What the piece actually earns you is worth saying plainly: it's not just "I built a workflow." It's a workflow plus vertical research plus governance artifacts plus a human-in-the-loop design justified by a regulator's position. Almost no one shows up to an automation interview with that combination. Lead with it.
-%%
+> [!ai] Summary
+> Coming soon!
