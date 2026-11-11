@@ -3,7 +3,7 @@ title: Home
 seoTitle: Producer & Writer Portfolio | Content Strategy, Games, Film
 description: Explore my producer and writer portfolio across content strategy, marketing, narrative design in games, and screenwriting. View my latest work in games and marketing.
 tags: []
-modified: 09-17-2026
+modified: 11-11-2026
 created: 06-26-2026
 draft:
 ---
@@ -13,43 +13,41 @@ draft:
 	<span class="accent">Frontmatters</span>
 </h1>
 
-<p class="hero-intro">AI automation specialist&nbsp;· writer&nbsp;· content strategist&nbsp;· marketer&nbsp;· producer</p>
+<p class="hero-intro">AI enablement and automation specialist&nbsp;| producer&nbsp;| writer&nbsp;| content strategist</p>
 
 <div class="hero-bio">
 
-I design AI-enabled tools, workflows and knowledge systems, drawing on fifteen years in film/tv production, content strategy/marketing, and UX.
+My current focus is AI enablement and automation: understanding how people work, identifying where AI can help, and designing tools and workflows that make the work easier and more reliable. I build and prototype systems, evaluate their performance, and consider what it takes for people to use and maintain them effectively.
 
-My work includes tools for checking research citations, automating research workflows,  and systems for reviewing and maintaining AI configurations. I map the problem, design the workflow, and build or prototype what’s appropriate, working with technical specialists when production engineering is needed.
-
-Film production taught me to coordinate people, budgets, and changing requirements. Content strategy and UX taught me to organize information around the people using it. Those experiences shape how I approach automation: understanding the work before deciding what to automate.
+My approach draws on fifteen years across film and television production, writing, content strategy, marketing, and UX, complemented by training in front-end development. I've managed complex productions, developed scripts and interactive narratives, built content strategies and operations from scratch, and designed experiences around the people using them. Those experiences taught me to understand the work, its constraints, and the people involved before deciding what needs to change.
 
 [Learn more about me](about-me.md).
 
-If you need your AI workflows up and running, reach out at <a class="contact" data-email="bW9jLnNyZXR0YW10bm9yZnNlb21AZW9t">email me</a>.
+Interested in my work or have something in mind? <a class="contact" data-email="bW9jLnNyZXR0YW10bm9yZnNlb21AZW9t">Get in touch</a>.
 </div>
 
 <nav class="nav-list">
-	<a href="/ai" class="nav-item">
-		<span class="nav-title">AI</span>
+	<div class="nav-item">
+		<a href="/ai" class="nav-title">AI</a>
 		<span class="nav-desc">Case studies on tools, workflows, and knowledge systems</span>
-	</a>
-	<a href="/games" class="nav-item">
-		<span class="nav-title">Games</span>
+	</div>
+	<div class="nav-item">
+		<a href="/games" class="nav-title">Games</a>
 		<span class="nav-desc">Cinematics, character work, lore, and worldbuilding artifacts.</span>
-	</a>
+	</div>
 	<!-- Hidden while film-tv.md is a draft. Restore when it goes live.
-	<a href="/film-tv" class="nav-item">
-		<span class="nav-title">Film & TV</span>
+	<div class="nav-item">
+		<a href="/film-tv" class="nav-title">Film & TV</a>
 		<span class="nav-desc">Produced shorts, screenwriting samples, and credits.</span>
-	</a>
+	</div>
 	-->
-	<a href="/marketing" class="nav-item">
-		<span class="nav-title">Marketing</span>
+	<div class="nav-item">
+		<a href="/marketing" class="nav-title">Marketing</a>
 		<span class="nav-desc">Content strategy frameworks and UX case studies.</span>
-	</a>
-	<a href="/digital-garden" class="nav-item" data-no-popover="true">
-		<span class="nav-title">Digital Garden</span>
+	</div>
+	<div class="nav-item">
+		<a href="/digital-garden" class="nav-title" data-no-popover="true">Digital Garden</a>
 		<span class="nav-desc">Notes on projects and whatever's on my mind.</span>
-	</a>
+	</div>
 </nav>
 
