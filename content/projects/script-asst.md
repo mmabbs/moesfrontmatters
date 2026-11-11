@@ -1,15 +1,14 @@
 ---
 title: Case Study - Script Assistant
-section: /ai
 seoTitle: 
-aliases: script-asst
+aliases: [script-asst]
 description: 
-tags: 
+tags: []
 modified: 11-10-2026
 created: 11-10-2026
 draft: 
-cssclasses:
-  - case-study
+section: /ai
+cssclasses: [case-study]
 ---
 
 # Case Study - Script Assistant
@@ -329,4 +328,4 @@ A check that counts attempts will pass work that failed. I now check what a step
 
 **Repo:** [Insert URL]
 
-[[Projects/Job Hunt/appendix-script-asst-case-study|Appendix containing the architecture, edges, and per-package counts]] 
+[Appendix containing the architecture, edges, and per-package counts](companion-pages/appendix-script-asst)
