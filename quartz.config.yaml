@@ -198,7 +198,6 @@ plugins:
     options:
       links:
         Home: /
-        About: /about-me
         AI: /ai
         Games: /games
         Film & TV: /film-tv
