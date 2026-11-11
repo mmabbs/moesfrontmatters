@@ -11,12 +11,3 @@ draft: false
 # Coming soon!
 
 Still cooking this up. 
-
-## Check out what's already live:
-
-<div class="related-list">
-	<a href="digital-garden/how-i-use-llms" class="related-item">
-		<span class="related-title">How I Use LLMs</span>
-		<span class="related-desc"> – Practice Note</span>
-	</a>
-</div>

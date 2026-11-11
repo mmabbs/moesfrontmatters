@@ -133,7 +133,7 @@ draft: false
 	<div class="artifact-title-row">
 		<h3 class="artifact-title">Pitch Deck</h4>
 		<span class="artifact-info"><span class="format">Content Strategy</span> ·</span>
-		<a href="/projects/the-otter-side" class="project-link">The Otter Side</a>
+		<a href="/coming-soon-games" class="project-link">The Otter Side</a>
 	</div>
 </div>
 
@@ -141,7 +141,7 @@ draft: false
 	<div class="artifact-title-row">
 		<h3 class="artifact-title">Messaging Architecture</h4>
 		<span class="artifact-info"><span class="format">Framework</span> ·</span>
-		<a href="/projects/the-otter-side" class="project-link">The Otter Side</a>
+		<a href="/coming-soon-games" class="project-link">The Otter Side</a>
 	</div>
 </div>
 
@@ -149,7 +149,7 @@ draft: false
 	<div class="artifact-title-row">
 		<h3 class="artifact-title">Voice Pattern Systems</h4>
 		<span class="artifact-info"><span class="format">Framework</span> ·</span>
-		<a href="/projects/the-otter-side" class="project-link">The Otter Side</a>
+		<a href="/coming-soon-games" class="project-link">The Otter Side</a>
 	</div>
 </div>
 </div>

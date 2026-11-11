@@ -60,24 +60,3 @@ The scene, barksheet and character bio were entries to ELVTR's 2024 Game Writing
 	<p class="artifact-description">Comprehensive character bio covering psychology, voice systems, relationship dynamics, moral framework, and formative backstory.</p>
 </div>
 </div>
-
-## See Also...
-
-<div class="related-list">
-	<a href="/projects/howard-the-duck-and-spider-ham" class="related-item">
-		<span class="related-title">Howard the Duck & Spider-Ham</span>
-		<span class="related-desc">– Character Work</span>
-	</a>
-	<a href="/projects/samsaras-edge" class="related-item">
-		<span class="related-title">SamSara's Edge</span>
-		<span class="related-desc">– Scenes</span>
-	</a>
-	<a href="/projects/grim-rock" class="related-item">
-		<span class="related-title">Grim Rock</span>
-		<span class="related-desc">– Scenes · Worldbuilding</span>
-	</a>
-	<a href="/projects/the-otter-side" class="related-item">
-		<span class="related-title">The Otter Side</span>
-		<span class="related-desc">– Marketing · Mobile Game</span>
-	</a>
-</div>
