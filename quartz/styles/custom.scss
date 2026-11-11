@@ -550,12 +550,74 @@ ol.overflow {
   margin-top: 3rem;
 }
 
+// Home title size, shared with the portrait so the two scale together.
+:root {
+  // 36px at a 375px viewport → 72px at 1280px
+  --hero-title-size: clamp(2.25rem, 1.318rem + 3.978vw, 4.5rem);
+}
+
+// Hero head: portrait on the left, title on the right. The role line
+// sits below the head, at the body text width.
+// The head is a size container. Its children share --hero-fit: the
+// title size, shrunk only where the photo plus "Frontmatters" (about
+// 5.6x the font size wide) would overflow the column.
+//   photo width = 0.8 x 1.84 x size, so size <= (column - 16px) / 7.07
+.hero-head {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-16);
+  margin-bottom: var(--space-32);
+  container-type: inline-size;
+
+  > * {
+    --hero-fit: min(var(--hero-title-size), calc(14cqi - 2.3px));
+  }
+}
+
+.hero-head-text {
+  min-width: 0;
+}
+
+.hero-head .hero-title {
+  font-size: var(--hero-fit);
+  margin: 0;
+}
+
+// As tall as the title's two lines (2 x 0.92 line-height).
+article img.hero-photo {
+  flex-shrink: 0;
+  height: calc(var(--hero-fit) * 1.84);
+  width: auto;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border-radius: 8px;
+  margin: 0;
+}
+
+// Phones: the portrait gets its own line above the title, at a fixed
+// portrait size, and the title has the full column again.
+@media all and ($mobile) {
+  .hero-head {
+    flex-direction: column;
+
+    > * {
+      --hero-fit: var(--hero-title-size);
+    }
+  }
+
+  article img.hero-photo {
+    width: 128px;
+    height: 160px;
+  }
+}
+
 // Hero eyebrow label
 .hero-title {
   font-family: $font-display;
-  // The one theatrical moment: 48px at 390px wide → 96px from ~1200px.
-  // Inner-page h1s stay at 60px, so the home title is the only peak.
-  font-size: clamp(3rem, 1.55rem + 5.93vw, 6rem);
+  // The one theatrical moment: 36px on phones → 72px from 1280px
+  // (set in --hero-title-size). Inner-page h1s stop at 60px, so the
+  // home title is still the only peak.
+  font-size: var(--hero-title-size);
   font-weight: 600;
   line-height: 0.92;
   letter-spacing: -0.035em;
@@ -3402,6 +3464,7 @@ article img:not(a img) {
   }
 }
 
+[data-slug="index"] .hero-photo,
 [data-slug="index"] .hero-title,
 [data-slug="index"] .hero-intro,
 [data-slug="index"] .hero-bio,
@@ -3413,6 +3476,9 @@ article img:not(a img) {
   animation: entrance 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 
+[data-slug="index"] .hero-photo {
+  animation-delay: 0.05s;
+}
 [data-slug="index"] .hero-title {
   animation-delay: 0.05s;
 }

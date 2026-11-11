@@ -8,10 +8,15 @@ created: 06-26-2026
 draft:
 ---
 
+<div class="hero-head">
+<img class="hero-photo" src="./site-assets/me-grey-bg.webp" alt="Moe Abbas" width="480" height="600">
+<div class="hero-head-text">
 <h1 class="hero-title">
 	<span>Moe’s</span>
 	<span class="accent">Frontmatters</span>
 </h1>
+</div>
+</div>
 
 <p class="hero-intro">AI enablement and automation specialist&nbsp;| producer&nbsp;| writer&nbsp;| content strategist</p>
 
@@ -20,8 +25,6 @@ draft:
 My current focus is AI enablement and automation: understanding how people work, identifying where AI can help, and designing tools and workflows that make the work easier and more reliable. I build and prototype systems, evaluate their performance, and consider what it takes for people to use and maintain them effectively.
 
 My approach draws on fifteen years across film and television production, writing, content strategy, marketing, and UX, complemented by training in front-end development. I've managed complex productions, developed scripts and interactive narratives, built content strategies and operations from scratch, and designed experiences around the people using them. Those experiences taught me to understand the work, its constraints, and the people involved before deciding what needs to change.
-
-[Learn more about me](about-me.md).
 
 Interested in my work or have something in mind? <a class="contact" data-email="bW9jLnNyZXR0YW10bm9yZnNlb21AZW9t">Get in touch</a>.
 </div>
