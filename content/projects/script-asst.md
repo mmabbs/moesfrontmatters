@@ -191,7 +191,7 @@ The request line after the run:
     - [AGENT] [[research-light-catching-anxiety]]
 ```
 
-[Full research note](research-light-catching-anxiety.md)
+[Research note excerpt](companion-pages/research-catching-anxiety.md)
 
 ## Evaluation and evidence
 
