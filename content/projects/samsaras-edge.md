@@ -33,24 +33,3 @@ After faking their romantic compatibility score in an AI-run city, Sara and Sam 
 		A trial scene where a dysfunctional couple attempt to emotionally manipulate a sensitive, anthophile AI judge into choosing their partner as the first to enter a roguelite dungeon.
 	</p>
 </div>
-
-## See also...
-
-<div class="related-list">
-	<a href="/projects/ollie-oxenfree" class="related-item">
-		<span class="related-title">Ollie Oxenfree</span>
-		<span class="related-desc"> – Scene · Character Work</span>
-	</a>
-	<a href="/projects/howard-the-duck-and-spider-ham" class="related-item">
-		<span class="related-title">Howard the Duck & Spider-Ham</span>
-		<span class="related-desc"> – Character Work</span>
-	</a>
-	<a href="/projects/grim-rock" class="related-item">
-		<span class="related-title">Grim Rock</span>
-		<span class="related-desc"> – Scene · Worldbuilding</span>
-	</a>
-	<a href="/projects/the-otter-side" class="related-item">
-		<span class="related-title">The Otter Side</span>
-		<span class="related-desc"> – Marketing · Mobile Game</span>
-	</a>
-</div>

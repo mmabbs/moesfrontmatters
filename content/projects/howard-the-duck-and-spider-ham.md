@@ -34,25 +34,3 @@ A portable hole swallows the Pet Avengers and a post-it frames Howard the Duck a
 	</p>
 </div>
 </div>
-
-## See also...
-
-<div class="related-list">
-	<a href="/projects/ollie-oxenfree" class="related-item">
-		<span class="related-title">Ollie Oxenfree</span>
-		<span class="related-desc">– Scene · Character Work</span>
-	</a>
-		<a href="/projects/samsaras-edge" class="related-item">
-		<span class="related-title">SamSara's Edge</span>
-		<span class="related-desc">– Scenes</span>
-	</a>
-	<a href="/projects/grim-rock" class="related-item">
-		<span class="related-title">Grim Rock</span>
-		<span class="related-desc">– Scene · Worldbuilding</span>
-	</a>
-	<a href="/projects/the-otter-side" class="related-item">
-		<span class="related-title">The Otter Side</span>
-		<span class="related-desc">– Marketing · Mobile Game</span>
-	</a>
-</div>
-
