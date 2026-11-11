@@ -816,14 +816,19 @@ ul.tags {
   margin-top: var(--space-32);
 }
 
-// Override a.internal background for nav items
-a.internal.nav-item,
+// Each row: the name is the link, the description is plain text beside it
 .nav-item {
   display: flex;
   align-items: baseline;
   gap: 12px;
+}
+
+// Override a.internal background for the name link
+a.internal.nav-title,
+a.nav-title {
   background: transparent;
   padding: 0;
+  line-height: inherit;
 }
 
 .nav-title {
@@ -843,7 +848,8 @@ a.internal.nav-item,
   }
 }
 
-.nav-item:hover .nav-title {
+.nav-title:hover,
+.nav-title:focus-visible {
   color: var(--link-hover);
 
   &::after {
