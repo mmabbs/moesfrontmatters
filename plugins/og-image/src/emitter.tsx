@@ -507,7 +507,9 @@ export const defaultImage: SocialImageOptions["imageStructure"] = ({
           style={{
             display: "flex",
             fontSize: 32,
-            color: theme.colors[colorScheme].gray,
+            // Moe's fork: secondary text uses darkgray (umber, 5.73:1 on cream).
+            // gray is a surface step and measures 1.24:1 as text.
+            color: theme.colors[colorScheme].darkgray,
             fontFamily: bodyFont,
           }}
         >
@@ -579,7 +581,9 @@ export const defaultImage: SocialImageOptions["imageStructure"] = ({
             display: "flex",
             alignItems: "center",
             gap: "2rem",
-            color: theme.colors[colorScheme].gray,
+            // Moe's fork: secondary text uses darkgray (umber, 5.73:1 on cream).
+            // gray is a surface step and measures 1.24:1 as text.
+            color: theme.colors[colorScheme].darkgray,
             fontSize: 28,
           }}
         >
