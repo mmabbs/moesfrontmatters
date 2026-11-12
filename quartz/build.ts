@@ -325,7 +325,10 @@ async function rebuild(changes: ChangeEvent[], clientRefresh: () => void, buildD
       if (emitter.name === "PageTypeDispatcher") continue
       // Try to use partialEmit if available, otherwise assume the output is static
       const emitFn = emitter.partialEmit ?? emitter.emit
-      const emitted = await emitFn(ctx, contentWithVirtual, staticResources, changeEvents)
+      // Moe's site: ContentIndex writes the sitemap and RSS feed. Leave out
+      // generated tag and folder pages so they don't crowd out real pages.
+      const emitterContent = emitter.name === "ContentIndex" ? processedFiles : contentWithVirtual
+      const emitted = await emitFn(ctx, emitterContent, staticResources, changeEvents)
       if (emitted === null) {
         continue
       }

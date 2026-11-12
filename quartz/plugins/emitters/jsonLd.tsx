@@ -1,6 +1,10 @@
 import { QuartzEmitterPlugin } from "../types"
 import { QuartzPluginData } from "../vfile"
-import { joinSegments } from "../../util/path"
+import { FullSlug, joinSegments, simplifySlug } from "../../util/path"
+
+// Writes schema.org structured data (JSON-LD) into each page's <head>.
+// Search engines read it as labeled facts about the page and its author.
+// Registered as a built-in emitter in quartz/plugins/loader/config-loader.ts.
 
 export interface JsonLdOptions {
   /** Author name for Person schema */
@@ -14,122 +18,73 @@ export interface JsonLdOptions {
 const defaultOptions: JsonLdOptions = {
   authorName: "Moe Abbas",
   // authorJobTitle omitted — add when positioning is settled
-  sameAs: [
-    "https://www.linkedin.com/in/moe-m-abbas/",
-    "https://github.com/mmabbs",
-  ],
+  sameAs: ["https://www.linkedin.com/in/moe-m-abbas/", "https://github.com/mmabbs"],
 }
 
-interface PersonSchema {
-  "@context": "https://schema.org"
-  "@type": "Person"
-  name: string
-  jobTitle?: string
-  url: string
-  sameAs?: string[]
+type Author = { "@type": "Person"; name: string }
+
+function pageUrl(baseUrl: string, slug: string): string {
+  // Same form as the canonical link and sitemap: "index" -> "/", "a/index" -> "a/"
+  return joinSegments(`https://${baseUrl}/`, simplifySlug(slug as FullSlug))
 }
 
-interface WebSiteSchema {
-  "@context": "https://schema.org"
-  "@type": "WebSite"
-  name: string
-  url: string
-  author: { "@type": "Person"; name: string }
+function isoDate(date: unknown): string | undefined {
+  return date instanceof Date && !isNaN(date.getTime()) ? date.toISOString() : undefined
 }
 
-interface ArticleSchema {
-  "@context": "https://schema.org"
-  "@type": "Article"
-  headline: string
-  description?: string
-  author: { "@type": "Person"; name: string }
-  datePublished?: string
-  dateModified?: string
-  url: string
+function pageText(value: unknown): string | undefined {
+  return typeof value === "string" && value.trim() !== "" ? value.trim() : undefined
 }
 
-interface CreativeWorkSchema {
-  "@context": "https://schema.org"
-  "@type": "CreativeWork"
-  name: string
-  description?: string
-  author: { "@type": "Person"; name: string }
-  url: string
-}
-
-function generatePersonSchema(baseUrl: string, opts: JsonLdOptions): PersonSchema {
+function personSchema(baseUrl: string, opts: JsonLdOptions) {
   return {
     "@context": "https://schema.org",
     "@type": "Person",
     name: opts.authorName,
     jobTitle: opts.authorJobTitle,
-    url: `https://${baseUrl}`,
+    url: `https://${baseUrl}/`,
     sameAs: opts.sameAs,
   }
 }
 
-function generateWebSiteSchema(
-  baseUrl: string,
-  siteTitle: string,
-  opts: JsonLdOptions,
-): WebSiteSchema {
+function webSiteSchema(baseUrl: string, siteTitle: string, author: Author) {
   return {
     "@context": "https://schema.org",
     "@type": "WebSite",
     name: siteTitle,
-    url: `https://${baseUrl}`,
-    author: {
-      "@type": "Person",
-      name: opts.authorName,
-    },
+    url: `https://${baseUrl}/`,
+    author,
   }
 }
 
-function generateArticleSchema(
-  baseUrl: string,
-  pageData: QuartzPluginData,
-  opts: JsonLdOptions,
-): ArticleSchema | null {
-  const frontmatter = pageData.frontmatter
-  if (!frontmatter) return null
-
-  // Only generate Article schema for pages with dates
-  const datePublished = frontmatter.published ?? frontmatter.created
-  if (!datePublished) return null
-
-  return {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    headline: frontmatter.title,
-    description: frontmatter.description,
-    author: {
-      "@type": "Person",
-      name: opts.authorName,
-    },
-    datePublished: datePublished,
-    dateModified: frontmatter.modified,
-    url: `https://${joinSegments(baseUrl, pageData.slug ?? "")}`,
-  }
-}
-
-function generateCreativeWorkSchema(
-  baseUrl: string,
-  pageData: QuartzPluginData,
-  opts: JsonLdOptions,
-): CreativeWorkSchema | null {
-  const frontmatter = pageData.frontmatter
-  if (!frontmatter) return null
-
+/** Case studies and game writing specs. */
+function creativeWorkSchema(baseUrl: string, pageData: QuartzPluginData, author: Author) {
+  const fm = pageData.frontmatter
   return {
     "@context": "https://schema.org",
     "@type": "CreativeWork",
-    name: frontmatter.title,
-    description: frontmatter.description,
-    author: {
-      "@type": "Person",
-      name: opts.authorName,
-    },
-    url: `https://${joinSegments(baseUrl, pageData.slug ?? "")}`,
+    name: pageText(fm?.title),
+    description: pageText(fm?.description),
+    author,
+    dateCreated: isoDate(pageData.dates?.created),
+    dateModified: isoDate(pageData.dates?.modified),
+    url: pageUrl(baseUrl, pageData.slug ?? ""),
+  }
+}
+
+/** Notes, essays, run logs and appendices. */
+function articleSchema(baseUrl: string, pageData: QuartzPluginData, author: Author) {
+  const fm = pageData.frontmatter
+  return {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: pageText(fm?.title),
+    description: pageText(fm?.description),
+    author,
+    // dates.published falls back to build time when frontmatter has none; use created
+    datePublished: isoDate(pageData.dates?.created),
+    dateModified: isoDate(pageData.dates?.modified),
+    url: pageUrl(baseUrl, pageData.slug ?? ""),
   }
 }
 
@@ -138,51 +93,45 @@ export const JsonLd: QuartzEmitterPlugin<Partial<JsonLdOptions>> = (userOpts) =>
 
   return {
     name: "JsonLd",
-    getQuartzComponents: () => [],
-    emit: async () => [],
+    async emit() {
+      return []
+    },
     externalResources: (ctx) => {
       const baseUrl = ctx.cfg.configuration.baseUrl ?? ""
       const siteTitle = ctx.cfg.configuration.pageTitle
+      const author: Author = { "@type": "Person", name: opts.authorName }
 
       return {
         additionalHead: [
           (pageData: QuartzPluginData) => {
-            const schemas: object[] = []
             const slug = pageData.slug ?? ""
-            const isHomepage = slug === "index"
-            const slugLower = slug.toLowerCase()
-            const isProjectPage =
-              slugLower.startsWith("digital-garden/") && slugLower !== "digital-garden/index"
+            const isFolderIndex = slug === "index" || slug.endsWith("/index")
+            const schemas: object[] = []
 
-            // Person + WebSite schema on homepage
-            if (isHomepage) {
-              schemas.push(generatePersonSchema(baseUrl, opts))
-              schemas.push(generateWebSiteSchema(baseUrl, siteTitle, opts))
-            }
-
-            // CreativeWork schema for project pages
-            if (isProjectPage) {
-              const creativeWorkSchema = generateCreativeWorkSchema(baseUrl, pageData, opts)
-              if (creativeWorkSchema) {
-                schemas.push(creativeWorkSchema)
-              }
-            }
-
-            // Article schema for pages with dates (can coexist with CreativeWork)
-            const articleSchema = generateArticleSchema(baseUrl, pageData, opts)
-            if (articleSchema) {
-              schemas.push(articleSchema)
+            if (slug === "index") {
+              schemas.push(personSchema(baseUrl, opts))
+              schemas.push(webSiteSchema(baseUrl, siteTitle, author))
+            } else if (!isFolderIndex && slug.startsWith("projects/")) {
+              schemas.push(creativeWorkSchema(baseUrl, pageData, author))
+            } else if (
+              !isFolderIndex &&
+              (slug.startsWith("digital-garden/") || slug.startsWith("companion-pages/"))
+            ) {
+              schemas.push(articleSchema(baseUrl, pageData, author))
             }
 
             if (schemas.length === 0) return <></>
 
             return (
               <>
-                {schemas.map((schema, i) => (
+                {schemas.map((schema) => (
                   <script
-                    key={`jsonld-${i}`}
                     type="application/ld+json"
-                    dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+                    // JSON.stringify drops undefined fields. Escape "<" so page
+                    // text can never close the script tag early.
+                    dangerouslySetInnerHTML={{
+                      __html: JSON.stringify(schema).replace(/</g, "\\u003c"),
+                    }}
                   />
                 ))}
               </>
