@@ -1,7 +1,7 @@
 ---
 title: Bonafides
-seoTitle: Certificates | Credentials| Letters of Recommendation
-description: 
+seoTitle: Certificates | Credentials | Letters of Recommendation
+description: Certificates in UX design and game writing, plus a letter of recommendation from Adrian Ropp, Lead Writer on Hogwarts Legacy.
 tags: [certificates, credentials, recommendation-letters]
 modified: 2026-04-28T20:35:38
 created: 2026-04-28T09:00:29

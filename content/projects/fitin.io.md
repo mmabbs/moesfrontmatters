@@ -2,7 +2,7 @@
 title: FitIn
 section: /marketing
 seoTitle: FitIn | Wellness App UX & Content Strategy Case Study
-description:
+description: How a UX design role at FitIn, a fitness booking marketplace, grew into content strategy, brand, and user research on a three-person team.
 tags:
   - marketing
   - content-strategy

@@ -1,6 +1,6 @@
 ---
 title: Digital Garden
-seoTitle: 
+seoTitle: Digital Garden | Case Studies, Notes, and Works-in-Progress
 aliases: digital-garden
 description: Notes, reflections, and works-in-progress. Learning in public.
 tags: 
