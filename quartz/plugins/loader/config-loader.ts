@@ -497,6 +497,8 @@ export async function loadQuartzConfig(
     builtinPlugins.ComponentResources(),
     builtinPlugins.Assets(),
     builtinPlugins.Static(),
+    // Moe's site: schema.org structured data in each page's <head>
+    builtinPlugins.JsonLd(),
   ]
   const builtinPageTypes = [builtinPlugins.PageTypes.NotFoundPageType()]
 

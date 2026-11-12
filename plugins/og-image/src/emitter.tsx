@@ -477,6 +477,10 @@ export const defaultImage: SocialImageOptions["imageStructure"] = ({
         width: "100%",
         backgroundColor: theme.colors[colorScheme].light,
         padding: "2.5rem",
+        // Moe's fork: count the padding inside the 1200x630 card. Without this,
+        // the box grows to 1280x710, so long lines run off the right edge and
+        // the date row falls off the bottom.
+        boxSizing: "border-box",
         fontFamily: bodyFont,
       }}
     >
@@ -708,7 +712,9 @@ async function processOgImage(
   const slug = fileData.slug!;
   const titleSuffix = cfg.pageTitleSuffix ?? "";
   const frontmatter = fileData.frontmatter;
-  const title = (frontmatter?.title ?? fullOptions.defaultTitle ?? "") + titleSuffix;
+  // Moe's fork: prefer seoTitle (what the <title> tag shows) over the short page title.
+  const seoTitle = typeof frontmatter?.seoTitle === "string" ? frontmatter.seoTitle.trim() : "";
+  const title = (seoTitle || frontmatter?.title || fullOptions.defaultTitle || "") + titleSuffix;
   const description =
     frontmatter?.socialDescription ??
     frontmatter?.description ??

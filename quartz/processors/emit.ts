@@ -81,7 +81,15 @@ export async function emitContent(ctx: BuildCtx, content: ProcessedContent[]) {
   let emitErrors = 0
   const counts = await Promise.all(
     otherEmitters.map((emitter) =>
-      runEmitter(emitter, ctx, contentWithVirtual, staticResources, log).catch((err) => {
+      // Moe's site: ContentIndex writes the sitemap and RSS feed. Leave out
+      // generated tag and folder pages so they don't crowd out real pages.
+      runEmitter(
+        emitter,
+        ctx,
+        emitter.name === "ContentIndex" ? content : contentWithVirtual,
+        staticResources,
+        log,
+      ).catch((err) => {
         emitErrors++
         console.error(`Emitter "${emitter.name}" failed:`, err.message ?? err)
         return 0

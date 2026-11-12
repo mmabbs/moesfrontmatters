@@ -24592,6 +24592,10 @@ var defaultImage = ({
         width: "100%",
         backgroundColor: theme.colors[colorScheme].light,
         padding: "2.5rem",
+        // Moe's fork: count the padding inside the 1200x630 card. Without this,
+        // the box grows to 1280x710, so long lines run off the right edge and
+        // the date row falls off the bottom.
+        boxSizing: "border-box",
         fontFamily: bodyFont
       },
       children: [
@@ -24838,7 +24842,8 @@ async function processOgImage(ctx, fileData, fonts, fullOptions) {
   const slug2 = fileData.slug;
   const titleSuffix = cfg.pageTitleSuffix ?? "";
   const frontmatter = fileData.frontmatter;
-  const title = (frontmatter?.title ?? fullOptions.defaultTitle ?? "") + titleSuffix;
+  const seoTitle = typeof frontmatter?.seoTitle === "string" ? frontmatter.seoTitle.trim() : "";
+  const title = (seoTitle || frontmatter?.title || fullOptions.defaultTitle || "") + titleSuffix;
   const description = frontmatter?.socialDescription ?? frontmatter?.description ?? unescapeHTML(fileData.description?.trim() ?? fullOptions.defaultDescription ?? "");
   const stream = await generateSocialImage(
     {
