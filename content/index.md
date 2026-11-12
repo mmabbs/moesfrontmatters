@@ -1,7 +1,7 @@
 ---
 title: Home
 seoTitle: Moe Abbas | AI Enablement & Automation, Games/Film/Marketing
-description: The portfolio of Moe Abbas. AI automation case studies, game writing specs, film and TV credits, and marketing work from one practitioner.
+description: The portfolio of Moe Abbas. AI enablement and automation case studies, game writing specs, film and TV credits, and marketing work
 tags: []
 modified: 11-11-2026
 created: 06-26-2026
