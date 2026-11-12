@@ -1,7 +1,7 @@
 ---
 title: AI 
-seoTitle: AI Automation and Workflow Case Studies | Multi-Agent Systems, Evaluation Design, Workflow Pipelines
-description: Problem, build, result. Case studies in multi-agent orchestration, adversarial evaluation, and creative workflow automation — from an automation consultant with a production background.
+seoTitle: AI Automation Case Studies | Multi-Agent Systems and Evals
+description: Problem, build, result. Case studies in multi-agent orchestration, adversarial evaluation, and creative workflow automation.
 tags: []
 modified: 11-11-2026
 created: 09-09-2026

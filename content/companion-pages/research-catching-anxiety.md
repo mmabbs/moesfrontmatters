@@ -1,7 +1,7 @@
 ---
 title: Research - Catching Anxiety
-seoTitle:
-description:
+seoTitle: Research Sample | Can You Catch Anxiety From Other People?
+description: A sourced research note on emotional contagion, produced by a Script Assistant research run. Excerpt of an 11K-word note that cites 91 sources.
 tags:
 created: 2026-10-22T00:00
 modified: 2026-11-10T19:36

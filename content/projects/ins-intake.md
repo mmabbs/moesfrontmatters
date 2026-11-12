@@ -1,9 +1,9 @@
 ---
 title: Insurance Intake Tool
 section: /ai
-seoTitle: 
+seoTitle: Insurance Intake Tool | AI Email Triage Case Study in n8n
 aliases: ins-intake
-description: 
+description: A working demo of an AI workflow that reads an insurance brokerage's shared inbox and drafts each record for a broker to approve. 71 of 72 details right.
 tags: []
 modified: 10-19-2026
 created: 09-17-2026

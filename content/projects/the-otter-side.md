@@ -2,7 +2,7 @@
 title: The Otter Side
 section: /marketing
 seoTitle: The Otter Side | Mobile Game Content Strategy & Marketing
-description:
+description: Content strategy and go-to-market positioning for The Otter Side, a mobile game that blends an endless runner with cozy village-building.
 tags: [marketing, content-strategy, video-games, mobile-games]
 modified: 09-17-2026
 created: 07-01-2026

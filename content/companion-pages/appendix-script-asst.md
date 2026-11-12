@@ -1,7 +1,7 @@
 ---
 title: Appendix - Script Assistant Case Study
-seoTitle:
-description:
+seoTitle: Script Assistant Appendix | Plugin Architecture and Evals
+description: The file layout, agents, and eval results behind the Script Assistant case study. Source material for readers who want to check the build.
 tags: []
 modified: 11-10-2026
 created: 11-08-2026
