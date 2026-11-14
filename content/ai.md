@@ -3,20 +3,20 @@ title: AI
 seoTitle: AI Automation Case Studies | Multi-Agent Systems and Evals
 description: Problem, build, result. Case studies in multi-agent orchestration, adversarial evaluation, and creative workflow automation.
 tags: []
-modified: 11-11-2026
+modified: 11-14-2026
 created: 09-09-2026
 draft: 
 ---
 
 # AI
 
-A collection of case studies for AI tools and enablement kits.
+A collection of case studies for AI tools and enablement kits. Curious about my relationship to AI? Check out my [[ai-manifesto|AI Manifesto]].
 
 ## Case Studies
 
 These are build write-ups showing how I can scope and ship a working system.
 
-### [Insurance Intake](projects/ins-intake) <span class="heading-label">(email workflow)</span>
+### [Insurance Intake](projects/ins-intake) *(email workflow)*
 
 > [!ai] Summary
 > **What it is:** An AI workflow that reads an insurance brokerage's shared inbox, drafts the record a staff member would normally type out, and sends it to a broker to check. Every email, approval, and correction is logged, and the broker's corrections feed back into the AI's instructions. Demo build, made-up data.  
@@ -26,7 +26,7 @@ These are build write-ups showing how I can scope and ship a working system.
 > **Outcome:** On a scored test of 12 deliberately messy emails, it got every email's type right, as well as 71 of 72 details. All for about fifth of a cent per email.  
 > **Methods:** n8n (self-hosted) · Claude Haiku 5.5 · Gmail · Claude Code
 
-### [Script Assistant](projects/script-asst) <span class="heading-label">(Claude Code plugin)</span>
+### [Script Assistant](projects/script-asst) *(Claude Code plugin)*
 
 > [!ai] Summary
 > **What it is:** A Claude Code plugin that files a screenwriter's raw ideas into organized Obsidian notes and turns research questions into sourced notes. It doesn't write the script or come up with ideas.  
@@ -43,12 +43,12 @@ These are build write-ups showing how I can scope and ship a working system.
 > [!ai] Summary
 > Coming soon!
 
-### Insurance Intake <span class="heading-label">(rollout kit)</span>
+### Insurance Intake *(rollout kit)*
 
 > [!ai] Summary
 > Coming soon!
 
-### Dental Clinic <span class="heading-label">(rollout kit)</span> 
+### Dental Clinic *(rollout kit)* 
 
 > [!ai] Summary
 > Coming soon!

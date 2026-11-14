@@ -30,7 +30,7 @@ draft: true
 	<div class="artifact-title-row">
 		<h3 class="artifact-title">UX Design & User Research for a Wellness Booking App</h4>
 		<span class="artifact-info"><span class="format">UX Design & Strategy</span> · Social Enterprise · Wellness SaaS ·</span>
-		<a href="/coming-soon-marketing" class="project-link">FitIn.io</a>
+		<a href="/coming-soon" class="project-link">FitIn.io</a>
 	</div>
 	<p class="artifact-description">
 		Ethical marketplace connecting fitness seekers with inclusive classes and trainers. Delivered wireframes, prototypes, and user research that attracted investor interest during pre-launch.
