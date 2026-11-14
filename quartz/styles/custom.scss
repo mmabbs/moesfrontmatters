@@ -475,9 +475,14 @@ h3 {
   margin-bottom: 0.5rem;
 }
 
-// Heading label: a smaller, muted descriptor after a heading's name,
-// e.g. ### Insurance Intake <span class="heading-label">(email workflow)</span>
+// Heading label: a smaller, muted descriptor after a heading's name.
+// Written as Markdown italics, e.g. ### Insurance Intake *(email workflow)*,
+// so the table of contents gets plain text instead of raw HTML.
+// No other heading on the site uses italics.
+// :root[saved-theme] outranks the theme rules that color every em.
+:root[saved-theme] :is(h2, h3, h4) > em,
 .heading-label {
+  font-style: normal;
   font-size: 0.7em;
   font-weight: 400;
   letter-spacing: normal;
