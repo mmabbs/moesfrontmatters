@@ -5,7 +5,7 @@ description: A note that covers my dos, don'ts, and maybes in AI usage
 tags: [ai, llms, ai-manifesto, creative-work, gen-ai]
 modified: 11-14-2026
 created: 11-03-2026
-draft: false
+draft: true
 cssclasses: wide
 ---
 
@@ -29,7 +29,7 @@ Don't build an agent to email you tech events from Eventbrite when the site's ne
 
 3. **Use LLM output knowingly, and stand behind it.**
 
-An LLM can hand you someone else's idea without saying so. Look it up. Learn what your field expects around AI use, and what it costs to ignore it or get it wrong. After that, it's like a happy accident in filmmaking: you may not have planned for it, but using it is a choice. Know the limits of generative ai: pattern-matching clashes with the lateral thinking that creativity runs on. My own experiments testing LLMs and creative writing were an [[coming-soon|epistemological nightmare]]. You're better off using them as [[script-asst|admin assistants]].
+An LLM can float someone else's idea without saying so. Make sure it's not copyrighted. Learn what your field expects around AI use, and what it costs to ignore it or get it wrong. After that, it's like a happy accident in filmmaking: you may not have planned for it, but using it is a choice. Know the limits of generative ai: pattern-matching clashes with the lateral thinking that creativity runs on. My own experiments testing LLMs and creative writing were an [[coming-soon|epistemological nightmare]]. You're better off using them as [[script-asst|admin assistants]].
 
 ### People and Organizations
 
