@@ -10,7 +10,7 @@ private/
 drafts/
 .quartz/
 quartz/cli/tui/dist/
-archived/
+archive/
 .playwright-mcp/
 .playwright-verified
 claude-files/
