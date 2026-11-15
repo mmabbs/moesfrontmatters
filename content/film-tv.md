@@ -2,20 +2,20 @@
 title: Film & TV
 seoTitle: Film and TV Portfolio | Producer & Screenwriter
 description: Film producer and screenwriter portfolio. Short film credits, screenwriting samples, and production notes across comedy, drama, and horror.
-tags:
-modified: 07-16-2026
+tags: []
+modified: 11-15-2026
 created: 05-26-2026
-draft: true
+draft: false
 ---
 
 # Film/TV
 
-In addition to other roles across the development/production value chain, I've worked as a consultant for production companies, grants bodies, financiers and equity investors in Canada, US, and the Arabian Gulf.
+As a film/tv producer, I've run end-to-end development on shorts and commercials: developing ideas, raising funding, and running sets to close the distance from script to screen. As a grants reader for over a decade, I evaluated 900+ projects seeking up to $2M, assessing not just creative quality but but why projects would or wouldn't reach their audiences. I've also worked as a consultant for production companies, grants bodies, financiers and equity investors in Canada, US, and the Arabian Gulf.
 
-> [!question]- Looking for coverage samples?
-> Please <a class="contact" data-email="bW9jLnNyZXR0YW10bm9yZnNlb21AZW9t">reach out</a>. Due to NDAs, samples do not include films/shows that have not received distribution. All samples have redacted project titles and personnel.
+> [!question] Looking for coverage samples?
+> Please <a class="contact" data-email="bW9jLnNyZXR0YW10bm9yZnNlb21AZW9t">reach out</a>. NDAs only permit samples of funded or distributed projects, with titles, names and other sensitive details redacted.
 
-<h2 class="artifact-group-header">Scenes</h2>
+<h2 class="artifact-group-header">Screenplay Samples</h2>
 
 <div class="artifacts-grid">
 <div class="artifact-card">
@@ -33,12 +33,32 @@ In addition to other roles across the development/production value chain, I've w
 
 <h2 class="artifact-group-header">Produced Works</h2>
 
+Festival selections, awards and distribution deals for these films are listed on the [Film Accolades](/companion-pages/film-accolades) page.
+
 <div class="film-grid">
 
 <figure class="film-item">
 <div class="film-card-wrapper">
-	<a href="/projects/prom-night" class="film-card">
-		<img src="/site-assets/prom-night-2025-poster.png" alt="Prom Night poster" width="400" height="600" loading="lazy">
+	<a href="https://www.youtube.com/watch?v=vd9IQJXWGvc&themeRefresh=1" class="film-card">
+		<img src="/site-assets/harriet-poster-2.webp" alt="Harriet poster" width="400" height="441" loading="lazy">
+	</a>
+	<div class="film-overlay">
+		<p><span class="meta-label">Genre:</span> Horror · 7m 7s</p>
+		<p><span class="meta-label">Dir:</span> Sam MacAdam</p>
+		<p><span class="meta-label">Cast:</span> Jessica Salgueiro, Jordan Clark</p>
+		<p class="film-synopsis">An innocent game of Marco Polo between two cousins takes a sinister turn when one is killed. Decades later, Harriet, the sole survivor, is driven mad with guilt, plagued by waking nightmares — or is it her cousin back for one more game?</p>
+	</div>
+</div>
+<figcaption class="film-caption">
+	<h3>The Horrible History of Harriet Jones</h3>
+	<p>2023 · Producer, PM</p>
+</figcaption>
+</figure>
+
+<figure class="film-item">
+<div class="film-card-wrapper">
+	<a href="https://filmfreeway.com/933793" class="film-card">
+		<img src="/site-assets/prom-night-poster.png" alt="Prom Night poster" width="578" height="768" loading="lazy">
 	</a>
 	<div class="film-overlay">
 		<p><span class="meta-label">Genre:</span> Comedy · 13m 28s</p>
@@ -55,8 +75,8 @@ In addition to other roles across the development/production value chain, I've w
 
 <figure class="film-item">
 <div class="film-card-wrapper">
-	<a href="https://vimeo.com/1058828508" class="film-card">
-		<img src="/site-assets/gourmade-poster.webp" alt="Gourmade poster" width="400" height="600" loading="lazy">
+	<a href="https://vimeo.com/1074120694?fl=pl&fe=cm" class="film-card">
+		<img src="/site-assets/gourmade-poster-2.webp" alt="Gourmade poster" width="800" height="1204" loading="lazy">
 	</a>
 	<div class="film-overlay">
 		<p><span class="meta-label">Genre:</span> Commercial, Comedy · 2m 45s</p>
@@ -74,7 +94,7 @@ In addition to other roles across the development/production value chain, I've w
 <figure class="film-item">
 <div class="film-card-wrapper">
 	<a href="https://www.youtube.com/watch?v=6ZXmlmHNco0" class="film-card">
-		<img src="/site-assets/desire-poster.webp" alt="Desire poster" width="400" height="600" loading="lazy">
+		<img src="/site-assets/desire-poster.webp" alt="Desire poster" width="400" height="301" loading="lazy">
 	</a>
 	<div class="film-overlay">
 		<p><span class="meta-label">Genre:</span> Drama · 13m 52s</p>
@@ -91,8 +111,8 @@ In addition to other roles across the development/production value chain, I've w
 
 <figure class="film-item">
 <div class="film-card-wrapper">
-	<a href="/projects/bark" class="film-card">
-		<img src="/site-assets/bark-poster.webp" alt="Bark poster" width="400" height="600" loading="lazy">
+	<a class="film-card">
+		<img src="/site-assets/bark-poster.webp" alt="Bark poster" width="400" height="533" loading="lazy">
 	</a>
 	<div class="film-overlay">
 		<p><span class="meta-label">Genre:</span> Drama · 13m 8s</p>
@@ -104,24 +124,6 @@ In addition to other roles across the development/production value chain, I've w
 <figcaption class="film-caption">
 	<h3>Bark</h3>
 	<p>2023 · Producer, Production Manager</p>
-</figcaption>
-</figure>
-
-<figure class="film-item">
-<div class="film-card-wrapper">
-	<a href="/projects/harriet" class="film-card">
-		<img src="/site-assets/harriet-poster.webp" alt="Harriet poster" width="400" height="600" loading="lazy">
-	</a>
-	<div class="film-overlay">
-		<p><span class="meta-label">Genre:</span> Horror · 7m 7s</p>
-		<p><span class="meta-label">Dir:</span> Sam MacAdam</p>
-		<p><span class="meta-label">Cast:</span> Jessica Salgueiro, Jordan Clark</p>
-		<p class="film-synopsis">An innocent game of Marco Polo between two cousins takes a sinister turn when one is killed. Decades later, Harriet, the sole survivor, is driven mad with guilt, plagued by waking nightmares — or is it her cousin back for one more game?</p>
-	</div>
-</div>
-<figcaption class="film-caption">
-	<h3>Harriet Jones</h3>
-	<p>2023 · Producer, PM</p>
 </figcaption>
 </figure>
 
