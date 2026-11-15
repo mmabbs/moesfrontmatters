@@ -4,9 +4,9 @@ seoTitle: Digital Garden | Case Studies, Notes, and Works-in-Progress
 aliases: [digital-garden]
 description: Notes, reflections, and works-in-progress. Learning in public.
 tags: []
-modified: 11-12-2026
+modified: 11-15-2026
 created: 07-01-2026
-draft: 
+draft: false
 ---
 
 This part of the site documents my experience with completed projects and works-in-progress through case studies, post-mortems, reflections, and observations. You'll also find general musings about life, art, etc. as well as professional docs like certificates and letters of recommendation.

@@ -4,9 +4,9 @@ seoTitle: Script Assistant | Claude Code Plugin for Screenwriters
 aliases: [script-asst]
 description: A Claude Code plugin that files a screenwriter's raw ideas into Obsidian notes. One run filed 25 ideas in about 13 minutes, all approved on the first check.
 tags: []
-modified: 11-10-2026
+modified: 11-15-2026
 created: 11-10-2026
-draft: 
+draft: false
 section: /ai
 cssclasses: [case-study]
 ---

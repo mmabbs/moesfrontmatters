@@ -193,7 +193,7 @@ $radius-md: 8px;
       0 4px 12px rgba(0, 0, 0, 0.4),
       0 0 0 1px rgba(255, 255, 255, 0.03);
 
-    &:hover {
+    &[href]:hover {
       box-shadow:
         0 12px 32px rgba(0, 0, 0, 0.5),
         0 0 0 1px var(--accent-shadow);
@@ -294,7 +294,7 @@ $radius-md: 8px;
       0 4px 12px rgba(0, 0, 0, 0.12),
       0 0 0 1px rgba(0, 0, 0, 0.05);
 
-    &:hover {
+    &[href]:hover {
       box-shadow:
         0 12px 32px rgba(0, 0, 0, 0.15),
         0 0 0 1px var(--accent-shadow);
@@ -1308,23 +1308,50 @@ svg {
 // FILM GRID
 // ===================
 
-// Rows sit further apart than columns so each caption reads with the
-// poster above it, not the one below.
+// One film per row: poster on one side, title, credits and synopsis on
+// the other, switching sides each row. Everything is visible at rest on
+// every device. The figure's wrapper steps out of the layout
+// (display: contents) so the poster link, the caption and the credits
+// (.film-overlay, named for its old hover role) sit in one grid.
 .film-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 2.5rem 1.5rem;
-  margin-top: 2rem;
+  container-type: inline-size;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-64);
+  margin-top: var(--space-32);
 }
 
 .film-item {
+  --poster-width: 14rem;
+  display: grid;
+  grid-template-columns: var(--poster-width) minmax(0, 1fr);
+  grid-template-rows: auto 1fr;
+  column-gap: var(--space-32);
+  align-items: start;
   margin: 0;
+
+  &:nth-child(even) {
+    grid-template-columns: minmax(0, 1fr) var(--poster-width);
+
+    .film-card {
+      grid-column: 2;
+    }
+
+    .film-caption,
+    .film-overlay {
+      grid-column: 1;
+    }
+  }
 }
 
-// Title, year and role stay visible on every device; the overlay keeps
-// the rest for hover and keyboard focus.
+.film-card-wrapper {
+  display: contents;
+}
+
+// Title, year and role.
 .film-caption {
-  margin-top: 0.75rem;
+  grid-column: 2;
+  grid-row: 1;
 
   h3 {
     font-family: $font-display;
@@ -1339,36 +1366,50 @@ svg {
     font-size: var(--text-sm);
     line-height: 1.4;
     color: var(--text-secondary);
-    margin: 0.25rem 0 0;
+    margin: var(--space-4) 0 0;
   }
 }
 
-.film-card-wrapper {
+// Genre, director, cast, then the synopsis.
+.film-overlay {
+  grid-column: 2;
+  grid-row: 2;
+  margin-top: var(--space-16);
+
+  p {
+    font-size: var(--text-sm);
+    line-height: 1.5;
+    color: var(--text-secondary);
+    margin: 0 0 var(--space-4);
+    max-width: none;
+  }
+
+  .film-synopsis {
+    margin-top: var(--space-16);
+    font-size: var(--text-base);
+    line-height: 1.6;
+    color: var(--text-primary);
+  }
+}
+
+// The poster is the link. Hover or keyboard focus lifts it and dims it
+// under a charcoal wash, which is the cue that it opens the film.
+.film-card {
+  grid-column: 1;
+  grid-row: 1 / span 2;
   position: relative;
+  display: block;
   aspect-ratio: 2 / 3;
   overflow: hidden;
   border-radius: $radius-md;
+  text-decoration: none;
+  font-weight: normal;
   transition:
     transform var(--transition-normal),
     box-shadow var(--transition-normal);
 
-  &:hover,
-  &:focus-within {
-    transform: translateY(-6px) scale(1.02);
-
-    .film-overlay {
-      opacity: 1;
-    }
-  }
-}
-
-.film-card {
-  display: block;
-  width: 100%;
-  height: 100%;
-  text-decoration: none;
-  font-weight: normal;
-
+  // Every poster fills the same 2:3 frame. A poster of another shape is
+  // cropped from its centre; set object-position on it to move the crop.
   img {
     width: 100%;
     height: 100%;
@@ -1378,6 +1419,89 @@ svg {
     max-height: none;
     border-radius: 0;
     margin: 0;
+  }
+
+  // Quartz adds an icon to outbound links; under a poster it reads as a
+  // stray line, so it stays off.
+  .external-icon {
+    display: none;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(36, 33, 29, 0.55);
+    opacity: 0;
+    transition: opacity var(--transition-normal);
+  }
+
+  &:hover,
+  &:focus-visible {
+    transform: translateY(-6px) scale(1.02);
+
+    &::after {
+      opacity: 1;
+    }
+  }
+}
+
+// A poster with no href yet isn't a link, so it gets no hover cue.
+.film-card:not([href]) {
+  &:hover {
+    transform: none;
+
+    &::after {
+      opacity: 0;
+    }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .film-card {
+    transition: none;
+
+    &:hover,
+    &:focus-visible {
+      transform: none;
+    }
+  }
+}
+
+// Narrow columns stack each film: poster, then title, then credits.
+@container (max-width: 34rem) {
+  .film-item,
+  .film-item:nth-child(even) {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: auto;
+
+    .film-card,
+    .film-caption,
+    .film-overlay {
+      grid-column: 1;
+    }
+
+    // Rows set by hand: the credits come before the caption in the markup.
+    .film-card {
+      grid-row: 1;
+    }
+
+    .film-caption {
+      grid-row: 2;
+    }
+
+    .film-overlay {
+      grid-row: 3;
+    }
+  }
+
+  .film-card {
+    width: 100%;
+    max-width: 20rem;
+  }
+
+  .film-caption {
+    margin-top: var(--space-16);
   }
 }
 
@@ -1391,49 +1515,6 @@ svg {
   font-family: $font-mono;
   font-size: var(--text-xs);
   color: var(--text-tertiary);
-}
-
-.film-overlay {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-    to top,
-    rgba(36, 33, 29, 0.98) 0%,
-    rgba(36, 33, 29, 0.92) 50%,
-    rgba(36, 33, 29, 0.75) 100%
-  );
-  opacity: 0;
-  transition: opacity var(--transition-normal);
-  // Covers the poster link; clicks must pass through to it.
-  pointer-events: none;
-  padding: 1rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  overflow-y: auto;
-
-  h4 {
-    font-family: $font-display;
-    color: var(--overlay-text);
-    font-size: var(--text-base);
-    margin: 0 0 0.5rem 0;
-    line-height: 1.2;
-  }
-
-  p {
-    color: var(--overlay-text-secondary);
-    font-size: var(--text-xs);
-    margin: 0 0 4px 0;
-    line-height: 1.5;
-    max-width: none;
-  }
-
-  .film-synopsis {
-    margin-top: 0.5rem;
-    font-size: var(--text-xs);
-    color: var(--overlay-text);
-    line-height: 1.5;
-  }
 }
 
 // ===================
@@ -1801,11 +1882,6 @@ button.toc-header {
 
   .hero-tags {
     margin-top: var(--space-32);
-  }
-
-  .film-grid {
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    gap: 2rem 1rem;
   }
 
   .artifact-meta {

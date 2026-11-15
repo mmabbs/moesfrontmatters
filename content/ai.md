@@ -5,7 +5,7 @@ description: Problem, build, result. Case studies in multi-agent orchestration, 
 tags: []
 modified: 11-14-2026
 created: 09-09-2026
-draft: 
+draft: false
 ---
 
 # AI
