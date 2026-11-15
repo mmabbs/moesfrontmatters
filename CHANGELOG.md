@@ -1,5 +1,19 @@
 # Changelog
 
+## 2026-11-15
+
+### Site-assets cleanup (branch `content/site-assets-unused-cleanup`)
+
+- Removed 12 files from `content/site-assets/` that no published or draft page uses. Checked against every committed page, the config, the stylesheets, the local plugins and the built site. Copies are in `archive/`.
+  - In git before: `dashboard-portfolio-after-demo-run.png`, `n8n-feedback-loop-nodes.png`, `gmail-e05-forwarded-thread.png`, `gmail-e07-pink-slips.png`, `q-for-you-almond.png`, `samsara-tree.jpg`, `tos_brand_img.png`, `scroll-unfurled.svg`, `gourmade-poster.webp`.
+  - Never in git: `gourmade-poster-2.png`, `gourmade-poster.jpg`, `harriet-poster.png`.
+- Kept `tos-deck-pg-05/10/12/18.png`. The draft Otter Side page uses them.
+- Moe renamed the top-level `archived/` folder to `archive/`. `.gitignore` now ignores `archive/`. Older entries below keep the old name.
+
+### Local only (not committed)
+
+- `CLAUDE.md`: the top-level folder description names `archive/` instead of `archived/`.
+
 ## 2026-11-10
 
 ### Companion pages (PR #71, merged and deployed)
