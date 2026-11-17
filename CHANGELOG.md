@@ -1,5 +1,20 @@
 # Changelog
 
+## 2026-11-16
+
+### AI page restructure and linked headings (PR #89)
+
+- Moe restructured `content/ai.md`. The case study names (Insurance Intake, Script Assistant) are linked `h3` headings.
+- New rule in `quartz/styles/custom.scss`: an `h2`–`h4` whose name is a link gets cream text with an ochre underline (3px offset), and ochre text on hover, matching `.project-link`. Quartz's heading anchor icons (`role="anchor"`) are excluded.
+- `content/games.md`: the "New Dog, Old Tricks" title opened with `<h3>` and closed with `</h4>`. Fixed.
+- `content/digital-garden/how-i-use-llms.md` rewritten around current tools; `on-creative-gen-ai.md` has working edits. Both stay `draft: true`.
+- DESIGN.md and `.impeccable/design.json` refreshed for linked headings (both are local only, excluded from git).
+
+### Git email and branch cleanup
+
+- GitHub refused a push because commits carried Moe's Gmail address. The global git email is now his GitHub noreply address, and the two unpushed commits were re-signed with it.
+- Deleted 20 merged local branches and 13 of their GitHub copies. Kept `config/recent-writing-homepage-plugin` and `style/foreground-ai-domain`, which hold unmerged work.
+
 ## 2026-11-15
 
 ### Site-assets cleanup (branch `content/site-assets-unused-cleanup`)
