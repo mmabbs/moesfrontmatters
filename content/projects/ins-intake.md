@@ -7,7 +7,7 @@ description: A working demo of an AI workflow that reads an insurance brokerage'
 tags: []
 modified: 10-19-2026
 created: 09-17-2026
-draft: false
+draft: true
 ---
 
 > [!ai]- Summary
