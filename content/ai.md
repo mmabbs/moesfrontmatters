@@ -3,18 +3,18 @@ title: AI
 seoTitle: AI Automation Case Studies | Multi-Agent Systems and Evals
 description: Problem, build, result. Case studies in multi-agent orchestration, adversarial evaluation, and creative workflow automation.
 tags: []
-modified: 11-16-2026
+modified: 11-17-2026
 created: 09-09-2026
 draft: false
 ---
 
 # AI
 
-A collection of case studies for AI tools and enablement kits. Curious about my relationship to AI? Check out my [[ai-manifesto|AI Manifesto]].
+A collection of case studies for AI tools. Curious about my relationship to AI? Check out my [[ai-manifesto|AI Manifesto]].
 
-## Build Case Studies
+## Case Studies
 
-These are build write-ups showing how I can scope and ship a working system.
+Ready-to-use kits showing how I help a team adopt AI tools and keep using them.
 
 ### [Insurance Intake](projects/ins-intake) *(email workflow)*
 
