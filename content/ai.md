@@ -3,7 +3,7 @@ title: AI
 seoTitle: AI Automation Case Studies | Multi-Agent Systems and Evals
 description: Problem, build, result. Case studies in multi-agent orchestration, adversarial evaluation, and creative workflow automation.
 tags: []
-modified: 11-14-2026
+modified: 11-16-2026
 created: 09-09-2026
 draft: false
 ---
@@ -12,13 +12,13 @@ draft: false
 
 A collection of case studies for AI tools and enablement kits. Curious about my relationship to AI? Check out my [[ai-manifesto|AI Manifesto]].
 
-## Case Studies
+## Build Case Studies
 
 These are build write-ups showing how I can scope and ship a working system.
 
 ### [Insurance Intake](projects/ins-intake) *(email workflow)*
 
-> [!ai] Summary
+> [!ai]- Summary
 > **What it is:** An AI workflow that reads an insurance brokerage's shared inbox, drafts the record a staff member would normally type out, and sends it to a broker to check. Every email, approval, and correction is logged, and the broker's corrections feed back into the AI's instructions. Demo build, made-up data.  
 > **Problem:** Someone reads every email, figures out which client and policy applies, and types a record into the brokerage's main system with dates to follow up. These emails aren't tidy.  
 > **My role:** Designer and builder. Build time: 6 days, while learning n8n.  
@@ -28,7 +28,7 @@ These are build write-ups showing how I can scope and ship a working system.
 
 ### [Script Assistant](projects/script-asst) *(Claude Code plugin)*
 
-> [!ai] Summary
+> [!ai]- Summary
 > **What it is:** A Claude Code plugin that files a screenwriter's raw ideas into organized Obsidian notes and turns research questions into sourced notes. It doesn't write the script or come up with ideas.  
 > **Problem:** A writer's ideas pile up in one place and have to be sorted by hand into the right notes as the story takes shape. A chat assistant can't do that job reliably: it has to be re-briefed every time, and it can't show what it changed.  
 > **My role:** I defined the problem from my own writing process, designed the workflow and note system, directed Claude Code agents to build it from my specs, and designed the evals that gate each part.  
@@ -40,15 +40,17 @@ These are build write-ups showing how I can scope and ship a working system.
 
 ### Eval Suite 
 
+> [!ai]- Summary
+> Coming soon!
+
+## Enablement Kits
+
+### Insurance Intake
+
 > [!ai] Summary
 > Coming soon!
 
-### Insurance Intake *(rollout kit)*
-
-> [!ai] Summary
-> Coming soon!
-
-### Dental Clinic *(rollout kit)* 
+### Dental Clinic
 
 > [!ai] Summary
 > Coming soon!

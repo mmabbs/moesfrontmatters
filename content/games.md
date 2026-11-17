@@ -3,7 +3,7 @@ title: Games
 seoTitle: Game Writing Portfolio | Narrative Design Specs
 description: Game writing and narrative design portfolio. Cinematics, bark sheets, character bios, and worldbuilding for sci-fi and fantasy action-adventure games.
 tags: [writing, game-writing, video-games]
-modified: 09-17-2026
+modified: 11-16-2026
 created: 05-27-2026
 draft: false
 ---
@@ -15,7 +15,7 @@ draft: false
 <div class="artifacts-grid">
 <div class="artifact-card">
 	<div class="artifact-title-row">
-		<h3 class="artifact-title">"New Dog, Old Tricks"</h4>
+		<h3 class="artifact-title">"New Dog, Old Tricks"</h3>
 		<a href="artifacts/ollie-scene.pdf" class="download-badge">PDF ↓</a>
 		<span class="artifact-info"><span class="format">Cinematic</span> · Sci-Fi · 3 pages ·</span>
 		<a href="/projects/ollie-oxenfree" class="project-link">Ollie Oxenfree</a>

@@ -1644,6 +1644,22 @@ article :is(p, li, td, blockquote) > a:is(.internal, .external) {
   text-underline-offset: 3px;
 }
 
+// Linked headings (the case study names on the AI page) match .project-link:
+// cream text with an ochre underline at rest, ochre text on hover.
+// Skips Quartz's heading anchor icons (role="anchor").
+article :is(h2, h3, h4) > a:is(.internal, .external):not([role="anchor"]) {
+  color: var(--link);
+  background: transparent;
+  text-decoration: underline;
+  text-decoration-color: var(--accent);
+  text-underline-offset: 3px;
+  transition: color var(--transition-fast);
+
+  &:hover {
+    color: var(--link-hover);
+  }
+}
+
 a.internal.broken {
   color: var(--link);
   opacity: 0.5;
