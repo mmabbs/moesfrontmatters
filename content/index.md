@@ -35,15 +35,13 @@ Interested in my work or have something in mind? <a class="contact" data-email="
 		<span class="nav-desc">Case studies on tools, workflows, and knowledge systems</span>
 	</div>
 	<div class="nav-item">
-		<a href="/games" class="nav-title">Games</a>
-		<span class="nav-desc">Cinematics, character work, lore, and worldbuilding artifacts.</span>
-	</div>
-	<!-- Hidden while film-tv.md is a draft. Restore when it goes live.
-	<div class="nav-item">
 		<a href="/film-tv" class="nav-title">Film & TV</a>
 		<span class="nav-desc">Produced shorts, screenwriting samples, and credits.</span>
 	</div>
-	-->
+	<div class="nav-item">
+		<a href="/games" class="nav-title">Games</a>
+		<span class="nav-desc">Cinematics, character work, lore, and worldbuilding artifacts.</span>
+	</div>
 	<div class="nav-item">
 		<a href="/marketing" class="nav-title">Marketing</a>
 		<span class="nav-desc">Content strategy frameworks and UX case studies.</span>

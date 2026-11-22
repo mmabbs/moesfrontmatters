@@ -199,8 +199,8 @@ plugins:
       links:
         Home: /
         AI: /ai
-        Games: /games
         Film & TV: /film-tv
+        Games: /games
         Marketing: /marketing
         Digital Garden: /digital-garden
   # Local fork: profile links, contact email, and copyright with the Quartz
