@@ -4,7 +4,7 @@ seoTitle: Script Assistant | Claude Code Plugin for Screenwriters
 aliases: [script-asst]
 description: A Claude Code plugin that files a screenwriter's raw ideas into Obsidian notes. One run filed 25 ideas in about 13 minutes, all approved on the first check.
 tags: []
-modified: 11-15-2026
+modified: 11-22-2026
 created: 11-10-2026
 draft: false
 section: /ai
@@ -326,6 +326,6 @@ A check that counts attempts will pass work that failed. I now check what a step
 
 ## Tools and links
 
-**Repo:** [github.com/mmabbs/script-assistant](https://github.com/mmabbs/script-assistant/tree/mvp) (MVP snapshot)
+[GitHub repo (MVP snapshot) ](https://github.com/mmabbs/script-assistant/tree/mvp) 
 
 [Appendix containing the architecture, edges, and per-package counts](companion-pages/appendix-script-asst)
