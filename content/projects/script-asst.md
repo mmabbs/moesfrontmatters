@@ -326,6 +326,6 @@ A check that counts attempts will pass work that failed. I now check what a step
 
 ## Tools and links
 
-**Repo:** [Insert URL]
+**Repo:** [github.com/mmabbs/script-assistant](https://github.com/mmabbs/script-assistant/tree/mvp) (MVP snapshot)
 
 [Appendix containing the architecture, edges, and per-package counts](companion-pages/appendix-script-asst)
