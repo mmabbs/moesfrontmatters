@@ -2514,6 +2514,9 @@ footer {
 
     &:hover {
       color: var(--text-primary);
+      text-decoration: underline;
+      text-decoration-color: var(--accent);
+      text-underline-offset: 3px;
     }
   }
 }
