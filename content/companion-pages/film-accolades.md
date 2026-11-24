@@ -7,7 +7,7 @@ tags: []
 modified: 11-23-2026
 created: 06-26-2026
 draft: false
-cssclasses: [case-study]
+cssclasses: [case-study, table-med]
 ---
 
 # Film Accolades 

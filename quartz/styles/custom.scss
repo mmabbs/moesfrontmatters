@@ -1717,6 +1717,12 @@ a.internal.broken {
   }
 }
 
+// Opt in with `cssclasses: [table-med]` to step a page's markdown table
+// text down one size, matching the Bases `table-med` tier.
+.table-med .table-container td {
+  font-size: var(--text-sm);
+}
+
 // Technical callouts hold reference detail, so their table text steps
 // down one size from body text.
 .callout[data-callout="technical"] .table-container td {
